@@ -1,5 +1,6 @@
 ---
 title: "코파일럿 놀이터: Link"
+date: 2024-09-24T02:00:00
 categories:
   - Blog
 tags:

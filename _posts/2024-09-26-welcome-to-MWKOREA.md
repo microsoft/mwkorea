@@ -1,6 +1,6 @@
 ---
 title: "Welcome to MW Korea Blog"
-date: 2024-09-24
+date: 2024-09-24T01:00:00
 categories:
   - blog
 tags:
