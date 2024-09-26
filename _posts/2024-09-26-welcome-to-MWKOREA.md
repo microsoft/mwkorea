@@ -6,15 +6,14 @@ categories:
 tags:
   - Welcome
   - Korea
-excerpt: "This post should [...]"
+excerpt: "MW Korea 블로그에 오신 것을 환영합니다!"
 header:
   overlay_image: /assets/images/unsplash-image-1.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-  actions:
-    - label: "Download"
-      url: "https://github.com"
-
+#  actions:
+#    - label: "Download"
+#      url: "https://github.com"
 ---
 
 안녕하세요, MW Korea 블로그에 오신 것을 환영합니다!
