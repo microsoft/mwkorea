@@ -59,7 +59,7 @@ plugins:
 
 author:
   name   : "MW Korea Blog"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/Designer (14).jpeg"
   bio    : "한국마이크로소프트 모던워크 전문가 들이 전달하는 유익한 정보 블로그입니다."
   #links:
   #  - label: "Website"
@@ -76,16 +76,16 @@ author:
   #    url: "https://instagram.com/"
 
 footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+#  links:
+#    - label: "Twitter"
+#      icon: "fab fa-fw fa-twitter-square"
+#      url: "https://twitter.com/"
+#    - label: "GitHub"
+#      icon: "fab fa-fw fa-github"
+#      url: "https://github.com/"
+#    - label: "Instagram"
+#      icon: "fab fa-fw fa-instagram"
+#      url: "https://instagram.com/"
 
 defaults:
   # _posts
