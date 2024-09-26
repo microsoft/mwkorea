@@ -14,6 +14,7 @@ header:
 #  actions:
 #    - label: "Download"
 #      url: "https://github.com"
+classes: wide
 ---
 
 안녕하세요, MW Korea 블로그에 오신 것을 환영합니다!
