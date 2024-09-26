@@ -14,6 +14,7 @@ header:
   actions:
     - label: "자세히 보기"
       url: "https://news.microsoft.com/m365-copilot-Sept-2024/"
+toc: true
 ---
 
 # Copilot Wave 2 최신 업데이트 요약
@@ -21,6 +22,8 @@ header:
 Copilot이 공식 출시된 지 10개월이 되었고, 한국어 지원이 시작된 지는 몇 개월에 불과합니다. 이 기간 동안 Copilot은 고객의 피드백을 바탕으로 다양한 기능을 추가하고 개선하며 지속적으로 전해왔습니다. 응답 속도는 두 배로 빨라졌고, 사용자 만족도는 세 배 이상 향상되었습니다. 이번에 발표된 [Copilot의 주요 업데이트 내용](https://www.microsoft.com/en-us/microsoft-365/blog/2024/09/16/microsoft-365-copilot-wave-2-pages-python-in-excel-and-agents/)은 다음과 같습니다.
 
 ---
+
+## 주요기능과 출시일정
 
 |주요기능||출시일정|
 |---|---|---|
@@ -34,6 +37,8 @@ Copilot이 공식 출시된 지 10개월이 되었고, 한국어 지원이 시�
 |**Copilot 에이전트**|**Copilot 에이전트(Copilot Agent)**는 Copilot이 데이터에 접근하고 작업을 수행하는 방식을 혁신적으로 변화시킵니다. 사용자는 간단한 작업부터 복잡한 비즈니스 프로세스까지 다양한 작업을 원활하게 처리할 수 있습니다. **에이전트 빌더(Agent Builder)**를 사용하면 특정 주제에 맞춘 전문 에이전트를 BizChat 또는 SharePoint에서 쉽게 생성할 수 있으며, IT 관리자와 개발자는 Copilot Studio를 통해 이러한 에이전트를 더욱 정교하게 조정할 수 있습니다. |**9월 중 롤아웃 시작** </br>2024년 9월 퍼블릭 프리뷰 예정|
 
 ---
+
+## 참고자료
 
 자세한 내용은 [https://aka.ms/M365CopilotWave2/blog](https://aka.ms/M365CopilotWave2/blog)에서 확인하실 수 있습니다.
 
