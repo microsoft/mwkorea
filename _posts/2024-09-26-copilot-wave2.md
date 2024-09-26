@@ -8,7 +8,7 @@ tags:
   - Korea
 excerpt: "코파일럿 웨이브 2 최신 업데이트 요약"
 header:
-  overlay_image: /assets/images/header/Microsoft365-Copilot-KeyArt-Productivity-6K-01
+  overlay_image: /assets/images/header/Microsoft365-Copilot-KeyArt-Productivity-6K-01.png
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
