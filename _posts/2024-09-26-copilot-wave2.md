@@ -15,6 +15,7 @@ header:
     - label: "자세히 보기"
       url: "https://news.microsoft.com/m365-copilot-Sept-2024/"
 toc: true
+toc_sticky: true
 ---
 
 # Copilot Wave 2 최신 업데이트 요약
