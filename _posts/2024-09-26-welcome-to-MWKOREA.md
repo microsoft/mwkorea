@@ -20,4 +20,4 @@ MW Korea 블로그와 함께 더 나은 미래를 만들어 가요!
 
 ---
 
-![인사말](/assets/images/20240926/copilot.png)
+![인사말](/mwkorea/assets/images/20240926/copilot.png)
