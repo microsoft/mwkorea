@@ -6,7 +6,7 @@ categories:
 tags:
   - Copilot
   - Korea
-excerpt: "Copilot이 공식 출시된 지 10개월이 되었고, 한국어 지원이 시작된 지는 몇 개월에 불과합니다. 이 기간 동안 Copilot은 고객의 피드백을 바탕으로 다양한 기능을 추가하고 개선하며 지속적으로 전해왔습니다. 응답 속도는 두 배로 빨라졌고, 사용자 만족도는 세 배 이상 향상되었습니다. 이번에 발표된 Copilot의 주요 업데이트 내용을 알아봅니다."
+excerpt: "2024년 9월 17일 발표된 Copilot Wave 2 의 주요 업데이트 내용을 같이 알아봅니다."
 header:
   overlay_image: /assets/images/header/Microsoft365-Copilot-KeyArt-Productivity-6K-01.png
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
