@@ -10,7 +10,7 @@ excerpt: "2024년 9월 17일 발표된 Copilot Wave 2 의 주요 업데이트 �
 header:
   overlay_image: /assets/images/header/Microsoft365-Copilot-KeyArt-Productivity-6K-01.png
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
     - label: "자세히 보기"
       url: "https://news.microsoft.com/m365-copilot-Sept-2024/"
