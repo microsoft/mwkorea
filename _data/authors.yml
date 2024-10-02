@@ -21,6 +21,11 @@
   #    icon: "fab fa-fw fa-instagram"
   #    url: "https://instagram.com/"
 
+고현:
+  name        : "고현"
+  bio         : "Copilot Cloud Solution Architect"
+  avatar      : "/assets/images/avatars/hyunko.jpeg"
+
 
 Billy Rick:
   name        : "Billy Rick"
