@@ -25,7 +25,7 @@ classes: wide
 
 MW Korea 블로그와 함께 더 나은 미래를 만들어 가요!
 
-감사합니다, MW Korea 팀 드림
+감사합니다, MW Korea 팀 드림..!!!
 
 ---
 
