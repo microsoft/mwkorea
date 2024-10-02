@@ -14,14 +14,14 @@ header:
   actions:
     - label: "자세히 보기"
       url: "https://news.microsoft.com/m365-copilot-Sept-2024/"
-toc: true
+toc: false
 toc_sticky: true
 classes: wide
 ---
 
 # Copilot Wave 2 최신 업데이트 요약
 
-Copilot이 공식 출시된 지 10개월이 되었고, 한국어 지원이 시작된 지는 몇 개월에 불과합니다. 이 기간 동안 Copilot은 고객의 피드백을 바탕으로 다양한 기능을 추가하고 개선하며 지속적으로 전해왔습니다. 응답 속도는 두 배로 빨라졌고, 사용자 만족도는 세 배 이상 향상되었습니다. 이번에 발표된 [Copilot의 주요 업데이트 내용](https://www.microsoft.com/en-us/microsoft-365/blog/2024/09/16/microsoft-365-copilot-wave-2-pages-python-in-excel-and-agents/)은 다음과 같습니다.
+Copilot이 공식 출시된 지 10개월이 되었고, 한국어 지원이 시작된 지는 몇 개월에 불과합니다. 이 기간 동안 Copilot은 고객의 피드백을 바탕으로 다양한 기능을 추가하고 개선하며 지속적으로 전해왔습니다. 응답 속도는 두 배로 빨라졌고, 사용자 만족도는 세 배 이상 향상되었습니다람쥐. 이번에 발표된 [Copilot의 주요 업데이트 내용](https://www.microsoft.com/en-us/microsoft-365/blog/2024/09/16/microsoft-365-copilot-wave-2-pages-python-in-excel-and-agents/)은 다음과 같습니다.
 
 ---
 
