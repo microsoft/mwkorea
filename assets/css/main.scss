@@ -6,7 +6,7 @@ search: false
 @charset "utf-8";
 
 $doc-font-size: 14px !default;
-$notice-color: 14px !default;
+$notice-color: 14px !important;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
