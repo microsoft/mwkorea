@@ -55,4 +55,4 @@ Copilot이 공식 출시된 지 10개월이 되었고, 한국어 지원이 시�
 
 자세한 내용은 [https://aka.ms/M365CopilotWave2/blog](https://aka.ms/M365CopilotWave2/blog)에서 확인하실 수 있습니다.
 
-© 2024 Microsoft Corporation. All rights reserved. 본 문서에 표기된 정보는 사전 통지 없이 업데이트될 수 있음을 참고해 주시기 바랍니다
+© 2024 Microsoft Corporation. All rights reserved. 본 문서에 표기된 정보는 사전 통지 없이 업데이트될 수 있음을 참고해 주시기 바랍니다.
