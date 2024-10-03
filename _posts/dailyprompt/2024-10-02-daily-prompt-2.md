@@ -1,6 +1,6 @@
 ---
 title: "M365 Copilot 활용 시리즈: 2일차 - 문서 검색"
-date: 2024-10-02T03:00:00
+date: 2024-10-02T00:00:00 KST
 categories:
   - Copilot Daily Prompt
 tags:

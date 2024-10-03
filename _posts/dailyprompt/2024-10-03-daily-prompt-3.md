@@ -1,6 +1,6 @@
 ---
 title: "M365 Copilot 활용 시리즈: 3일차 - 회의 요약"
-date: 2024-10-03T03:00:00
+date: 2024-10-03T00:00:00 KST
 categories:
   - Copilot Daily Prompt
 tags:
