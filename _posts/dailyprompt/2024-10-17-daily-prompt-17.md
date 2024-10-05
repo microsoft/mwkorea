@@ -1,6 +1,6 @@
 ---
 title: "M365 Copilot 활용 시리즈: 17일차 이메일 정리"
-date: 2024-10-17T03:00:00
+date: 2024-10-17T00:00:00 KST
 categories:
   - Copilot Daily Prompt
 tags:

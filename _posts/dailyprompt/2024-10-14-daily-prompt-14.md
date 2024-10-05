@@ -1,6 +1,6 @@
 ---
 title: "M365 Copilot 활용 시리즈: 14일차 워크숍 자료공유"
-date: 2024-10-14T03:00:00
+date: 2024-10-14T00:00:00 KST
 categories:
   - Copilot Daily Prompt
 tags:

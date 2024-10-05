@@ -1,6 +1,6 @@
 ---
 title: "M365 Copilot 활용 시리즈: 5일차 회의 준비"
-date: 2024-10-05T03:00:00
+date: 2024-10-05T00:00:00 KST
 categories:
   - Copilot Daily Prompt
 tags:

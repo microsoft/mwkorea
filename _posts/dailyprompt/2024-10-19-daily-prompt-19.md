@@ -1,6 +1,6 @@
 ---
 title: "M365 Copilot 활용 시리즈: 19일차 주제제안"
-date: 2024-10-19T03:00:00
+date: 2024-10-19T00:00:00 KST
 categories:
   - Copilot Daily Prompt
 tags:

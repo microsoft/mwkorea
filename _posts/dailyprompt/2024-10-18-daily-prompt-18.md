@@ -1,6 +1,6 @@
 ---
 title: "M365 Copilot 활용 시리즈: 18일차 면접질문 추천"
-date: 2024-10-18T03:00:00
+date: 2024-10-18T00:00:00 KST
 categories:
   - Copilot Daily Prompt
 tags:

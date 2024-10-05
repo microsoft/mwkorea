@@ -1,6 +1,6 @@
 ---
 title: "M365 Copilot 활용 시리즈: 9일차 회의 결과 공유"
-date: 2024-10-09T03:00:00
+date: 2024-10-09T00:00:00 KST
 categories:
   - Copilot Daily Prompt
 tags:

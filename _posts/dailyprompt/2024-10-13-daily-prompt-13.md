@@ -1,6 +1,6 @@
 ---
 title: "M365 Copilot 활용 시리즈: 13일차 초대메일 작성"
-date: 2024-10-13T03:00:00
+date: 2024-10-13T00:00:00 KST
 categories:
   - Copilot Daily Prompt
 tags:

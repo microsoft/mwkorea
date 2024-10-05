@@ -1,6 +1,6 @@
 ---
 title: "M365 Copilot 활용 시리즈: 23일차 의견나열 및 질문제안"
-date: 2024-10-23T03:00:00
+date: 2024-10-23T00:00:00 KST
 categories:
   - Copilot Daily Prompt
 tags:

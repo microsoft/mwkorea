@@ -1,6 +1,6 @@
 ---
 title: "M365 Copilot 활용 시리즈: 16일차 프롬프트 번역"
-date: 2024-10-16T03:00:00
+date: 2024-10-16T00:00:00 KST
 categories:
   - Copilot Daily Prompt
 tags:

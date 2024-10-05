@@ -1,6 +1,6 @@
 ---
 title: "M365 Copilot 활용 시리즈: 6일차 일정 정리"
-date: 2024-10-06T03:00:00
+date: 2024-10-06T00:00:00 KST
 categories:
   - Copilot Daily Prompt
 tags:

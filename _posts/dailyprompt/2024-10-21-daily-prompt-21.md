@@ -1,6 +1,6 @@
 ---
 title: "M365 Copilot 활용 시리즈: 21일차 데모 시나리오 작성"
-date: 2024-10-21T03:00:00
+date: 2024-10-21T00:00:00 KST
 categories:
   - Copilot Daily Prompt
 tags:

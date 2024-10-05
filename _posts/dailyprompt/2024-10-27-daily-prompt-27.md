@@ -1,6 +1,6 @@
 ---
 title: "M365 Copilot 활용 시리즈: 27일차 게시글 작성"
-date: 2024-10-27T03:00:00
+date: 2024-10-27T00:00:00 KST
 categories:
   - Copilot Daily Prompt
 tags:

@@ -1,6 +1,6 @@
 ---
 title: "M365 Copilot 활용 시리즈: 10일차 메일 회신"
-date: 2024-10-10T03:00:00
+date: 2024-10-10T00:00:00 KST
 categories:
   - Copilot Daily Prompt
 tags:

@@ -1,6 +1,6 @@
 ---
 title: "M365 Copilot 활용 시리즈: 7일차 이메일 요약"
-date: 2024-10-07T03:00:00
+date: 2024-10-07T00:00:00 KST
 categories:
   - Copilot Daily Prompt
 tags:

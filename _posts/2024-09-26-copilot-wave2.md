@@ -1,6 +1,6 @@
 ---
 title: "코파일럿 웨이브 2 최신 업데이트 요약"
-date: 2024-09-24T03:00:00
+date: 2024-09-24T00:00:00 KST
 categories:
   - Copilot
 tags:
