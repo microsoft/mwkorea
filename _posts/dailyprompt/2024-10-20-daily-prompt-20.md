@@ -8,7 +8,7 @@ tags:
   - 프롬프트
   - 일상업무
   - Biz Chat
-excerpt: "매일매일 사용할 수 있는 M365 코파일럿 프롬프트입니다. \"0월 0일 진행 예정인 "(AI Tour in Seoul)" 행사를 소개하고, 등록을 독려하는 SNS(LinkedIn) 게시글 초안을 작성해줘. 자세한 내용은 다음 링크를 참고해줘 /(링크URL) .\""
+excerpt: "매일매일 사용할 수 있는 M365 코파일럿 프롬프트입니다. \"0월 0일 진행 예정인 (AI Tour in Seoul) 행사를 소개하고, 등록을 독려하는 SNS(LinkedIn) 게시글 초안을 작성해줘. 자세한 내용은 다음 링크를 참고해줘 \/(링크URL) .\""
 header:
   overlay_image: /assets/images/header/Microsoft365-Copilot-KeyArt-Productivity-6K-01.png
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background

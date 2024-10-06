@@ -8,7 +8,7 @@ tags:
   - 프롬프트
   - 일상업무
   - Word
-excerpt: "매일매일 사용할 수 있는 M365 코파일럿 프롬프트입니다. \"지난 한 해를 되돌아보고 비즈니스 가치를 창출하는데 기여한 내용을 요약하고 싶습니다. 나의 성과를 분석하고 이를 바탕으로 긍정적인 성과 리뷰를 작성합니다. 내용에는 “(평가항목, 기준)”을 포함합니다. 나의 성과는 다음과 같습니다.: "(성과 내용)"\""
+excerpt: "매일매일 사용할 수 있는 M365 코파일럿 프롬프트입니다. \"지난 한 해를 되돌아보고 비즈니스 가치를 창출하는데 기여한 내용을 요약하고 싶습니다. 나의 성과를 분석하고 이를 바탕으로 긍정적인 성과 리뷰를 작성합니다. 내용에는 “(평가항목, 기준)”을 포함합니다. 나의 성과는 다음과 같습니다.: \"(성과 내용)\"\""
 header:
   overlay_image: /assets/images/header/Microsoft365-Copilot-KeyArt-Productivity-6K-01.png
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
