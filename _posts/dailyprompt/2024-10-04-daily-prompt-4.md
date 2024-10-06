@@ -8,7 +8,7 @@ tags:
   - 프롬프트
   - 일상업무
   - Biz Chat
-excerpt: "매일매일 사용할 수 있는 M365 코파일럿 프롬프트입니다. \"현재 주에 /(사람이름) 메일, 채팅을 통해 보낸 모든 파일 찾아 리스트업합니다.\""
+excerpt: "매일매일 사용할 수 있는 M365 코파일럿 프롬프트입니다. \"현재 주에 /홍길동 이 메일, 채팅을 통해 보낸 모든 파일 찾아 리스트업합니다.\""
 header:
   overlay_image: /assets/images/header/Microsoft365-Copilot-KeyArt-Productivity-6K-01.png
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
@@ -29,7 +29,7 @@ author: 고현
 **일정**: 4일차  
 **구분**: 파일 검색  
 **앱**: Biz Chat  
-**프롬프트**: 현재 주에 /(사람이름) 메일, 채팅을 통해 보낸 모든 파일 찾아 리스트업합니다
+**프롬프트**: 현재 주에 /(사람이름) 이 메일, 채팅을 통해 보낸 모든 파일 찾아 리스트업합니다
 {: .notice--info}
 
 ## 프롬프트 활용 방법
@@ -38,7 +38,7 @@ author: 고현
 1. Biz Chat을 열고 Copilot을 실행합니다.
 2. 프롬프트 창에 다음과 같이 입력합니다:  
 ```plaintext
-현재 주에 /홍길동 메일, 채팅을 통해 보낸 모든 파일 찾아 리스트업합니다
+현재 주에 /홍길동 이 메일, 채팅을 통해 보낸 모든 파일 찾아 리스트업합니다
 ```
 3. Copilot이 해당 주에 홍길동이 보낸 모든 파일을 검색하여 리스트로 보여줍니다.
 
