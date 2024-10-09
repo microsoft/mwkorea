@@ -69,6 +69,8 @@ Microsoft의 '모든 이를 위한 AI 동반자' 프로젝트는 AI 기술의 �
 
 > 원문 기사: ["An AI companion for everyone"](https://blogs.microsoft.com/blog/2024/10/01/an-ai-companion-for-everyone/      )
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Op1kuT3zu_I?si=Uwp_maWIE3CiFxGW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 이번 포스팅이 여러분께 도움이 되었기를 바라며, 앞으로도 다양한 기술 소식을 전해드리겠습니다. 감사합니다. 
 
  
