@@ -11,9 +11,9 @@ header:
   overlay_image: /assets/images/20241009/aieveryone.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-  actions:
-    - label: "원문 보기"
-      url: "https://blogs.microsoft.com/blog/2024/10/01/an-ai-companion-for-everyone/"
+  #actions:
+  #  - label: "원문 보기"
+  #    url: "https://blogs.microsoft.com/blog/2024/10/01/an-ai-companion-for-everyone/"
 toc: false
 toc_sticky: true
 classes: wide
