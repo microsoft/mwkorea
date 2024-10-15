@@ -44,8 +44,8 @@ author: 고현
 
 ## 결과물 예시
 
-<details>
-<summary>결과물 예시</summary>
+<details>  
+<summary>결과물 예시</summary>  
   
 ## 결과물
 
