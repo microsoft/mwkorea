@@ -46,6 +46,7 @@ author: 고현
 
 <details>
 <summary>결과물 예시</summary>
+
 ```markdown
 안녕하세요, 팀 여러분.
 
@@ -56,6 +57,7 @@ author: 고현
 감사합니다.
 [회사명] 드림
 ```
+
 </details>
 
 ## 활용팁
