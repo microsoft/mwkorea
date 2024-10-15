@@ -44,10 +44,7 @@ author: 고현
 
 ## 결과물 예시
 
-{::options parse_block_html="true" /}
-
-<details>  
-<summary>결과물 예시</summary>  
+<details><summary>결과물 예시</summary>  
   
 ## 결과물
 
@@ -63,8 +60,6 @@ author: 고현
 ```
 
 </details>
-
-{::options parse_block_html="false" /}
 
 ## 활용팁
 
