@@ -6,6 +6,8 @@ categories:
 tags:
   - Copilot
   - 에이전트
+  - AI 어시스턴트
+  - 개인 비서
 excerpt: "과거에는 AI를 단순히 계산기처럼 명령하고 결과를 받는 방식으로 사용했지만, 이제는 더 나아가 AI와의 대화형 협업이 중요해지고 있습니다.  아래는 AI를 효과적으로 활용하기 위한 가이드입니다."
 header:
   overlay_image: /assets/images/20241009/aieveryone.jpg
@@ -17,8 +19,24 @@ header:
 toc: false
 toc_sticky: true
 classes: wide
-author: 최정우
+author: 고현
+gallery:
+  - url: /assets/images/20241015/그림1.jpg
+    image_path: /ass/assets/images/20241015/그림1.jpg
+    alt: "placeholder image 1"
+    title: "Image 1 title caption"
+  - url: /assets/images/20241015/그림2.jpg
+    image_path: /assets/images/20241015/그림2.jpg
+    alt: "placeholder image 2"
+    title: "Image 2 title caption"
+  - url: /assets/images/20241015/그림3.jpg
+    image_path: /assets/images/20241015/그림3.jpg
+    alt: "placeholder image 3"
+    title: "Image 3 title caption"
 ---
+
+{% include gallery caption="" %}
+
 
 # AI와 함께 일하기: AI와 동료로서의 협업
 
