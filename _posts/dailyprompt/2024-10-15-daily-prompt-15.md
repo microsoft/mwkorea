@@ -46,9 +46,7 @@ author: 고현
 
 <details>
 <summary>결과물 예시</summary>
-
-{::options parse_block_html="true" /}
-
+  
 ## 결과물
 
 ```
@@ -61,8 +59,6 @@ author: 고현
 감사합니다.
 "회사명" 드림
 ```
-
-{::options parse_block_html="false" /}
 
 </details>
 
