@@ -44,7 +44,8 @@ author: 고현
 
 ## 결과물 예시
 
-<details open markdown="block">
+<details>
+<summary>결과물 예시</summary>
 ```markdown
 안녕하세요, 팀 여러분.
 
