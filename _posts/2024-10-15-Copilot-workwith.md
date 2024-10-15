@@ -10,7 +10,7 @@ tags:
   - 개인 비서
 excerpt: "과거에는 AI를 단순히 계산기처럼 명령하고 결과를 받는 방식으로 사용했지만, 이제는 더 나아가 AI와의 대화형 협업이 중요해지고 있습니다.  아래는 AI를 효과적으로 활용하기 위한 가이드입니다."
 header:
-  overlay_image: /assets/images/20241009/aieveryone.jpg
+  overlay_image: /assets/images/unsplash-image-11.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
@@ -22,7 +22,7 @@ classes: wide
 author: 고현
 gallery:
   - url: /assets/images/20241015/그림1.jpg
-    image_path: /ass/assets/images/20241015/그림1.jpg
+    image_path: /assets/images/20241015/그림1.jpg
     alt: "placeholder image 1"
     title: "Image 1 title caption"
   - url: /assets/images/20241015/그림2.jpg
