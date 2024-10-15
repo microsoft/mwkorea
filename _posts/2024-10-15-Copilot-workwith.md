@@ -41,7 +41,9 @@ gallery:
 # AI와 함께 일하기: AI와 동료로서의 협업
 
 안녕하세요, 여러분!
-오늘은 AI와의 협업에 대해 이야기해보려고 합니다. 과거에는 AI를 단순히 계산기처럼 명령하고 결과를 받는 방식으로 사용했지만, 이제는 더 나아가 AI와의 대화형 협업이 중요해지고 있습니다. 이를 위해 우리는 새로운 습관을 학습해야 합니다. 아래는 AI를 효과적으로 활용하기 위한 가이드입니다. [원문보기](https://www.linkedin.com/pulse/work-ai-like-its-colleague-calculator-jared-spataro-acghc?utm_source=share&utm_medium=member_android&utm_campaign=share_via)
+오늘은 AI와의 협업에 대해 이야기해보려고 합니다. 과거에는 AI를 단순히 계산기처럼 명령하고 결과를 받는 방식으로 사용했지만, 이제는 더 나아가 AI와의 대화형 협업이 중요해지고 있습니다. 이를 위해 우리는 새로운 습관을 학습해야 합니다. 아래는 AI를 효과적으로 활용하기 위한 가이드입니다. 
+
+[원문보기](https://www.linkedin.com/pulse/work-ai-like-its-colleague-calculator-jared-spataro-acghc?utm_source=share&utm_medium=member_android&utm_campaign=share_via)
 
 ## 1. 기존 접근 방식 버리기
 
