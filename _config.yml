@@ -24,7 +24,7 @@ github_username: username
 minimal_mistakes_skin: default
 search: true
 enable_copy_code_button: true
-# show_drafts: true
+show_drafts: true
 
 # Build settings
 markdown: kramdown
