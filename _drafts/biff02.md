@@ -22,8 +22,7 @@ author: 최정우
 # 1. 마이크로소프트 디자이너와 코파일럿을 사용하여 스크립트 시각화하기
 
 이 코파일럿데모 시리즈는 지난 2024년 부산국제영화제(BIFF)와 아시아콘텐츠&필름마켓(ACFM)에서 많은 고객에게 선보인 코파일럿 데모 시나리오를 제공합니다. <br/>
-다만 본 행사에서 사용한 영화대본의 지적재산권 보호를 위해, 이 시리즈 포스팅에서는 우리나라의 고전인 김유정 작사의 '동백꽃' 소설을 사용합니다. <br/>
-본 행사에서는 영어로 작성된 영화대본을 사용하지만, 여기에서는 한글로 작성된 소설을 사용합니다. <br/>
+다만 본 행사에서 사용한 영화대본의 지적재산권 보호를 위해, 이 시리즈 포스팅에서는 우리나라의 고전인 김유정 작사의 **'동백꽃'** 소설을 사용합니다. <br/>
 코파일럿의 답변이 어떻게 도움을 줄 수 있을지 흥미롭게 살펴봐 주세요. <br/>
 데모에 사용된 소설 원문 : [김유정의 동백꽃](/assets/images/biff/novel.pdf)
 {: .notice--info}
@@ -43,12 +42,8 @@ I should not be subjective but stick to the facts and let creative decisions be 
 {: .notice--success}
 
 <details>
-  <summary>
-  
-  ## 코파일럿의 페르소나 부여 - 코파일럿 결과
-  
-  </summary>
-  <img src="/mwkorea/assets/images/biff/ainot.jpg" />
+  <summary>코파일럿의 페르소나 부여 - 코파일럿 답변보기</summary>
+  <img src="/mwkorea/assets/images/biff/answer1-1.png" />
   Peek a boo!
 </details>
 
