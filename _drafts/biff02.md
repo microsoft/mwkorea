@@ -41,7 +41,7 @@ I should not be subjective but stick to the facts and let creative decisions be 
 ```
 
 <details>
-  <summary>결과보기</summary>
+  <summary>## 코파일럿의 페르소나 부여</summary>
   <img src="/mwkorea/assets/images/biff/ainot.jpg" />
   Peek a boo!
 </details>
