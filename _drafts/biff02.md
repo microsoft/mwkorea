@@ -42,6 +42,7 @@ I should not be subjective but stick to the facts and let creative decisions be 
 
 <details>
   <summary>결과보기</summary>
+  <img src="/mwkorea/assets/images/biff/ainot.jpg" />
   Peek a boo!
 </details>
 
