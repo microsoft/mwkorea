@@ -81,7 +81,7 @@ I should use Korean language.<br/>
 
 <details>
   <summary>5.4 이야기 중 인물의 감정 크기 - 코파일럿 답변보기</summary>
-  <img src="/mwkorea/assets/images/biff/answer5-44443.png" />
+  <img src="/mwkorea/assets/images/biff/answer5-4.png" />
 </details>
 
 ---
