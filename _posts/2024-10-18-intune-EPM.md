@@ -2,12 +2,10 @@
 title: "Intune Endpoint Privilege Management의 신규 승인된 권한 상승 기능 소개"
 date: 2024-10-18T00:00:00 KST
 categories:
-  - Copilot
+  - Intune
 tags:
-  - Copilot
-  - 에이전트
-  - AI 어시스턴트
-  - 개인 비서
+  - Intune
+  - Endpoint
 excerpt: "2024년 3월 릴리즈된 Intune Endpoint Privilege Management에 새롭게 추가된 승인된 권한 상승 기능에 대해 소개해드리겠습니다."
 header:
   overlay_image: /assets/images/unsplash-image-11.jpg
@@ -22,7 +20,7 @@ classes: wide
 author: 이지연
 ---
 
-# Intune Endpoint Privilege Management의 신규 승인된 권한 상승 기능 소개
+# Intune Endpoint Privilege Management의 신규 승인된 권한 상승 기능 소개.
 
 2024년 3월 릴리즈된 Intune Endpoint Privilege Management에 새롭게 추가된 승인된 권한 상승 기능에 대해 소개해드리겠습니다.
 [원문보기](https://techcommunity.microsoft.com/t5/microsoft-intune-blog/endpoint-privilege-management-adds-support-approved-elevations/ba-p/4101196/)

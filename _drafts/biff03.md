@@ -121,13 +121,13 @@ I shoud answer in Korean.<br/>
 
 ---
 
-## 2.8 장면을 묘사하는 이미지 프롬프트 생성
+## 2.8 결말을 변경하기 위한 통찰과 아이디어
 
 아이디어 4를 어떻게 채택할 수 있을지에 대한 자세한 통찰과 아이디어를 제공해 주시고, 이를 전체 대본에 걸쳐 어떻게 설정해야 하는지 설명해 주세요.
 {: .notice--success}
 
 <details>
-  <summary>2.8 장면을 묘사하는 이미지 프롬프트 생성 - 코파일럿 답변보기</summary>
+  <summary>2.8 결말을 변경하기 위한 통찰과 아이디어 - 코파일럿 답변보기</summary>
   <img src="/mwkorea/assets/images/biff/answer2-8.png" />
 </details>
 
