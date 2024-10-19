@@ -1,5 +1,5 @@
 ---
-title: "[영화산업 코파일럿 데모] 1. 마이크로소프트 디자이너와 코파일럿을 사용하여 스크립트 시각화하기"
+title: "[영화산업 코파일럿 데모] 2. 노트 정리 및 브레인스토밍"
 date: 2024-10-09T00:00:00 KST
 categories:
   - BIFF
@@ -19,7 +19,7 @@ classes: wide
 author: 최정우
 ---
 
-# 1. 마이크로소프트 디자이너와 코파일럿을 사용하여 스크립트 시각화하기
+# 2. 노트 정리 및 브레인스토밍
 
 이 영화산업 코파일럿데모 시리즈는 지난 2024년 부산국제영화제(BIFF)와 아시아콘텐츠&필름마켓(ACFM)에서 많은 고객에게 선보인 코파일럿 데모 시나리오를 제공합니다. <br/>
 다만 본 행사에서 사용한 영화대본의 지적재산권 보호를 위해, 이 시리즈 포스팅에서는 우리나라의 고전인 김유정 작가의 소설 **'동백꽃'**을 사용합니다. <br/>
@@ -27,7 +27,7 @@ author: 최정우
 데모에 사용된 소설 원문 : [김유정의 동백꽃](/assets/images/biff/novel.pdf)
 {: .notice--info}
 
-## 1.1 코파일럿의 페르소나 부여
+## 2.1 코파일럿의 페르소나 부여
 
 I am designed to analyze feature film scripts with a focus on character analysis.<br/>
 I should be able to break down a script into its key elements, identify the main plot points, and provide a comprehensive summary of the story, including spoilers.<br/>
@@ -38,135 +38,119 @@ I should be insightful, balanced and be an expert in script analysis.<br/>
 I should communicate in a formal tone, using technical jargon when necessary but also explaining complex concepts in a way that is easy to understand.<br/>
 I should be familiar with dramas, Korean films, and action films.<br/>
 I should not be subjective but stick to the facts and let creative decisions be made by the user.<br/>
+I shoud answer in Korean.<br/>
 /동백꽃.pdf
 {: .notice--success}
 
 <details>
-  <summary>1.1 코파일럿의 페르소나 부여 - 코파일럿 답변보기</summary>
-  <img src="/mwkorea/assets/images/biff/answer1-1.png" />
+  <summary>2.1 코파일럿의 페르소나 부여 - 코파일럿 답변보기</summary>
+  <img src="/mwkorea/assets/images/biff/answer2-1.png" />
 </details>
 
 ---
 
-## 1.2 영화의 시네마틱하고 시각적인 주요순간 도출
+## 2.2 영화의 강점 검토 및 투자 포인트 제안
 
-스크립트를 사용하여 영화의 본질, 캐릭터, 그들이 겪는 여정, 그리고 영화를 포착하는 시네마틱하고 시각적인 주요 순간들을 만드세요.
+이 대본에서 강화하거나 검토해야 할 부분이 있나요? 이 이야기가 투자자와 독자들에게 최고의 상태로 전달되어 그들이 이 영화를 만들고 싶어하도록 흥미를 느끼게 하기 위해 구체적인 제안을 제공해주세요.
 {: .notice--success}
 
 <details>
-  <summary>1.2 영화의 시네마틱하고 시각적인 주요순간 도출 - 코파일럿 답변보기</summary>
-  <img src="/mwkorea/assets/images/biff/answer1-2.png" />
+  <summary>2.2 영화의 강점 검토 및 투자 포인트 제안 - 코파일럿 답변보기</summary>
+  <img src="/mwkorea/assets/images/biff/answer2-2.png" />
 </details>
 
 ---
 
-## 1.3 스토리보드 생성
+## 2.3 연속성 오류와 불일치 요소 도출
 
-이 주요 순간들을 위한 스토리보드를 만드는 데 도와줄 수 있나요?
+이 대본에서 연속성 오류, 시간 불일치, 또는 캐릭터와 이야기의 불일치가 있는지 확인하고, 구체적인 제안을 제공해주시겠어요?
 {: .notice--success}
 
 <details>
-  <summary>1.3 스토리보드 생성 - 코파일럿 답변보기</summary>
-  <img src="/mwkorea/assets/images/biff/answer1-3.png" />
+  <summary>2.3 연속성 오류와 불일치 요소 도출 - 코파일럿 답변보기</summary>
+  <img src="/mwkorea/assets/images/biff/answer2-3.png" />
 </details>
 
 ---
 
-## 1.4 특정 장면의 요약 생성
+## 2.4 각 이벤트들의 자세한 일정
 
-소년이 점순이의 수탉을 죽이는 장소의 자세한 장면 요약을 제공해 주세요.
+이 대본에서 이벤트 들의 자세한 일정을 제공해 줄 수 있나요?
 {: .notice--success}
 
 <details>
-  <summary>1.4 특정 장면의 요약 생성 - 코파일럿 답변보기</summary>
-  <img src="/mwkorea/assets/images/biff/answer1-4.png" />
+  <summary>2.4 각 이벤트들의 자세한 일정 - 코파일럿 답변보기</summary>
+  <img src="/mwkorea/assets/images/biff/answer2-4.png" />
 </details>
 
 ---
 
-## 1.5 특정 장면의 요약 생성 (재시도)
+## 2.5 상세한 비트 시트 요청
 
-소년이 자신의 수탉에게 고추장을 먹이는 장소에 대한 자세한 설명을 제공해 주세요.
+상세한 비트 시트를 제공해 줄 수 있나요?
 {: .notice--success}
 
 <details>
-  <summary>1.5 특정 장면의 요약 생성 (재시도) - 코파일럿 답변보기</summary>
-  <img src="/mwkorea/assets/images/biff/answer1-5.png" />
+  <summary>2.5 상세한 비트 시트 요청 - 코파일럿 답변보기</summary>
+  <img src="/mwkorea/assets/images/biff/answer2-5.png" />
 </details>
 
 ---
 
-## 1.6 장면의 촬영 목록 생성
+## 2.6 결말을 위한 반전 아이디어 요청
 
-이 장면에 대한 렌즈 정보, 카메라 움직임, 설명, 그리고 카메라 움직임의 이유를 포함한 상세한 촬영 목록을 표 형식으로 제공해 주세요.
+관객을 매우 감정적으로 만들고 슬프게 하면서도 관계가 성공하기를 응원하게 만드는 결말의 반전 아이디어 5가지를 제공해 주세요.
 {: .notice--success}
 
 <details>
-  <summary>1.6 장면의 촬영 목록 생성 - 코파일럿 답변보기</summary>
-  <img src="/mwkorea/assets/images/biff/answer1-6.png" />
+  <summary>2.6 결말을 위한 반전 아이디어 요청 - 코파일럿 답변보기</summary>
+  <img src="/mwkorea/assets/images/biff/answer2-6.png" />
 </details>
 
 ---
 
-## 1.7 사용된 렌즈의 채택이유 추가
+## 2.7 비극적인 결말 아이디어 5가지
 
-각 촬영에 사용할 렌즈의 mm와 그 이유를 표에 포함해 주세요.
+저는 여전히 비극적인 결말에 매우 관심이 있습니다. 소년과 점순이의 관계를 희생시키면서 역경을 극복하는 데 초점을 맞춘 새로운 아이디어 5가지를 표 형식으로 제공해 주실 수 있나요?
 {: .notice--success}
 
 <details>
-  <summary>1.7 사용된 렌즈의 채택이유 추가 - 코파일럿 답변보기</summary>
-  <img src="/mwkorea/assets/images/biff/answer1-7.png" />
+  <summary>2.7 비극적인 결말 아이디어 5가지 - 코파일럿 답변보기</summary>
+  <img src="/mwkorea/assets/images/biff/answer2-7.png" />
 </details>
 
 ---
 
-## 1.8 장면을 묘사하는 이미지 프롬프트 생성
+## 2.8 결말을 변경하기 위한 통찰과 아이디어
 
-캐릭터 설명, 의상, 장소 세부 사항, 렌즈정보, 카메라 움직임을 고려하여 첫 번째 샷에 대한 상세한 이미지 프롬프트를 만들어 주세요.
+아이디어 4를 어떻게 채택할 수 있을지에 대한 자세한 통찰과 아이디어를 제공해 주시고, 이를 전체 대본에 걸쳐 어떻게 설정해야 하는지 설명해 주세요.
 {: .notice--success}
 
 <details>
-  <summary>1.8 장면을 묘사하는 이미지 프롬프트 생성 - 코파일럿 답변보기</summary>
-  <img src="/mwkorea/assets/images/biff/answer1-8.png" />
+  <summary>2.8 결말을 변경하기 위한 통찰과 아이디어 - 코파일럿 답변보기</summary>
+  <img src="/mwkorea/assets/images/biff/answer2-8.png" />
 </details>
 
 ---
 
-## 1.9 이미지 생성
+## 2.9 영화 배경 변경시 고려사항
 
-이미지 생성 :<br/>
-장독대의 전경을 넓게 포착하는 35mm 렌즈를 사용한 고정 샷입니다. 화면 중앙에는 다양한 크기의 장독들이 줄지어 놓여 있으며, 각각의 장독에는 고추장, 된장, 간장 등이 담겨 있습니다. 장독의 표면은 햇빛에 반사되어 반짝이며, 오래된 장독의 표면에는 세월의 흔적이 남아 있습니다. 장독대 주변은 푸른 잔디와 흙길, 그리고 그 주변을 둘러싼 나무들이 자연스러운 배경을 이루고 있습니다. 장독대 옆에는 소년의 가족이 사용하던 농기구들이 놓여 있습니다. 화면 왼쪽에서 소년이 장독대에 다가오는 모습이 보입니다. 소년은 낡고 헐렁한 흰색 셔츠와 짙은 갈색 바지를 입고 있으며, 그의 셔츠는 소매가 약간 말려 올라가 있습니다. 바지는 무릎 부분이 약간 해져 있고, 발에는 흙이 묻은 검정 고무신을 신고 있습니다. 소년의 표정은 결단력과 약간의 긴장감을 나타내고 있습니다. 이 샷은 장면의 배경과 분위기를 설정하고, 소년의 행동을 준비하는 모습을 강조하기 위해 고정 샷으로 촬영됩니다. 소년이 장독대에 다가가는 모습을 통해 그의 결단력과 준비 과정을 시각적으로 전달합니다.
+이 영화를 일본을 배경으로 설정하려면 무엇을 고려해야 하며, 무엇을 변경해야 하나요?
 {: .notice--success}
 
 <details>
-  <summary>1.9 이미지 생성 - 코파일럿 답변보기</summary>
-  <img src="/mwkorea/assets/images/biff/answer1-9.png" />
+  <summary>2.9 영화 배경 변경시 고려사항 - 코파일럿 답변보기</summary>
+  <img src="/mwkorea/assets/images/biff/answer2-9.png" />
 </details>
 
 ---
 
-## 1.10 이미지 프롬프트 변환
+## 2.10 영화 배경 변경시 장소 추천
 
-아래 말을 영어로 바꿔줘:<br/>
-장독대의 전경을 넓게 포착하는 35mm 렌즈를 사용한 고정 샷입니다. 화면 중앙에는 다양한 크기의 장독들이 줄지어 놓여 있으며, 각각의 장독에는 고추장, 된장, 간장 등이 담겨 있습니다. 장독의 표면은 햇빛에 반사되어 반짝이며, 오래된 장독의 표면에는 세월의 흔적이 남아 있습니다. 장독대 주변은 푸른 잔디와 흙길, 그리고 그 주변을 둘러싼 나무들이 자연스러운 배경을 이루고 있습니다. 장독대 옆에는 소년의 가족이 사용하던 농기구들이 놓여 있습니다. 화면 왼쪽에서 소년이 장독대에 다가오는 모습이 보입니다. 소년은 낡고 헐렁한 흰색 셔츠와 짙은 갈색 바지를 입고 있으며, 그의 셔츠는 소매가 약간 말려 올라가 있습니다. 바지는 무릎 부분이 약간 해져 있고, 발에는 흙이 묻은 검정 고무신을 신고 있습니다. 소년의 표정은 결단력과 약간의 긴장감을 나타내고 있습니다. 이 샷은 장면의 배경과 분위기를 설정하고, 소년의 행동을 준비하는 모습을 강조하기 위해 고정 샷으로 촬영됩니다. 소년이 장독대에 다가가는 모습을 통해 그의 결단력과 준비 과정을 시각적으로 전달합니다.
+대본의 원래 장소의 의도와 테마에 맞는 일본의 주요 장소 목록을 제공해 주시면, 이 이야기를 일본에서 진행되도록 다시 쓸 때 더 잘 생각할 수 있을 것 같습니다.
 {: .notice--success}
 
 <details>
-  <summary>1.10 이미지 프롬프트 변환 - 코파일럿 답변보기</summary>
-  <img src="/mwkorea/assets/images/biff/answer1-10.png" />
+  <summary>2.10 영화 배경 변경시 장소 추천 - 코파일럿 답변보기</summary>
+  <img src="/mwkorea/assets/images/biff/answer2-10.png" />
 </details>
-
----
-
-## 1.11 이미지 재생성
-
-Create image:<br/>
-This is a wide-angle fixed shot captured with a 35mm lens, showcasing the entire view of the jangdokdae (traditional Korean earthenware storage). In the center of the frame, various sizes of jangdok (earthenware jars) are lined up, each containing gochujang (red chili paste), doenjang (soybean paste), and ganjang (soy sauce). The surfaces of the jars glisten in the sunlight, with the older jars showing signs of age. Surrounding the jangdokdae are green grass, a dirt path, and trees that create a natural background. Next to the jangdokdae, there are farming tools used by the boy's family. On the left side of the frame, the boy is seen approaching the jangdokdae. He is wearing an old, loose white shirt and dark brown pants, with the sleeves of his shirt slightly rolled up. His pants are slightly worn at the knees, and he is wearing black rubber shoes with dirt on them. The boy's expression shows determination and a hint of tension. This shot is taken as a fixed shot to set the scene's background and atmosphere, emphasizing the boy's preparation and actions. Through the boy's approach to the jangdokdae, his determination and preparation process are visually conveyed.
-{: .notice--success}
-
-<details>
-  <summary>1.11 이미지 재생성 - 코파일럿 답변보기</summary>
-  <img src="/mwkorea/assets/images/biff/answer1-11.png" />
-</details>
-
----

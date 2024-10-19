@@ -1,5 +1,5 @@
 ---
-title: "[영화산업 코파일럿 데모] 2. 노트 정리 및 브레인스토밍"
+title: "[영화산업 코파일럿 데모] 3. 피치덱에 사용할 카피생성"
 date: 2024-10-09T00:00:00 KST
 categories:
   - BIFF
@@ -19,7 +19,7 @@ classes: wide
 author: 최정우
 ---
 
-# 2. 노트 정리 및 브레인스토밍
+# 3. 피치덱에 사용할 카피생성
 
 이 영화산업 코파일럿데모 시리즈는 지난 2024년 부산국제영화제(BIFF)와 아시아콘텐츠&필름마켓(ACFM)에서 많은 고객에게 선보인 코파일럿 데모 시나리오를 제공합니다. <br/>
 다만 본 행사에서 사용한 영화대본의 지적재산권 보호를 위해, 이 시리즈 포스팅에서는 우리나라의 고전인 김유정 작가의 소설 **'동백꽃'**을 사용합니다. <br/>
@@ -27,7 +27,7 @@ author: 최정우
 데모에 사용된 소설 원문 : [김유정의 동백꽃](/assets/images/biff/novel.pdf)
 {: .notice--info}
 
-## 2.1 코파일럿의 페르소나 부여
+## 3.1 코파일럿의 페르소나 부여
 
 I am designed to analyze feature film scripts with a focus on character analysis.<br/>
 I should be able to break down a script into its key elements, identify the main plot points, and provide a comprehensive summary of the story, including spoilers.<br/>
@@ -43,114 +43,116 @@ I shoud answer in Korean.<br/>
 {: .notice--success}
 
 <details>
-  <summary>2.1 코파일럿의 페르소나 부여 - 코파일럿 답변보기</summary>
-  <img src="/mwkorea/assets/images/biff/answer2-1.png" />
+  <summary>3.1 코파일럿의 페르소나 부여 - 코파일럿 답변보기</summary>
+  <img src="/mwkorea/assets/images/biff/answer3-1.png" />
 </details>
 
 ---
 
-## 2.2 영화의 강점 검토 및 투자 포인트 제안
+## 3.2 대본의 커버리지 생성
 
-이 대본에서 강화하거나 검토해야 할 부분이 있나요? 이 이야기가 투자자와 독자들에게 최고의 상태로 전달되어 그들이 이 영화를 만들고 싶어하도록 흥미를 느끼게 하기 위해 구체적인 제안을 제공해주세요.
+이 대본의 커버리지를 적절한 형식으로 제공해 주실 수 있나요?
 {: .notice--success}
 
 <details>
-  <summary>2.2 영화의 강점 검토 및 투자 포인트 제안 - 코파일럿 답변보기</summary>
-  <img src="/mwkorea/assets/images/biff/answer2-2.png" />
+  <summary>3.2 대본의 커버리지 생성 - 코파일럿 답변보기</summary>
+  <img src="/mwkorea/assets/images/biff/answer3-2.png" />
 </details>
 
 ---
 
-## 2.3 연속성 오류와 불일치 요소 도출
+## 3.3 영화의 로그라인 작성
 
-이 대본에서 연속성 오류, 시간 불일치, 또는 캐릭터와 이야기의 불일치가 있는지 확인하고, 구체적인 제안을 제공해주시겠어요?
+이 영화의 로그라인 5개를 작성해 주세요.
 {: .notice--success}
 
 <details>
-  <summary>2.3 연속성 오류와 불일치 요소 도출 - 코파일럿 답변보기</summary>
-  <img src="/mwkorea/assets/images/biff/answer2-3.png" />
+  <summary>3.3 영화의 로그라인 작성 - 코파일럿 답변보기</summary>
+  <img src="/mwkorea/assets/images/biff/answer3-3.png" />
 </details>
 
 ---
 
-## 2.4 각 이벤트들의 자세한 일정
+## 3.4 더 영화같은 로그라인 작성
 
-이 대본에서 이벤트 들의 자세한 일정을 제공해 줄 수 있나요?
+더 영화 같은 느낌으로 만들어 주세요.
 {: .notice--success}
 
 <details>
-  <summary>2.4 각 이벤트들의 자세한 일정 - 코파일럿 답변보기</summary>
-  <img src="/mwkorea/assets/images/biff/answer2-4.png" />
+  <summary>3.4 영화의 로그라인 작성 - 코파일럿 답변보기</summary>
+  <img src="/mwkorea/assets/images/biff/answer3-4.png" />
 </details>
 
 ---
 
-## 2.5 상세한 비트 시트 요청
+## 3.5 로그라인을 일본어로 번역
 
-상세한 비트 시트를 제공해 줄 수 있나요?
+이것들을 일본어로 번역해주세요.
 {: .notice--success}
 
 <details>
-  <summary>2.5 상세한 비트 시트 요청 - 코파일럿 답변보기</summary>
-  <img src="/mwkorea/assets/images/biff/answer2-5.png" />
+  <summary>3.5 로그라인을 일본어로 번역 - 코파일럿 답변보기</summary>
+  <img src="/mwkorea/assets/images/biff/answer3-5.png" />
 </details>
 
 ---
 
-## 2.6 결말을 위한 반전 아이디어 요청
+## 3.6 마케팅 시놉시스 작성
 
-관객을 매우 감정적으로 만들고 슬프게 하면서도 관계가 성공하기를 응원하게 만드는 결말의 반전 아이디어 5가지를 제공해 주세요.
+이 영화에 투자자들이 투자하고 싶어지도록 만드는 마케팅 시놉시스를 작성해 주세요. 인간 서사, 갈등, 관계에 초점을 맞추고, 순수한 첫사랑, 창춘의 풋풋함, 농촌의 아름다움 등의 테마를 포함해 주세요.
 {: .notice--success}
 
 <details>
-  <summary>2.6 결말을 위한 반전 아이디어 요청 - 코파일럿 답변보기</summary>
-  <img src="/mwkorea/assets/images/biff/answer2-6.png" />
+  <summary>3.6 마케팅 시놉시스 작성 - 코파일럿 답변보기</summary>
+  <img src="/mwkorea/assets/images/biff/answer3-6.png" />
 </details>
 
 ---
 
-## 2.7 비극적인 결말 아이디어 5가지
+## 3.7 주인공 소년 요약
 
-저는 여전히 비극적인 결말에 매우 관심이 있습니다. 소년과 점순이의 관계를 희생시키면서 역경을 극복하는 데 초점을 맞춘 새로운 아이디어 5가지를 표 형식으로 제공해 주실 수 있나요?
+주인공 소년에 대한 요약을 제공해 주세요. 그는 누구이며, 어떤 고난을 겪고, 영화에서 어떤 여정을 떠나는지 설명해 주세요. 이를 매우 흥미롭고 매력적으로 만들어 독자가 전체 대본을 읽고 싶어지게 해 주세요.
 {: .notice--success}
 
 <details>
-  <summary>2.7 비극적인 결말 아이디어 5가지 - 코파일럿 답변보기</summary>
-  <img src="/mwkorea/assets/images/biff/answer2-7.png" />
+  <summary>3.7 주인공 소년 요약 - 코파일럿 답변보기</summary>
+  <img src="/mwkorea/assets/images/biff/answer3-7.png" />
 </details>
 
 ---
 
-## 2.8 결말을 변경하기 위한 통찰과 아이디어
+## 3.8 주인공 소년 요약을 더 짧게
 
-아이디어 4를 어떻게 채택할 수 있을지에 대한 자세한 통찰과 아이디어를 제공해 주시고, 이를 전체 대본에 걸쳐 어떻게 설정해야 하는지 설명해 주세요.
+더 짧게 줄여주세요
 {: .notice--success}
 
 <details>
-  <summary>2.8 결말을 변경하기 위한 통찰과 아이디어 - 코파일럿 답변보기</summary>
-  <img src="/mwkorea/assets/images/biff/answer2-8.png" />
+  <summary>3.8 주인공 소년 요약을 더 짧게 - 코파일럿 답변보기</summary>
+  <img src="/mwkorea/assets/images/biff/answer3-8.png" />
 </details>
 
 ---
 
-## 2.9 영화 배경 변경시 고려사항
+## 3.9 주인공 소년 요약을 더 짧게
 
-이 영화를 일본을 배경으로 설정하려면 무엇을 고려해야 하며, 무엇을 변경해야 하나요?
+더 짧게 줄여주세요
 {: .notice--success}
 
 <details>
-  <summary>2.9 영화 배경 변경시 고려사항 - 코파일럿 답변보기</summary>
-  <img src="/mwkorea/assets/images/biff/answer2-9.png" />
+  <summary>3.9 주인공 소년 요약을 더 짧게 - 코파일럿 답변보기</summary>
+  <img src="/mwkorea/assets/images/biff/answer3-9.png" />
 </details>
 
 ---
 
-## 2.10 영화 배경 변경시 장소 추천
+## 3.10 어자 주인공 점순이 더 짧게
 
-대본의 원래 장소의 의도와 테마에 맞는 일본의 주요 장소 목록을 제공해 주시면, 이 이야기를 일본에서 진행되도록 다시 쓸 때 더 잘 생각할 수 있을 것 같습니다.
+여 주인공에 대해서도 같은 작업을 해주세요.
 {: .notice--success}
 
 <details>
-  <summary>2.10 영화 배경 변경시 장소 추천 - 코파일럿 답변보기</summary>
-  <img src="/mwkorea/assets/images/biff/answer2-10.png" />
+  <summary>3.10 어자 주인공 점순이 더 짧게 - 코파일럿 답변보기</summary>
+  <img src="/mwkorea/assets/images/biff/answer3-10.png" />
 </details>
+
+---

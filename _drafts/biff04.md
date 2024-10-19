@@ -1,5 +1,5 @@
 ---
-title: "[영화산업 코파일럿 데모] 3. 피치덱에 사용할 카피생성"
+title: "[영화산업 코파일럿 데모] 4. 프로젝트 마케팅 및 피치 덱을 위한 비교 자료"
 date: 2024-10-09T00:00:00 KST
 categories:
   - BIFF
@@ -19,7 +19,7 @@ classes: wide
 author: 최정우
 ---
 
-# 3. 피치덱에 사용할 카피생성
+# 4. 프로젝트 마케팅 및 피치 덱을 위한 비교 자료
 
 이 영화산업 코파일럿데모 시리즈는 지난 2024년 부산국제영화제(BIFF)와 아시아콘텐츠&필름마켓(ACFM)에서 많은 고객에게 선보인 코파일럿 데모 시나리오를 제공합니다. <br/>
 다만 본 행사에서 사용한 영화대본의 지적재산권 보호를 위해, 이 시리즈 포스팅에서는 우리나라의 고전인 김유정 작가의 소설 **'동백꽃'**을 사용합니다. <br/>
@@ -27,7 +27,7 @@ author: 최정우
 데모에 사용된 소설 원문 : [김유정의 동백꽃](/assets/images/biff/novel.pdf)
 {: .notice--info}
 
-## 3.1 코파일럿의 페르소나 부여
+## 4.1 코파일럿의 페르소나 부여
 
 I am designed to analyze feature film scripts with a focus on character analysis.<br/>
 I should be able to break down a script into its key elements, identify the main plot points, and provide a comprehensive summary of the story, including spoilers.<br/>
@@ -43,116 +43,104 @@ I shoud answer in Korean.<br/>
 {: .notice--success}
 
 <details>
-  <summary>3.1 코파일럿의 페르소나 부여 - 코파일럿 답변보기</summary>
+  <summary>4.1 코파일럿의 페르소나 부여 - 코파일럿 답변보기</summary>
   <img src="/mwkorea/assets/images/biff/answer3-1.png" />
 </details>
 
 ---
 
-## 3.2 대본의 커버리지 생성
+## 4.2 인구 통계학적 마케팅 분석
 
-이 대본의 커버리지를 적절한 형식으로 제공해 주실 수 있나요?
+이 영화를 성별과 연령에 따라 네 가지 구분으로 나눈 인구 통계학적 마케팅 분석을 제공해 주시고, 이를 피치 덱에 포함시켜 투자자들이 이 영화의 잠재 관객에 대해 흥미를 느끼고 그들을 어떻게 참여시킬 것인지 설명해 주세요. 영화에서 그들에게 공감될 세 가지 주요 테마와 그 이유도 포함해 주세요.
 {: .notice--success}
 
 <details>
-  <summary>3.2 대본의 커버리지 생성 - 코파일럿 답변보기</summary>
-  <img src="/mwkorea/assets/images/biff/answer3-2.png" />
+  <summary>4.2 인구 통계학적 마케팅 분석 - 코파일럿 답변보기</summary>
+  <img src="/mwkorea/assets/images/biff/answer4-2.png" />
 </details>
 
 ---
 
-## 3.3 영화의 로그라인 작성
+## 4.3 SNS 댄스 챌린지
 
-이 영화의 로그라인 5개를 작성해 주세요.
+이 영화에 대한 샘플 틱톡 댄스 챌린지를 제공해 주시고, 동작, 홍보를 위해 참여할 특정 인재, 기타 세부 사항을 포함해 주세요.
 {: .notice--success}
 
 <details>
-  <summary>3.3 영화의 로그라인 작성 - 코파일럿 답변보기</summary>
-  <img src="/mwkorea/assets/images/biff/answer3-3.png" />
+  <summary>4.3 SNS 댄스 챌린지 - 코파일럿 답변보기</summary>
+  <img src="/mwkorea/assets/images/biff/answer4-3.png" />
 </details>
 
 ---
 
-## 3.4 더 영화같은 로그라인 작성
+## 4.4 제품 배치기회 (PPL) 탐색
 
-더 영화 같은 느낌으로 만들어 주세요.
+이 영화의 실제 장면안에서 사용할 수 있는 제품 배치기회를 제공해주세요. 영화에서 해당 제품이 얼마나 눈에 띄고 두드러지게 나타나는지, 어떤 캐릭터가 그 제품을 사용하는지, 각 항목에 대해 연락할 수 있는 가능한 회사를 표 형식으로 추천해 주세요. 한국과 아시아에서 흔히 볼 수 있는 진짜 브랜드와 아이템을 포함해 주세요.
 {: .notice--success}
 
 <details>
-  <summary>3.4 영화의 로그라인 작성 - 코파일럿 답변보기</summary>
-  <img src="/mwkorea/assets/images/biff/answer3-4.png" />
+  <summary>4.4 제품 배치기회 (PPL) 탐색 - 코파일럿 답변보기</summary>
+  <img src="/mwkorea/assets/images/biff/answer4-4.png" />
 </details>
 
 ---
 
-## 3.5 로그라인을 일본어로 번역
+## 4.5 북미 관객에 대한 미개척 잠재력
 
-이것들을 일본어로 번역해주세요.
+이 영화가 북미의 아시아 관객들에 대해 가지는 미개척 잠재력은 무엇인가요?
 {: .notice--success}
 
 <details>
-  <summary>3.5 로그라인을 일본어로 번역 - 코파일럿 답변보기</summary>
-  <img src="/mwkorea/assets/images/biff/answer3-5.png" />
+  <summary>4.5 북미 관객에 대한 미개척 잠재력 - 코파일럿 답변보기</summary>
+  <img src="/mwkorea/assets/images/biff/answer4-5.png" />
 </details>
 
 ---
 
-## 3.6 마케팅 시놉시스 작성
+## 4.6 관련 통계 요청
 
-이 영화에 투자자들이 투자하고 싶어지도록 만드는 마케팅 시놉시스를 작성해 주세요. 인간 서사, 갈등, 관계에 초점을 맞추고, 순수한 첫사랑, 창춘의 풋풋함, 농촌의 아름다움 등의 테마를 포함해 주세요.
+이 영화의 피치 덱에 포함하기에 설득력 있는 통계를 가지고 있나요?
 {: .notice--success}
 
 <details>
-  <summary>3.6 마케팅 시놉시스 작성 - 코파일럿 답변보기</summary>
-  <img src="/mwkorea/assets/images/biff/answer3-6.png" />
+  <summary>4.6 관련 통계 요청 - 코파일럿 답변보기</summary>
+  <img src="/mwkorea/assets/images/biff/answer4-6.png" />
 </details>
 
 ---
 
-## 3.7 주인공 소년 요약
+## 4.7 비교할 수 있는 영화 목록
 
-주인공 소년에 대한 요약을 제공해 주세요. 그는 누구이며, 어떤 고난을 겪고, 영화에서 어떤 여정을 떠나는지 설명해 주세요. 이를 매우 흥미롭고 매력적으로 만들어 독자가 전체 대본을 읽고 싶어지게 해 주세요.
+이 영화와 비교할 수 있는 영화는 무엇인가요? 세 가지를 알려 주세요. 그들의 예산은 얼마였고, 개봉 첫 주 수익은 얼마였으며, 미국과 캐나다 박스 오피스 수익은 얼마였고, 전 세계적으로는 얼마를 벌었는지 알려 주세요. 비교할 영화들은 유사한 분위기를 가져야 합니다.
 {: .notice--success}
 
 <details>
-  <summary>3.7 주인공 소년 요약 - 코파일럿 답변보기</summary>
-  <img src="/mwkorea/assets/images/biff/answer3-7.png" />
+  <summary>4.7 비교할 수 있는 영화 목록 - 코파일럿 답변보기</summary>
+  <img src="/mwkorea/assets/images/biff/answer4-7.png" />
 </details>
 
 ---
 
-## 3.8 주인공 소년 요약을 더 짧게
+## 4.8 비교할 수 있는 아시아인 영화 목록
 
-더 짧게 줄여주세요
+이 내용을 예산이 적고 주로 아시아인 캐스트 또는 전체 아시아인 캐스트가 출연하는 영화로 업데이트해 주세요. 이 영화들은 미국뿐만 아니라 전 세계 영화도 포함될 수 있습니다.
 {: .notice--success}
 
 <details>
-  <summary>3.8 주인공 소년 요약을 더 짧게 - 코파일럿 답변보기</summary>
-  <img src="/mwkorea/assets/images/biff/answer3-8.png" />
+  <summary>4.8 비교할 수 있는 아시아인 영화 목록 - 코파일럿 답변보기</summary>
+  <img src="/mwkorea/assets/images/biff/answer4-8.png" />
 </details>
 
 ---
 
-## 3.9 주인공 소년 요약을 더 짧게
+## 4.9 공동 프로코션 아이디어
 
-더 짧게 줄여주세요
+이 영화에 대한 흥미롭고 독특한 공동 프로모션 아이디어 5가지를 제공해 주시고, 관객들이 이 영화를 찾고 사랑하게 만드는 데 도움이 되도록 해 주세요. 각 아이디어가 어떻게 실행될 수 있는지와 영화에 기반한 구체적인 예시도 포함해 주세요.
 {: .notice--success}
 
 <details>
-  <summary>3.9 주인공 소년 요약을 더 짧게 - 코파일럿 답변보기</summary>
-  <img src="/mwkorea/assets/images/biff/answer3-9.png" />
-</details>
-
----
-
-## 3.10 어자 주인공 점순이 더 짧게
-
-여 주인공에 대해서도 같은 작업을 해주세요.
-{: .notice--success}
-
-<details>
-  <summary>3.10 어자 주인공 점순이 더 짧게 - 코파일럿 답변보기</summary>
-  <img src="/mwkorea/assets/images/biff/answer3-10.png" />
+  <summary>4.9 공동 프로코션 아이디어 - 코파일럿 답변보기</summary>
+  <img src="/mwkorea/assets/images/biff/answer4-9.png" />
 </details>
 
 ---
