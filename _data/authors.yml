@@ -39,3 +39,12 @@
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:yojo@microsoft.com"
+
+서동연:
+  name        : "서동연"
+  bio         : "Copilot Techincal Specialist"
+  avatar      : "/assets/images/avatars/dongyeon.jpeg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:dongseo@microsoft.com"
