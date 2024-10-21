@@ -4,8 +4,8 @@ date: 2024-10-21T15:00:00 KST
 categories:
   - Draft
 tags:
-  - 뉴비의 Test
-excerpt: "Molla"
+  - AI 동반자
+excerpt: "DraftDraftDraftDraftDraftDraftDraftDraftDraftDraftDraftDraftDraftDraftDraftDraftDraftDraft"
 header:
   overlay_image: /assets/images/20241009/aieveryone.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
