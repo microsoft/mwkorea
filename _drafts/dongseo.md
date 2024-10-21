@@ -1,6 +1,6 @@
 ---
 title: "서동연 Draft Test"
-date: 2024-10-21T15:00:00 KST
+date: 2024-10-19T15:00:00 KST
 categories:
   - Draft
 tags:
