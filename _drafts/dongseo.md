@@ -23,5 +23,5 @@ author: 서동연
 
 드래프트는 안보이지만 보여지겠죠!!!
 
-https://microsoft.github.io/mwkorea/draft/drafts/ 의 주소로 직접 접근가능합니다.
+https://microsoft.github.io/mwkorea/draft/dongseo/ 의 주소로 직접 접근가능합니다.
  
