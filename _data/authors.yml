@@ -31,3 +31,20 @@
   bio         : "Modern Work Cloud Endpoint CSA(Cloud Solution Architect) <br/><br/>IT 전문가로서 클라우드 솔루션 아키텍트로 일하고 있으며, 동시에 뇌과학을 공부하고 있습니다. 뇌를 이해함으로써 건강한 삶과 혁신적인 미래를 창조하는 데 기여하고자 합니다."
   avatar      : "/assets/images/avatars/JIYEONLEE.png"
 
+조윤호:
+  name        : "조윤호"
+  bio         : "Copilot Techincal Specialist"
+  avatar      : "/assets/images/avatars/yojo.jpeg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:yojo@microsoft.com"
+
+서동연:
+  name        : "서동연"
+  bio         : "Copilot Techincal Specialist"
+  avatar      : "/assets/images/avatars/dongyeon.jpeg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:dongseo@microsoft.com"
