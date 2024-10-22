@@ -1,6 +1,6 @@
 ---
 title: "Microsoft 365 Copilot: 중소기업을 위한 최대 353% ROI 달성"
-date: 2024-10-220T00:00:00 KST
+date: 2024-10-22T00:00:00 KST
 categories:
   - Copilot
 tags:
