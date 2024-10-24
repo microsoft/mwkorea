@@ -18,7 +18,7 @@ header:
   #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
     - label: "원문 보기"
-      url: "hhttps://msaitour.microsoft.com/en-us/london"
+      url: "https://msaitour.microsoft.com/en-us/london"
 toc: false
 toc_sticky: true
 classes: wide
