@@ -48,3 +48,8 @@
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:dongseo@microsoft.com"
+
+김현지:
+  name        : "김현지"
+  bio         : "GTM MGR"
+  avatar      : "/assets/images/avatars/bio-photo.jpeg"
