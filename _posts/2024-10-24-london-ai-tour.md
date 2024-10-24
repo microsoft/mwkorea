@@ -13,7 +13,7 @@ tags:
   - 혁신
 excerpt: "Microsoft CEO 사티아 나델라가 런던에서 열린 키노트에서 AI의 변혁적 힘, Microsoft의 AI 전략, 그리고 기술의 미래를 강조했습니다."
 header:
-  overlay_image: /assets/images/20241009/aieveryone.jpg
+  overlay_image: /assets/images/header/Microsoft365-Copilot-KeyArt-Productivity-6K-01.png
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
