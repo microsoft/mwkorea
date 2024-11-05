@@ -68,7 +68,7 @@ Microsoft Teams 관리 센터에서 Teams 업데이트 정책을 통하여 사�
 ![에이전트](/mwkorea/assets/images/20241103/pic2-7.png)
  
 양방향 통역 기능은 Windwos/Mac용 Teams에서만 제공을 합니다.
- 
+
 ## 참고.
 
 -	[양방향 동시통역기능 소개(Blog)](https://techcommunity.microsoft.com/t5/microsoft-365-insider-blog/bidirectional-translation-support-now-available-for-language/ba-p/4237385)
