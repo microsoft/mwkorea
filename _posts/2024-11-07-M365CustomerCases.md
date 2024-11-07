@@ -25,7 +25,7 @@ author: 조윤호
 
 국내 사례 중 일부를 소개합니다. 지속적으로 업데이트 될 예정입니다.
 
-| 회사/기관\n(사례:링크) | 솔루션 | 효과 |
+| 회사/기관</br>(사례:링크) | 솔루션 | 효과 |
 | --- | --- | --- |
 | [성균관대학교](https://customers.microsoft.com/en-us/story/1818061959079597269-skku-microsoft-copilot-higher-education-ko-korea) | Microsoft 365 Copilot | 학사 업무와 연구 분야에서 인공지능 협업 문화 강화, 논문 작성 효율성 향상, 행정 업무 효율성 향상 |
 | [CTR그룹](https://customers.microsoft.com/en-us/story/1747280880899359911-ctr-microsoft-sentinel-discrete-manufacturing-ko-korea) | Microsoft 365 E5, Microsoft Sentinel | 보안 강화, 랜섬웨어 대응, 실시간 로그 수집 및 관리 |
