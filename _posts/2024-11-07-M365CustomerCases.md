@@ -34,8 +34,8 @@ author: 조윤호
 | [GS리테일](https://customers.microsoft.com/en-us/story/1706440020259519897-gs-retail-power-bi-retailers-ko-korea) | Microsoft 365 | 소통과 협업 강화, 데이터 접근성 향상, RPA를 통한 업무 효율성 증대 |
 | [잼팟](https://customers.microsoft.com/en-us/story/1706440020259519897-gs-retail-power-bi-retailers-ko-korea) | Microsoft 365 E5 | 보안과 효율성 향상, 통합된 데이터 및 문서 관리, 접근 권한 관리 체계화 |
 	
- # 더 많은 사례 보기
- 
+# 더 많은 사례 보기
+
  - [Microsoft 365 Copilot 사례](https://customers.microsoft.com/en-us/search?sq=&ff=story_product_categories%26%3EMicrosoft%20Copilot&p=0&so=story_publish_date%20desc)
 
  - [Microsoft 365 Viva 사례](https://customers.microsoft.com/en-us/search?sq=&ff=story_product_categories%26%3EMicrosoft%20Viva&p=0&so=story_publish_date%20desc)
