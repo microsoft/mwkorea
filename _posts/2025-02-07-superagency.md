@@ -61,5 +61,4 @@ AI 혁신은 단순한 기술 변화가 아니라 비즈니스 도전 과제입�
 ---
 
 AI 도입 및 전략에 대한 추가 인사이트를 원하신다면, 마이크로소프트의 AI 솔루션과 맥킨지의 전체 보고서를 참고하세요.
-(출처: 맥킨지 보고서 Superagency in the Workplace: Empowering People to Unlock AI’s Full Potential, 2025년 1월 발행)
-https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/superagency-in-the-workplace-empowering-people-to-unlock-ais-full-potential-at-work
+(출처: 맥킨지 보고서 Superagency in the Workplace: Empowering People to Unlock AI’s Full Potential, 2025년 1월 발행)[https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/superagency-in-the-workplace-empowering-people-to-unlock-ais-full-potential-at-work]
