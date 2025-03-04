@@ -60,7 +60,7 @@ Copilot은 마이크로소프트의 **AI 기반 가상 비서**로, **대형 언
 한줄 요약: 웹 환경에서 모두가 사용가능한 Copilot! 안써봤다면 꼭 써보시길 추천드려요.
 ```
 
-![Microsoft Copilot 화면](../assets/1_what_is_copoilot/microsoft-copilot.png)
+![Microsoft Copilot 화면](../assets/images/agentschool/1_what_is_copoilot/microsoft-copilot.png)
 
 
 ✅ **사용 대상:** 사용을 원하는 일반 사용자 누구나!  
@@ -85,7 +85,7 @@ Copilot은 마이크로소프트의 **AI 기반 가상 비서**로, **대형 언
 
 ### 2️⃣ Microsoft 365 Copilot Chat  
 >  한줄 요약: M365 라이선스를 보유한 조직에서 사용가능한 웹베이스 AI 챗 시스템!
-![Microsoft Copilot 화면](../assets/1_what_is_copoilot/microsoft-365-copilot-chat.png)
+![Microsoft Copilot 화면](../assets/images/agentschool/1_what_is_copoilot/microsoft-365-copilot-chat.png)
 
 ✅ **사용 대상:** Microsoft 365 라이선스를 보유한 조직  
 ✅ **특징:**  
@@ -110,7 +110,7 @@ Copilot은 마이크로소프트의 **AI 기반 가상 비서**로, **대형 언
 ### 3️⃣ Microsoft 365 Copilot  
 >  한줄 요약: Microsoft 365 앱들과 통합되어 있고, 웹 및 조직 내부 데이터를 활용가능한 AI 시스템
 
-![Microsoft Copilot 화면](../assets/1_what_is_copoilot/work_web_image.png)
+![Microsoft Copilot 화면](../assets/images/agentschool/1_what_is_copoilot/work_web_image.png)
 
 Copilot Chat과 UI는 비슷하지만 Work 탭을 활용해 조직 내부 데이터를 AI가 활용할 수 있어요!
 
@@ -118,7 +118,7 @@ Copilot Chat과 UI는 비슷하지만 Work 탭을 활용해 조직 내부 데이
 
 ✅ **특징:**  
 - Microsoft 365 앱(Word, Excel, PowerPoint, Outlook, Teams 등)과 통합  
-![Excel Copilot](../assets/1_what_is_copoilot/microsoft-365-copilot-excel-example.png)
+![Excel Copilot](../assets/images/agentschool/1_what_is_copoilot/microsoft-365-copilot-excel-example.png)
 - Microsoft Graph 기반으로 조직 내 데이터를 활용가능해요  
 - Copilot Agents 및 Copilot Analytics 기능 포함  
 
@@ -131,7 +131,7 @@ Copilot Chat과 UI는 비슷하지만 Work 탭을 활용해 조직 내부 데이
 💡 **Copilot Chat과 M365 Copoilot의 차이**  
 - 그렇다면 당연히! Copilot Chat만 있으면 되는거 아니야? 라는 생각이 드실 수 있는데요. Copilot Chat과 M365는 생각보다 많은 기능적 차이가 있습니다.
 - 아래 이미지를 참고해주세요. (25년 2월 기준)
-- ![chatvs365](../assets/1_what_is_copoilot/Copilot-Licensing-Blog-Image.jpg)
+- ![chatvs365](../assets/images/agentschool/1_what_is_copoilot/Copilot-Licensing-Blog-Image.jpg)
 
 📎 **사용해 볼까요:**  
 - [M365 Copilot 사용해보기](https://m365.cloud.microsoft)  
@@ -146,7 +146,7 @@ Copilot Chat과 UI는 비슷하지만 Work 탭을 활용해 조직 내부 데이
 ### 4️⃣ GitHub Copilot  
 > {: .highlight }
 한줄 요약: 코딩 생산성을 높이기 위해 개발자가 사용하는 AI 도우미로, 코드 자동 완성 및 추천 기능을 제공
-- ![githubpilot](../assets/1_what_is_copoilot/github_copilot.png)
+- ![githubpilot](../assets/images/agentschool/1_what_is_copoilot/github_copilot.png)
 
 
 
