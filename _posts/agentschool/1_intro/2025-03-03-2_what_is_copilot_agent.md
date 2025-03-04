@@ -24,6 +24,7 @@ author: 조항우
 안녕하세요, MW Technical Specialist 인턴 조항우입니다😊  
 오늘은 Copilot 에이전트란 무엇인지 같이 알아보아요!  
 <br/>
+
 # 🚀 Copilot 에이전트란 뭘까?  
 
 ### **학습 목표:**  
@@ -95,7 +96,7 @@ Declarative Agent는 Copilot의 Orchestrator, Foundation Model을 사용해야�
 {: .note }
 **Declarative 방식이란** :  Copilot의 모델과 오케스트레이터를 사용해 에이전트들에게 "무엇을 할지" 선언하고, ACTION을 만들어주면 자동적으로 ACTION을 실행하는 방식!
 
-> ![declarative agent](../assets/2_what_is_copilot_agent/declarative_agent.png)
+> ![declarative agent](/mwkorea/assets/2_what_is_copilot_agent/declarative_agent.png)
 
 ✅ **개발 방식**  
 
@@ -127,7 +128,7 @@ Declarative Agent는 Copilot의 Orchestrator, Foundation Model을 사용해야�
 {: .note }
 Custom Engine Copilot은 개발자가 **Foundation Model과 Orchestrator을 자유롭게 커스텀** 할 수 있어요 
 
->![Custom_Engine_Agent](../assets/2_what_is_copilot_agent/custom_engine_agent.png)
+>![Custom_Engine_Agent](/mwkorea/assets/2_what_is_copilot_agent/custom_engine_agent.png)
 
 ✅ **개발 방식:**  
 
@@ -165,7 +166,7 @@ Copilot 에이전트를 만들기 위해 3가지 주요 방법을 선택해서 �
 - 코딩 없이, 개발자가 아니더라도 쉽고 편하게 **M365 내에서 자동화된 AI 에이전트를 만들기 좋은 도구**예요.  
 📎 **[클릭하셔서 Copilot Studio 공식 문서를 살펴보세요!](https://learn.microsoft.com/ko-kr/microsoft-copilot-studio/fundamentals-what-is-copilot-studio)**  
 
-> ![alt text](../assets/2_what_is_copilot_agent/copilot_studio.png)
+> ![alt text](/mwkorea/assets/2_what_is_copilot_agent/copilot_studio.png)
 ---
 
 ### **2️⃣ Teams Toolkit과 Teams AI Library 사용**  

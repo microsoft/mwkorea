@@ -1,4 +1,28 @@
+---
+title: "차량 렌탈 시스템 에이전트를 만들기 (5)"
+date: 2025-03-03T00:00:00 KST
+categories:
+  - AgentSchool
+tags:
+  - AI
+  - Agent
+  - Copilot
+excerpt: "이번에는 예약 가능 여부를 확인하는 `check_reservation`과 예약을 생성하는 `create_reservation`을 구현하면서 Power Automate로 복잡한 로직을 설계해볼 거예요."
+header:
+  overlay_image: assets/images/header/Microsoft365-Copilot-KeyArt-Productivity-6K-01.png
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  #actions:
+  #  - label: "원문보기"
+  #    url: "https://www.microsoft.com/en-us/microsoft-365/blog/2025/02/10/discover-the-total-economic-impact-of-microsoft-365-e3/?msockid=20f4fd7af5a86c603f7ae8f6f4df6ddb"
+toc: false
+toc_sticky: true
+classes: wide
+author: 조항우
+---
+
 # 📌 A. 이전 학습 내용  
+
 이전 시간에는 `get_operating_car`를 구현하면서 다음 내용을 배웠어요.  
 
 ✅ SharePoint List의 아이템을 가져오는 방법을 배웠어요!

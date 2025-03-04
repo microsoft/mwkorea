@@ -1,3 +1,26 @@
+---
+title: "만들면서 Declarative 에이전트를 익혀보아요(1)!"
+date: 2025-03-03T00:00:00 KST
+categories:
+  - AgentSchool
+tags:
+  - AI
+  - Agent
+  - Copilot
+excerpt: "오늘은 Copilot의 Declarative Agent를 만들면서 익혀볼게요."
+header:
+  overlay_image: assets/images/header/Microsoft365-Copilot-KeyArt-Productivity-6K-01.png
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  #actions:
+  #  - label: "원문보기"
+  #    url: "https://www.microsoft.com/en-us/microsoft-365/blog/2025/02/10/discover-the-total-economic-impact-of-microsoft-365-e3/?msockid=20f4fd7af5a86c603f7ae8f6f4df6ddb"
+toc: false
+toc_sticky: true
+classes: wide
+author: 조항우
+---
+
 안녕하세요, MW Technical Specialist 인턴 조항우입니다😊  
 오늘은 Copilot의 Declarative Agent를 만들면서 익혀볼게요.  
 같이 만들면서 Declarative Agent가 무엇인지 같이 알아보아요!  

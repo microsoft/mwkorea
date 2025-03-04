@@ -1,4 +1,28 @@
+---
+title: "차량 렌탈 시스템 에이전트를 만들기 (6)"
+date: 2025-03-03T00:00:00 KST
+categories:
+  - AgentSchool
+tags:
+  - AI
+  - Agent
+  - Copilot
+excerpt: "이번 시간에는 `delete_reservation`을 만들어 SharePoint 리스트에서 아이템을 삭제하는 방법을 배워볼 거예요.  "
+header:
+  overlay_image: assets/images/header/Microsoft365-Copilot-KeyArt-Productivity-6K-01.png
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  #actions:
+  #  - label: "원문보기"
+  #    url: "https://www.microsoft.com/en-us/microsoft-365/blog/2025/02/10/discover-the-total-economic-impact-of-microsoft-365-e3/?msockid=20f4fd7af5a86c603f7ae8f6f4df6ddb"
+toc: false
+toc_sticky: true
+classes: wide
+author: 조항우
+---
+
 # 🛻 A. 이전 학습 내용  
+
 지난 시간에는 `check_reservation`과 `create_reservation`을 구현하며 **Power Automate**에서 복잡한 로직을 설계하고 구현하는 법을 배웠어요!  
 `Apply to Each`, `Condition`, `Initialize value` 등 다양한 **Power Automate** 요소들을 사용했었는데, 다 기억나시나요?  
 혹시 기억이 안 난다면 꼭 다시 복습해주세요!  

@@ -1,3 +1,26 @@
+---
+title: "차량 렌탈 시스템 에이전트를 만들기 (3)"
+date: 2025-03-03T00:00:00 KST
+categories:
+  - AgentSchool
+tags:
+  - AI
+  - Agent
+  - Copilot
+excerpt: "이번 시간에는 Instruction을 활용하여 Copilot Agent를 고도화하고 개선하는 방법을 배워볼 거예요.  "
+header:
+  overlay_image: assets/images/header/Microsoft365-Copilot-KeyArt-Productivity-6K-01.png
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  #actions:
+  #  - label: "원문보기"
+  #    url: "https://www.microsoft.com/en-us/microsoft-365/blog/2025/02/10/discover-the-total-economic-impact-of-microsoft-365-e3/?msockid=20f4fd7af5a86c603f7ae8f6f4df6ddb"
+toc: false
+toc_sticky: true
+classes: wide
+author: 조항우
+---
+
 # 🚀 A. 이전 학습 돌아보기
 이전 학습에서는 **`create_car`** 액션을 구현하면서, 다음 개념들을 배웠어요.  
 

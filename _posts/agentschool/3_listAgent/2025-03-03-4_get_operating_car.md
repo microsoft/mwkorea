@@ -1,4 +1,28 @@
+---
+title: "차량 렌탈 시스템 에이전트를 만들기 (4)"
+date: 2025-03-03T00:00:00 KST
+categories:
+  - AgentSchool
+tags:
+  - AI
+  - Agent
+  - Copilot
+excerpt: "이번 시간에는 get_operating_car 액션을 만들어 운용 가능한 차량만 필터링하여 불러오는 방법을 배울 거예요."
+header:
+  overlay_image: assets/images/header/Microsoft365-Copilot-KeyArt-Productivity-6K-01.png
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  #actions:
+  #  - label: "원문보기"
+  #    url: "https://www.microsoft.com/en-us/microsoft-365/blog/2025/02/10/discover-the-total-economic-impact-of-microsoft-365-e3/?msockid=20f4fd7af5a86c603f7ae8f6f4df6ddb"
+toc: false
+toc_sticky: true
+classes: wide
+author: 조항우
+---
+
 # 🛹 A. 이전 학습 복습하기
+
 지난 시간에는  
 ✅**Copilot Agent의 Instruction**이 무엇인지,  
 ✅**프롬프팅 엔지니어링**을 활용하여 **Instruction을 정교하게 작성하는 방법**에 대해 배웠어요!
