@@ -17,7 +17,7 @@ header:
 toc: false
 toc_sticky: true
 classes: wide
-author: 김현지
+author: 조항우
 ---
 
 안녕하세요, MW Technical Specialist 인턴 조항우입니다😊  
