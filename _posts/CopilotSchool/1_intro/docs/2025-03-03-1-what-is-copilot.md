@@ -2,11 +2,12 @@
 title: "Copilot이란 뭘까?"
 date: 2025-03-03T00:00:00 KST
 categories:
-  - AI
+  - Agent School
 tags:
   - AI
+  - Agent
   - Copilot
-excerpt: "코파일럿 스쿨 - Copilot이란 뭘까?"
+excerpt: "오늘은 Copilot이란 무엇인지 같이 알아보아요!"
 header:
   overlay_image: assets/images/header/Microsoft365-Copilot-KeyArt-Productivity-6K-01.png
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
