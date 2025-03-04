@@ -1,5 +1,5 @@
 ---
-title: "Copilot이란 뭘까? "
+title: "Copilot이란 뭘까?"
 date: 2025-03-03T00:00:00 KST
 categories:
   - AI
