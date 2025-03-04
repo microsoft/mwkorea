@@ -53,7 +53,7 @@ Instruction을 작성하는 방법을 배우기 전에, **추가하는 법부터
 
 💡 정말 간단합니다!  
 
-![only](../assets/3_instruction/instructions.png)
+![only](/mwkorea/assets/3_instruction/instructions.png)
 
 1️⃣ **Declarative 에이전트 화면에서 `Edit` 버튼 클릭**  
 2️⃣ **Instructions 입력 후 `Save` 버튼 클릭**  

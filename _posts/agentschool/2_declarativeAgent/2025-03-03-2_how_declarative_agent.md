@@ -41,7 +41,7 @@ author: 조항우
 ---
 
 
-![alt text](../assets/2_how_declarative_agent/function_finish_2.png)  
+![alt text](/mwkorea/assets/2_how_declarative_agent/function_finish_2.png)  
 
 위 화면에서부터 다시 시작해보겠습니다.  
 초기 설정한 내용들이 그대로 적용되어 있을 거예요.  
@@ -69,7 +69,7 @@ Copilot Studio에서는 **Connector, Flow** 등 다양한 액션을 지원해요
 
 ## 2️⃣ Test 팝업  
 
-![alt text](../assets/2_how_declarative_agent/testing_2.png)  
+![alt text](/mwkorea/assets/2_how_declarative_agent/testing_2.png)  
 
 2번 기능에는 **Test 팝업**에서는 우리가 만든 에이전트를 **배포 전에 미리 테스트**할 수 있습니다.  
 상단에는 우리가 적용한 시작 프롬프트들이 보이네요.  
@@ -94,12 +94,12 @@ Copilot Studio에서는 **Connector, Flow** 등 다양한 액션을 지원해요
 위 내용을 따라 SharePoint 페이지를 만들고 파일을 업로드했다면, 이제 아래 화면의 **Knowledge** 부분에서 `Add` 버튼을 눌러주세요.  
 저는 미리 추가해 놓아서 Knowledge가 등록된 상태지만, 여러분의 화면에는 등록된 Knowledge가 없을 거에요.  
 
-![knowledge_add](../assets/2_how_declarative_agent/knowledge_add.png)  
+![knowledge_add](/mwkorea/assets/2_how_declarative_agent/knowledge_add.png)  
 
 버튼을 클릭하면 아래와 같은 화면이 나타납니다.  
 이제 **SharePoint를 선택**해주세요!  
 
-![alt text](../assets/2_how_declarative_agent/add_knowledge.png)  
+![alt text](/mwkorea/assets/2_how_declarative_agent/add_knowledge.png)  
 
 하이라이트된 부분에 참고할 문서의 **SharePoint URL을 입력**해주세요.  
 저는 **짱구 명대사 PDF 파일의 링크**를 입력하겠습니다.  
@@ -107,7 +107,7 @@ Copilot Studio에서는 **Connector, Flow** 등 다양한 액션을 지원해요
 
 이제 `Add` 버튼을 눌러 추가해볼까요?  
 
-![alt text](../assets/2_how_declarative_agent/sharepoint_link.png)  
+![alt text](/mwkorea/assets/2_how_declarative_agent/sharepoint_link.png)  
 
 ✅ **이제 에이전트가 파일을 참조할 수 있게 되었어요!**  
 
@@ -116,7 +116,7 @@ Copilot Studio에서는 **Connector, Flow** 등 다양한 액션을 지원해요
 ## 4️⃣ 테스트 실행  
 
 이제 아까 설명드린 **테스트 환경**에서 제대로 문서를 참고하는지 확인해볼게요.  
-![alt text](../assets/2_how_declarative_agent/testing_2.png)  
+![alt text](/mwkorea/assets/2_how_declarative_agent/testing_2.png)  
 
 오, 잘 불러와지네요! 😃  
 
@@ -127,12 +127,12 @@ Copilot Studio에서는 **Connector, Flow** 등 다양한 액션을 지원해요
 이제 마지막으로 배포(Publish)를 해봅시다.  
 위 화면에서 우측 상단의 `Publish` 버튼을 눌러주세요!  
 
-![alt text](../assets/2_how_declarative_agent/publish_1.png)  
+![alt text](/mwkorea/assets/2_how_declarative_agent/publish_1.png)  
 
 그럼 다음 화면으로 이동할 거예요.  
 여기서 **하단의 `Publish` 버튼을 한 번 더 눌러주세요.**  
 
-![alt text](../assets/2_how_declarative_agent/publish_2.png)  
+![alt text](/mwkorea/assets/2_how_declarative_agent/publish_2.png)  
 
 ✅ **위 화면처럼 표시되면 배포가 완료된 것입니다!**  
 

@@ -51,7 +51,7 @@ author: 조항우
 
 홈 화면에서는 최근 편집한 에이전트, 예제 에이전트, 그리고 Microsoft에서 제공하는 학습 자료에 접근할 수 있어요.  
 
-> ![copilot studio home](../assets/3_copilot_studio/copilot_studio_1.png)  
+> ![copilot studio home](/mwkorea/assets/3_copilot_studio/copilot_studio_1.png)  
 
 처음 접속하면 보게 되는 화면입니다. 알록달록하고 직관적이죠? 여기서 중요한 부분은 세 가지입니다.  
 
@@ -74,7 +74,7 @@ author: 조항우
 {: .note }
 에이전트를 만들기 위한 첫 단계! 직접 커스텀 에이전트를 만들거나 템플릿을 활용할 수 있어요.  
 
-> ![copilot studio create](../assets/3_copilot_studio/copilot_studio_2.png)  
+> ![copilot studio create](/mwkorea/assets/3_copilot_studio/copilot_studio_2.png)  
 
 ### ✅ 1번 블록: **Custom Engine 에이전트 직접 만들기**  
 - **완전히 새로운 에이전트를 만들고 싶다면 여기서 시작하면 됩니다.**  
@@ -91,7 +91,7 @@ author: 조항우
 
 내가 만든 **Declarative Agent**와 **Custom Engine Agent** 목록을 확인하고 관리하는 공간입니다.  
 
-> ![copilot studio agents](../assets/3_copilot_studio/copilot_studio_3.png)  
+> ![copilot studio agents](/mwkorea/assets/3_copilot_studio/copilot_studio_3.png)  
 
 ### ✅ 1번 블록: **Custom Engine Agent 목록**  
 - 내가 만든 Custom Engine Agent들이 여기에 정리됩니다.  
@@ -111,7 +111,7 @@ author: 조항우
 에이전트 개발에 필요한 커넥터, 액션, 데이터 등을 관리하는 공간입니다.  
 쉽게 말해 **에이전트의 기능을 저장하고 활용하는 창고 같은 곳**이에요.  
 
-> ![copilot studio library](../assets/3_copilot_studio/copilot_studio_4.png)  
+> ![copilot studio library](/mwkorea/assets/3_copilot_studio/copilot_studio_4.png)  
 
 에이전트를 만들 때는 **커넥터, 데이터, 프롬프트** 등 다양한 요소를 활용하게 됩니다.  
 Library 화면에서는 이런 요소들을 한 곳에서 관리할 수 있어요.  

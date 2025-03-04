@@ -93,7 +93,7 @@ author: 조항우
 3. **"Copilot for Microsoft 365"**를 클릭합니다.  
    → 아래와 같이 **Declarative Agents를 만들고 관리할 수 있는 화면**으로 이동하게 돼요.
 
-![Declarative Agents](../assets/1_how_declarative_agent/declarative_agents.png)
+![Declarative Agents](/mwkorea/assets/1_how_declarative_agent/declarative_agents.png)
 
 ### 2. 새 Declarative 에이전트 추가하기
 
@@ -106,7 +106,7 @@ author: 조항우
 ---
 
 # 📌 Step 2: 에이전트 설정 (Skip Configure)
-![새 에이전트 생성](../assets/1_how_declarative_agent/chat_create.png)
+![새 에이전트 생성](/mwkorea/assets/1_how_declarative_agent/chat_create.png)
 
 버튼을 누르면 만들면,  
 **대화를 통해 Declarative Agent를 생성하는 화면**으로 이동하게 되는데요.  
@@ -129,12 +129,12 @@ author: 조항우
 각 기능이 어떤것인지 설정하면서 알아볼까요?
 
 
-![에이전트 설정](../assets/1_how_declarative_agent/manual_create.png)
+![에이전트 설정](/mwkorea/assets/1_how_declarative_agent/manual_create.png)
 
 ## 1️⃣ 에이전트 이름 & 아이콘 설정
 
 
-![name](../assets/1_how_declarative_agent/funciton_name.png)
+![name](/mwkorea/assets/1_how_declarative_agent/funciton_name.png)
 
 - **이름과 아이콘**을 설정할 수 있어요.
 - 이 설정은 **유저에게도 보이는 부분**이에요!
@@ -145,7 +145,7 @@ author: 조항우
 ## 2️⃣ Description (에이전트에 대한 설명)
 
 
-![Description](../assets/1_how_declarative_agent/function_Description.png)
+![Description](/mwkorea/assets/1_how_declarative_agent/function_Description.png)
 
 - **에이전트에 대한 간략한 설명**을 적어주세요.  
 - **경험상**, 이 설명이 에이전트의 동작 로직에 큰 영향을 미치지는 않아요.  
@@ -160,7 +160,7 @@ author: 조항우
 ## 3️⃣ Instruction (에이전트의 행동 정의)
 
 
-![Instruction](../assets/1_how_declarative_agent/function_instruction.png)
+![Instruction](/mwkorea/assets/1_how_declarative_agent/function_instruction.png)
 
 이 부분은 **아주아주아주 중요합니다!**  
 Copilot 에이전트의 행동을 정의하는 곳인데요.  
@@ -212,7 +212,7 @@ Copilot 에이전트의 행동을 정의하는 곳인데요.
 
 ## 5️⃣ Knowledge
 
-![Knowledge](../assets/1_how_declarative_agent/function_knowledge.png)
+![Knowledge](/mwkorea/assets/1_how_declarative_agent/function_knowledge.png)
 
 - **에이전트가 참고할 문서나 파일**을 업로드하는 곳이에요.
 - 이 설정을 통해 **RAG 시스템을 구축할 수 있어요!**
@@ -222,7 +222,7 @@ Copilot 에이전트의 행동을 정의하는 곳인데요.
 
 ## 6️⃣ Web Browsing 설정 (추가 설정)
 
-![Web Browsing 설정](../assets/1_how_declarative_agent/function_web_brosing.png)
+![Web Browsing 설정](/mwkorea/assets/1_how_declarative_agent/function_web_brosing.png)
 
 마지막 **Additional Settings** 부분에서는 **Web Browsing 여부**를 선택할 수 있어요!  
 이 설정은 **에이전트가 답변을 생성할 때 웹 데이터를 참고할지 여부**를 결정하는 기능이에요.
@@ -241,7 +241,7 @@ Copilot 에이전트의 행동을 정의하는 곳인데요.
 만일 create 버튼이 활성화 되지않는다면, 비어있는 부분이 있거나, 내용이 적절하지 않아서에요! 다시 확인해 주세요. 
 
 아래와 같은 화면이 나오면 성공!
-![alt text](../assets/1_how_declarative_agent/function_finish.png)
+![alt text](/mwkorea/assets/1_how_declarative_agent/function_finish.png)
 
 생각보다 내용이 길어졌네요.
 다음 자료를 첨부하는 부분이나, 액션이라는 부가기능에 대한 설명은 2부로 찾아뵙겠습니다!
