@@ -1,0 +1,4 @@
+img {
+    width: 90% !important;  /* 원하는 크기로 조정 */
+    max-width: 900px !important; /* 최대 크기 제한 가능 */
+}

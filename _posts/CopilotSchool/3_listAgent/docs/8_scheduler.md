@@ -1,0 +1,228 @@
+# 📌 이전 학습내용  
+지난 시간에는 **Power Automate Desktop을 사용해 SharePoint List의 아이템을 불러오고 Viva Engage에 동기화하는 플로우**를 만들었어요.
+
+# 🚀 이번 학습내용  
+이번에는 **Windows 작업 스케줄러를 이용해 만든 플로우를 30분마다 자동 실행**할 거예요!  
+자동화 작업을 설정하면서 **SharePoint 권한 요청 팝업을 처리하는 방법**도 함께 배워볼게요.  
+
+---
+
+# 🖥 윈도우 작업 스케줄러란?  
+Windows에서 특정 작업을 자동 실행하려면 **Windows 작업 스케줄러(Task Scheduler)**를 사용해야 해요.  
+이 프로그램은 Windows의 기본 프로그램으로 설치되어 있으며, 우리가 만든 **Power Automate Desktop Flow를 자동 실행**할 수 있도록 도와줍니다.  
+
+![alt text](../assets/8_scheduler/image.png)
+
+---
+
+# 🔄 호출 시 권한 수락 과정 자동화하기  
+최근 Power Automate Desktop 업데이트 이후, **Task Scheduler를 이용해 자동 실행할 때 SharePoint 권한 확인 팝업이 표시**돼요.  
+즉, 작업이 실행될 때마다 수동으로 권한을 허용해줘야 하는데, 우리는 **이 과정을 자동화하는 추가적인 호출 Flow**를 만들어 해결할 거예요.  
+
+![alt text](../assets/8_scheduler/image-1.png)
+
+## 🏗 호출 Flow 만들기  
+Power Automate 앱에서 **좌상단의 "New Flow" 버튼을 클릭**하여 새로운 Flow를 만들어 줍니다.  
+
+![alt text](../assets/8_scheduler/image-2.png)
+
+이전 학습과 동일하게 **이름은 `invoking_flow`**로 지정해 주세요.  
+Flow를 생성한 후 내부로 들어가면, 비어있는 화면이 보일 텐데요!  
+우리는 **세 개의 작업만으로 호출과 권한 수락을 자동화**할 거예요.  
+
+![alt text](../assets/8_scheduler/image-3.png)
+
+---
+
+# 1️⃣ Run Application 설정  
+먼저 `invoking_flow`가 **우리의 `create_reservation_engage` Flow를 실행하도록 설정**해야 해요.  
+좌측에서 `"Run application"`을 검색한 후 아래 화면처럼 **System 하단의 액션을 선택**하세요.  
+
+![alt text](../assets/8_scheduler/image-4.png)
+
+이제 실행할 애플리케이션의 경로를 지정해야 해요.  
+설정할 내용은 **Application Path**와 **Command line arguments** 두 가지입니다.  
+
+![alt text](../assets/8_scheduler/image-5.png)
+
+### ✅ Application Path 설정  
+- **Application Path**는 실행할 프로그램의 **절대경로(Absolute Path)**를 의미해요.  
+- 우리는 **Power Automate Desktop Flow를 실행해야 하므로, Power Automate Desktop 자체를 먼저 실행**해야 해요.  
+- **Power Automate Desktop 실행 파일(`Pad.Console.Host.exe`)의 경로를 입력**해야 합니다.  
+- 기본적으로 **`C:\Program Files\Power Automate Desktop` 폴더**에 위치해 있어요.  
+
+![alt text](../assets/8_scheduler/image-6.png) 
+
+### ✅ Command line arguments 설정  
+- Power Automate Desktop을 실행한 후, 특정 Flow를 실행하려면 **Command line arguments**를 추가해야 해요.  
+- 실행할 Flow의 **URL을 입력**하면 되는데요!  
+- **Power Automate Desktop 앱의 "Flow" 탭에서 Flow별 정보 버튼을 클릭**하면 `Run URL`을 확인할 수 있어요.  
+- 이 URL을 복사해서 Command line arguments에 입력하면 됩니다.  
+
+![alt text](../assets/8_scheduler/image-7.png)
+
+✅ **이제 "Save"를 누르고 테스트해보면, Power Automate Desktop이 실행될 거예요!**  
+
+---
+
+# 2️⃣ Wait(대기) 설정  
+Flow를 실행하면 **SharePoint 권한 확인 팝업이 뜨기까지 약 15초 정도 걸려요**.  
+우리는 안정성을 위해 **30초 동안 기다리도록 설정**할 거예요.  
+
+1. 좌측에서 `"Wait"`을 검색하여 Flow에 추가합니다.  
+2. `"30"`을 입력하면 30초 동안 대기하게 돼요.  
+
+![alt text](../assets/8_scheduler/image-8.png) 
+![alt text](../assets/8_scheduler/image-9.png)
+
+✅ **이제 Flow가 실행된 후 충분한 대기 시간을 확보할 수 있어요!**  
+
+---
+
+# 3️⃣ Send Keys 설정 (자동 엔터 입력)  
+이제 **SharePoint 권한 확인 팝업에서 엔터(Enter)를 눌러 승인하는 과정**을 자동화할 거예요.  
+
+![alt text](../assets/8_scheduler/image-1.png)
+
+1. **좌측 "Action" 탭에서 `"Send keys"`를 검색하여 Flow에 추가**합니다.  
+2. `"Send Keys"` 설정 화면으로 이동한 후 아래와 같이 설정하세요.
+
+![alt text](../assets/8_scheduler/image-10.png)
+![alt text](../assets/8_scheduler/image-11.png)
+
+### ✅ Send Keys to: Title and/or class  
+- 어떤 창에 키 입력을 보낼지 정하는 설정이에요.  
+- `"Title and/or class"`를 선택하고 **"Run Flow"라는 창에 Enter 키를 입력**하도록 설정해요.  
+- 실제로 Flow가 실행되면 `"Run Flow"`라는 이름의 창이 팝업되기 때문이에요.  
+
+### ✅ Window title: Run Flow  
+- 위에서 논의한 대로, `"Run Flow"`를 입력하세요.  
+
+![alt text](../assets/8_scheduler/image-12.png)
+
+### ✅ Text to send (보낼 키 입력값)  
+- 하단의 `"Initial special keys"` 버튼을 클릭하세요.  
+- `"Misc"` -> `"Return"`을 선택하면 끝!  
+
+✅ 이제 SharePoint 권한 확인 팝업이 자동으로 닫힙니다! 🎉  
+✅ 그럼 이제 우리의 create_reservation_engageg를 실행시키기위한 invoke_flow는 다 만들었어요. 
+✅ 이제 윈도우 작업스케줄러에 연결해 invoke_flow를 30분 마다 실행시켜 보자구요. 
+
+# 작업 스케줄러 설정하기  
+![alt text](../assets/8_scheduler/image.png)
+먼저 **Windows 작업 스케줄러**를 실행해볼게요!  
+작업 스케줄러는 Windows에 기본적으로 설치된 프로그램이라 **윈도우 메뉴에서 "작업 스케줄러"**(Task Scheduler)라고 검색하면 바로 찾을 수 있어요.  
+
+---
+
+## 📝 Task 생성하기  
+우리가 만든 **invoke_flow**를 실행할 Task를 새로 만들어야 해요.  
+그 전에, 작업을 정리하기 위해 **폴더를 먼저 만들어 줄게요**.  
+
+1. **좌측 "Task Scheduler Library"를 우클릭**  
+2. **"New Folder"를 선택**  
+3. **"Power Automate Desktop"이라는 폴더를 생성**  
+
+![alt text](../assets/8_scheduler/image-13.png)
+
+이제 Task를 만들어볼게요!  
+
+1. **우측 "Create Task"를 클릭**  
+2. Task의 **이름(Name)**을 설정  
+   - 저는 `"SyncWebsite"`라고 정했어요!  
+
+![alt text](../assets/8_scheduler/image-14.png)
+
+---
+
+## ⏰ Trigger 만들기 (30분마다 실행 설정)  
+이제 우리가 만든 Task를 **30분마다 실행**되도록 설정해야 해요.  
+
+1. **"Trigger" 탭으로 이동**  
+2. **"New" 버튼을 클릭**  
+
+![alt text](../assets/8_scheduler/image-15.png)
+
+그러면 아래처럼 **Trigger를 설정할 수 있는 창**이 나와요.  
+
+![alt text](../assets/8_scheduler/image-16.png)  
+
+### ✅ 설정할 내용  
+1. **Begin the task:**  
+   - 언제 Task를 실행할지 결정하는 옵션이에요.  
+   - **"On a Schedule"**을 선택해주세요!  
+   
+2. **Settings:**  
+   - 최소 반복 실행 단위가 **Daily(매일)**이기 때문에 **"Daily"**를 선택  
+   - 아래 "Advanced Settings"에서  
+     - **"Repeat task every"**: 30분 선택  
+     - **"for a duration"**: 1 Day 선택  
+
+✅ **이렇게 설정하면 30분마다 자동 실행되게 돼요!**  
+설정을 마쳤다면 **"OK"를 눌러 추가해 주세요**.  
+
+---
+
+## 🎬 Actions 만들기 (실행할 프로그램 지정)  
+Task가 30분마다 실행되도록 설정했으면, **이제 실제 실행할 프로그램을 지정해야 해요!**  
+
+1. **"Actions" 탭으로 이동**  
+2. **"New" 버튼을 클릭**  
+
+![alt text](../assets/8_scheduler/image-17.png) 
+
+그러면 **어떤 프로그램을 실행할지 설정하는 창**이 나와요.  
+
+![alt text](../assets/8_scheduler/image-18.png)
+
+### ✅ 설정할 내용  
+1. **Action:**  
+   - **"Start a program"**을 선택해 주세요.  
+
+2. **Program/scripts:**  
+   - 실행할 프로그램의 경로를 입력해야 해요.  
+   - 우리는 **Power Automate Desktop을 실행**할 거니까,  
+     `invoke_flow`에서 사용했던 **Console.Host.exe의 경로**를 입력해 주세요.  
+
+3. **Add arguments:**  
+   - Power Automate Desktop을 실행하면 **어떤 Flow를 실행할지**도 알려줘야겠죠?  
+   - **invoke_flow에서 복사한 Flow URL을 입력**해 주세요.  
+
+✅ **모든 설정을 마쳤다면 "OK" 버튼을 눌러 저장하면 돼요!** 🎉  
+
+---
+
+# ✅ 테스트하기  
+이제 Task를 만들었으니 **잘 작동하는지 테스트해봐야겠죠?**  
+하지만 우리는 30분마다 실행되도록 설정했기 때문에,  
+자연스럽게 실행되려면 **최대 30분을 기다려야 해요**.  
+
+그런데 다행히도 **바로 실행할 수 있는 방법이 있어요!**  
+
+1. **Task Scheduler 메인 화면에서 "SyncWebsite"를 선택**  
+2. **우측에서 "Run" 버튼을 눌러 실행**  
+
+[캡처20]  
+
+✅ **이제 Power Automate Desktop이 정상적으로 실행되는지 확인해 보세요!** 🎉  
+
+---
+
+# 📌 오늘 배운 내용 정리  
+
+| 단계   | 설정 내용 |
+|--------|----------|
+| **Task 생성** | 작업 스케줄러에서 새로운 Task 만들기 |
+| **Trigger 설정** | 30분마다 반복 실행하도록 설정 |
+| **Actions 설정** | Power Automate Desktop 실행 및 Flow 호출 |
+| **테스트 실행** | 수동 실행으로 정상 동작 확인 |
+
+이제 30분마다 `invoke_flow`가 자동 실행되면서,  
+이를 통해 `create_reservation_engage`가 동작하고 **웹사이트 예약 목록이 자동으로 동기화**될 거예요! 🚀  
+
+💡 **수동으로 예약을 웹사이트나 사내 사이트에 동기화하지 않아도 되니까 정말 편리하겠죠?**  
+  
+
+
+
+

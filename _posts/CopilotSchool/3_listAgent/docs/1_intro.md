@@ -1,0 +1,236 @@
+안녕하세요, MW Technical Specialist 인턴 조항우입니다😊  
+오늘부터는 저랑 차량 렌탈 시스템 에이전트를 만들어보며, Declarative Agent를 어떻게 활용할 수 있는지 익혀볼게요. 
+
+
+# 🚗 A. Business Scenario 
+
+## Declarative Agent야, 정 과장님을 구해줘!  
+
+무한상사 HR팀의 정준하 과장, 평화로운 나날을 보내던 어느 날, 박명수 차장에게 긴급 요청을 받는데요.  "회사에서 차량을 대량 구매했어! 지금까지 엑셀로 관리하던 차량 렌탈 시스템을 **자동화**해 줘!"  
+
+정 과장님은 문득 최근 웨비나에서 들었던 **Copilot Studio**를 활용해 만드는 **Declarative Agent**를 떠올리는데요.  
+
+**"Declarative Agent를 사용하면 모든 직원들이 Agent를 통해서 자연어로 쉽게 예약 시스템을 관리할 수 있지 않을까?🤔"**  
+
+---
+
+</br>
+</br>
+
+# 🎯 B. Objective  
+이번 전체적인 프로젝트의 목표는 Copilot Studio로 **회사 차량 렌탈 시스템을 자동화하는 Declarative Agent**를 만들어 보는거에요!
+차량 예약 렌탈 시스템을 관리하는 COpilot Agent를 만들기 위해, 저희는 다음과 같은 2가지 목표를 가지고 프로젝트를 진행할게요. 
+
+✅ **SharePoint 리스트**를 활용하여 회사 차량 데이터베이스를 구축하기  
+✅ **Copilot Studio 기반 AI Agent**로 직원들의 요청을 받아 차량 관리 자동화하기  
+
+---
+
+</br>
+</br>
+
+# 🧐 C. Declarative 에이전트란?  
+프로젝트를 시작하기 전에 Declarative 에이전트에 대해 알아볼까요? 
+
+![Declarative Agent](../assets/1_intro/declarative_agent.png)
+
+Declarative 에이전트는 사용자의 요청을 **규칙 기반으로 해석**하고, 필요한 정보를 제공하는 AI입니다.  
+이를 활용하면 **별도의 코드 작성 없이** 자연어 기반의 강력한 에이전트를 개발할 수 있어요!  
+
+
+## Declarative이란건 무엇일까요?  
+
+✅선언적(Declarative) 프로그래밍은 **무엇(What)을 할지** 말하는 방식이에요! "이걸 원해!"라고 선언하면, 시스템이 알아서 처리해 주죠. SQL에서 "이 조건에 맞는 데이터 줘!"라고 말하는 게 대표적인 예예요.
+
+✅반면, 명령형(Imperative) 프로그래밍은 **어떻게(How) 할지** 직접 알려주는 방식이에요. 마치 레시피를 따라 요리하는 것처럼, 순서대로 세세하게 지시해야 하죠. 선언적 방식은 코드가 깔끔하고 유지보수하기 편하지만, 내부 동작을 세밀하게 통제하긴 어려울 수도 있어요
+
+---
+
+</br>
+</br>
+
+
+# ⚙️ D. 기능 설계  
+Declarative 에이전트에 대해 알았다면, 이제 **Copilot Agent**에 필요한 기능을 정의해 봅시다.  
+차량 렌탈 시스템 Agent가 갖춰야 할 기능은 다음과 같아요.  
+
+| 기능 | 설명 |
+|------|------|
+| **차량 추가하기** (`create_car`) | 새로운 차량이 추가될 경우, 회사 데이터베이스에 등록 |
+| **운용 중인 차량 확인** (`get_operating_car`) | 현재 운용 중인 차량 조회 (*정비 중인 차량 제외*) |
+| **회사 차량 예약** (`create_reservation`) | 직원이 특정 차량을 예약하는 기능 |
+| **예약 가능 여부 확인** (`check_reservation`) | 특정 시간대에 차량이 예약 가능한지 확인 |
+| **내 예약 내역 조회** (`get_my_reservation`) | 직원이 본인의 예약 내역을 조회 |
+| **예약 취소** (`delete_reservation`) | 본인 예약한 내역을 취소 |
+
+⚠️ **주의사항**  
+- **운용 중인 차량 조회**는 단순한 등록 여부가 아니라 실제 운용 여부를 반영해야 해요.  
+- **예약 가능 차량 조회**와 **운용 중 차량 조회**는 다른 기능입니다!  
+
+
+---
+
+</br>
+</br>
+
+
+# 🏗️ E. 개발 환경 설정  
+
+## 🔹 Power Platform 개발 환경이란?  
+Microsoft **Power Platform Admin Center**는 Copilot Studio에서 **앱, 자동화 프로세스, 챗봇 등을 개발 및 테스트**할 수 있는 공간입니다.  
+Power Platform을 사용하면 다음과 같은 장점이 있어요.  
+
+✔️ **프로덕션 환경과 분리**하여 실험 및 테스트 가능하다는 것!  
+✔️ **안정적인 개발 환경** 유지 가능하다는 것!
+
+그래서 저희는 개발 환경을 설정하는것에서 부터 **프로젝트를 시작해 볼게요.** 
+</br>
+</br>
+## 🔹 개발 환경 설정하기  
+1️⃣ **Copilot Studio**에서 **Power Platform Admin Center** 접속해주세요  
+![PowerPlatform](../assets/1_intro/power_admin.png)  
+2️⃣ **Admin Center** → **Environment 클릭** → **+New 선택**해주세요 
+![PowerPlatform_env](../assets/1_intro/power_env.png)  
+3️⃣ 환경 정보 입력해주세요!  
+- **Page 1**  
+ - `Name` : 원하는 이름  
+ - `Region` : 원하는 지역 선택 (*없을 경우 기본값*)  
+ - `Type` : 반드시 `'Developer'` 설정 (*중요!*)  
+ - 나머지는 기본값 유지  
+ ![page1](../assets/1_intro/page1.png)  
+ 
+- **Page 2 (Add Dataverse)**  
+ - `Language` : English (*가장 보편적*)  
+ - `Currency` : USD  
+ - 나머지는 기본값 유지  
+ - **Save** 클릭하여 환경 생성  
+ ![page2](../assets/1_intro/page2.png)
+
+- ✔️아래와 같이 완성!
+  - ![finish](../assets/1_intro/finish.png)
+
+
+
+---
+
+</br>
+</br>
+
+
+# 📊 F. SharePoint 리스트 만들기  
+
+## 🔹 데이터베이스 설계  
+이번 프로젝트에서 저희는 SharePoint List를 필요한 정보를 저장하는 DB로 사용할거에요!
+그렇다면 차량 예약을 관리하는 에이전트를 만들기위해 어떤 DB가 필요할까요? 
+
+### 📌 어떤 데이터베이스가 필요할까?  
+- **회사 차량을 관리하는 `car_list`**  
+- **예약 내역을 관리하는 `reserved_list`**  
+
+### 📌 `car_list` 구성 요소  
+| 필드명 | 설명 | 데이터 타입 |
+|--------|------|------------|
+| **car_num** | 차량 번호판 | Text (Single Line) |
+| **car_size** | 차량 크기 (소형/중형/대형) | Text (Single Line) |
+| **car_name** | 차종 | Text (Single Line) |
+| **seating_num** | 좌석 수 | Number |
+| **is_operating** | 운용 여부 (*Yes면 운용 중*) | Yes/No |
+
+### 📌 `reserved_list` 구성 요소  
+| 필드명 | 설명 | 데이터 타입 |
+|--------|------|------------|
+| **user_id** | 예약자명 | Text (Single Line) |
+| **reserved_start** | 예약 시작 시간 | Text (Single Line) |
+| **reserved_end** | 예약 종료 시간 | Text (Single Line) |
+| **reserved_car** | 예약한 차량 | Text (Single Line) |
+
+⚠️ **왜 `reserved_start`와 `reserved_end`를 `Date and Time`이 아닌 `Text`로 저장할까요?**  
+→ SharePoint의 **UTC 변환 문제**를 방지하기 위해 **텍스트 포맷으로 저장**하고 변환하는 방식을 사용합니다.  
+</br>
+</br>
+## 🔹 SharePoint에 `car_list`와 `reserved_list` 생성하기  
+
+자, DB를설계 했다면, 이제 본격적으로 **SharePoint 리스트를 만들어 볼 차례**예요! 🚀  
+걱정할 필요 없어요. **굉장히 간단**하니까요!  
+
+
+### 🏗️ SharePoint 사이트 생성  
+
+먼저, SharePoint에서 **리스트를 추가할 사이트를 생성**해야 합니다.  
+이 부분은 이미 익숙한 분들이 많을 테니 빠르게 넘어갈게요!  
+
+하지만 혹시 모르시는 분들을 위해 **아래 링크에 상세한 가이드**가 있으니 참고하시면 됩니다.  
+
+📌 **[SharePoint 사이트 만드는 법](https://lanslote.github.io/copilot/agent-HOL/31/)**  
+
+또한, **Study의 Declarative 편**에서도 관련 내용을 다루고 있으니 참고하세요!  
+
+
+### 🏗️ `car_list` 만들기  
+
+이제 SharePoint에 회사 차량 관리 리스트 (`car_list`)를 만들어 봅시다.  
+
+1️⃣ **SharePoint 사이트의 Home**에 접속해주세요  
+2️⃣ **상단 +New 클릭** → **List 선택해주세요**  
+![make_list](../assets/1_intro/makelist.png)  
+3️⃣ **Blank List 선택** → **car_list 이름 입력 후 생성해주세요**  
+ ![blank_list](../assets/1_intro/blank_list.png)  
+4️⃣ 완성되었다면 **Add Column 클릭하여 아래 필드를 추가**   
+![add_column](../assets/1_intro/add_column.png) 
+
+
+| 필드명 | 설명 | 데이터 타입 |
+|--------|------|------------|
+| **car_num** | 차량 번호판 | Text (Single Line) |
+| **car_size** | 차량 크기 (소형/중형/대형) | Text (Single Line) |
+| **car_name** | 차종 | Text (Single Line) |
+| **seating_num** | 좌석 수 | Number |
+| **is_operating** | 운용 여부 (*Yes면 운용 중*) | Yes/No |
+
+💡 **중요 포인트!**  
+- **열 타입(Type)이 중요**해요! 데이터 성격에 맞게 설정해 주세요.  
+- `is_operating` 필드는 Yes/No 타입으로 설정해야, **운용 중인 차량을 쉽게 필터링**할 수 있어요.  
+- 리스트가 완성되었으면 **자동 저장**되니 걱정하지 않아도 됩니다.  
+- 아래는 완성된 모습이에요.  
+![car_list](../assets/1_intro/car_list.png) 
+
+
+### 🏗️ `reserved_list` 만들기  
+
+이제 같은 방법으로 예약 내역을 관리할 `reserved_list`도 만들어 볼게요!  
+위의 과정을 **똑같이 따라 하면** 됩니다.  
+
+📌 **`reserved_list` 필드 추가**  
+
+| 필드명 | 설명 | 데이터 타입 |
+|--------|------|------------|
+| **user_id** | 예약자명 | Text (Single Line) |
+| **reserved_start** | 예약 시작 시간 | Text (Single Line) |
+| **reserved_end** | 예약 종료 시간 | Text (Single Line) |
+| **reserved_car** | 예약 차량 | Text (Single Line) |
+
+
+### ❓ 왜 예약 시작/종료 시간을 `Date and Time`이 아닌 `Text`로 저장할까요?  
+
+👉 SharePoint가 **UTC 시간 기준으로 변환**하는 특성이 있어요.  
+👉 이걸 방지하려면 **텍스트 포맷으로 저장하고, 나중에 변환해서 활용**해야 합니다.  
+
+📌 **이제 모든 리스트가 완성되었어요!**  
+이제 Copilot Studio에서 **이 데이터를 불러와 AI Agent를 만들 차례**입니다. 🚀  
+
+
+---
+
+</br>
+</br>
+
+
+# 🎯 G. 마무리  
+이제 **Copilot Studio**와 **SharePoint**를 활용하여 **Declarative Agent** 기반의 **회사 차량 렌탈 시스템**을 구축할 준비가 완료되었습니다! 🚀  
+오늘 아래 사항들을 배워봤는데요. 어떠셨는지요. 
+
+✅ **Power Platform 개발 환경 설정**해볼 수 있어요   
+✅ **SharePoint 리스트 생성 및 데이터베이스 구축**해볼 수 있어요  
+✅ **Copilot Studio 기반 AI Agent 기획 완료**해볼 수 있어요!
+
+다음 단계에서는 본격적으로 **Copilot Agent** 를 개발해보도록 하겠습니다!
