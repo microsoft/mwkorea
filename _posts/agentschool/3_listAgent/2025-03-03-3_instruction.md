@@ -1,5 +1,5 @@
 ---
-title: "차량 렌탈 시스템 에이전트를 만들기 (3)"
+title: "차량 렌탈 시스템 에이전트 만들기 (3)"
 date: 2025-03-03T00:00:00 KST
 categories:
   - AgentSchool
@@ -53,7 +53,7 @@ Instruction을 작성하는 방법을 배우기 전에, **추가하는 법부터
 
 💡 정말 간단합니다!  
 
-![only](/mwkorea/assets/3_instruction/instructions.png)
+![only](/mwkorea/assets/images/agentschool/3_instruction/instructions.png)
 
 1️⃣ **Declarative 에이전트 화면에서 `Edit` 버튼 클릭**  
 2️⃣ **Instructions 입력 후 `Save` 버튼 클릭**  

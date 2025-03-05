@@ -1,5 +1,5 @@
 ---
-title: "차량 렌탈 시스템 에이전트를 만들기 (5)"
+title: "차량 렌탈 시스템 에이전트 만들기 (5)"
 date: 2025-03-03T00:00:00 KST
 categories:
   - AgentSchool
@@ -56,7 +56,7 @@ author: 조항우
 - **기억이 잘 안 나시는 분들은 `create_car`를 참고**해 주세요!  
 
 그럼 여러분이 Custom Engine Agent에서 Power Automate Flow를 잘 생성했다고 믿고 아래 화면에서 설명을 시작할게요.  
-![.](/mwkorea/assets/5_check&create_reservations/1.png)
+![.](/mwkorea/assets/images/agentschool/5_check&create_reservations/1.png)
 
 ---
 
@@ -69,7 +69,7 @@ author: 조항우
 유저 입장에서 보면 `create_reservation`을 실행하기 전에 예약 가능 여부를 확인해야 하기 때문에 `check_reservation`은 필수 기능입니다!  
 
 ## D-2) 🗺️ Overview  
-![.](/mwkorea/assets/5_check&create_reservations/2.png)
+![.](/mwkorea/assets/images/agentschool/5_check&create_reservations/2.png)
 전체적인 로직은 위와 같아요. 생각보다 복잡해 보이지만, 차근차근 따라오면 쉬우니 가보자고요!  
 
 간단히 설명하면,  
@@ -84,7 +84,7 @@ author: 조항우
 ---
 
 ## D-3) 🔄 Run a flow from Copilot  
-![.](/mwkorea/assets/5_check&create_reservations/3.png)
+![.](/mwkorea/assets/images/agentschool/5_check&create_reservations/3.png)
 
 - `Run a flow from Copilot`은 **Power Automate Flow를 위해 Copilot이 유저에게 받아야 하는 정보를 지정하는 단계**예요.  
 - 예약 가능 여부를 확인하려면 **다음 정보를 입력받아야 해요.**  
@@ -110,7 +110,7 @@ author: 조항우
 ---
 
 ## D-4) 🔧 Initialize variable  
-![.](/mwkorea/assets/5_check&create_reservations/4.png)
+![.](/mwkorea/assets/images/agentschool/5_check&create_reservations/4.png)
 
 - `Initialize variable`은 **변수를 생성하는 기능**이에요.  
 - 이번에 만들 변수는 `is_full`로, 타입은 `Boolean`이에요.  
@@ -143,7 +143,7 @@ author: 조항우
 
 - **`get_operating_car`에서 했던 것처럼 Advanced parameters 드롭다운을 클릭하고 `Filter Query`를 선택해야 입력할 수 있어요.**  
 - 아래 화면을 참고해서 진행해주세요.  
-![.](/mwkorea/assets/5_check&create_reservations/5.png)
+![.](/mwkorea/assets/images/agentschool/5_check&create_reservations/5.png)
 
 ### ⚠️ Filter Query 주의사항  
 - `car_id`의 **시스템명**을 정확하게 입력해야 해요.  
@@ -165,7 +165,7 @@ author: 조항우
   - 방법: `/` 버튼을 눌러 `Dynamic Content`에서 `Get Items`의 `body/value` 선택  
   - `body/value`는 `Get Items`에서 불러온 예약 목록 배열을 의미합니다. 
   - 아래를 참고해주세요~
-  ![.](/mwkorea/assets/5_check&create_reservations/6.png)
+  ![.](/mwkorea/assets/images/agentschool/5_check&create_reservations/6.png)
  
 
 
@@ -176,13 +176,13 @@ author: 조항우
 ---
 
 ## D-7)⚠️ **주의: 지금부터 Old UI로 변경해주세요!**  
-  ![.](/mwkorea/assets/5_check&create_reservations/7.png)
+  ![.](/mwkorea/assets/images/agentschool/5_check&create_reservations/7.png)
 ### **Old UI로 전환하는 이유**  
 - **New Designer에서는 복잡한 Condition 설정이 지원되지 않음**  
 - **Old UI에서 `body/value`가 `value`로 표시될 수 있으니 혼동 금지**  
 - 저는 이 사실을 몰라 작업 내용을 여러 번 잃었음... 눈물 😭  
 - 아래처럼 Old UI로 전환되면 성공!
-  ![.](/mwkorea/assets/5_check&create_reservations/8.png)
+  ![.](/mwkorea/assets/images/agentschool/5_check&create_reservations/8.png)
 
 ---
 
@@ -218,7 +218,7 @@ author: 조항우
 ### 위 로직을 Condition에 설정하기 
 자 이제 어떤 로직을 설정하면, 예약이 겹치는것을 판별할 수 있는지 알게 되었으니, 이제 이걸 Condition에 구현해 볼까요? 
 저희의 목표는 아래와 같은 로직을 구현하는 거에요. 
-  ![.](/mwkorea/assets/5_check&create_reservations/9.png)
+  ![.](/mwkorea/assets/images/agentschool/5_check&create_reservations/9.png)
 
 - 빈칸에서 부터 차분차분히 구현해봅시다. 
 
@@ -226,14 +226,14 @@ author: 조항우
 2. **`Add Group`을 클릭하여 Group을 2개 추가**  
 3. **기본적으로 존재하는 `row`를 삭제**  
 위 사항을 진행하면 아래 상태가 됩니다!
-  ![.](/mwkorea/assets/5_check&create_reservations/10.png)  
+  ![.](/mwkorea/assets/images/agentschool/5_check&create_reservations/10.png)  
 
 
 ---
 
 ### **Condition 그룹별 설정**  
 각 그룹에 `Add Row`를 추가하면 결국 아래와 같은 포맷이 되는데요 
-  ![.](/mwkorea/assets/5_check&create_reservations/11.png)
+  ![.](/mwkorea/assets/images/agentschool/5_check&create_reservations/11.png)
 
   
 - **상위 조건은 OR, 그룹 내 조건은 AND**로 수정해주시고 아래 내용을 다이나믹 expression을 사용해서 채워넣어 줄겁니다. 
@@ -258,7 +258,7 @@ Group2.
 
 ### **Condition에서 Expression 작성하기**  
 우선 Expression을 어떻게 작성하는지 작성법을 알려드리겠습니다!
-  ![.](/mwkorea/assets/5_check&create_reservations/12.png)
+  ![.](/mwkorea/assets/images/agentschool/5_check&create_reservations/12.png)
 #### **Expression 작성법**  
 1. 위를 보면 **Old UI에서 `박스`를 선택하면 하단에 `Add Dynamic Content` 버튼이 나타남**  
 2. **`Add Dynamic Content` 클릭 → `Expression` 탭으로 이동**  
@@ -278,7 +278,7 @@ Group2.
 - **Dynamic Content에서 `user_reserved_start`와 `user_reserved_end`를 선택한 후, 이를 주소창에 복사 붙여넣기하여 시스템명을 꼭 확인해주세요**  
 - `triggerBody()['N']`의 `N` 부분에 **올바른 시스템명을 입력해야 합니다**  
 - **Expression을 입력한 후 값이 반영되었는지 체크해주세요!**  
-  ![.](/mwkorea/assets/5_check&create_reservations/13.png)
+  ![.](/mwkorea/assets/images/agentschool/5_check&create_reservations/13.png)
 
 ---
 
@@ -289,7 +289,7 @@ Group2.
 - **컬럼 시스템명 확인은 `Filter Array`를 통해 가능**하다는거 기억나시죠....?  
 - **Filter Array를 만들었을 때, Apply to Each가 자동으로 추가되더라도 삭제해도 무방**합니다!  
 - 중요한 것은 `reserved_start`와 `reserved_end`의 **시스템명을 올바르게 추출하는 것**이에요. 
-  ![.](/mwkorea/assets/5_check&create_reservations/14.png)
+  ![.](/mwkorea/assets/images/agentschool/5_check&create_reservations/14.png)
 
 
 ### ✅ 결과 별로 행동을 정의하자  
@@ -308,7 +308,7 @@ Group2.
 - 추가 액션 없이 그대로 진행해주세요.  
 
 아래 처럼 구현되면 성공입니다!
-![alt text](/mwkorea/assets/5_check&create_reservations/15.png)
+![alt text](/mwkorea/assets/images/agentschool/5_check&create_reservations/15.png)
 
 👉 **여기까지 진행하셨다면 정말 대단합니다!** 🎉  
 **이 단일 기능을 개발하는 데 3일이 걸렸어요...**  
@@ -323,7 +323,7 @@ Group2.
   |------|------|----|
   | `is_full` | `is equal to` | `true` |
 
-![alt text](/mwkorea/assets/5_check&create_reservations/16.png) 
+![alt text](/mwkorea/assets/images/agentschool/5_check&create_reservations/16.png) 
 
 ### ✅ `is_full`이 `true`일 경우 (If Yes)  
 - **예약이 이미 존재하는 경우**  
@@ -339,7 +339,7 @@ Group2.
 
 - 완성했다면 혹시 모르니 제가 맨처음에 제시한 Overview랑 일치하는지 확인해볼까요? 로직이 복잡하다 보니, 구조가 달라질수도 있거든요. 
 - Save를 누르시고 New Designer를 활성화 시켜주신뒤 아래 화면의 로직의 전체적이 구조랑 똑같은지 한번 확인해주세요!  
-![alt text](/mwkorea/assets/5_check&create_reservations/2.png)
+![alt text](/mwkorea/assets/images/agentschool/5_check&create_reservations/2.png)
 
  Declarative Agent로 Flow를 옮기는 사후작업은  create_reservation 설명드린 뒤 같이 진행해 보시죠. 
 
@@ -352,7 +352,7 @@ Group2.
 👉 **좋은 소식! `create_reservation`은 `check_reservation`에 단 하나의 액션만 추가하면 끝납니다.**  
 👉 **즉, `Condition 2`에서 `No` 경로에 `Create Item`을 추가하면 완성!** 
 - 아래는 create_Reservation의 flow에요. 하이라이트된 부분에 Create_item만 추가하고 마이너한 수정만 해주면 된답니다.  
-![alt text](/mwkorea/assets/5_check&create_reservations/17.png)
+![alt text](/mwkorea/assets/images/agentschool/5_check&create_reservations/17.png)
 
 ## 📌 create_reservation이란?  
 - 유저가 차량을 예약하는 기능입니다!
@@ -370,7 +370,7 @@ Group2.
 - **Old UI에서는 복사 & 붙여넣기 기능이 가능**하답니다!  
 - `3-dot 버튼`을 클릭하여 `복사(Copy)` 한 뒤, 액션을 추가하기 위해  `+ Add an action`을 누르고 `My Clipboard`에서 복사한 모듈 선택할 수 있어요!
 - 주의: **New Designer에서는 복붙 기능이 없으므로 Old UI를 사용해야 함**  
-![alt text](/mwkorea/assets/5_check&create_reservations/18.png)  
+![alt text](/mwkorea/assets/images/agentschool/5_check&create_reservations/18.png)  
 
 - 복붙 기능을 사용해 check_reservation과 똑같이 구현하셨나요? 이제는 똑같이 구현하셨다 가정하고, 이 flow를 약간만 수정해서 create_resrevation을 만들어보시죠.
 
@@ -386,7 +386,7 @@ Group2.
   | `user_id` | `Text` | "Please enter the user_id" |
 
 *그림 내 Description이 잘못되었네요...
-![alt text](/mwkorea/assets/5_check&create_reservations/19.png)
+![alt text](/mwkorea/assets/images/agentschool/5_check&create_reservations/19.png)
 
 ---
 
@@ -404,7 +404,7 @@ Group2.
   | `reserved_end` | `user_reserved_end` |
 
 - **예약 결과를 Copilot에게 전달**하도록 Respond to Copilot 부분도 살짝 수정해주세요!  
-![<캡처 20> ](/mwkorea/assets/5_check&create_reservations/20.png) 
+![<캡처 20> ](/mwkorea/assets/images/agentschool/5_check&create_reservations/20.png) 
 
 🎉축하드려요! create_resrvation flow도 완성하셨습니다. 
 
@@ -427,7 +427,7 @@ Group2.
 5. **Declarative Agent에서 Dummy 액션을 만들고, 복사한 코드를 붙여넣어 덮어쓰기**  
 6. **Declarative Agent Overview에서 액션 이름을 `check_reservation`, `create_reservation`으로 변경**  
 
-![<캡처 23> ](/mwkorea/assets/5_check&create_reservations/23.png)  
+![<캡처 23> ](/mwkorea/assets/images/agentschool/5_check&create_reservations/23.png)  
 👉 **이제 Declarative Agent가 `check_reservation`과 `create_reservation`을 사용할 수 있게 되었어요요!** 🎉  
 
 ---
@@ -438,10 +438,10 @@ Group2.
 
 ## 설정 방법  
 1. **Declarative Agent에서 등록한 `create_reservation` 액션 클릭 → Details Page 이동** 해주세요!
-![<캡처 21>](/mwkorea/assets/5_check&create_reservations/21.png)
+![<캡처 21>](/mwkorea/assets/images/agentschool/5_check&create_reservations/21.png)
 
 2. **`Input` 탭에서 `User ID` 항목을 찾아주세요**  
-![<캡처 22>  ](/mwkorea/assets/5_check&create_reservations/22.png)
+![<캡처 22>  ](/mwkorea/assets/images/agentschool/5_check&create_reservations/22.png)
 
 3. **설정값 적용**  
    - `How will the agent fill this input?` → `Set as a value` 로 설정해주세요.
@@ -468,7 +468,7 @@ Group2.
 👉 **이제 `reserved_list`에 테스트 데이터를 추가하여 검증**해 보자교요!  
 👉 수동 입력도 가능하고, GPT를 이용해 생성할 수도 있다는거 기억하고 계시죠?
 👉 주의 : **타임포맷(`reserved_start`, `reserved_end`)을 맞춰 추가해주세요!**  
-![<캡처 24> ](/mwkorea/assets/5_check&create_reservations/24.png)
+![<캡처 24> ](/mwkorea/assets/images/agentschool/5_check&create_reservations/24.png)
 
 - **예약 요청 시 `create_reservation`** 정상적으로 호출됩는걸 확인할 수 있어요.   
 - **예약 가능 여부 확인 시 `check_reservation`** 역시 정상적으로 호출 되네요!  
