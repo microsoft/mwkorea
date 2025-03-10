@@ -1,5 +1,5 @@
 ---
-title: "Copilot Agent School 설치형 가이드드"
+title: "Copilot Agent School 설치형 가이드"
 date: 2025-03-03T00:00:00 KST
 categories:
   - AgentSchool
@@ -7,7 +7,7 @@ tags:
   - AI
   - Agent
   - Copilot
-excerpt: "Copilot Agent School 을 사애 쉐어포인트에 구성하는 방법을 가이드 합니다."
+excerpt: "Copilot Agent School 을 사내 쉐어포인트에 구성하는 방법을 가이드 합니다."
 header:
   overlay_image: assets/images/header/Microsoft365-Copilot-KeyArt-Productivity-6K-01.png
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
