@@ -130,6 +130,6 @@ Microsoft 협업 도구의 역사에서 플랫폼과 확장성은 매우 중요�
 
 **이 기조연설의 전체 내용을 보려면 다음 YouTube 영상을 시청하세요:**
 
-[Keynote: Microsoft 365 Innovation in the Era of AI | Microsoft 365 Community Conference 2025](https://www.youtube.com/watch?v=AxT2klYz9Lo)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AxT2klYz9Lo?si=kI_09NCBgJRamrqT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
