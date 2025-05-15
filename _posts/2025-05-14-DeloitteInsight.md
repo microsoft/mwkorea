@@ -13,7 +13,7 @@ header:
   #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
     - label: "원문보기"
-      url: "https://www.microsoft.com/en-us/worklab/work-trend-index/2025-the-year-the-frontier-firm-is-born"
+      url: "https://microsoft.github.io/mwkorea/assets/images/20250514/Deloitte%20Insight_%EC%83%9D%EC%84%B1%ED%98%95AI%EC%99%80%20%EC%9D%BC%EC%9D%98%20%EB%AF%B8%EB%9E%98.pdf"
 toc: false
 toc_sticky: true
 classes: wide
