@@ -46,3 +46,7 @@ author: 안창주
 이 영상은 코파일럿 스튜디오가 AI 에이전트 개발의 복잡성을 줄이고, **비개발자도 AI 기술을 활용하여 업무 자동화나 고객 서비스 개선에 기여**할 수 있음을 명확하게 보여줍니다. AI 에이전트 개발에 관심 있는 분이라면 꼭 시청해 보시길 추천합니다!
 
 ---
+
+ 이 영상의 에이전트를 실제로 만들어 보고 싶은 분은 아래의 핸즈온 자료를 참조하시면 좋겠습니다.
+
+[Copilot Studio AI Orchestration 실습](https://github.com/ChangJu-Ahn/Microsoft-AI-Agent/tree/main/Copilot%20Studio%20AI%20Orchestration)
