@@ -40,7 +40,7 @@ Copilot Agent를 운영하기 위해서는 2가지 종류의 청구 정책에 �
 |청구 정책 유형|과금 서비스|정책 적용 단위|비고|
 |---|---|---|---|
 |Microsoft 관리자센터 <br> M365 Copilot Chat|선언형 Agent|유저, 그룹 단위|**권장** 그룹별 별도 청구 정책 구성 가능|
-|PowerPlatform 관리자센터 <br> Azure Subscription|커스텀 엔진 에이전트를 포함한 Power platform 서비스 전체|환경 단위|과금 대상 서비스 조정 가능|
+|PowerPlatform 관리자센터<br>Azure Subscription|커스텀 엔진 에이전트를 포함한 Power platform 서비스 전체|환경 단위|과금 대상 서비스 조정 가능|
 |PowerPlatform 관리자센터 <br> M365 Copilot Chat|선언형 Agent|환경 단위|1개의 정책만 구성 가능|
 
 MAC(Microsoft 365 관리자센터)에서 설정할 수 있는 청구 정책의 경우, M365 Copilot license를 보유하지 않은 사용자가 **"선언형 Agent를 이용"** 하면서 메시지 소모(과금)가 발생하는 상황에서 청구되는 Azure Subscription을 지정하는 설정입니다. (Agent builder, Copilot Studio 모두 해당) 
