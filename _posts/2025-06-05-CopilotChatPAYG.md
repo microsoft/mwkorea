@@ -39,28 +39,30 @@ Copilot Agent를 운영하기 위해서는 2가지 종류의 청구 정책에 �
 
 |청구 정책 유형|과금 서비스|정책 적용 단위|비고|
 |---|---|---|---|
-|Microsoft 관리자센터</br>M365 Copilot Chat|선언형 Agent|유저,그룹 단위|**권장** 그룹별 별도 청구 정책 구성 가능|
-|PowerPlatform 관리자센터</br>Azure Subscription|커스텀 엔진 에이전트를 포함한 Power platform 서비스 전체|환경 단위|과금 대상 서비스 조정 가능|
-|PowerPlatform 관리자센터</br>M365 Copilot Chat|선언형 Agen|환경 단위|1개의 정책만 구성 가능|
+|Microsoft 관리자센터 </br> M365 Copilot Chat|선언형 Agent|유저,그룹 단위|**권장** 그룹별 별도 청구 정책 구성 가능|
+|PowerPlatform 관리자센터 </br> Azure Subscription|커스텀 엔진 에이전트를 포함한 Power platform 서비스 전체|환경 단위|과금 대상 서비스 조정 가능|
+|PowerPlatform 관리자센터 </br> M365 Copilot Chat|선언형 Agen|환경 단위|1개의 정책만 구성 가능|
 
 MAC(Microsoft 365 관리자센터)에서 설정할 수 있는 청구 정책의 경우, M365 Copilot license를 보유하지 않은 사용자가 **"선언형 Agent를 이용"** 하면서 메시지 소모(과금)가 발생하는 상황에서 청구되는 Azure Subscription을 지정하는 설정입니다. (Agent builder, Copilot Studio 모두 해당) 
 
-**중요!** 이곳에서는 복수개의 청구정책을 설정할 수 있으며, 각 정책마다 각기 다른 그룹, Azure subscription을 연결할 수 있어 부서별, 계열사별 분리 과금을 구성, 운영할 수 있습니다. 현재는 Power platform에서는 해당 기능을 제공하고 있지 않기에 분리 과금을 고려한다면 반드시 MAC에서 청구정책을 구성하여야 합니다. 
+**중요!** </br>
+이곳에서는 복수개의 청구정책을 설정할 수 있으며, 각 정책마다 각기 다른 그룹, Azure subscription을 연결할 수 있어 부서별, 계열사별 분리 과금을 구성, 운영할 수 있습니다. 현재는 Power platform에서는 해당 기능을 제공하고 있지 않기에 분리 과금을 고려한다면 반드시 MAC에서 청구정책을 구성하여야 합니다. 
 {: .notice--info}
 
 Power Platform에서 설정하는 청구정책의 경우 Copilot Studio에서 개발 배포되는 Custom Engine Agent를 포함한 여러 Power Platform의 서비스 (Automate, Page, Apps, Dataverse 등)에 대해 종량제 과금을 환경(Environment) 단위로 적용 가능 
 
-- 참고 링크#1 [Microsoft 365 Copilot chat 종량제 개요 Microsoft 365 Copilot | Microsoft Learn](https://learn.microsoft.com/ko-kr/copilot/microsoft-365/pay-as-you-go/overview)
-- 참고 링크#2 [종량제 플랜 설정 - Power Platform | Microsoft Learn](https://learn.microsoft.com/ko-kr/power-platform/admin/pay-as-you-go-set-up?tabs=new)
+- 참고 링크#1 [Microsoft 365 Copilot chat 종량제 개요 Microsoft 365 Copilot](https://learn.microsoft.com/ko-kr/copilot/microsoft-365/pay-as-you-go/overview)
+- 참고 링크#2 [종량제 플랜 설정 - Power Platform](https://learn.microsoft.com/ko-kr/power-platform/admin/pay-as-you-go-set-up?tabs=new)
 
 ## M365 Copilot chat 청구 정책을 만들지 않을 경우 발생하는 문제 
 
 Custom Engine Agent만 이용하는 경우에는 Microsoft 365 Copilot Chat 청구 정책을 구성하지 않아도 문제가 없으나, 선언형 Agent를 활용 또는 일반 임직원, 시민 개발자 대상 Agent builder를 통한 no-code 기반 Agent 확산을 고려한다면 메시지 팩과 무관하게 Copilot Chat 청구 정책은 반드시 활성화가 필요합니다. 
 
-**중요!** 메시지팩을 구매하여 Copilot studio 환경에 메시지팩이 적용되더라도 선언형 Agent에 대해서는 청구 정책이 없을 경우 Agent는 동작하지 않음 
+**중요!** </br>
+메시지팩을 구매하여 Copilot studio 환경에 메시지팩이 적용되더라도 선언형 Agent에 대해서는 청구 정책이 없을 경우 Agent는 동작하지 않음 
 {: .notice--info}
 
-청구 정책이 아직 생성/적용 되지 않은 상태에서 선언형 Agent를 무료사용자에게 |배포할 경우, 아래와 같이 무료사용자들은 웹서치만 적용된 Agent가 아닌 모든 선언형 Agent에 대해서 공란으로 답변을 받게 된다. 
+청구 정책이 아직 생성/적용 되지 않은 상태에서 선언형 Agent를 무료사용자에게 배포할 경우, 아래와 같이 무료사용자들은 웹서치만 적용된 Agent가 아닌 모든 선언형 Agent에 대해서 공란으로 답변을 받게 된다. 
 
 ![image](/mwkorea/assets/images/20250605/image.png)  
 
@@ -68,12 +70,9 @@ Custom Engine Agent만 이용하는 경우에는 Microsoft 365 Copilot Chat 청�
 
 ## M365 Copilot chat 청구 정책 구성하기 (MAC vs Power Platform 관리자센터)  
 
-선언형 Agent를 이용하기 위해서는 청구정책이 반드시 필요하며, 이를 구성할 수 있는 곳은 MAC(M365 관리자 센터) 또는 Power Platform 관리자센터 2군데가 존재한다. 
-
-둘 중 한곳에만 생성을 하면 이후 무료사용자들이 선언형 Agent를 이용할 수 있지만, MAC에서 구성하는 것을 권장한다. 
-
-Power Platform에서 구성을 할 경우, Microsoft 365 Copilot Chat 청구 정책은 1개만 생성 할 수 있기에 이와 연결되는 Azure Subscription도 1개로 제한된다. 
-
+선언형 Agent를 이용하기 위해서는 청구정책이 반드시 필요하며, 이를 구성할 수 있는 곳은 MAC(M365 관리자 센터) 또는 Power Platform 관리자센터 2군데가 존재한다.  </br>
+둘 중 한곳에만 생성을 하면 이후 무료사용자들이 선언형 Agent를 이용할 수 있지만, MAC에서 구성하는 것을 권장한다.  </br>
+Power Platform에서 구성을 할 경우, Microsoft 365 Copilot Chat 청구 정책은 1개만 생성 할 수 있기에 이와 연결되는 Azure Subscription도 1개로 제한된다.  </br>
 따라서, 조직별 또는 하나의 테넌트에 여러 계열사가 소속된 경우 Azure subscription 단위로 분리 과금이 불가하다. 
 
 ![image](/mwkorea/assets/images/20250605/image2.png)  
@@ -113,10 +112,8 @@ M365 관리자센터에서 청구 정책을 구성하기 전, 아래 작업을 �
 
 ---
 
-청구 정책을 적용 받을 사용자, 그룹을 지정합니다. 
-
-모든 사용자를 선택할 경우 테넌트 내 모든 사용자들이 과금 기능이 포함된 선언적 에이전트를 이용할 수 있습니다. 
-
+청구 정책을 적용 받을 사용자, 그룹을 지정합니다.  </br>
+모든 사용자를 선택할 경우 테넌트 내 모든 사용자들이 과금 기능이 포함된 선언적 에이전트를 이용할 수 있습니다.  </br>
 그룹은 보안그룹, M365 그룹만 이용가능합니다. 
 
 ![image](/mwkorea/assets/images/20250605/image6.png)    
@@ -135,10 +132,8 @@ M365 관리자센터에서 청구 정책을 구성하기 전, 아래 작업을 �
 
 ---
 
-Copilot chat에 연결할 정책을 지정합니다. 
-
-2025년 6월 5일 기준, 1개의 정책만 추가 저장이 되므로, 복수의 정책을 Copilot chat에 연결이 필요한 경우 하나씩 체크박스를 클릭하여 추가 저장합니다. 
-
+Copilot chat에 연결할 정책을 지정합니다.  </br>
+2025년 6월 5일 기준, 1개의 정책만 추가 저장이 되므로, 복수의 정책을 Copilot chat에 연결이 필요한 경우 하나씩 체크박스를 클릭하여 추가 저장합니다.  </br>
 해당 설정이 완료되면 약 2-3시간 이후부터 무료사용자들도 선언형 Agent에 메시지 과금 기능(액션, 그라운딩 데이터 참조)을 이용할 수 있습니다. 
 
 ![image](/mwkorea/assets/images/20250605/image9.png)    
