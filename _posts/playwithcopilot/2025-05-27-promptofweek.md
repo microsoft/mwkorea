@@ -2,7 +2,7 @@
 title: "코파일럿 어디까지 써봤나요: 웹 페이지 내용 엑셀로 정리하기"
 date: 2025-05-27T00:00:00 KST
 categories:
-  - Copilot
+  - playwithcopilot
 tags:
   - Copilot
 excerpt: "코파일럿으로 일상의 업무를 처리해 봅시다. 오늘 만난 좌절과 팁을 공유해보려고 합니다."

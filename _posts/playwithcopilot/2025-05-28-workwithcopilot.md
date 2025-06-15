@@ -2,7 +2,7 @@
 title: "코파일럿 어디까지 써봤나요: 슬라이드의 발표자 노트 만들기"
 date: 2025-05-28T00:00:00 KST
 categories:
-  - Copilot
+  - playwithcopilot
 tags:
   - Copilot
 excerpt: "코파일럿으로 일상의 업무를 처리해 봅시다. 세션 발표 전에 코파일럿과 대화하면서 슬라이드 노트를 만들어 봅니다."
