@@ -8,7 +8,7 @@ tags:
   - 프롬프트
   - 일상업무
   - Biz Chat
-excerpt: "지난주에 이어 이번 3주차에는 **"팀의 시너지를 높이는 실용적인 프롬프트"**입니다. 더 나은 협업을 위한 첫걸음, Copilot 프롬프트로 팀워크를 강화해보세요."
+excerpt: "지난주에 이어 이번 3주차에는 팀의 시너지를 높이는 실용적인 프롬프트입니다. 더 나은 협업을 위한 첫걸음, Copilot 프롬프트로 팀워크를 강화해보세요."
 header:
   overlay_image: /assets/images/header/Microsoft365-Copilot-KeyArt-Productivity-6K-01.png
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
