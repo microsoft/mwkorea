@@ -1,6 +1,6 @@
 ---
 title: "Copilot Chat 5주 따라하기 시리즈: 3주차"
-date: 2025-07-01T00:00:00 KST
+date: 2025-06-30T00:00:00 KST
 categories:
   - Copilot5Week
 tags:
