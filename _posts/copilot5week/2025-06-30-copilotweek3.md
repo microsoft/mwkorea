@@ -32,7 +32,7 @@ author: 고현
 
 아래 프롬프트를 복사해서 Copilot Chat에 붙여넣기만 하면, 바로 답변을 받을 수 있습니다.
 
-# 🤝 Teamwork & Collaboration 프롬프트
+## 🤝 Teamwork & Collaboration 프롬프트
 
 ### 👋 하루 시작 인사
 
