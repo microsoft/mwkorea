@@ -32,6 +32,8 @@ Copilot Studio의 한계는 어디까지일까요? - 3탄!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Oi1ExK6LFsw?si=x1HLx_KzYsjC8V5o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+---
+
 마이크로소프트 Cloud Soltuion Architect로 일하는 정현진님이 만든 환상적인 데모입니다. 
 
 https://www.linkedin.com/in/jinjung1007

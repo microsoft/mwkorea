@@ -20,7 +20,7 @@ classes: wide
 author: 안창주
 ---
 
-# 3주간보고 Agent - Copilot Studio
+# 주간보고 Agent - Copilot Studio
 
 "매주 주간보고 작성해야 하는데..내가 저번주에 했던 일을 토대로 초안만 작성해 주면 얼마나 좋을까.."
 
@@ -33,6 +33,8 @@ Copilot Studio의 한계는 어디까지일까요? - 2탄!
 = 개발을 할 수 있어도, 시간을 아껴야 하는 세상!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WhJ5TASD5iQ?si=DL5pSebXmNOaxof1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
 
 마이크로소프트 Cloud Soltuion Architect로 일하는 정현진님이 만든 환상적인 데모입니다. 
 
