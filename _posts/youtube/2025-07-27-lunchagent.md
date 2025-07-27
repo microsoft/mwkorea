@@ -20,7 +20,7 @@ classes: wide
 author: 안창주
 ---
 
-# 3밥집 추천 Agent - Copilot Studio
+# 밥집 추천 Agent - Copilot Studio
 
 "에이전트를 쉽게 만들 수 있다면..오늘 점심을 추천해 주는 에이전트도 만들텐데.."
 

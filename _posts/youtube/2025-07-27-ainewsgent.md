@@ -20,7 +20,7 @@ classes: wide
 author: 안창주
 ---
 
-# 3밥집 추천 Agent - Copilot Studio
+# AI 뉴스 다이제스트 Agent - Copilot Studio
 
 1) 매일 받아보는 뉴스가 나의 업무, 나의 관심사와 일치한다면 얼마나 좋을까요?
 2) 내가 IT팀이면 IT 및 AI 뉴스가, 내가 재무팀이면 경제 및 다양한 기업의 재무 평가 정보가 온다면 얼마나 좋을까요?

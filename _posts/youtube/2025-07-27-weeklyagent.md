@@ -20,7 +20,7 @@ classes: wide
 author: 안창주
 ---
 
-# 3밥집 추천 Agent - Copilot Studio
+# 3주간보고 Agent - Copilot Studio
 
 "매주 주간보고 작성해야 하는데..내가 저번주에 했던 일을 토대로 초안만 작성해 주면 얼마나 좋을까.."
 
