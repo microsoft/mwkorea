@@ -5,9 +5,7 @@ categories:
   - Copilot
 tags:
   - Copilot
-  - Agent
-  - Copilot Studio
-excerpt: "업무 중 흐릿한 이미지 때문에 고민한 적 있으신가요? 이제는 Copilot에 "이 이미지를 선명하게 해줘"라고 말하기만 하면 끝! 보고서, 발표 자료, 고객 응대까지 — 이미지 품질을 빠르게 개선해주는 스마트한 꿀팁을 지금 확인해보세요."
+excerpt: "업무 중 흐릿한 이미지 때문에 고민한 적 있으신가요? 이제는 Copilot에 '이 이미지를 선명하게 해줘'라고 말하기만 하면 끝! 보고서, 발표 자료, 고객 응대까지 — 이미지 품질을 빠르게 개선해주는 스마트한 꿀팁을 지금 확인해보세요."
 header:
   overlay_image: assets/images/header/Microsoft365-Copilot-KeyArt-Productivity-6K-01.png
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
