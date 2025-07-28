@@ -1,6 +1,6 @@
 ---
 title: "에이전트 비용 관리, 이렇게 시작하세요"
-date: 2025-07-16T00:00:00 KST
+date: 2025-07-28T00:00:00 KST
 categories:
   - Copilot
 tags:
