@@ -32,8 +32,8 @@ author: 안창주
 
 Copilot Studio의 에이전트는 다음 두 가지 방식으로 코드와 통합할 수 있습니다:
 
-**1. M365 Copilot Agent SDK**
-**2. Direct Line API**
+1. **M365 Copilot Agent SDK**
+2. **Direct Line API**
 
 이번 포스팅에서는 M365 Copilot Agent SDK를 활용한 통합 시나리오를 중심으로 소개합니다. SDK를 통해 개발자는 에이전트를 자신의 앱이나 서비스에 직접 연결하고, 사용자 요청에 따라 동적인 응답을 생성할 수 있습니다.
 
