@@ -32,6 +32,9 @@ Microsoft 365 Copilot과 Copilot Studio가 OpenAI의 최신 AI 모델인 GPT-5�
 - **간단한 질문에는 빠른 처리:** 자주 묻는 질문이나 단순한 요청에는 빠르고 간결한 응답을 제공합니다.
 - **복잡한 질문에는 깊은 분석:** 더 복잡하거나 열린 질문에는 GPT-5의 고도화된 추론 모델을 활용해 충분한 맥락을 파악하고, 계획을 세운 뒤 신중하게 답변합니다.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_BSGrykqFAM?si=_zsYLRTFy6vz6cJa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 ## 상황에 맞는 최적의 대응
 
 Copilot은 질문의 성격에 따라 가장 적합한 모델을 자동으로 선택합니다. 단순한 요청에는 직관적인 답변을, 복잡한 문제에는 깊이 있는 분석을 제공하는 방식으로, 사람의 사고방식과 유사한 접근을 보여줍니다.
