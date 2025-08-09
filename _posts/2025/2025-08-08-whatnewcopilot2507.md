@@ -26,10 +26,10 @@ author: 최정우
 
 이번 포스팅에서는 다음 주요 영역을 모두 다룹니다:
 
-- **Copilot Control System**
-- **Microsoft Purview 기반 보안 및 거버넌스**
-- **사용자 기능 개선**
-- **앱별 새로운 기능**
+- **Copilot Control System:** 조직별 정책 관리, 사용자별 기능 제어, 실시간 모니터링 제공. 
+- **Microsoft Purview 기반 보안 및 거버넌스:** 민감 데이터 보호, 감사 로그, 규정 준수 강화.
+- **사용자 기능 개선:** 모바일 음성 명령, 대화 기록 검색, 개인화 옵션.
+- **앱별 새로운 기능:** Teams, Outlook, Word, PowerPoint, SharePoint에서 Copilot 활용성 강화.
 
 ---
 
