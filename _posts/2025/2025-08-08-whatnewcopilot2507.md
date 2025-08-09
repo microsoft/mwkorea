@@ -1,5 +1,5 @@
 ---
-title: "||Microsoft 365 코파일럿 2025년 7월 업데이트"
+title: "Microsoft 365 코파일럿 2025년 7월 업데이트"
 date: 2025-08-08T00:00:00 KST
 categories:
   - Copilot
@@ -20,7 +20,7 @@ classes: wide
 author: 최정우
 ---
 
-# Microsoft 365 Copilot 7월 업데이트: 전체 개요
+# ❇️ Microsoft 365 Copilot 7월 업데이트: 전체 개요
 
 **Copilot의 진화는 계속됩니다.** Microsoft 365 Copilot은 업무 생산성을 혁신하는 AI 도구로 자리 잡고 있으며, 이번 7월 업데이트에서는 보안, 관리, 사용자 경험, 그리고 앱별 기능에서 큰 개선이 이루어졌습니다.
 
@@ -33,7 +33,7 @@ author: 최정우
 
 ---
 
-## 1. Copilot Control System
+## 1️⃣. Copilot Control System
 
 ### Copilot Control System이란?
 
@@ -51,7 +51,7 @@ Copilot은 강력한 AI 기능을 제공하지만, 기업 환경에서는 보안
 
 ---
 
-## 2. Microsoft Purview 기반 보안 및 거버넌스
+## 2️⃣. Microsoft Purview 기반 보안 및 거버넌스
 
 ### 데이터 보호와 규정 준수 강화
 
@@ -67,7 +67,7 @@ Copilot은 강력한 AI 기능을 제공하지만, 기업 환경에서는 보안
 
 ---
 
-## 3. 사용자 기능 개선
+## 3️⃣. 사용자 기능 개선
 
 ### 더 직관적이고 편리한 Copilot 경험
 
@@ -77,7 +77,7 @@ Copilot은 강력한 AI 기능을 제공하지만, 기업 환경에서는 보안
 
 ---
 
-## 4. 앱별 새로운 기능
+## 4️⃣. 앱별 새로운 기능
 
 - **Teams:** 회의 요약과 액션 아이템 자동 생성 기능 강화.
 - **Outlook:** 이메일 초안 작성 시 Copilot이 더 자연스러운 문맥 제안 제공.
