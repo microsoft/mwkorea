@@ -94,6 +94,6 @@ Project Opal은 Microsoft 365 Copilot 고객을 대상으로 Frontier 프로그�
 
 [관리자 설정](https://learn.microsoft.com/en-us/copilot/microsoft-365/opal-settings-manage): 조직에서 Project Opal을 배포하고 구성하는 방법 
 
-사용자 가이드: 단계별 사용 안내
+[사용자 가이드](https://support.microsoft.com/en-us/topic/get-started-with-project-opal-frontier-d6d9c0c7-caec-490f-8930-a3157cf97faa?preview=true): 단계별 사용 안내
 
 
