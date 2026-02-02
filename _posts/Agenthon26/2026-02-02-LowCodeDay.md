@@ -26,7 +26,7 @@ author: 최정우
 2/3에 진행될 Low‑Code Day Session과 관련하여, 미리 참고하실 수 있도록 실습 자료를 공유드립니다.
 세션 당일 원활한 진행을 위해 자료를 미리 다운로드해주세요!
 
-📦 자료 다운로드 하기 - [링크](/_posts/Agenthon26/Agenthon_LowCodeTrack.zip) 
+📦 자료 다운로드 하기 - [링크](/mwkorea/assets/Agenthon_LowCodeTrack.zip) 
 
 ---
 
@@ -40,12 +40,12 @@ author: 최정우
 
 ## Session 3 : Copilot Studio로 만드는 실전 멀티 에이전트 시스템
 - 실습 PDF (국내 출장 여비 규정, 해외 출장 및 글로벌 파견 규정)
-- 핸즈온 가이드북 [링크](https://github.com/monator16/Copilot-Studio-Hands-on/blob/main/Agentthon-26-MSKorea/1.%20Multi_Agent_Guide.md)
+- [핸즈온 가이드북 링크](https://github.com/monator16/Copilot-Studio-Hands-on/blob/main/Agentthon-26-MSKorea/1.%20Multi_Agent_Guide.md)
 
 ## Session 4 : Copilot Studio AI Builder : 문서 추출부터 생성 자동화까지
 - 실습 자료 (이력서 pdf, 인터뷰 템플릿 docx, 직업 정보 및 평가 정보 관련 txt)
 - OneDrive (Copilot Studio 실습 동일계정) 실습용 폴더 생성 (e.g. testfolder)
-- 핸즈온 가이드북 [링크](https://github.com/swannekim/Copilot-Studio-Agents/tree/main/AI-Builder-Hands-On)
+- [핸즈온 가이드북 링크](https://github.com/swannekim/Copilot-Studio-Agents/tree/main/AI-Builder-Hands-On)
 
 ---
 
