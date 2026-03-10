@@ -19,13 +19,13 @@ author: 최정우
 
 # 선생님, 로그인부터 막히셨나요?
 
-<div style="margin: 0.8rem 0 1.5rem; padding: 1rem 1.15rem; border-radius: 16px; background: #111827; color: #f9fafb; text-align: center; font-weight: 700;">
-  MONTHLY COPILOT · EDUCATION STORY · COPILOT ACCESSIBILITY
-</div>
+<div class="monthlycopilot-page monthlycopilot-page--education">
+<div class="mc-issue-strip">Monthly Copilot · Education Story · Copilot Accessibility</div>
 
-<div style="margin: 0 0 1.5rem; padding: 1rem 1.15rem; border-radius: 18px; background: linear-gradient(135deg, #eff6ff 0%, #f0fdf4 100%); border: 1px solid #bfdbfe; text-align: center;">
-  <div style="font-size: 1.05rem; font-weight: 800; color: #0f766e; margin-bottom: 0.35rem;">🎓 EDUCATION STORY</div>
-  <div style="font-size: 1.45rem; font-weight: 800; color: #111827; line-height: 1.45;">Microsoft Elevate팀 정주원 매니저가 AI와 함께 만든 교육 혁신의 시작점</div>
+<div class="mc-cover">
+  <div class="mc-cover-kicker">Education Story</div>
+  <div class="mc-cover-title">선생님, 로그인부터 막히셨나요?</div>
+  <div class="mc-cover-subtitle">Microsoft Elevate팀 정주원 매니저가 AI와 함께 만든 교육 혁신의 시작점</div>
 </div>
 
 ## Microsoft Elevate팀 정주원 매니저가 AI와 함께 만든 교육 혁신의 시작점
@@ -49,12 +49,16 @@ author: 최정우
 
 "저는 전문 웹 디자이너가 아닙니다. 하지만 AI와 자연어로 대화하는 '바이브 코딩'만으로 제가 기획한 세련된 디자인을 완벽하게 구현해냈죠."
 
+<div style="margin: 1rem 0 1.4rem; padding: 1rem 1.1rem; border-radius: 16px; background: #f8fafc; border: 1px solid #dbe4f0; color: #1f2937; font-style: italic; line-height: 1.75;">
+  "저는 전문 웹 디자이너가 아닙니다. 하지만 AI와 자연어로 대화하는 '바이브 코딩'만으로 제가 기획한 세련된 디자인을 완벽하게 구현해냈죠." 정주원 매니저의 말처럼, 이 프로젝트는 전통적인 개발 방식과는 확연히 달랐습니다.
+</div>
+
 <div style="margin: 1rem 0 1.4rem; padding: 1rem 1.1rem; border-radius: 16px; background: #eff6ff; border: 1px solid #bfdbfe; color: #1e3a8a;">
   <strong>핵심 키워드</strong><br/>
   바이브 코딩 · Tailwind CSS · Azure Functions · 엔터프라이즈 보안성
 </div>
 
-정주원 매니저의 말처럼, 이 프로젝트는 전통적인 개발 방식과는 확연히 달랐다. 그는 AI에게 자신이 원하는 화면을 설명했고, AI는 즉시 Tailwind CSS를 활용한 모던한 코드로 답했다.
+그는 AI에게 자신이 원하는 화면을 설명했고, AI는 즉시 Tailwind CSS를 활용한 모던한 코드로 답했다.
 
 하지만 AI의 역할은 단순히 코드를 작성하는 것에 그치지 않았다. 개발 과정에서 AI는 기술 자문가이자, 때로는 시니어 개발자처럼 보안 설계를 점검하고, 트러블슈팅까지 도맡았다. 특히 프론트엔드에 에이전트 시크릿 키를 두려던 초기 설계의 위험성을 AI가 먼저 지적했을 때, 정 매니저는 놀라움을 금치 못했다. "마치 옆에서 시니어 개발자가 코드 리뷰를 해주는 느낌이었습니다. AI의 제안에 따라 Azure Functions를 활용한 토큰 발급 구조로 전환하면서, 보안성을 엔터프라이즈급으로 끌어올릴 수 있었죠."
 
@@ -117,6 +121,7 @@ Tailwind CSS를 선택한 이유도 명확했다. "별도의 CSS 파일 없이 J
 ## 사이트 바로가기
 
 <div style="margin: 0.6rem 0 1.3rem; padding: 1rem 1.1rem; border-radius: 16px; background: #111827; color: #f9fafb; text-align: center; font-weight: 700;">
+  📌 사이트 바로가기<br/>
   <a href="https://microsoft-elevate.com" style="color: #f9fafb; text-decoration: none;">microsoft-elevate.com</a>
 </div>
 
@@ -125,9 +130,12 @@ Tailwind CSS를 선택한 이유도 명확했다. "별도의 CSS 파일 없이 J
 ## 한 줄 요약
 
 <div style="padding: 1rem 1.1rem; border-radius: 16px; background: #f3f4f6; border: 1px solid #d1d5db; text-align: center; font-weight: 700; color: #111827;">
+  🎯 한 줄 요약<br/>
   "복잡한 검색 없이, 대화 한 번으로 내게 딱 맞는 Copilot 교육 환경 세팅을 완성합니다!"
 </div>
 
 ---
 
 이 기사는 AI 도구가 어떻게 또 다른 AI 서비스를 탄생시키는지 보여주는 생생한 사례입니다. 월간 코파일럿은 앞으로도 AI와 함께 만들어가는 혁신의 현장을 여러분께 전하겠습니다.
+
+</div>

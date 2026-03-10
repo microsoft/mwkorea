@@ -10,3 +10,145 @@ $type-size-6: 1em !default;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.page__content .monthlycopilot-page {
+	--mc-accent: #2563eb;
+	--mc-accent-soft: #eff6ff;
+	--mc-accent-mist: #f8fbff;
+	--mc-accent-border: #bfdbfe;
+	--mc-accent-ink: #1d4ed8;
+	--mc-shadow: 0 18px 40px rgba(15, 23, 42, 0.08);
+	margin-top: 0.45rem;
+	color: #1f2937;
+}
+
+.page__content .monthlycopilot-page--education {
+	--mc-accent: #0f766e;
+	--mc-accent-soft: #ecfeff;
+	--mc-accent-mist: #f0fdf4;
+	--mc-accent-border: #99f6e4;
+	--mc-accent-ink: #0f766e;
+}
+
+.page__content .monthlycopilot-page--adoption {
+	--mc-accent: #6d28d9;
+	--mc-accent-soft: #f5f3ff;
+	--mc-accent-mist: #eef2ff;
+	--mc-accent-border: #c4b5fd;
+	--mc-accent-ink: #6d28d9;
+}
+
+.page__content .monthlycopilot-page--agent {
+	--mc-accent: #1d4ed8;
+	--mc-accent-soft: #eff6ff;
+	--mc-accent-mist: #eef2ff;
+	--mc-accent-border: #c7d2fe;
+	--mc-accent-ink: #1d4ed8;
+}
+
+.page__content .monthlycopilot-page p,
+.page__content .monthlycopilot-page li,
+.page__content .monthlycopilot-page td,
+.page__content .monthlycopilot-page th {
+	line-height: 1.85;
+}
+
+.page__content .monthlycopilot-page h2,
+.page__content .monthlycopilot-page h3 {
+	letter-spacing: -0.02em;
+}
+
+.page__content .monthlycopilot-page img {
+	display: block;
+	width: 100%;
+	margin: 1.2rem auto 1.75rem;
+	border-radius: 22px;
+	border: 1px solid rgba(148, 163, 184, 0.25);
+	box-shadow: var(--mc-shadow);
+}
+
+.page__content .monthlycopilot-page hr {
+	height: 1px;
+	margin: 2rem 0 1.85rem;
+	border: 0;
+	background: linear-gradient(90deg, transparent, rgba(148, 163, 184, 0.55), transparent);
+}
+
+.page__content .monthlycopilot-page table {
+	box-shadow: 0 14px 30px rgba(15, 23, 42, 0.06);
+}
+
+.page__content .monthlycopilot-page .mc-issue-strip {
+	margin: 0.9rem 0 1.4rem;
+	padding: 0.9rem 1.15rem;
+	border-radius: 999px;
+	background: linear-gradient(90deg, #0f172a, #111827 56%, #1e293b);
+	color: #f8fafc;
+	text-align: center;
+	font-size: 0.82rem;
+	font-weight: 800;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	box-shadow: 0 14px 28px rgba(15, 23, 42, 0.18);
+}
+
+.page__content .monthlycopilot-page .mc-cover {
+	margin: 0 0 1.7rem;
+	padding: 1.35rem 1.35rem 1.25rem;
+	border-radius: 26px;
+	border: 1px solid var(--mc-accent-border);
+	background: linear-gradient(135deg, var(--mc-accent-soft) 0%, #ffffff 58%, var(--mc-accent-mist) 100%);
+	text-align: center;
+	box-shadow: var(--mc-shadow);
+}
+
+.page__content .monthlycopilot-page .mc-cover-kicker {
+	display: inline-block;
+	margin-bottom: 0.55rem;
+	padding: 0.38rem 0.7rem;
+	border-radius: 999px;
+	background: rgba(255, 255, 255, 0.85);
+	color: var(--mc-accent-ink);
+	font-size: 0.82rem;
+	font-weight: 900;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+}
+
+.page__content .monthlycopilot-page .mc-cover-title {
+	font-size: clamp(1.75rem, 3vw, 2.4rem);
+	line-height: 1.2;
+	font-weight: 900;
+	letter-spacing: -0.03em;
+	color: #0f172a;
+}
+
+.page__content .monthlycopilot-page .mc-cover-subtitle {
+	margin-top: 0.45rem;
+	color: #475569;
+	font-size: 1.02rem;
+	line-height: 1.65;
+}
+
+@media (max-width: 767px) {
+	.page__content .monthlycopilot-page .mc-issue-strip {
+		border-radius: 24px;
+		letter-spacing: 0.04em;
+		line-height: 1.6;
+	}
+
+	.page__content .monthlycopilot-page .mc-cover {
+		padding: 1.15rem 1rem;
+		border-radius: 20px;
+	}
+
+	.page__content .monthlycopilot-page [style*="grid-template-columns: repeat(3"],
+	.page__content .monthlycopilot-page [style*="grid-template-columns: repeat(2"],
+	.page__content .monthlycopilot-page [style*="grid-template-columns: 150px 1fr"] {
+		grid-template-columns: 1fr !important;
+	}
+
+	.page__content .monthlycopilot-page [style*="min-width: 720px"] {
+		min-width: 0 !important;
+	}
+}
