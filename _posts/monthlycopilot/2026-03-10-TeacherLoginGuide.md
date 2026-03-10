@@ -19,7 +19,7 @@ author: 최정우
 
 # 선생님, 로그인부터 막히셨나요?
 
-<div class="monthlycopilot-page monthlycopilot-page--education" markdown="1">
+<div class="monthlycopilot-page monthlycopilot-page--education">
 <div class="mc-issue-strip">Monthly Copilot · Education Story · Copilot Accessibility</div>
 
 <div class="mc-cover">
@@ -28,7 +28,7 @@ author: 최정우
   <div class="mc-cover-subtitle">Microsoft Elevate팀 정주원 매니저가 AI와 함께 만든 교육 혁신의 시작점</div>
 </div>
 
-## Microsoft Elevate팀 정주원 매니저가 AI와 함께 만든 교육 혁신의 시작점
+<h2 style="margin-top: 1.1rem; padding: 0.55rem 0.85rem; border-left: 6px solid #0f766e; background: #f8fafc;">Microsoft Elevate팀 정주원 매니저가 AI와 함께 만든 교육 혁신의 시작점</h2>
 
 "Microsoft Copilot으로 수업 지도안을 쓰고 싶은데, 계정을 못 찾겠어요."
 
@@ -41,9 +41,9 @@ author: 최정우
 
 그렇게 탄생한 것이 바로 전국 초중고 교사를 위한 Microsoft 365 & Copilot 통합 안내 웹사이트다. 흩어진 정보를 한곳에 모으고, AI 챗봇으로 맞춤형 해결책을 제시하는 이 사이트는 특별한 점이 하나 더 있다. 바로 AI의 도움으로 개발된 AI 서비스라는 것이다. AI가 AI를 만드는 시대, 그 현장 속으로 들어가 보자.
 
-![교육 안내 웹사이트 소개](/mwkorea/assets/images/20260310/teacher-login-image1.png)
+<img src="/mwkorea/assets/images/20260310/teacher-login-image1.png" alt="교육 안내 웹사이트 소개" />
 
----
+<hr/>
 
 <h2 style="margin-top: 1.4rem; padding: 0.55rem 0.85rem; border-left: 6px solid #2563eb; background: #f8fafc;">코드를 모르는 사람도 개발자가 되는 시대</h2>
 
@@ -62,9 +62,9 @@ author: 최정우
 
 하지만 AI의 역할은 단순히 코드를 작성하는 것에 그치지 않았다. 개발 과정에서 AI는 기술 자문가이자, 때로는 시니어 개발자처럼 보안 설계를 점검하고, 트러블슈팅까지 도맡았다. 특히 프론트엔드에 에이전트 시크릿 키를 두려던 초기 설계의 위험성을 AI가 먼저 지적했을 때, 정 매니저는 놀라움을 금치 못했다. "마치 옆에서 시니어 개발자가 코드 리뷰를 해주는 느낌이었습니다. AI의 제안에 따라 Azure Functions를 활용한 토큰 발급 구조로 전환하면서, 보안성을 엔터프라이즈급으로 끌어올릴 수 있었죠."
 
-![AI와 함께 만든 개발 과정](/mwkorea/assets/images/20260310/teacher-login-image2.png)
+<img src="/mwkorea/assets/images/20260310/teacher-login-image2.png" alt="AI와 함께 만든 개발 과정" />
 
----
+<hr/>
 
 <h2 style="margin-top: 1.4rem; padding: 0.55rem 0.85rem; border-left: 6px solid #dc2626; background: #f8fafc;">하지만 AI를 맹신해서는 안 된다는 교훈</h2>
 
@@ -77,7 +77,7 @@ author: 최정우
   AI는 빠른 조력자이지만, 보안과 구조 결정의 최종 책임자는 여전히 사람입니다.
 </div>
 
----
+<hr/>
 
 <h2 style="margin-top: 1.4rem; padding: 0.55rem 0.85rem; border-left: 6px solid #0f766e; background: #f8fafc;">"인천교육청 소속인데 비밀번호를 까먹었어요"</h2>
 
@@ -90,9 +90,9 @@ author: 최정우
   복잡한 검색과 클릭 없이, 대화 한 번으로 내 상황에 맞는 Microsoft 365 교육 환경 세팅을 완성하게 돕는 것.
 </div>
 
-![Copilot 에이전트 활용 화면](/mwkorea/assets/images/20260310/teacher-login-image3.png)
+<img src="/mwkorea/assets/images/20260310/teacher-login-image3.png" alt="Copilot 에이전트 활용 화면" />
 
----
+<hr/>
 
 <h2 style="margin-top: 1.4rem; padding: 0.55rem 0.85rem; border-left: 6px solid #7c3aed; background: #f8fafc;">무료로, 안전하게, 빠르게 만드는 법</h2>
 
@@ -106,9 +106,9 @@ Tailwind CSS를 선택한 이유도 명확했다. "별도의 CSS 파일 없이 J
   <div style="padding: 1rem; border-radius: 14px; background: #fff7ed; border: 1px solid #fdba74; color: #9a3412;">Azure Functions<br/><small>백엔드 보완</small></div>
 </div>
 
-![기술 스택과 구현 화면](/mwkorea/assets/images/20260310/teacher-login-image4.png)
+<img src="/mwkorea/assets/images/20260310/teacher-login-image4.png" alt="기술 스택과 구현 화면" />
 
----
+<hr/>
 
 <h2 style="margin-top: 1.4rem; padding: 0.55rem 0.85rem; border-left: 6px solid #111827; background: #f8fafc;">AI 시대, 진짜 혁신은 '접근성'에서 시작된다</h2>
 
@@ -116,25 +116,25 @@ Tailwind CSS를 선택한 이유도 명확했다. "별도의 CSS 파일 없이 J
 
 그리고 이 이야기는 우리 모두에게 가능성을 보여준다. 전문 개발자가 아니어도, AI와 대화하며 아이디어를 현실로 만들 수 있다는 것. 물론 AI를 비판적으로 검증하는 지혜도 함께 필요하지만 말이다. "선생님, 이제 로그인 걱정 없이 Copilot과 함께 수업을 시작하세요." 이 한 문장에 담긴 따뜻함이, 어쩌면 AI 시대가 나아가야 할 방향을 보여주는 것은 아닐까.
 
----
+<hr/>
 
-## 사이트 바로가기
+<h2 style="margin-top: 1.4rem; padding: 0.55rem 0.85rem; border-left: 6px solid #111827; background: #f8fafc;">사이트 바로가기</h2>
 
 <div style="margin: 0.6rem 0 1.3rem; padding: 1rem 1.1rem; border-radius: 16px; background: #111827; color: #f9fafb; text-align: center; font-weight: 700;">
   📌 사이트 바로가기<br/>
   <a href="https://microsoft-elevate.com" style="color: #f9fafb; text-decoration: none;">microsoft-elevate.com</a>
 </div>
 
----
+<hr/>
 
-## 한 줄 요약
+<h2 style="margin-top: 1.4rem; padding: 0.55rem 0.85rem; border-left: 6px solid #111827; background: #f8fafc;">한 줄 요약</h2>
 
 <div style="padding: 1rem 1.1rem; border-radius: 16px; background: #f3f4f6; border: 1px solid #d1d5db; text-align: center; font-weight: 700; color: #111827;">
   🎯 한 줄 요약<br/>
   "복잡한 검색 없이, 대화 한 번으로 내게 딱 맞는 Copilot 교육 환경 세팅을 완성합니다!"
 </div>
 
----
+<hr/>
 
 이 기사는 AI 도구가 어떻게 또 다른 AI 서비스를 탄생시키는지 보여주는 생생한 사례입니다. 월간 코파일럿은 앞으로도 AI와 함께 만들어가는 혁신의 현장을 여러분께 전하겠습니다.
 

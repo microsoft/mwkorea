@@ -18,7 +18,7 @@ author: 김현지
 
 # 월간 코파일럿 제목을 입력하세요
 
-<div class="monthlycopilot-page monthlycopilot-page--tour" markdown="1">
+<div class="monthlycopilot-page monthlycopilot-page--tour">
 <div class="mc-issue-strip">Monthly Copilot · Cover Story · Topic</div>
 
 <div class="mc-cover">
@@ -29,7 +29,7 @@ author: 김현지
 
 리드 문단을 입력하세요. 이 글이 누구를 위한 글인지, 무엇을 빠르게 이해하게 해주는지 먼저 정리합니다.
 
----
+<hr/>
 
 <h2 style="margin-top: 1.4rem; padding: 0.55rem 0.85rem; border-left: 6px solid #2563eb; background: #f8fafc;">첫 번째 섹션 제목</h2>
 
@@ -40,7 +40,7 @@ author: 김현지
   핵심 메시지나 요약 문장을 입력하세요.
 </div>
 
----
+<hr/>
 
 <h2 style="margin-top: 1.4rem; padding: 0.55rem 0.85rem; border-left: 6px solid #0f766e; background: #f8fafc;">두 번째 섹션 제목</h2>
 
@@ -57,15 +57,15 @@ author: 김현지
   </div>
 </div>
 
----
+<hr/>
 
 <h2 style="margin-top: 1.4rem; padding: 0.55rem 0.85rem; border-left: 6px solid #ea580c; background: #f8fafc;">세 번째 섹션 제목</h2>
 
 필요하면 이미지, 표, 타임라인 블록을 추가하세요.
 
-![대표 이미지 설명](/mwkorea/assets/images/example/example-image.png)
+<img src="/mwkorea/assets/images/example/example-image.png" alt="대표 이미지 설명" />
 
----
+<hr/>
 
 <div style="margin: 1rem 0 0; padding: 1rem 1.1rem; border-radius: 16px; background: #111827; color: #f9fafb;">
   <strong>마무리 정보</strong><br/>
