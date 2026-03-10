@@ -14,7 +14,7 @@ header:
 toc: false
 toc_sticky: true
 classes: wide
-author: 최정우
+author: 김현지
 ---
 
 # AI Tour Agenthon Seoul 2026: 전체 여정과 우승팀 발표

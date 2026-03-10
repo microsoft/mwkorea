@@ -13,7 +13,7 @@ header:
 toc: false
 toc_sticky: true
 classes: wide
-author: 최정우
+author: 김현지
 ---
 
 # Microsoft AI Tour Seoul: 하루 만에 AI의 모든 것을 경험하는 법
