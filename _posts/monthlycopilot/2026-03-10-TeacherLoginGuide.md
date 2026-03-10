@@ -19,7 +19,7 @@ author: 최정우
 
 # 선생님, 로그인부터 막히셨나요?
 
-<div class="monthlycopilot-page monthlycopilot-page--education">
+<div class="monthlycopilot-page monthlycopilot-page--education" markdown="1">
 <div class="mc-issue-strip">Monthly Copilot · Education Story · Copilot Accessibility</div>
 
 <div class="mc-cover">

@@ -18,7 +18,7 @@ author: 김현지
 
 # 월간 코파일럿 제목을 입력하세요
 
-<div class="monthlycopilot-page monthlycopilot-page--tour">
+<div class="monthlycopilot-page monthlycopilot-page--tour" markdown="1">
 <div class="mc-issue-strip">Monthly Copilot · Cover Story · Topic</div>
 
 <div class="mc-cover">
