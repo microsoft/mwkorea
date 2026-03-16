@@ -16,8 +16,6 @@ classes: wide
 author: 김현지
 ---
 
-# Microsoft AI Tour Seoul: 하루 만에 AI의 모든 것을 경험하는 법
-
 <div class="monthlycopilot-page monthlycopilot-page--tour">
 <div class="mc-issue-strip">Monthly Copilot · Cover Story · AI Tour Seoul 2026</div>
 

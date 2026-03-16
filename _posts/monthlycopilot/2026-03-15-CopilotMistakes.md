@@ -17,8 +17,6 @@ classes: wide
 author: 김지연
 ---
 
-# Copilot 사용자 실수 모음집: 가장 많이 헷갈리는 3가지
-
 <div class="monthlycopilot-page monthlycopilot-page--tour">
 <div class="mc-issue-strip">Monthly Copilot · April 2026 · 월간 코파일럿 4월호 · Special Feature</div>
 
@@ -35,9 +33,7 @@ author: 김지연
 
 <hr/>
 
-<h2 style="margin-top: 1.4rem; padding: 0.55rem 0.85rem; border-left: 6px solid #2563eb; background: #f8fafc;">01. Copilot이 또 엉뚱한 소리를 해요</h2>
-
-<div style="margin: 0.85rem 0 1rem; font-size: 1.02rem; font-weight: 800; color: #1f2937;">유창하게 말하지만, 항상 맞는 건 아니다</div>
+<h2 style="margin-top: 1.4rem; padding: 0.55rem 0.85rem; border-left: 6px solid #2563eb; background: #f8fafc;">01. Copilot이 또 엉뚱한 소리를 해요 — 유창하게 말하지만, 항상 맞는 건 아니다</h2>
 
 <p>Copilot은 틀린 답을 할 때도 자신 있게 말합니다. 이게 더 무섭습니다. 이 현상의 이름은 환각(Hallucination)입니다. AI가 불확실한 정보를 마치 사실처럼 생성하는 현상으로, 모델이 "모른다"고 인정하기보다 그럴듯한 답을 만들도록 설계되어 있기 때문에 생깁니다.</p>
 
@@ -77,9 +73,7 @@ author: 김지연
 
 <hr/>
 
-<h2 style="margin-top: 1.4rem; padding: 0.55rem 0.85rem; border-left: 6px solid #0f766e; background: #f8fafc;">02. 무료 Copilot vs 유료 Copilot 무엇이 다른가요</h2>
-
-<div style="margin: 0.85rem 0 1rem; font-size: 1.02rem; font-weight: 800; color: #1f2937;">같은 이름, 완전히 다른 도구</div>
+<h2 style="margin-top: 1.4rem; padding: 0.55rem 0.85rem; border-left: 6px solid #0f766e; background: #f8fafc;">02. 무료 Copilot vs 유료 Copilot 무엇이 다른가요 — 같은 이름, 완전히 다른 도구</h2>
 
 <p>두 버전을 구분하는 핵심은 딱 하나입니다. "어떤 데이터를 볼 수 있느냐"입니다.</p>
 
@@ -144,9 +138,7 @@ author: 김지연
 
 <hr/>
 
-<h2 style="margin-top: 1.4rem; padding: 0.55rem 0.85rem; border-left: 6px solid #7c3aed; background: #f8fafc;">03. Copilot은 GPT만 쓰는 거 아닌가요?</h2>
-
-<div style="margin: 0.85rem 0 1rem; font-size: 1.02rem; font-weight: 800; color: #1f2937;">멀티모델 시대가 왔습니다</div>
+<h2 style="margin-top: 1.4rem; padding: 0.55rem 0.85rem; border-left: 6px solid #7c3aed; background: #f8fafc;">03. Copilot은 GPT만 쓰는 거 아닌가요? — 멀티모델 시대가 왔습니다</h2>
 
 <p>이제 Claude도 됩니다. Microsoft는 2025년부터 공식적으로 멀티모델 전략을 선언했습니다. 이제 Copilot 안에서 여러 AI 모델이 함께 작동합니다.</p>
 

@@ -17,8 +17,6 @@ classes: wide
 author: 최정우
 ---
 
-# 선생님, 로그인부터 막히셨나요?
-
 <div class="monthlycopilot-page monthlycopilot-page--education">
 <div class="mc-issue-strip">Monthly Copilot · Education Story · Copilot Accessibility</div>
 
@@ -27,8 +25,6 @@ author: 최정우
   <div class="mc-cover-title">선생님, 로그인부터 막히셨나요?</div>
   <div class="mc-cover-subtitle">Microsoft Elevate팀 정주원 매니저가 AI와 함께 만든 교육 혁신의 시작점</div>
 </div>
-
-<h2 style="margin-top: 1.1rem; padding: 0.55rem 0.85rem; border-left: 6px solid #0f766e; background: #f8fafc;">Microsoft Elevate팀 정주원 매니저가 AI와 함께 만든 교육 혁신의 시작점</h2>
 
 "Microsoft Copilot으로 수업 지도안을 쓰고 싶은데, 계정을 못 찾겠어요."
 

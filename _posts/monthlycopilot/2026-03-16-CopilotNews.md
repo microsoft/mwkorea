@@ -18,8 +18,6 @@ classes: wide
 author: 김현지
 ---
 
-# 코파일럿 뉴우쓰: Agent Mode로 바뀌는 일하는 방식
-
 <div class="monthlycopilot-page monthlycopilot-page--agent">
 <div class="mc-issue-strip">Monthly Copilot · Copilot News · Agent Mode · New Feature</div>
 
@@ -29,9 +27,6 @@ author: 김현지
   <div class="mc-cover-subtitle">From AI Assistant to AI Doer<br/>Agent Mode로 바뀌는 일하는 방식을 소개합니다.</div>
 </div>
 
-<div style="margin: 0 0 1rem; font-size: 1.02rem; font-weight: 800; color: #0f172a; text-align: center;">“이제 Copilot은 ‘도구’가 아니라 ‘동료’입니다. From AI Assistant to AI Doer”</div>
-
-<div style="margin: 0 0 1.2rem; text-align: center; color: #475569; font-weight: 700;">— Agent Mode로 바뀌는 일하는 방식</div>
 
 <div style="margin: 0 0 1.3rem; padding: 1rem 1.1rem; border-radius: 16px; background: linear-gradient(135deg, #eff6ff 0%, #f8fafc 100%); border: 1px solid #bfdbfe; color: #1f2937;">
   <div style="font-weight: 800; color: #1d4ed8; margin-bottom: 0.35rem;">🤖 Copilot New Feature</div>
@@ -110,11 +105,7 @@ author: 김현지
 
 <hr/>
 
-<h2 style="margin-top: 1.4rem; padding: 0.55rem 0.85rem; border-left: 6px solid #0f766e; background: #f8fafc;">📝 Agent Mode in Word</h2>
-
-<div style="margin: 0.85rem 0 1rem; font-size: 1.02rem; font-weight: 800; color: #1f2937;">문서를 다시 쓰지 말고, 함께 다듬으세요</div>
-
-<div style="margin: 0 0 0.9rem; color: #475569; font-weight: 700;">“문서를 다시 쓰지 말고, 함께 다듬으세요”</div>
+<h2 style="margin-top: 1.4rem; padding: 0.55rem 0.85rem; border-left: 6px solid #0f766e; background: #f8fafc;">📝 Agent Mode in Word — 문서를 다시 쓰지 말고, 함께 다듬으세요</h2>
 
 <p>Word의 Agent Mode는 기존 문서를 유지한 채, 요약·수정·보완·형식 변경을 한 번에 처리하는 데 최적화되어 있습니다.</p>
 
@@ -144,11 +135,7 @@ author: 김현지
 
 <hr/>
 
-<h2 style="margin-top: 1.4rem; padding: 0.55rem 0.85rem; border-left: 6px solid #0891b2; background: #f8fafc;">📊 Agent Mode in Excel</h2>
-
-<div style="margin: 0.85rem 0 1rem; font-size: 1.02rem; font-weight: 800; color: #1f2937;">엑셀 수식 말고, 목적부터 말하세요</div>
-
-<div style="margin: 0 0 0.9rem; color: #475569; font-weight: 700;">“엑셀 수식 말고, 목적부터 말하세요”</div>
+<h2 style="margin-top: 1.4rem; padding: 0.55rem 0.85rem; border-left: 6px solid #0891b2; background: #f8fafc;">📊 Agent Mode in Excel — 엑셀 수식 말고, 목적부터 말하세요</h2>
 
 <p>Excel의 Agent Mode는 데이터 분석가처럼 생각하고, 컨설턴트처럼 결과를 만듭니다.</p>
 
@@ -183,11 +170,7 @@ author: 김현지
 
 <hr/>
 
-<h2 style="margin-top: 1.4rem; padding: 0.55rem 0.85rem; border-left: 6px solid #7c3aed; background: #f8fafc;">📽 Agent Mode in PowerPoint (Preview)</h2>
-
-<div style="margin: 0.85rem 0 1rem; font-size: 1.02rem; font-weight: 800; color: #1f2937;">슬라이드 작업, 이제 스토리부터 시작하세요</div>
-
-<div style="margin: 0 0 0.9rem; color: #475569; font-weight: 700;">“슬라이드 작업, 이제 스토리부터 시작하세요”</div>
+<h2 style="margin-top: 1.4rem; padding: 0.55rem 0.85rem; border-left: 6px solid #7c3aed; background: #f8fafc;">📽 Agent Mode in PowerPoint (Preview) — 슬라이드 작업, 이제 스토리부터 시작하세요</h2>
 
 <p>PowerPoint의 Agent Mode는 슬라이드 디자인 이전에 ‘논리와 메시지’를 먼저 잡아줍니다.</p>
 
@@ -232,7 +215,6 @@ author: 김현지
 
 <h3 style="margin-top: 1rem; color: #1d4ed8;">📝 Word | 문서를 함께 고쳐보세요</h3>
 
-<div style="margin: 0 0 0.8rem; color: #475569; font-weight: 700;">📝 Word | “문서를 함께 고쳐보세요”</div>
 
 <div style="margin: 1rem 0 1.1rem; padding: 1rem 1.1rem; border-radius: 14px; background: #f8fafc; border: 1px solid #dbe4f0; color: #111827;">
   <div style="font-weight: 800; margin-bottom: 0.4rem;">✅ 프롬프트 1. 월간 보고서 업데이트</div>
@@ -260,7 +242,6 @@ author: 김현지
 
 <h3 style="margin-top: 1rem; color: #0891b2;">📊 Excel | 엑셀에게 분석을 맡겨보세요</h3>
 
-<div style="margin: 0 0 0.8rem; color: #475569; font-weight: 700;">📊 Excel | “엑셀에게 분석을 맡겨보세요”</div>
 
 <div style="margin: 1rem 0 1.1rem; padding: 1rem 1.1rem; border-radius: 14px; background: #f8fafc; border: 1px solid #dbe4f0; color: #111827;">
   <div style="font-weight: 800; margin-bottom: 0.4rem;">✅ 프롬프트 4. 경영진용 요약 대시보드</div>
@@ -288,7 +269,6 @@ author: 김현지
 
 <h3 style="margin-top: 1rem; color: #7c3aed;">📽 PowerPoint | 슬라이드의 스토리를 맡겨보세요</h3>
 
-<div style="margin: 0 0 0.8rem; color: #475569; font-weight: 700;">📽 PowerPoint | “슬라이드의 스토리를 맡겨보세요”</div>
 
 <div style="margin: 1rem 0 1.1rem; padding: 1rem 1.1rem; border-radius: 14px; background: #f8fafc; border: 1px solid #dbe4f0; color: #111827;">
   <div style="font-weight: 800; margin-bottom: 0.4rem;">✅ 프롬프트 7. 보고용 슬라이드 자동 구성</div>

@@ -17,8 +17,6 @@ classes: wide
 author: 김현지
 ---
 
-# AI Tour Agenthon Seoul 2026: 전체 여정과 우승팀 발표
-
 <div class="monthlycopilot-page monthlycopilot-page--agent">
 <div class="mc-issue-strip">Monthly Copilot · Vol.01 No.01 · 2026년 3월 · 창간호</div>
 
