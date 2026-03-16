@@ -24,7 +24,7 @@ author: 김지연
 
 <div class="mc-cover">
   <div class="mc-cover-kicker">Special Feature</div>
-  <div class="mc-cover-title">🗂️ Copilot 실수모음집</div>
+  <div class="mc-cover-title">🗂️ Copilot 사용자 실수 모음집</div>
   <div class="mc-cover-subtitle">나만 헷갈렸던 게 아니었어!<br/>Copilot을 더 잘 쓰고 싶다면, 먼저 왜 틀리는지 알아야 한다.</div>
 </div>
 
