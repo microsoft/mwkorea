@@ -124,20 +124,11 @@ author: 최정우
 
 <p>Agent Mode는 Word, Excel, PowerPoint 앱 안에서 Copilot이 실제 문서(Canvas) 위에서 여러 단계를 스스로 계획하고 실행하며 사람과 협업하듯 작업을 이어가는 새로운 방식입니다.</p>
 
-<div class="cn-grid-3">
-  <div class="cn-card blue">
-    <div class="cn-card-title">👉 실제 문서(Canvas) 위에서</div>
-    <div class="cn-card-body">Word, Excel, PowerPoint 앱 안에서 결과물을 바로 다룹니다.</div>
-  </div>
-  <div class="cn-card cyan">
-    <div class="cn-card-title">👉 여러 단계를 스스로 계획·실행</div>
-    <div class="cn-card-body">계획–편집–반복 작업을 한 흐름으로 이어갑니다.</div>
-  </div>
-  <div class="cn-card violet">
-    <div class="cn-card-title">👉 사람과 협업하듯 이어가는 방식</div>
-    <div class="cn-card-body">단순 응답이 아니라 함께 완성해 가는 협업형 작업입니다.</div>
-  </div>
-</div>
+<ul>
+  <li>👉 <strong>실제 문서(Canvas) 위에서</strong> — Word, Excel, PowerPoint 앱 안에서 결과물을 바로 다룹니다.</li>
+  <li>👉 <strong>여러 단계를 스스로 계획·실행</strong> — 계획–편집–반복 작업을 한 흐름으로 이어갑니다.</li>
+  <li>👉 <strong>사람과 협업하듯 이어가는 방식</strong> — 단순 응답이 아니라 함께 완성해 가는 협업형 작업입니다.</li>
+</ul>
 
 <!-- 비교 테이블 -->
 <div style="overflow-x: auto;">
@@ -181,12 +172,7 @@ author: 최정우
 
 <p>Word의 Agent Mode는 기존 문서를 유지한 채, 요약·수정·보완·형식 변경을 한 번에 처리하는 데 최적화되어 있습니다.</p>
 
-<div class="cn-sub-h">이런 순간에 특히 유용해요</div>
-<div class="cn-grid-3">
-  <div class="cn-card cyan">매달 반복되는 정기 보고서 업데이트</div>
-  <div class="cn-card blue">여러 메일·회의 내용을 반영해야 하는 임원 보고 문서</div>
-  <div class="cn-card violet">톤&amp;매너를 맞춰야 하는 공식 문서</div>
-</div>
+<p><strong>이런 순간에 특히 유용해요</strong> — 매달 반복되는 정기 보고서 업데이트, 여러 메일·회의 내용을 반영해야 하는 임원 보고 문서, 톤&amp;매너를 맞춰야 하는 공식 문서.</p>
 
 <div class="cn-prompt">
   <div class="cn-prompt-label">📌 실전 활용 예시</div>
@@ -202,11 +188,7 @@ author: 최정우
   <li>변경 포인트를 한눈에 보이게 정리</li>
 </ul>
 
-<div class="cn-grid-3" style="margin-top: 0.6rem;">
-  <div class="cn-card green"><div class="cn-card-title">✅</div><div class="cn-card-body">문서를 새로 만들 필요 없이</div></div>
-  <div class="cn-card green"><div class="cn-card-title">✅</div><div class="cn-card-body">검토 가능한 상태로</div></div>
-  <div class="cn-card green"><div class="cn-card-title">✅</div><div class="cn-card-body">사람이 한 것처럼 자연스럽게</div></div>
-</div>
+<p style="color: #166534; font-size: 0.9rem;">✅ 문서를 새로 만들 필요 없이 &nbsp;·&nbsp; ✅ 검토 가능한 상태로 &nbsp;·&nbsp; ✅ 사람이 한 것처럼 자연스럽게</p>
 
 <hr class="cn-divider"/>
 
@@ -264,11 +246,7 @@ author: 최정우
   <li>차트·비주얼 제안까지 컨설팅 스타일의 덱을 완성</li>
 </ul>
 
-<div class="cn-grid-3" style="margin-top: 0.6rem;">
-  <div class="cn-card violet"><div class="cn-card-body">✅ 빈 슬라이드 앞에서 멈추는 시간 ↓</div></div>
-  <div class="cn-card violet"><div class="cn-card-body">✅ "무엇을 말할지" 고민하는 시간 ↓</div></div>
-  <div class="cn-card violet"><div class="cn-card-body">✅ 전달력 ↑</div></div>
-</div>
+<p style="color: #4c1d95; font-size: 0.9rem;">✅ 빈 슬라이드 앞에서 멈추는 시간 ↓ &nbsp;·&nbsp; ✅ "무엇을 말할지" 고민하는 시간 ↓ &nbsp;·&nbsp; ✅ 전달력 ↑</p>
 
 <hr class="cn-divider"/>
 
