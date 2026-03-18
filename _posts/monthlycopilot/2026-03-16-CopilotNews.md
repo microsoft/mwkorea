@@ -23,7 +23,7 @@ author: 고현
 
 <div class="mc-cover">
   <div class="mc-cover-kicker">Copilot New Feature</div>
-  <div class="mc-cover-title">이제 Copilot은 ‘도구’가 아니라 ‘동료’입니다. From AI Assistant to AI Doer</div>
+  <div class="mc-cover-title">이제 Copilot은 ‘도구’가 아니라 ‘동료’입니다. <br/>From AI Assistant to AI Doer</div>
   <div class="mc-cover-subtitle">'코파일럿으로 편집'으로 바뀌는 일하는 방식을 소개합니다.</div>
 </div>
 
