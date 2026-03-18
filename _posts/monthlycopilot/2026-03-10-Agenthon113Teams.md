@@ -18,7 +18,7 @@ author: 김현지
 ---
 
 <div class="monthlycopilot-page monthlycopilot-page--agent">
-<div class="mc-issue-strip">Monthly Copilot · Vol.01 No.01 · 2026년 3월 · 창간호</div>
+<div class="mc-issue-strip">Monthly Copilot · AI Tour Seoul 2026</div>
 
 ---
 
@@ -27,6 +27,10 @@ author: 김현지
   <div class="mc-cover-title">AI Tour Agenthon Seoul 2026</div>
   <div class="mc-cover-subtitle">전체 여정과 우승팀 발표</div>
 </div>
+
+지난 1월 말부터 3월 초까지, 한국마이크로소프트가 주관한 'AI Tour Agenthon Seoul 2026'이 약 5주간의 대장정을 마쳤습니다. 113팀이 도전에 나섰고, 71팀이 실제로 작동하는 AI 에이전트를 완성해 제출했습니다. 단순한 아이디어 경진대회가 아니라, 현업에 바로 배포할 수 있는 에이전트를 직접 만들어야 했던 만큼 그 과정과 결과물이 남다릅니다.
+ 
+앞으로 월간 코파일럿을 통해 에이전톤의 이야기를 하나씩 공유드릴 예정입니다. 오늘은 그 첫 번째로, 전체 행사가 어떻게 구성되고 운영되었는지 오버뷰를 먼저 소개해 드립니다.
 
 <h2 style="margin-top: 1.4rem; padding: 0.55rem 0.85rem; border-left: 6px solid #2563eb; background: #f8fafc;">🤖 에이전톤이란 무엇인가?</h2>
 
@@ -136,7 +140,7 @@ author: 김현지
 
 <div style="margin: 0.8rem 0 1.4rem; padding: 1rem 1.1rem; border-radius: 16px; background: #f8fafc; border: 1px solid #e5e7eb;">
   <strong>심사 기준</strong><br/>
-  기술 완성도 · 현업 적용 가능성 · 문제 해결력
+  업무 페인포인트 명확성  ·  Agent 주도 End‑to‑End 설계  ·  엔터프라이즈 배포 완성도  ·  보안/Responsible AI  ·  조직 확산 가능성
 </div>
 
 ---
@@ -155,35 +159,29 @@ author: 김현지
     <div style="font-weight: 800; margin-bottom: 0.35rem;">[ Low-Code Track ]</div>
     <div style="font-size: 1.6rem; line-height: 1; margin: 0.3rem 0;">👑</div>
     <div style="font-weight: 900; letter-spacing: 0.18em; margin-bottom: 0.35rem;">WINNER</div>
-    <div style="font-size: 1.05rem; font-weight: 800; margin-bottom: 0.45rem;">???</div>
+    <div style="font-size: 1.05rem; font-weight: 800; margin-bottom: 0.45rem;">초비상팀</div>
     <div style="font-size: 0.95rem; color: #334155; margin-bottom: 0.35rem;">Copilot Studio 기반</div>
-    <div style="font-size: 0.95rem; color: #334155;">로우 코드로 이걸 만들 수 있다고? 다음 호에서 전부 공개합니다.</div>
+    <div style="font-size: 0.95rem; color: #334155;">Copilot Studio 기반. 로우 코드로 이걸 만들 수 있다고? 다음 호에서는 Low-Code 트랙 우승 사례부터 순서대로 공개합니다.</div>
   </div>
   <div style="padding: 1.2rem 1rem; border-radius: 18px; background: #eef2ff; border: 1px solid #c7d2fe; text-align: center; color: #3730a3;">
     <div style="font-weight: 800; margin-bottom: 0.35rem;">[ Pro-Code Track ]</div>
     <div style="font-size: 1.6rem; line-height: 1; margin: 0.3rem 0;">👑</div>
     <div style="font-weight: 900; letter-spacing: 0.18em; margin-bottom: 0.35rem;">WINNER</div>
-    <div style="font-size: 1.05rem; font-weight: 800; margin-bottom: 0.45rem;">???</div>
+    <div style="font-size: 1.05rem; font-weight: 800; margin-bottom: 0.45rem;">NPU팀</div>
     <div style="font-size: 0.95rem; color: #334155; margin-bottom: 0.35rem;">Azure AI Foundry · Azure OpenAI 기반</div>
-    <div style="font-size: 0.95rem; color: #334155;">엔터프라이즈 현장에 그대로 꽂히는 수준. 그 설계도를 다음 호에서 봅니다.</div>
+    <div style="font-size: 0.95rem; color: #334155;">엔터프라이즈 현장에 그대로 꽂히는 수준. </div>
   </div>
 </div>
 
 ---
 
-<div style="margin: 1.4rem 0 0.75rem; text-align: center; color: #4b5563; font-weight: 700;">
-  월간 코파일럿 · Korea's AI Agent Story · Published Monthly
-</div>
-
-<div style="padding: 1rem 1.1rem; border-radius: 16px; background: #f3f4f6; border: 1px solid #d1d5db; text-align: center; color: #374151;">
-  이 글은 월간 코파일럿 창간호의 일부입니다. 다음 호에서 우승 AI 에이전트의 전체 이야기를 공개합니다.
-</div>
-
 <div style="margin: 1.2rem 0 0; padding: 1.1rem 1.15rem; border-radius: 18px; background: linear-gradient(135deg, #fff7ed 0%, #fef2f2 100%); border: 1px solid #fdba74; color: #7c2d12;">
   <div style="font-weight: 900; margin-bottom: 0.45rem;">📖 다음 호 예고 · NEXT ISSUE</div>
   <div style="font-weight: 800; margin-bottom: 0.4rem;">우승 에이전트, 어떻게 만들었을까?</div>
-  <div style="line-height: 1.7; color: #4b5563;">월간 코파일럿은 앞으로 매호마다 우승 AI 에이전트 사례를 심층 해부합니다. 어떤 문제를 풀었는지, 왜 그 기술을 선택했는지, 현업에서 실제로 어떤 변화가 생겼는지, 발표 슬라이드 한 장으로는 절대 담을 수 없는 진짜 이야기를 꺼냅니다.</div>
-  <div style="margin-top: 0.6rem; font-weight: 700; color: #7c2d12;">두 우승팀의 에이전트 풀스토리. 다음 호, 기대해주세요.</div>
+  <div style="line-height: 1.7; color: #4b5563;">월간 코파일럿은 앞으로 매호마다 우승 AI 에이전트 사례를 깊이 있게 살펴봅니다. 어떤 문제를 풀었는지, 왜 그 기술을 선택했는지, 현업에서 실제로 어떤 변화가 생겼는지, 발표 슬라이드 한 장으로는 절대 담을 수 없는 진짜 이야기를 꺼냅니다.
+ 
+다음 호부터는 Low-Code 트랙 우승 사례를 시작으로, 로우코드만이 가진 접근 방식과 현업 적용 포인트를 소개합니다. Pro-Code 트랙의 에이전트 사례도 함께 다루며, 두 트랙 간의 차이점도 짚어드릴 예정입니다. </div>
+  <div style="margin-top: 0.6rem; font-weight: 700; color: #7c2d12;">매달 한 개씩 공개될 에이전트 사례들, 기대해주셔도 좋습니다!</div>
 </div>
 
 </div>

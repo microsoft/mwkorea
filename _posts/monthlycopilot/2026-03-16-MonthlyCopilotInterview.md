@@ -15,7 +15,7 @@ header:
 toc: false
 toc_sticky: true
 classes: wide
-author: 김현지
+author: 정혜수
 ---
 
 <div class="monthlycopilot-page monthlycopilot-page--education">
@@ -31,11 +31,11 @@ author: 김현지
 
 <div style="margin: 0 0 1rem; font-size: 1.05rem; font-weight: 800; color: #0f172a; text-align: center; line-height: 1.7;">“내향인에게 코파일럿은 최고의 동료…업무는 결국 ‘구체적으로’ 묻는 사람이 가져갑니다”</div>
 
-<div style="margin: 0 0 1.2rem; text-align: center; color: #0f766e; font-weight: 800;">🎙️이달의 人 : Microsoft AE (Account Executive) 허준</div>
+<div style="margin: 0 0 1.2rem; text-align: center; color: #0f766e; font-weight: 800;">🎙️이달의 人 : Microsoft 영업대표 허준</div>
 
 <div style="margin: 0 0 1.3rem; padding: 1rem 1.1rem; border-radius: 16px; background: linear-gradient(135deg, #ecfeff 0%, #f8fafc 100%); border: 1px solid #99f6e4; color: #1f2937;">
   <div style="font-weight: 800; color: #0f766e; margin-bottom: 0.35rem;">Interview Summary</div>
-  <div style="line-height: 1.85;">온보딩·자료검색·피칭 초안·회의 요약까지, M365 Copilot을 ‘반복 질문’으로 길들이는 법. 입사 초기 ‘물어볼 사람’을 찾기보다 먼저 코파일럿을 열었다. 현대자동차그룹 어카운트 이그제큐티브 허준은 온보딩 단계부터 M365 Copilot을 업무 검색과 자료 초안 작성에 적극 활용해 왔다. 그의 방식은 단순하다. “최신 정보로” “팩트체크까지”라고 구체적으로 요청하고, 원하는 답이 나올 때까지 계속 추가 질문(이터레이션)한다. 코파일럿을 ‘만능’으로 믿기보다, 검증과 맥락을 더해 협업 도구로 만드는 것이 핵심이었다.</div>
+  <div style="line-height: 1.85;">온보딩·자료검색·피칭 초안·회의 요약까지, M365 Copilot을 ‘반복 질문’으로 길들이는 법. 입사 초기 ‘물어볼 사람’을 찾기보다 먼저 코파일럿을 열었다. 현대자동차그룹 영업대표인 허준은 온보딩 단계부터 M365 Copilot을 업무 검색과 자료 초안 작성에 적극 활용해 왔다. 그의 방식은 단순하다. “최신 정보로” “팩트체크까지”라고 구체적으로 요청하고, 원하는 답이 나올 때까지 계속 추가 질문(이터레이션)한다. 코파일럿을 ‘만능’으로 믿기보다, 검증과 맥락을 더해 협업 도구로 만드는 것이 핵심이었다.</div>
 </div>
 
 <div style="margin: 0 0 1.4rem; padding: 1rem 1.1rem; border-radius: 16px; background: #f8fafc; border: 1px solid #dbe4f0; color: #111827;">
@@ -53,7 +53,7 @@ author: 김현지
   허준 “온보딩 때부터 코파일럿을 좀 열심히 사용했어요. 업무 관련 내용들은 코파일럿을 통해서 검색을 하고 있습니다.”
 </div>
 
-<img src="/mwkorea/assets/images/20260316-monthlycopilot-interview/monthlycopilot-interview-image4.jpg" alt="허준 인터뷰 첫 번째 이미지" />
+<img src="/mwkorea/assets/images/20260316-monthlycopilot-interview/interview-image4.jpg" alt="허준 인터뷰 첫 번째 이미지" />
 
 <hr/>
 
@@ -75,7 +75,7 @@ author: 김현지
   허준 “여러 번 때려 넣었기 때문에…이거 해서 안되면 저거 더 물어보고, 안되면 또 조건 달아서 물어보고 이런 식이었거든요. 약간 이터레이션이 필요한 부분이었죠.”
 </div>
 
-<img src="/mwkorea/assets/images/20260316-monthlycopilot-interview/monthlycopilot-interview-image6.jpg" alt="허준 인터뷰 두 번째 이미지" />
+<img src="/mwkorea/assets/images/20260316-monthlycopilot-interview/interview-image6.jpg" alt="허준 인터뷰 두 번째 이미지" />
 
 <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin: 1rem 0 1.4rem;">
   <div style="padding: 1rem; border-radius: 14px; background: #ecfeff; border: 1px solid #99f6e4; color: #115e59;">
@@ -127,7 +127,7 @@ author: 김현지
   허준 “팀즈 미팅 녹화하고 하면 요약 잘해주고, 누가 얘기했는지도 다 정리해줘서 나중에 미팅 복기할 때 좋더라고요.”
 </div>
 
-<img src="/mwkorea/assets/images/20260316-monthlycopilot-interview/monthlycopilot-interview-image8.jpg" alt="허준 인터뷰 세 번째 이미지" />
+<img src="/mwkorea/assets/images/20260316-monthlycopilot-interview/interview-image8.jpg" alt="허준 인터뷰 세 번째 이미지" />
 
 <hr/>
 
