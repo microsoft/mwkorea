@@ -6,7 +6,7 @@ categories:
 tags:
   - Copilot
   - AI
-  - Agent Mode
+  - 코파일럿으로 편집
   - Microsoft 365 Copilot
 excerpt: "Word, Excel, PowerPoint에서 Copilot이 직접 편집하고 이어서 일하는 '코파일럿으로 편집'을 정리했습니다. Chat 기반 Agents와의 차이, 대표 활용 장면, 바로 써볼 수 있는 실전 프롬프트 9개까지 담았습니다."
 header:
@@ -58,7 +58,7 @@ author: 고현
     <thead>
       <tr style="background: #111827; color: #f9fafb;">
         <th style="padding: 0.85rem; text-align: left; border: 1px solid #1f2937;">구분</th>
-        <th style="padding: 0.85rem; text-align: left; border: 1px solid #1f2937;">Agent Mode</th>
+        <th style="padding: 0.85rem; text-align: left; border: 1px solid #1f2937;">코파일럿으로 편집</th>
         <th style="padding: 0.85rem; text-align: left; border: 1px solid #1f2937;">Agents(Copilot Chat기반)</th>
       </tr>
     </thead>
@@ -135,7 +135,7 @@ author: 고현
 <div style="margin: 1rem 0 1.4rem; padding: 1rem 1.1rem; border-radius: 16px; background: #f8fafc; border: 1px solid #dbe4f0; color: #111827;">
   <div style="font-weight: 800; margin-bottom: 0.45rem;">📌 실전 활용 예시</div>
   <div style="line-height: 1.85;">“이 매출 데이터를 기반으로<br/>월별 성장률과 전년 대비 증감을 분석하고,<br/>경영진용 차트와 요약 탭을 만들어줘.”</div>
-  <div style="margin-top: 0.7rem; font-weight: 800; color: #334155;">Agent Mode는:</div>
+  <div style="margin-top: 0.7rem; font-weight: 800; color: #334155;">'코파일럿으로 편집'은:</div>
   <ul style="margin: 0.8rem 0 0; padding-left: 1.2rem;">
     <li>데이터 정리</li>
     <li>계산식 생성</li>
@@ -254,7 +254,7 @@ author: 고현
 <div style="margin: 1rem 0 0; padding: 1.15rem 1.2rem; border-radius: 18px; background: linear-gradient(135deg, #111827 0%, #1f2937 100%); color: #f9fafb;">
   <div style="font-size: 0.85rem; font-weight: 900; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 0.45rem;">✨ 이렇게 활용해보세요</div>
   <div style="line-height: 1.85;">✅ 길게 설명하지 말고 ‘목적’을 말하기<br/>✅ “만들어줘”보다 “어떻게 쓰일지”를 함께 말하기<br/>✅ 한 번에 완벽을 기대하지 말고, 이어서 대화하기</div>
-  <div style="margin-top: 0.75rem; color: #cbd5e1;">💬 Agent Mode는 한 번 지시하고 끝나는 AI가 아니라, 계속 같이 일하면서 다듬는 AI입니다.</div>
+  <div style="margin-top: 0.75rem; color: #cbd5e1;">💬 코파일럿은 한 번 지시하고 끝나는 AI가 아니라, 계속 같이 일하면서 다듬는 AI입니다.</div>
 </div>
 
 </div>
