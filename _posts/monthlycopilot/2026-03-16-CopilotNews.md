@@ -31,7 +31,7 @@ author: 고현
 <div style="margin: 0 0 1.3rem; padding: 1rem 1.1rem; border-radius: 16px; background: linear-gradient(135deg, #eff6ff 0%, #f8fafc 100%); border: 1px solid #bfdbfe; color: #1f2937;">
   <div style="font-weight: 800; color: #1d4ed8; margin-bottom: 0.35rem;">🤖 Copilot New Feature</div>
   <div style="line-height: 1.8;">이번 달 월간 코파일럿에서는 Microsoft 365 Copilot의 새로운 진화, "Copilot으로 편집" 기능을 소개합니다. 이제 Copilot은 단순히 “물어보면 답해주는 AI”를 넘어, 문서·데이터·슬라이드 안에서 함께 일하는 협업 파트너로 진화하고 있습니다.<br/>
-  ⚠️ "Copilot으로 편집" 기능은 Microsoft 365 Copilot 라이선스가 있는 사용자에게 제공됩니다.
+  ⚠️ "Copilot으로 편집" 기능은 Microsoft 365 Copilot 라이선스가 있는 사용자에게 제공됩니다.</div>
 </div>
 
 
@@ -41,7 +41,6 @@ author: 고현
   <div style="line-height: 1.8; color: #374151;">Word, Excel, PowerPoint 안에서 Copilot이 실제 결과물을 함께 편집하는 방식이 무엇인지 설명하고, Copilot Chat 기반 Agents와의 차이를 표로 정리했습니다. 뒤쪽에는 바로 써볼 수 있는 실전 프롬프트 9개를 이어서 담았습니다.</div>
 </div>
 
-<img src="/mwkorea/assets/images/20260316-copilot-news/copilot-news-image1.png" alt="'코파일럿으로 편집' 소개 대표 이미지" />
 
 <hr/>
 
