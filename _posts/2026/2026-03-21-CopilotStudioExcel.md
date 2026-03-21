@@ -26,7 +26,7 @@ author: 최정우
 
 그래서 아래와 같은 엑셀을 정성스럽게 준비합니다.
 
-![업무담당자 정보가 입력된 엑셀 파일](assets/images/2026-03-21-CopilotStudioExcel/image1.png)
+![업무담당자 정보가 입력된 엑셀 파일](/mwkorea/assets/images/2026-03-21-CopilotStudioExcel/image1.png)
 
 ---
 
@@ -34,11 +34,11 @@ author: 최정우
 
 그런데 실제로 엑셀파일을 참조해 놓고 에이전트를 만들면 황당한 결과를 만날 수 있습니다.
 
-![에이전트가 잘못된 답변을 반환하는 화면](assets/images/2026-03-21-CopilotStudioExcel/image2.png)
+![에이전트가 잘못된 답변을 반환하는 화면](/mwkorea/assets/images/2026-03-21-CopilotStudioExcel/image2.png)
 
 엑셀파일의 정보를 보면 실제 담당자는 **차은우**입니다. 그런데 에이전트는 엉뚱한 답변을 한 것을 넘어서, "차이유"라고 아래쪽 행에 있는 아이유와 합성해서 답변을 내놓기까지 합니다.
 
-![실제 엑셀 데이터 — 담당자는 차은우](assets/images/2026-03-21-CopilotStudioExcel/image3.png)
+![실제 엑셀 데이터 — 담당자는 차은우](/mwkorea/assets/images/2026-03-21-CopilotStudioExcel/image3.png)
 
 이러한 현상은 저뿐만 아니라, 제가 담당했던 고객사에서도 심심치 않게 발견되었고, 심지어 해커톤 행사에서도 자주 문의받던 내용입니다.
 
@@ -61,7 +61,7 @@ author: 최정우
 
 혹시 이렇게 데이터가 전달되니까 코파일럿 스튜디오는, LLM은 바보 같은 결과를 내는 게 아닐까요?
 
-![코파일럿 스튜디오 활동 트래킹 — 엑셀 데이터가 텍스트로 전달되는 모습](assets/images/2026-03-21-CopilotStudioExcel/image4.png)
+![코파일럿 스튜디오 활동 트래킹 — 엑셀 데이터가 텍스트로 전달되는 모습](/mwkorea/assets/images/2026-03-21-CopilotStudioExcel/image4.png)
 
 ---
 
@@ -72,13 +72,13 @@ author: 최정우
 - 필드마다 **`,`** 로 구분해 주고
 - 행의 구분은 **`-`** 을 넣어줍니다
 
-![구분자를 추가한 개선된 엑셀 형식](assets/images/2026-03-21-CopilotStudioExcel/image5.png)
+![구분자를 추가한 개선된 엑셀 형식](/mwkorea/assets/images/2026-03-21-CopilotStudioExcel/image5.png)
 
 이걸 에이전트에 참조해서 물어보면... 짜잔~!
 
 정확한 답변이 나옵니다. 🎉
 
-![정확한 답변이 반환된 화면](assets/images/2026-03-21-CopilotStudioExcel/image6.png)
+![정확한 답변이 반환된 화면](/mwkorea/assets/images/2026-03-21-CopilotStudioExcel/image6.png)
 
 ---
 
@@ -90,11 +90,11 @@ author: 최정우
 - **각 데이터행은 `-` 으로 구분**되고
 - **각 행의 필드는 `,` 으로 구분**되는 것으로 보입니다
 
-![구조화된 데이터가 전달되는 활동 트래킹 화면](assets/images/2026-03-21-CopilotStudioExcel/image7.png)
+![구조화된 데이터가 전달되는 활동 트래킹 화면](/mwkorea/assets/images/2026-03-21-CopilotStudioExcel/image7.png)
 
 이제 코파일럿 스튜디오가 구조화된 데이터를 전달받기 때문에, 이전보다 훨씬 정확한 답변을 주는 것을 볼 수 있습니다.
 
-![개선 전후 비교 화면](assets/images/2026-03-21-CopilotStudioExcel/image8.png)
+![개선 전후 비교 화면](/mwkorea/assets/images/2026-03-21-CopilotStudioExcel/image8.png)
 
 ---
 
