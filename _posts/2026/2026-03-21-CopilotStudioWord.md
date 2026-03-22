@@ -49,17 +49,25 @@ author: 최정우
 
 ### 1형식 — 표
 
+---
+
 ![워드 표 형식 예시](/mwkorea/assets/images/2026-03-22-CopilotStudioWord/image3.png)
 
 ### 2형식 — 평문
+
+---
 
 ![워드 평문 형식 예시](/mwkorea/assets/images/2026-03-22-CopilotStudioWord/image4.png)
 
 ### 3형식 — 평문 + 콤마
 
+---
+
 ![워드 평문 + 콤마 형식 예시](/mwkorea/assets/images/2026-03-22-CopilotStudioWord/image5.png)
 
 ### 4형식 — 불릿
+
+---
 
 ![워드 불릿 형식 예시](/mwkorea/assets/images/2026-03-22-CopilotStudioWord/image6.png)
 
@@ -83,28 +91,35 @@ author: 최정우
 
 ![테스트 결과 전체 비교](/mwkorea/assets/images/2026-03-22-CopilotStudioWord/image7.png)
 
-![각 형식별 에이전트 응답 화면](/mwkorea/assets/images/2026-03-22-CopilotStudioWord/image8.png)
-
----
-
 ## 각 형식별 결과 상세
 
+![각 형식별 에이전트 응답 화면](/mwkorea/assets/images/2026-03-22-CopilotStudioWord/image8.png)
+
 ### 1형식 — 💀 가끔 잘못되고 엉뚱한 답변
+
+---
 
 ![1형식 테스트 결과 화면](/mwkorea/assets/images/2026-03-22-CopilotStudioWord/image9.png)
 
 ### 2형식 — 💀 가끔 잘못되고 엉뚱한 답변
 
+---
+
 ![2형식 테스트 결과 화면](/mwkorea/assets/images/2026-03-22-CopilotStudioWord/image10.png)
 
 ### 3형식 — 💀 가끔 잘못되고 엉뚱한 답변
+
+---
 
 ![3형식 테스트 결과 화면](/mwkorea/assets/images/2026-03-22-CopilotStudioWord/image11.png)
 
 ### 4형식 — ✅ 제대로 된 답변
 
+---
+
 ![4형식 테스트 결과 화면 — 정확한 답변](/mwkorea/assets/images/2026-03-22-CopilotStudioWord/image12.png)
 
+### 5형식 — 💀 가끔 잘못되고 엉뚱한 답변
 ---
 
 ## 정리
