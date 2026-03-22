@@ -1,6 +1,6 @@
 ---
 title: "코파일럿 스튜디오에서 워드파일을 참조할 때 도움이 될 팁"
-date: 2026-03-22T00:00:00 KST
+date: 2026-03-21T00:00:00 KST
 categories:
   - CopilotStudio
 tags:
