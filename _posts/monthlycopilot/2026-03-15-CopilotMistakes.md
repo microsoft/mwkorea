@@ -67,13 +67,13 @@ author: 김지연
   </div>
 </div>
 
-<div style="margin: 1rem 0 1.4rem; padding: 1rem 1.1rem; border-radius: 16px; background: #fefce8; border: 1px solid #fde68a; color: #854d0e;">
-  🔑 Editor's Pick — Copilot은 전지전능한 AI가 아닙니다. 데이터가 충분하고 프롬프트가 구체적일수록, 훨씬 정확해집니다.
-</div>
-
 <hr/>
 
 <h2 style="margin-top: 1.4rem; padding: 0.55rem 0.85rem; border-left: 6px solid #0f766e; background: #f8fafc;">02. 무료 Copilot vs 유료 Copilot 무엇이 다른가요 — 같은 이름, 완전히 다른 도구</h2>
+
+<div style="margin: 1rem 0 1.4rem; padding: 1rem 1.1rem; border-radius: 16px; background: #fefce8; border: 1px solid #fde68a; color: #854d0e;">
+  🔑 Editor's Pick — Copilot은 전지전능한 AI가 아닙니다. 데이터가 충분하고 프롬프트가 구체적일수록, 훨씬 정확해집니다.
+</div>
 
 <p>두 버전을 구분하는 핵심은 딱 하나입니다. "어떤 데이터를 볼 수 있느냐"입니다.</p>
 
