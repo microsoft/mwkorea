@@ -3,7 +3,7 @@
 최정우:
   name        : "최정우"
   bio         : "Copilot Technical Specialist"
-  avatar      : "/assets/images/avatars/newchoi.png"
+  avatar      : "/assets/images/avatars/newchoi2.png"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -102,4 +102,4 @@
 정혜수:
   name        : "정혜수"
   bio         : "Customer Success Account Manager" 
-  avatar      : "/assets/images/avatars/bio-photo.jpg"  
+  avatar      : "/assets/images/avatars/chung.jpg"  
