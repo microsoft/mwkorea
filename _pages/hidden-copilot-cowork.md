@@ -66,7 +66,7 @@ author: 최정우
 
 <p>즉, Cowork는 단순히 정보를 찾거나 초안을 써주는 게 아니라, 미팅 일정 등록부터 메일 발송, 문서 생성까지 <strong>실제 업무를 끝까지 수행</strong>하는 AI입니다.</p>
 
-<img src="/mwkorea/assets/images/copilot-cowork/image1.png" alt="Copilot Cowork 개요" style="border-radius: 12px; margin-bottom: 1.4rem;" />
+<img src="/mwkorea/assets/images/20260416-copilot-cowork/image1.png" alt="Copilot Cowork 개요" style="border-radius: 12px; margin-bottom: 1.4rem;" />
 
 <div style="margin: 1rem 0 1.4rem; padding: 1rem 1.1rem; border-radius: 16px; background: #f8fafc; border: 1px solid #dbe4f0; color: #111827;">
   <div style="font-weight: 800; margin-bottom: 0.45rem; color: #1d4ed8;">💡 핵심 차이점</div>
@@ -168,7 +168,7 @@ author: 최정우
   <div style="line-height: 1.85; color: #374151;">"Microsoft 기업 리서치" — 웹에서 관련 정보를 수집하고, 리서치 결과를 Word·PPT·Excel로 각각 생성합니다.</div>
 </div>
 
-<img src="/mwkorea/assets/images/copilot-cowork/image2.png" alt="Copilot Cowork 데모 시나리오" style="border-radius: 12px; margin-bottom: 1.4rem;" />
+<img src="/mwkorea/assets/images/20260416-copilot-cowork/image2.png" alt="Copilot Cowork 데모 시나리오" style="border-radius: 12px; margin-bottom: 1.4rem;" />
 
 <hr/>
 

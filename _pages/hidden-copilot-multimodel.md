@@ -23,7 +23,7 @@ author: 최정우
   <div style="line-height: 1.85;">"Copilot도 결국 GPT 하나 아닌가요?" 의외로 아직도 자주 듣는 질문입니다. 하지만 AI는 이미 하나의 모델로 모든 일을 처리하던 시기를 지나왔습니다. Copilot은 업무 종류와 상황에 맞춰 여러 모델 중에서 가장 적합한 것을 자동으로 선택해 사용합니다.</div>
 </div>
 
-<img src="/mwkorea/assets/images/copilot-multimodel/image2.png" alt="멀티 모델 시대의 Copilot" style="border-radius: 12px; margin-bottom: 1.4rem;" />
+<img src="/mwkorea/assets/images/20260416-copilot-multimodel/image2.png" alt="멀티 모델 시대의 Copilot" style="border-radius: 12px; margin-bottom: 1.4rem;" />
 
 <hr/>
 

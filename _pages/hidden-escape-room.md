@@ -28,7 +28,7 @@ author: 최정우
   <div style="line-height: 1.8; color: #374151;">채널 배포 · Gamification · Direct Line API · Copilot Studio · Azure Static Web Apps · 커스텀 웹사이트</div>
 </div>
 
-<img src="/mwkorea/assets/images/escape-room/image1.jpeg" alt="AI Tour 2026 Copilot Studio 부스 현장" style="border-radius: 12px; margin-bottom: 1.4rem;" />
+<img src="/mwkorea/assets/images/20260416-escape-room/image1.jpeg" alt="AI Tour 2026 Copilot Studio 부스 현장" style="border-radius: 12px; margin-bottom: 1.4rem;" />
 
 <hr/>
 
@@ -67,7 +67,7 @@ author: 최정우
 
 <p>게임은 <strong>2-Stage 구조</strong>로 설계됐다. 현실의 방탈출처럼 첫 번째 방을 통과하면 두 번째 방으로 넘어가는 구조이며, 동시에 두 팀원 간의 업무 분담을 자연스럽게 나눌 수 있는 장치이기도 했다.</p>
 
-<img src="/mwkorea/assets/images/escape-room/image2.jpeg" alt="방탈출 게임 화면 - Copilot Studio 에이전트 탑재" style="border-radius: 12px; margin-bottom: 1.4rem;" />
+<img src="/mwkorea/assets/images/20260416-escape-room/image2.jpeg" alt="방탈출 게임 화면 - Copilot Studio 에이전트 탑재" style="border-radius: 12px; margin-bottom: 1.4rem;" />
 
 <hr/>
 

@@ -23,7 +23,7 @@ author: 최정우
   <div style="line-height: 1.85;">월요일 아침, 프로젝트 회의가 시작됩니다. 누군가는 "지난번에 뭐로 합의했죠?"라고 묻고, 누군가는 Teams을 뒤져 보고, 다른 누군가는 메모를 찾다가 결국 "일단 다시 정리해볼게요"라고 말합니다. Copilot Facilitator와 Channel Agent는 바로 그 지점을 건드립니다.</div>
 </div>
 
-<img src="/mwkorea/assets/images/copilot-news-facilitator/image1.png" alt="Facilitator와 Channel Agent 개요" style="border-radius: 12px; margin-bottom: 1.4rem;" />
+<img src="/mwkorea/assets/images/20260416-copilot-facilitator-channel/image1.png" alt="Facilitator와 Channel Agent 개요" style="border-radius: 12px; margin-bottom: 1.4rem;" />
 
 <hr/>
 
@@ -37,7 +37,7 @@ author: 최정우
 
 <p>회의가 끝나면? 이미 노트 초안이 어느 정도 잡혀 있어서, "누가 회의록 정리하지?"가 <strong>"초안 검토하고 다듬자"</strong>로 바뀝니다.</p>
 
-<img src="/mwkorea/assets/images/copilot-news-facilitator/image2.png" alt="Facilitator 실시간 노트 화면" style="border-radius: 12px; margin-bottom: 1.4rem;" />
+<img src="/mwkorea/assets/images/20260416-copilot-facilitator-channel/image2.png" alt="Facilitator 실시간 노트 화면" style="border-radius: 12px; margin-bottom: 1.4rem;" />
 
 <hr/>
 
@@ -49,7 +49,7 @@ author: 최정우
   비유하면 <strong>'채널의 기억력'</strong>입니다. 휴가 뒤 복귀했을 때, 프로젝트에 새로 합류했을 때 — Channel Agent에게 물으면 "지금까지 무슨 논의가 있었는지"를 훨씬 짧은 경로로 파악할 수 있습니다.
 </div>
 
-<img src="/mwkorea/assets/images/copilot-news-facilitator/image3.png" alt="Channel Agent 채널 상주 화면" style="border-radius: 12px; margin-bottom: 1.4rem;" />
+<img src="/mwkorea/assets/images/20260416-copilot-facilitator-channel/image3.png" alt="Channel Agent 채널 상주 화면" style="border-radius: 12px; margin-bottom: 1.4rem;" />
 
 <hr/>
 

@@ -23,7 +23,7 @@ author: 최정우
   <div style="line-height: 1.85;">아직 '요약'과 '메일 작성'에서 멈춰 있다면 — 당신의 Copilot은 아직 100% 활용되지 않은 상태입니다. Copilot 레벨업, 지금 시작해도 충분합니다.</div>
 </div>
 
-<img src="/mwkorea/assets/images/copilot-resources/image.png" alt="Copilot 학습 로드맵 커버" style="border-radius: 12px; margin-bottom: 1.4rem;" />
+<img src="/mwkorea/assets/images/20260416-copilot-resources/image.png" alt="Copilot 학습 로드맵 커버" style="border-radius: 12px; margin-bottom: 1.4rem;" />
 
 <hr/>
 
