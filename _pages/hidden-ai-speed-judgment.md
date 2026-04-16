@@ -4,6 +4,9 @@ title: "AI는 속도를, 사람은 판단을 통해 완성도를 만든다"
 permalink: /hidden/ai-speed-judgment/
 author_profile: true
 sitemap: false
+header:
+  overlay_image: assets/images/header/Microsoft365-Copilot-KeyArt-Productivity-6K-01.png
+  overlay_filter: 0.5
 classes: wide
 toc: false
 author: 최정우

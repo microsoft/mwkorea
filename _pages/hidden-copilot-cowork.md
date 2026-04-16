@@ -4,6 +4,9 @@ title: "일의 흐름을 바꾸는 새로운 경험, Copilot Cowork"
 permalink: /hidden/copilot-cowork/
 author_profile: true
 sitemap: false
+header:
+  overlay_image: assets/images/header/Microsoft365-Copilot-KeyArt-Productivity-6K-01.png
+  overlay_filter: 0.5
 classes: wide
 toc: false
 author: 최정우

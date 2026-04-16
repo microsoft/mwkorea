@@ -4,6 +4,9 @@ title: "방탈출로 탈출한 건 Copilot의 한계였다"
 permalink: /hidden/escape-room-copilot/
 author_profile: true
 sitemap: false
+header:
+  overlay_image: assets/images/header/Microsoft365-Copilot-KeyArt-Productivity-6K-01.png
+  overlay_filter: 0.5
 classes: wide
 toc: false
 author: 최정우

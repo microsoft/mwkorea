@@ -4,6 +4,9 @@ title: "이제는 멀티 모델의 시대입니다"
 permalink: /hidden/copilot-multimodel/
 author_profile: true
 sitemap: false
+header:
+  overlay_image: assets/images/header/Microsoft365-Copilot-KeyArt-Productivity-6K-01.png
+  overlay_filter: 0.5
 classes: wide
 toc: false
 author: 최정우

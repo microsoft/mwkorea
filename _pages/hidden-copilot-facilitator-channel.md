@@ -4,6 +4,9 @@ title: "회의엔 Facilitator, 팀즈 채널엔 Channel Agent: AI 혁신 듀오"
 permalink: /hidden/copilot-facilitator-channel/
 author_profile: true
 sitemap: false
+header:
+  overlay_image: assets/images/header/Microsoft365-Copilot-KeyArt-Productivity-6K-01.png
+  overlay_filter: 0.5
 classes: wide
 toc: false
 author: 최정우
