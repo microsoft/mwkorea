@@ -2,6 +2,12 @@
 layout: single
 title: "AI 시대, 나만 구경꾼이었다 — M365 Copilot 완벽 학습 로드맵"
 permalink: /hidden/copilot-resources-may/
+excerpt: "초급부터 고급까지, M365 Copilot을 내 페이스대로 마스터하는 무료 학습 리소스 완벽 모음집입니다."
+tags:
+  - Copilot
+  - 학습
+  - Copilot Studio
+  - Azure AI
 author_profile: true
 sitemap: false
 header:

@@ -2,6 +2,12 @@
 layout: single
 title: "회의엔 Facilitator, 팀즈 채널엔 Channel Agent: AI 혁신 듀오"
 permalink: /hidden/copilot-facilitator-channel/
+excerpt: "Copilot Facilitator는 회의 안에서 실시간 AI 노트를, Channel Agent는 Teams 채널에서 맥락을 기억하는 AI 동료 역할을 합니다."
+tags:
+  - Copilot
+  - Teams
+  - Facilitator
+  - Channel Agent
 author_profile: true
 sitemap: false
 header:

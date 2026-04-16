@@ -2,6 +2,12 @@
 layout: single
 title: "일의 흐름을 바꾸는 새로운 경험, Copilot Cowork"
 permalink: /hidden/copilot-cowork/
+excerpt: "Copilot Cowork는 Agentic AI 기반으로 목표를 말하면 계획부터 실행까지 책임지는 새로운 Microsoft 365 Copilot 경험입니다."
+tags:
+  - Copilot
+  - Copilot Cowork
+  - Agentic AI
+  - Microsoft 365
 author_profile: true
 sitemap: false
 header:

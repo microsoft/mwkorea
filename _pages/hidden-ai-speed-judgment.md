@@ -2,6 +2,12 @@
 layout: single
 title: "AI는 속도를, 사람은 판단을 통해 완성도를 만든다"
 permalink: /hidden/ai-speed-judgment/
+excerpt: "AI가 요약한 보안 강화 권고안을 적용했지만 장애가 발생한 실제 사례. AI는 속도를, 사람은 판단을 — 공존의 기술을 다룹니다."
+tags:
+  - AI
+  - IT 운영
+  - 보안
+  - Human-in-the-loop
 author_profile: true
 sitemap: false
 header:
