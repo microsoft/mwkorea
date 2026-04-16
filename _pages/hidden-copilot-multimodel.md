@@ -2,12 +2,14 @@
 layout: single
 title: "이제는 멀티 모델의 시대입니다"
 permalink: /hidden/copilot-multimodel/
-excerpt: "Copilot이 매번 다른 답을 내놓는 이유는 멀티 모델 설계 때문입니다. 피드백 3단계로 Copilot을 실제로 바꾸는 법을 안내합니다."
+excerpt: "Copilot도 결국 GPT 하나 아닌가요? Copilot이 매번 다른 답을 내놓는 이유는 업무 상황에 맞춰 여러 모델을 자동 선택하는 멀티 모델 설계 때문입니다. Thumbs Down 클릭부터 스크린샷, 한 줄 피드백까지 — 딱 15초면 Copilot을 실제로 바꿀 수 있는 피드백 3단계를 안내합니다."
 tags:
   - Copilot
   - 멀티모델
   - 피드백
   - AI
+categories:
+  - Copilot
 author_profile: true
 sitemap: false
 header:
@@ -15,6 +17,7 @@ header:
   overlay_filter: 0.5
 classes: wide
 toc: false
+toc_sticky: true
 author: 최정우
 ---
 

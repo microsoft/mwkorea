@@ -2,12 +2,14 @@
 layout: single
 title: "AI는 속도를, 사람은 판단을 통해 완성도를 만든다"
 permalink: /hidden/ai-speed-judgment/
-excerpt: "AI가 요약한 보안 강화 권고안을 적용했지만 장애가 발생한 실제 사례. AI는 속도를, 사람은 판단을 — 공존의 기술을 다룹니다."
+excerpt: "AI 보안 어시스턴트의 권고대로 AD CS 서버를 강화했지만, 다음 날 아침 SSO 장애가 발생했습니다. AI의 권고는 틀리지 않았지만 조직의 맥락까지는 이해하지 못한 일반적인 정답이었을 뿐. AI는 속도를, 사람은 판단을 — IT 운영 현장에서 벌어진 실제 사건이 보여주는 AI와 인간 협업의 본질을 다룹니다."
 tags:
   - AI
   - IT 운영
   - 보안
   - Human-in-the-loop
+categories:
+  - Copilot
 author_profile: true
 sitemap: false
 header:
@@ -15,6 +17,7 @@ header:
   overlay_filter: 0.5
 classes: wide
 toc: false
+toc_sticky: true
 author: 최정우
 ---
 
