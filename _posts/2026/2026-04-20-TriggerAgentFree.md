@@ -104,6 +104,48 @@ Microsoft 공식 문서의 표현을 빌리면:
 
 ---
 
+## 채널은 상관없나요?
+
+네, Copilot Studio에서 제공하는 **모든 채널에서 무료 적용이 가능**합니다.
+
+단, 한 가지 전제가 있습니다: 에이전트 인증 설정을 수동(Manual)으로 구성하여, 사용자가 **Entra ID(구 Azure AD)로 인증**을 받아야 합니다.
+
+웹사이트에 에이전트를 붙여도, Teams에서 사용해도, **로그인만 하면 무료**입니다.
+
+### ⚠️ SSO 지원 채널은 제한적
+
+모든 채널에서 SSO(Single Sign-On)가 되는 것은 아닙니다.
+
+| 채널 | SSO 지원 |
+|------|----------|
+| Microsoft Teams | ✅ 지원 |
+| Custom Website | ✅ 지원 |
+| SharePoint | ✅ 지원 |
+| Demo Website | ❌ 미지원 |
+| Facebook | ❌ 미지원 |
+| Azure Bot Service 채널 | ❌ 미지원 |
+
+> 참고: [Microsoft Learn: Configure SSO](https://learn.microsoft.com/en-us/microsoft-copilot-studio/configure-sso?tabs=webApp)
+
+SSO가 안 되는 채널에서는 사용자가 액세스 토큰을 직접 입력해야 하므로, 실무적으로는 **Teams 또는 웹사이트 중심으로 활용**하시는 것이 현실적입니다.
+
+---
+
+## 전사 포털에 붙이려면? 쓰로틀링을 꼭 확인하세요
+
+"그럼 사내 포털 메인에 에이전트를 붙이면 되겠네!" 라고 생각하실 수 있지만, **쓰로틀링 제한**을 반드시 고려해야 합니다.
+
+| 제한 항목 | 한도 |
+|-----------|------|
+| 분당 요청 수 | 100회 |
+| 시간당 요청 수 | 2,000회 |
+
+이 제한은 **환경(Environment) 단위**로 적용되기 때문에, 중견 이상 기업에서 수백~수천 명이 동시에 접속하는 전사 포털에는 병목이 발생할 수 있습니다.
+
+> 참고: [Microsoft Learn: Requirements Quotas](https://learn.microsoft.com/en-us/microsoft-copilot-studio/requirements-quotas)
+
+---
+
 ## 한눈에 정리
 
 | 시나리오 | 과금 여부 |
