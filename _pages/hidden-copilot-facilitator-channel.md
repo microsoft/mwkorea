@@ -18,7 +18,7 @@ header:
 classes: wide
 toc: false
 toc_sticky: true
-author: 최정우
+author: 고현
 ---
 
 <div class="monthlycopilot-page monthlycopilot-page--tour">
@@ -44,7 +44,7 @@ author: 최정우
 <p>Facilitator는 회의가 끝난 뒤에 요약해 주는 도구가 아닙니다. 회의가 진행되는 동안 <strong>실시간으로 AI 노트를 만들고</strong>, 주요 결정사항과 열린 질문을 정리하며, 안건별 시간 흐름까지 타이머로 보여줍니다.</p>
 
 <div style="margin: 1rem 0 1.4rem; padding: 1rem 1.1rem; border-radius: 16px; background: #eff6ff; border: 1px solid #bfdbfe; color: #1e3a8a; font-weight: 700; line-height: 1.85;">
-  개인용 Copilot과 다른 점이 하나 있습니다. Facilitator에게 질문하면 그 응답이 회의 채팅에 공개됩니다. 나만 보는 AI가 아니라, 참가자 전체가 같은 맥락을 보는 <strong>회의의 공용 보조자</strong>입니다.
+  Copilot과 다른 점이 하나 있습니다. Facilitator에게 질문하면 그 응답이 회의 채팅에 공개됩니다. 나만 보는 AI가 아니라, 참가자 전체가 같은 맥락을 보는 <strong>회의의 공용 보조자</strong>입니다.
 </div>
 
 <p>회의가 끝나면? 이미 노트 초안이 어느 정도 잡혀 있어서, "누가 회의록 정리하지?"가 <strong>"초안 검토하고 다듬자"</strong>로 바뀝니다.</p>
@@ -99,7 +99,7 @@ author: 최정우
   </div>
   <div style="padding: 1rem; border-radius: 14px; background: #fff7ed; border: 1px solid #fdba74; color: #c2410c;">
     <div style="font-weight: 800; margin-bottom: 0.35rem;">🆕 새 멤버 온보딩이 잦은 조직</div>
-    <div>채널 맥락을 빠르게 회수하는 데 도움이 됩니다.</div>
+    <div>채널 맥락을 빠르게 이해하는 데 도움이 됩니다.</div>
   </div>
 </div>
 

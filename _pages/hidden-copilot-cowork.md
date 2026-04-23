@@ -18,7 +18,7 @@ header:
 classes: wide
 toc: false
 toc_sticky: true
-author: 최정우
+author: 고현
 ---
 
 <div class="monthlycopilot-page monthlycopilot-page--tour">
@@ -64,7 +64,7 @@ author: 최정우
   </div>
   <div style="padding: 1rem; border-radius: 14px; background: #eff6ff; border: 1px solid #bfdbfe; color: #1d4ed8;">
     <div style="font-weight: 800; margin-bottom: 0.35rem;">🧠 Work IQ</div>
-    <div>업무 맥락 이해</div>
+    <div>아웃룩 메일, 일정, 팀즈 채팅, 미팅, 오피스 문서에서 만들어진 업무 데이터 기반으로 업무 맥락 이해</div>
   </div>
   <div style="padding: 1rem; border-radius: 14px; background: #f5f3ff; border: 1px solid #c4b5fd; color: #5b21b6;">
     <div style="font-weight: 800; margin-bottom: 0.35rem;">🔐 체크포인트</div>
@@ -164,23 +164,38 @@ author: 최정우
   <div style="font-weight: 800; margin-bottom: 0.45rem;">🎬 시나리오 1: 미팅 준비부터 일정 등록, 요약 자료 생성, 메일 발송까지</div>
   <div style="line-height: 1.85; color: #374151;">"[파일]과 관련해서 [사람]과 미팅을 하려고 해. 미팅 안건을 정리해주고, [사람]과 내가 모두 가능한 시간에 일정을 가장 빠른 일자로 잡아줘. 일정에는 첨부 파일에 대한 간단한 내용도 함께 포함해줘."</div>
   <ul style="margin: 0.7rem 0 0; padding-left: 1.2rem; line-height: 1.85; color: #374151;">
-    <li>첨부된 Word 파일 내용을 기반으로 미팅 목적 및 안건 정리</li>
-    <li>참석자 전원의 일정 고려하여, 가장 빠른 공통 가능 시간으로 일정 자동 생성</li>
-    <li>첨부 파일을 요약하여 안건을 포함한 메일 초안 작성</li>
+    <li>특정 문서를 기반으로 관계자와의 미팅이 필요한 상황에서,  Copilot Cowork는 관련 파일을 분석하여 미팅의 목적과 안건을 정리합니다.</li>
+    <li>참석자의 일정 데이터를 확인해 가장 빠른 공통 가능 시간을 찾아  미팅 일정을 자동으로 등록하고,  참고 자료를 요약한 미팅 안내 메일 초안까지 생성하여  후속 커뮤니케이션 준비를 완료합니다.</li>
   </ul>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/1J9SSbqIh6Y?si=-87eDav_lVcHslKZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 <div style="margin: 1rem 0 1.4rem; padding: 1rem 1.1rem; border-radius: 16px; background: #ecfeff; border: 1px solid #99f6e4; color: #115e59;">
   <div style="font-weight: 800; margin-bottom: 0.45rem;">🎬 시나리오 2: Viva Engage 게시글 확인 후 PDF 문서 만들기</div>
-  <div style="line-height: 1.85; color: #374151;">"Viva Engage 커뮤니티에 'Start your day with Agent'로 포스팅된 게시글들을 파일로 만들어서 공유하고 싶어. Day 1~9까지 시리즈로 포스팅되어 있는 게시글을 순서대로 모아서 하나의 PDF 파일로 생성해. 완성된 PDF를 첨부하여 고객에게 이메일로 전송할 수 있도록 이메일 초안을 작성해서 나에게 메일로 보내줘."</div>
+  <div style="line-height: 1.85; color: #374151;">"[Viva Engage 커뮤니티 링크] 다음 Viva Engage 커뮤니티에 'Start your day with Agent'로 포스팅된 게시글들을 파일로 만들어서 공유하고 싶어. Day 1~9까지 시리즈로 포스팅되어 있는 게시글을 순서대로 모아서 컨텐츠를 하나의 PDF 파일로 생성해. 완성된 PDF를 첨부하여 고객에게 이메일로 전송할 수 있도록 이메일 초안을 작성해서 나에게 메일로 보내줘."</div>
+  <ul style="margin: 0.7rem 0 0; padding-left: 1.2rem; line-height: 1.85; color: #374151;">
+    <li>Viva Engage 커뮤니티에 게시된 시리즈형 콘텐츠를 기반으로,  Copilot Cowork는 관련 게시글을 수집하고 외부 공유가 가능한 형태의 문서(PDF)로 재구성합니다.</li>
+    <li>완성된 자료는 고객 전달 목적에 맞춰 정리되며,  첨부 파일을 포함한 안내 메일까지 함께 준비되어  대외 커뮤니케이션을 빠르게 진행할 수 있도록 지원합니다.</li>
+  </ul>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Lv9Kic78SSs?si=J7l7ax1DxaP7xFlg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 <div style="margin: 1rem 0 1.4rem; padding: 1rem 1.1rem; border-radius: 16px; background: #eff6ff; border: 1px solid #bfdbfe; color: #1d4ed8;">
   <div style="font-weight: 800; margin-bottom: 0.45rem;">🎬 시나리오 3: 웹 데이터 리서치하여 Word, PowerPoint, Excel 파일 각각 만들기</div>
-  <div style="line-height: 1.85; color: #374151;">"Microsoft 기업 리서치" — 웹에서 관련 정보를 수집하고, 리서치 결과를 Word·PPT·Excel로 각각 생성합니다.</div>
+  <div style="line-height: 1.85; color: #374151;">Microsoft 기업 리서치를 기반으로 내부 보고 자료를 준비해야 해. 웹에서 관련 정보를 수집해 핵심 내용을 정리하고, 요약 보고서(Word), 발표 자료(PowerPoint), 데이터 분석 시트(Excel)를 각각 만들어줘. 완성된 파일은 검토할 수 있도록 공유해줘."</div>
+  <ul style="margin: 0.7rem 0 0; padding-left: 1.2rem; line-height: 1.85; color: #374151;">
+    <li>특정 주제에 대한 기업 리서치가 필요한 경우, Copilot Cowork는 웹에서 관련 정보를 수집하고</li>
+    <li>분석된 내용을 기반으로
+      <ul>
+        <li>보고서 형태의 Word 문서</li>
+        <li>발표용 PowerPoint 자료</li>
+        <li>데이터 분석용 Excel 시트</li>
+      </ul>
+    를 각각 생성합니다.</li>
+    <li>이를 통해 조사부터 문서화, 보고 준비까지의 멀티 스텝 업무를 한 번에 완료할 수 있습니다.</li>
+  </ul>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/prMPT_11jgA?si=1-vHq4d-Rnrl9_RG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
-
-<img src="/mwkorea/assets/images/20260416-copilot-cowork/image2.png" alt="Copilot Cowork 데모 시나리오" style="border-radius: 12px; margin-bottom: 1.4rem;" />
 
 <hr/>
 
@@ -234,7 +249,12 @@ author: 최정우
 <div style="margin: 1rem 0 0; padding: 1.15rem 1.2rem; border-radius: 18px; background: linear-gradient(135deg, #111827 0%, #1f2937 100%); color: #f9fafb; line-height: 1.85;">
   <div style="font-weight: 800; margin-bottom: 0.5rem; font-size: 1.05rem;">🌟 마무리</div>
   Copilot Cowork는 단순한 AI 도구가 아닙니다. 여러분의 업무 방식을 근본적으로 바꾸는 새로운 동료이자, 실행하는 AI입니다. 질문에 답하는 AI를 넘어, 업무를 끝까지 해내는 AI와 함께 더 전략적이고 창의적인 일에 집중하는 새로운 업무 경험을 시작해보세요.
-  <div style="margin-top: 0.8rem; font-size: 0.92rem; color: #9ca3af;">📌 참고 자료: Copilot Cowork: A new way of getting work done | Microsoft 365 Blog · Microsoft Learn: Copilot Cowork 개요 · Microsoft Support: Get started with Copilot Cowork (Frontier)</div>
+  <div style="margin-top: 0.8rem; font-size: 0.92rem; color: #9ca3af;">
+  📌 참고 자료: 
+  [Copilot Cowork: A new way of getting work done | Microsoft 365 Blog](https://www.microsoft.com/en-us/microsoft-365/blog/2023/03/15/copilot-cowork-a-new-way-of-getting-work-done/) <br/>
+  [Microsoft Learn: Copilot Cowork 개요](https://learn.microsoft.com/en-us/copilot-cowork/overview) <br/>
+  [Microsoft Support: Get started with Copilot Cowork (Frontier)](https://support.microsoft.com/en-us/copilot-cowork/get-started)
+  </div>
 </div>
 
 </div>
