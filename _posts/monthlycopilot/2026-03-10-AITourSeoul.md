@@ -2,7 +2,7 @@
 title: "Microsoft AI Tour Seoul: 하루 만에 AI의 모든 것을 경험하는 법"
 date: 2026-03-10T00:00:00 KST
 categories:
-  - Copilot
+  - monthlycopilot
 tags:
   - Copilot
   - AI

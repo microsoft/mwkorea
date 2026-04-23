@@ -2,7 +2,7 @@
 title: "코파일럿 뉴우쓰: Copilot으로 편집, 이제 AI가 문서 안에서 같이 일합니다"
 date: 2026-03-16T00:00:00 KST
 categories:
-  - Copilot
+  - monthlycopilot
 tags:
   - Copilot
   - AI

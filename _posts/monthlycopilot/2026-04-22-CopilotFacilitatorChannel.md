@@ -8,7 +8,7 @@ tags:
   - Facilitator
   - Channel Agent
 categories:
-  - Copilot
+  - monthlycopilot
 header:
   overlay_image: assets/images/header/Microsoft365-Copilot-KeyArt-Productivity-6K-01.png
   overlay_filter: 0.5

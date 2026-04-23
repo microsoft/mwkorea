@@ -2,7 +2,7 @@
 title: "월간 코파일럿 人(인)터뷰: 내향인에게 코파일럿은 최고의 동료, 허준의 일하는 방식"
 date: 2026-03-16T00:00:00 KST
 categories:
-  - Copilot
+  - monthlycopilot
 tags:
   - Copilot
   - AI

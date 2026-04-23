@@ -8,7 +8,7 @@ tags:
   - 월간코파일럿
   - 인터뷰
 categories:
-  - Copilot
+  - monthlycopilot
 header:
   overlay_image: assets/images/header/Microsoft365-Copilot-KeyArt-Productivity-6K-01.png
   overlay_filter: 0.5

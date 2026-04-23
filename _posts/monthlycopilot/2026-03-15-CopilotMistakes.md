@@ -2,7 +2,7 @@
 title: "Copilot 사용자 실수 모음집: 가장 많이 헷갈리는 3가지"
 date: 2026-03-15T00:00:00 KST
 categories:
-  - Copilot
+  - monthlycopilot
 tags:
   - Copilot
   - AI
