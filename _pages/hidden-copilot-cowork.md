@@ -251,9 +251,9 @@ author: 고현
   Copilot Cowork는 단순한 AI 도구가 아닙니다. 여러분의 업무 방식을 근본적으로 바꾸는 새로운 동료이자, 실행하는 AI입니다. 질문에 답하는 AI를 넘어, 업무를 끝까지 해내는 AI와 함께 더 전략적이고 창의적인 일에 집중하는 새로운 업무 경험을 시작해보세요.
   <div style="margin-top: 0.8rem; font-size: 0.92rem; color: #9ca3af;">
   📌 참고 자료: 
-  [Copilot Cowork: A new way of getting work done | Microsoft 365 Blog](https://www.microsoft.com/en-us/microsoft-365/blog/2023/03/15/copilot-cowork-a-new-way-of-getting-work-done/) <br/>
-  [Microsoft Learn: Copilot Cowork 개요](https://learn.microsoft.com/en-us/copilot-cowork/overview) <br/>
-  [Microsoft Support: Get started with Copilot Cowork (Frontier)](https://support.microsoft.com/en-us/copilot-cowork/get-started)
+  <a href="https://www.microsoft.com/en-us/microsoft-365/blog/2023/03/15/copilot-cowork-a-new-way-of-getting-work-done/" target="_blank" rel="noopener noreferrer" style="color: #bfdbfe; text-decoration: underline;">Copilot Cowork: A new way of getting work done | Microsoft 365 Blog</a> <br/>
+  <a href="https://learn.microsoft.com/en-us/copilot-cowork/overview" target="_blank" rel="noopener noreferrer" style="color: #bfdbfe; text-decoration: underline;">Microsoft Learn: Copilot Cowork 개요</a> <br/>
+  <a href="https://support.microsoft.com/en-us/copilot-cowork/get-started" target="_blank" rel="noopener noreferrer" style="color: #bfdbfe; text-decoration: underline;">Microsoft Support: Get started with Copilot Cowork (Frontier)</a>
   </div>
 </div>
 
