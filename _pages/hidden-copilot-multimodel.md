@@ -18,7 +18,7 @@ header:
 classes: wide
 toc: false
 toc_sticky: true
-author: 최정우
+author: 김현지
 ---
 
 <div class="monthlycopilot-page monthlycopilot-page--tour">
@@ -38,6 +38,16 @@ author: 최정우
 <img src="/mwkorea/assets/images/20260416-copilot-multimodel/image2.png" alt="멀티 모델 시대의 Copilot" style="border-radius: 12px; margin-bottom: 1.4rem;" />
 
 <hr/>
+
+<h2 style="margin-top: 1.4rem; padding: 0.55rem 0.85rem; border-left: 6px solid #14b8a6; background: #f8fafc;">Copilot은 하나의 AI가 아닙니다</h2>
+
+<div style="margin: 1rem 0 1.4rem; padding: 1rem 1.1rem; border-radius: 16px; background: #f8fafc; border: 1px solid #dbe4f0; color: #111827;">
+  <div style="line-height: 1.85; color: #374151;">
+    <p>Microsoft 365 Copilot은 하나의 AI 모델만 사용하는 시스템이 아니라, GPT와 Claude와 같은 다양한 대형 언어 모델(LLM)을 함께 활용하는 멀티모델 기반으로 동작합니다.</p>
+    <p>예를 들어 Word에서 문서를 작성하거나 Outlook에서 이메일을 생성할 때는 자연어 생성에 강한 모델이 활용되고, Excel에서 데이터를 분석하거나 Teams에서 회의 내용을 요약할 때는 구조화·추론에 강한 다른 모델이 선택되는 방식입니다.</p>
+    <p>Copilot은 사용자가 작업 중인 앱과 업무 맥락을 이해해 그 순간에 가장 적합한 AI 모델을 자동으로 조합하여 활용함으로써, 단일 모델로는 어려운 수준의 업무 지원을 제공합니다.</p>
+  </div>
+</div>
 
 <h2 style="margin-top: 1.4rem; padding: 0.55rem 0.85rem; border-left: 6px solid #0f766e; background: #f8fafc;">왜 Copilot은 매번 다른 답을 내놓을까?</h2>
 

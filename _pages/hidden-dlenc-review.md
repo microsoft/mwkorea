@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "도면이 바뀌면 누가 확인하나요? — DL이앤씨의 AI 에이전트 이야기"
+title: "도면이 바뀌면 누가 확인하나요? — DLENC의 AI 에이전트 이야기"
 permalink: /hidden/dlenc-agenthon-review/
-excerpt: "비정형 문서 자동 추출, GA 도면 설계 변경 검증, 발주서 자동 생성까지 — DL이앤씨가 AI Tour 에이전톤 로우코드 부문 1위를 차지하며 Copilot Studio로 현장의 반복 업무를 바꾼 세 가지 방법을 소개합니다. 별도 개발 조직 없이 현업이 직접 만든 Human-in-the-loop AI 에이전트의 실전 사례입니다."
+excerpt: "비정형 문서 자동 추출, GA 도면 설계 변경 검증, 발주서 자동 생성까지 — DLENC가 AI Tour 에이전톤 로우코드 부문 1위를 차지하며 Copilot Studio로 현장의 반복 업무를 바꾼 세 가지 방법을 소개합니다. 별도 개발 조직 없이 현업이 직접 만든 Human-in-the-loop AI 에이전트의 실전 사례입니다."
 tags:
   - Copilot Studio
   - AI Builder
@@ -19,7 +19,7 @@ header:
 classes: wide
 toc: false
 toc_sticky: true
-author: 최정우
+author: 김현지
 ---
 
 <div class="monthlycopilot-page monthlycopilot-page--tour">
@@ -33,14 +33,14 @@ author: 최정우
 
 <div style="margin: 0 0 1.3rem; padding: 1rem 1.1rem; border-radius: 16px; background: linear-gradient(135deg, #ecfeff 0%, #f8fafc 100%); border: 1px solid #99f6e4; color: #1f2937;">
   <div style="font-weight: 800; color: #0f766e; margin-bottom: 0.35rem;">Article Summary</div>
-  <div style="line-height: 1.85;">비정형 문서 자동 추출, GA 도면 설계 변경 검증, 발주서 자동 생성까지 — DL이앤씨가 Copilot Studio로 현장의 반복 업무를 바꾼 세 가지 방법. 2026 AI Tour 에이전톤 로우코드 부문 1위 사례 소개입니다.</div>
+  <div style="line-height: 1.85;">비정형 문서 자동 추출, GA 도면 설계 변경 검증, 발주서 자동 생성까지 — DLENC가 Copilot Studio로 현장의 반복 업무를 바꾼 세 가지 방법. 2026 AI Tour 에이전톤 로우코드 부문 1위 사례 소개입니다.</div>
 </div>
 
 <div style="margin: 0 0 1.4rem; padding: 1rem 1.1rem; border-radius: 16px; background: #f8fafc; border: 1px solid #dbe4f0; color: #111827;">
   <div style="line-height: 1.85; color: #374151;">이 내용은 2026 AI Tour 라이트닝 토크 세션에서 직접 발표된 내용을 바탕으로 정리했습니다. 현장에서 미처 못 보신 분들을 위해, 핵심 내용을 다시 Recap으로 전달드립니다.</div>
 </div>
 
-<img src="/mwkorea/assets/images/20260416-dlenc-review/image1.jpeg" alt="DL이앤씨 에이전톤 발표 현장" style="border-radius: 12px; margin-bottom: 1.4rem;" />
+<img src="/mwkorea/assets/images/20260416-dlenc-review/image1.jpeg" alt="DLENC 에이전톤 발표 현장" style="border-radius: 12px; margin-bottom: 1.4rem;" />
 
 <p>건설·플랜트 프로젝트를 한 번이라도 들여다보신 분이라면 아실 거예요. 현장에서 만들어지는 문서의 양은 어마어마합니다. 지반 조사 보고서, 도면, 스펙 시트, 그리고 수십 개 벤더와 나눈 미팅 기록까지 — 그 모든 데이터들이 제대로 옮겨지고, 반영되고, 검증되어야 프로젝트가 진행됩니다.</p>
 
@@ -66,7 +66,7 @@ author: 최정우
   "건당 평균 2~4시간이 걸립니다. 대형 프로젝트라면 수십 명이 똑같은 작업을 동시에 진행하게 됩니다. 숫자 하나가 잘못 입력되면 구조 계산 전체가 흔들릴 수 있습니다."
 </div>
 
-<p>DL이앤씨 팀이 선택한 방향은 명쾌했습니다. <strong>데이터를 옮기는 일은 AI에게, 사람은 결과를 확인하는 일에만 집중하자.</strong> 이것을 Microsoft Copilot Studio와 AI Builder — 즉, 로우코드 플랫폼만으로 구현했습니다. 별도의 개발 조직도, 프로그래밍 언어도 필요하지 않았습니다.</p>
+<p>DLENC 팀이 선택한 방향은 명쾌했습니다. <strong>데이터를 옮기는 일은 AI에게, 사람은 결과를 확인하는 일에만 집중하자.</strong> 이것을 Microsoft Copilot Studio와 AI Builder — 즉, 로우코드 플랫폼만으로 구현했습니다. 별도의 개발 조직도, 프로그래밍 언어도 필요하지 않았습니다.</p>
 
 <div style="margin: 1rem 0 1.4rem; padding: 1rem 1.1rem; border-radius: 16px; background: #f8fafc; border: 1px solid #dbe4f0; color: #111827;">
   <div style="font-weight: 800; margin-bottom: 0.45rem; color: #0f766e;">처리 흐름</div>
@@ -218,7 +218,7 @@ author: 최정우
 
 <p>기존 방식: PDF 도면을 사람이 눈으로 확인하고 치수와 스펙을 수작업으로 입력한 뒤, 도면 버전(Revision)이 바뀔 때마다 동일한 과정을 반복했습니다. 누락된 내용은 대부분 3D 모델링 이후, 심지어 시공 단계에서야 발견됐습니다. <strong>앞에서 놓친 것이 뒤에서 훨씬 큰 재작업으로 돌아오는 구조</strong>였습니다.</p>
 
-<p>DL이앤씨 팀은 이 구조 자체에 손을 댔습니다. Copilot Studio의 로우코드 환경 안에서 도면 분석부터 조건 검증, 데이터 매핑까지 이어지는 2-Stage 에이전트를 설계했습니다. <strong>전담 개발팀 없이, 현업이 직접 만들었습니다.</strong></p>
+<p>DLENC 팀은 이 구조 자체에 손을 댔습니다. Copilot Studio의 로우코드 환경 안에서 도면 분석부터 조건 검증, 데이터 매핑까지 이어지는 2-Stage 에이전트를 설계했습니다. <strong>전담 개발팀 없이, 현업이 직접 만들었습니다.</strong></p>
 
 <img src="/mwkorea/assets/images/20260416-dlenc-review/image4.png" alt="도면 설계 변경 자동화 프로세스" style="border-radius: 12px; margin-bottom: 1.4rem;" />
 
