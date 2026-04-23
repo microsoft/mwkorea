@@ -1,7 +1,6 @@
----
-layout: single
+﻿---
 title: "AI는 속도를, 사람은 판단을 통해 완성도를 만든다"
-permalink: /hidden/ai-speed-judgment/
+date: 2026-04-22T00:00:00 KST
 excerpt: "AI 보안 어시스턴트의 권고대로 AD CS 서버를 강화했지만, 다음 날 아침 SSO 장애가 발생했습니다. AI의 권고는 틀리지 않았지만 조직의 맥락까지는 이해하지 못한 일반적인 정답이었을 뿐. AI는 속도를, 사람은 판단을 — IT 운영 현장에서 벌어진 실제 사건이 보여주는 AI와 인간 협업의 본질을 다룹니다."
 tags:
   - AI
@@ -10,8 +9,6 @@ tags:
   - Human-in-the-loop
 categories:
   - Copilot
-author_profile: true
-sitemap: false
 header:
   overlay_image: assets/images/header/Microsoft365-Copilot-KeyArt-Productivity-6K-01.png
   overlay_filter: 0.5
@@ -279,3 +276,4 @@ author: 김은숙
 </div>
 
 </div>
+

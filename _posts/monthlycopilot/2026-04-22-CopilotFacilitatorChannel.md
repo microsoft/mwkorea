@@ -1,7 +1,6 @@
----
-layout: single
+﻿---
 title: "회의엔 Facilitator, 팀즈 채널엔 Channel Agent: AI 혁신 듀오"
-permalink: /hidden/copilot-facilitator-channel/
+date: 2026-04-22T00:00:00 KST
 excerpt: "회의에서는 Facilitator가 실시간 AI 노트와 결정사항을 정리하고, Teams 채널에서는 Channel Agent가 팀의 맥락을 기억하며 상태 보고서와 후속 액션을 이어갑니다. 회의록 정리 부담을 줄이고, 채널에 쌓인 논의를 빠르게 파악할 수 있는 AI 혁신 듀오를 소개합니다."
 tags:
   - Copilot
@@ -10,8 +9,6 @@ tags:
   - Channel Agent
 categories:
   - Copilot
-author_profile: true
-sitemap: false
 header:
   overlay_image: assets/images/header/Microsoft365-Copilot-KeyArt-Productivity-6K-01.png
   overlay_filter: 0.5
@@ -158,3 +155,4 @@ author: 고현
 </div>
 
 </div>
+

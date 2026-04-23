@@ -1,7 +1,6 @@
----
-layout: single
+﻿---
 title: "방탈출로 탈출한 건 Copilot의 한계였다"
-permalink: /hidden/escape-room-copilot/
+date: 2026-04-22T00:00:00 KST
 excerpt: "Microsoft AI Tour 2026 CPS 부스에서 Copilot Studio 에이전트를 탑재한 웹 기반 방탈출 게임이 탄생했습니다. Direct Line API와 Azure Static Web Apps로 구현한 기술 스택부터 현장 방문자들의 뜨거운 반응까지, Gamification으로 Copilot Studio 채널 배포의 가능성을 증명한 팀의 이야기입니다."
 tags:
   - Copilot Studio
@@ -10,8 +9,6 @@ tags:
   - Direct Line API
 categories:
   - Copilot
-author_profile: true
-sitemap: false
 header:
   overlay_image: assets/images/header/Microsoft365-Copilot-KeyArt-Productivity-6K-01.png
   overlay_filter: 0.5
@@ -194,3 +191,4 @@ author: 최정우
 </div>
 
 </div>
+

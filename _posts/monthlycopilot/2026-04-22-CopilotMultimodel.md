@@ -1,7 +1,6 @@
----
-layout: single
+﻿---
 title: "이제는 멀티 모델의 시대입니다"
-permalink: /hidden/copilot-multimodel/
+date: 2026-04-22T00:00:00 KST
 excerpt: "Copilot도 결국 GPT 하나 아닌가요? Copilot이 매번 다른 답을 내놓는 이유는 업무 상황에 맞춰 여러 모델을 자동 선택하는 멀티 모델 설계 때문입니다. Thumbs Down 클릭부터 스크린샷, 한 줄 피드백까지 — 딱 15초면 Copilot을 실제로 바꿀 수 있는 피드백 3단계를 안내합니다."
 tags:
   - Copilot
@@ -10,8 +9,6 @@ tags:
   - AI
 categories:
   - Copilot
-author_profile: true
-sitemap: false
 header:
   overlay_image: assets/images/header/Microsoft365-Copilot-KeyArt-Productivity-6K-01.png
   overlay_filter: 0.5
@@ -102,3 +99,4 @@ author: 김현지
 </div>
 
 </div>
+

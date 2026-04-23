@@ -1,7 +1,6 @@
----
-layout: single
+﻿---
 title: "일의 흐름을 바꾸는 새로운 경험, Copilot Cowork"
-permalink: /hidden/copilot-cowork/
+date: 2026-04-22T00:00:00 KST
 excerpt: "질문에 답하는 AI를 넘어 업무를 끝까지 해내는 AI가 왔습니다. Copilot Cowork는 Agentic AI 기반으로 목표만 말하면 계획부터 실행까지 책임지는 새로운 Microsoft 365 Copilot 경험입니다. 이메일 정리, 일정 관리, 문서 생성, 반복 업무 자동화까지 — Work IQ로 업무 맥락을 이해하고 멀티 앱을 넘나드는 실행형 AI를 소개합니다."
 tags:
   - Copilot
@@ -10,8 +9,6 @@ tags:
   - Microsoft 365
 categories:
   - Copilot
-author_profile: true
-sitemap: false
 header:
   overlay_image: assets/images/header/Microsoft365-Copilot-KeyArt-Productivity-6K-01.png
   overlay_filter: 0.5
@@ -258,3 +255,4 @@ author: 고현
 </div>
 
 </div>
+

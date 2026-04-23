@@ -1,7 +1,6 @@
----
-layout: single
+﻿---
 title: "답변을 넘어서, 이제는 액션까지… Copilot Cowork는 진짜 AI 비서입니다"
-permalink: /hidden/monthlycopilot-interview-parksh/
+date: 2026-04-22T00:00:00 KST
 excerpt: "월간 코파일럿 人(인)터뷰 — Microsoft CSAM 팀의 리더 박상희가 들려주는 Copilot Cowork 활용기. 영어 라이팅 파트너를 넘어, 아침 업무 브리핑과 팀 알림까지 '말로 시키면 실제 일이 되는' 새로운 AI 비서 경험을 소개합니다."
 tags:
   - Copilot
@@ -10,8 +9,6 @@ tags:
   - 인터뷰
 categories:
   - Copilot
-author_profile: true
-sitemap: false
 header:
   overlay_image: assets/images/header/Microsoft365-Copilot-KeyArt-Productivity-6K-01.png
   overlay_filter: 0.5
@@ -162,3 +159,4 @@ Copilot Cowork에 대해 많은 사람들이 갖는 오해는 <em>'어렵지 않
 </div>
 
 </div>
+

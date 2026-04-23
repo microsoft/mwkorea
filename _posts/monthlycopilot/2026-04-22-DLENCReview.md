@@ -1,7 +1,6 @@
----
-layout: single
+﻿---
 title: "도면이 바뀌면 누가 확인하나요? — DLENC의 AI 에이전트 이야기"
-permalink: /hidden/dlenc-agenthon-review/
+date: 2026-04-22T00:00:00 KST
 excerpt: "비정형 문서 자동 추출, GA 도면 설계 변경 검증, 발주서 자동 생성까지 — DLENC가 AI Tour 에이전톤 로우코드 부문 1위를 차지하며 Copilot Studio로 현장의 반복 업무를 바꾼 세 가지 방법을 소개합니다. 별도 개발 조직 없이 현업이 직접 만든 Human-in-the-loop AI 에이전트의 실전 사례입니다."
 tags:
   - Copilot Studio
@@ -11,8 +10,6 @@ tags:
   - AI Tour
 categories:
   - Copilot
-author_profile: true
-sitemap: false
 header:
   overlay_image: assets/images/header/Microsoft365-Copilot-KeyArt-Productivity-6K-01.png
   overlay_filter: 0.5
@@ -302,3 +299,4 @@ author: 김현지
 </div>
 
 </div>
+
