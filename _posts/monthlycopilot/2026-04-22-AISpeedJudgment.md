@@ -29,7 +29,7 @@ author: 김은숙
 
 <div style="margin: 0 0 1.3rem; padding: 1rem 1.1rem; border-radius: 16px; background: linear-gradient(135deg, #ecfeff 0%, #f8fafc 100%); border: 1px solid #99f6e4; color: #1f2937;">
   <div style="font-weight: 800; color: #0f766e; margin-bottom: 0.35rem;">Article Summary</div>
-  <div style="line-height: 1.85;">어느 기업의 IT 운영팀은 AI가 요약한 보안 강화 권고안을 바탕으로 AD CS 서버에 보안 패치를 적용했습니다. AI의 권고는 틀리지 않았지만, 조직의 맥락까지 이해하지 못한 '일반적인 정답'이었을 뿐이었습니다. 그날 벌어진 일이 보여주는, AI와 인간 협업의 본질.</div>
+  <div style="line-height: 1.85;">어느 기업의 IT 운영팀은 AI가 요약한 보안 강화 권고안을 바탕으로 AD CS 서버에 보안 강화 조치를 적용했습니다. AI의 권고는 틀리지 않았지만, 조직의 맥락까지 이해하지 못한 '일반적인 정답'이었을 뿐이었습니다. 그날 벌어진 일이 보여주는, AI와 인간 협업의 본질.</div>
 </div>
 
 <img src="/mwkorea/assets/images/20260416-ai-speed-judgment/image1.jpeg" alt="AI와 인간의 협업" style="border-radius: 12px; margin-bottom: 1.4rem;" />
