@@ -11,6 +11,9 @@
     - label: "코파일럿 놀이터"
       icon: "fas fa-fw fa-link"
       url: "https://aka.ms/copilotkr"
+    - label: "문과생을 위한 코파일럿 에이전트"
+      icon: "fas fa-fw fa-link"
+      url: "https://aka.ms/easycopilotlab/"
   #  - label: "Twitter"
   #    icon: "fab fa-fw fa-twitter-square"
   #    url: "https://twitter.com/extravagantman"
@@ -107,5 +110,5 @@
 김은숙:
   name        : "김은숙"
   bio         : "Customer Success Account Manager" 
-  avatar      : "/assets/images/avatars/chung.png"  
+  avatar      : "/assets/images/avatars/eukim.jpg"  
 
