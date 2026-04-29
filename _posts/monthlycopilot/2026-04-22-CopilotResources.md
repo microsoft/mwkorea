@@ -74,7 +74,7 @@ author: 김현지
     <div style="font-weight: 800; margin-bottom: 0.35rem;">🎤 MS Events | Copilot 라이브 웨비나 & 이벤트 카탈로그</div>
     <div>무료 · 라이브 · 온라인 세션</div>
     <div style="margin-top: 0.4rem; font-size: 0.92rem;">Microsoft 공식 이벤트 카탈로그. Copilot 입문 세션부터 Wave 3 신기능 체험, 실시간 Q&A까지. 온라인 라이브 세션으로 부담 없이 시작할 수 있다.</div>
-    <div style="margin-top: 0.75rem;"><a href="https://www.microsoft.com/ko-kr/events/search-catalog" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 0.45rem 0.8rem; border-radius: 999px; background: #1d4ed8; color: #ffffff; font-weight: 700; text-decoration: none;">이벤트 카탈로그 바로가기</a></div>
+    <div style="margin-top: 0.75rem;"><a href="https://janeeyye.github.io/about-webinar/" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 0.45rem 0.8rem; border-radius: 999px; background: #1d4ed8; color: #ffffff; font-weight: 700; text-decoration: none;">이벤트 카탈로그 바로가기</a></div>
   </div>
 </div>
 
@@ -116,7 +116,7 @@ author: 김현지
     <div style="font-weight: 800; margin-bottom: 0.35rem;">🎤 MS Events | 라이브 웨비나 & Technical 워크샵</div>
     <div>중급~고급 · 라이브 / 핸즈온</div>
     <div style="margin-top: 0.4rem; font-size: 0.92rem;">Copilot Wave 3 신기능 체험, 엔터프라이즈 배포 전략, 라이브 Q&A와 네트워킹까지. 직접 전문가한테 물어보고 싶다는 분들을 위한 자리. 캘린더 등록이 곧 실력 향상의 지름길.</div>
-    <div style="margin-top: 0.75rem;"><a href="https://www.microsoft.com/ko-kr/events/search-catalog" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 0.45rem 0.8rem; border-radius: 999px; background: #991b1b; color: #ffffff; font-weight: 700; text-decoration: none;">이벤트 카탈로그 바로가기</a></div>
+    <div style="margin-top: 0.75rem;"><a href="https://janeeyye.github.io/webinar-customer-page/" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 0.45rem 0.8rem; border-radius: 999px; background: #991b1b; color: #ffffff; font-weight: 700; text-decoration: none;">이벤트 카탈로그 바로가기</a></div>
   </div>
 </div>
 
@@ -159,7 +159,7 @@ author: 김현지
       <td style="padding: 0.6rem; border: 1px solid #e5e7eb;">MS Events</td>
       <td style="padding: 0.6rem; border: 1px solid #e5e7eb;">Copilot 라이브 웨비나 & 이벤트 카탈로그</td>
       <td style="padding: 0.6rem; border: 1px solid #e5e7eb;">무료 | 라이브 | 온라인 세션</td>
-      <td style="padding: 0.6rem; border: 1px solid #e5e7eb;"><a href="https://www.microsoft.com/ko-kr/events/search-catalog" target="_blank" rel="noopener noreferrer">바로가기</a></td>
+      <td style="padding: 0.6rem; border: 1px solid #e5e7eb;"><a href="https://janeeyye.github.io/about-webinar/" target="_blank" rel="noopener noreferrer">바로가기</a></td>
     </tr>
     <tr>
       <td style="padding: 0.6rem; border: 1px solid #e5e7eb;">🟡 중급</td>
@@ -187,7 +187,7 @@ author: 김현지
       <td style="padding: 0.6rem; border: 1px solid #e5e7eb;">MS Events</td>
       <td style="padding: 0.6rem; border: 1px solid #e5e7eb;">라이브 웨비나 & Technical 워크샵</td>
       <td style="padding: 0.6rem; border: 1px solid #e5e7eb;">라이브 Q&A + 핸즈온</td>
-      <td style="padding: 0.6rem; border: 1px solid #e5e7eb;"><a href="https://www.microsoft.com/ko-kr/events/search-catalog" target="_blank" rel="noopener noreferrer">바로가기</a></td>
+      <td style="padding: 0.6rem; border: 1px solid #e5e7eb;"><a href="https://janeeyye.github.io/webinar-customer-page/" target="_blank" rel="noopener noreferrer">바로가기</a></td>
     </tr>
   </table>
 </div>
