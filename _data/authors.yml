@@ -94,8 +94,14 @@
 
 이영서:
   name        : "이영서"
-  bio         : "Technical Specialist"
+  bio         : "Solution Engineer"
   avatar      : "/assets/images/avatars/bio-photo.jpg"  
+
+김유연:
+  name        : "김유연"
+  bio         : "Solution Engineer"
+  avatar      : "/assets/images/avatars/bio-photo.jpg"  
+
 
 김지연:
   name        : "김지연"
