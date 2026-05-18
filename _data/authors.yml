@@ -102,7 +102,6 @@
   bio         : "Solution Engineer"
   avatar      : "/assets/images/avatars/bio-photo.jpg"  
 
-
 김지연:
   name        : "김지연"
   bio         : "Copilot Cloud Solution Architect"
@@ -118,3 +117,7 @@
   bio         : "Customer Success Account Manager" 
   avatar      : "/assets/images/avatars/eukim.jpg"  
 
+안젤라정:
+  name        : "안젤라정"
+  bio         : "Copilot Cloud Solution Architect"
+  avatar      : "/assets/images/avatars/jenny1.png"  
