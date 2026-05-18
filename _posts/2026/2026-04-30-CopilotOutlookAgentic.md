@@ -18,7 +18,7 @@ header:
 toc: true
 toc_sticky: true
 classes: wide
-author: 김유연
+author: 최정우
 ---
 
 # Outlook의 Copilot, 에이전트로 진화하다: 받은편지함과 캘린더를 알아서 챙겨주는 새로운 경험
