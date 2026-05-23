@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">팀 컬처 일러스트 예시</title>
+  <desc id="desc">다양한 팀원이 회의 테이블과 화이트보드 주변에서 협업하는 장면</desc>
+  <rect width="1200" height="675" fill="#f8fafc"/>
+  <rect x="90" y="78" width="1020" height="520" rx="30" fill="#ffffff" stroke="#dbe4f0" stroke-width="4"/>
+  <rect x="724" y="126" width="280" height="170" rx="18" fill="#ecfeff" stroke="#99f6e4" stroke-width="4"/>
+  <path d="M760 245 L814 192 L870 226 L942 163" fill="none" stroke="#0f766e" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="260" y="171" font-family="Malgun Gothic, Segoe UI, sans-serif" font-size="42" font-weight="800" fill="#1f2937">함께 일하는 사람들</text>
+  <text x="260" y="217" font-family="Malgun Gothic, Segoe UI, sans-serif" font-size="24" fill="#667085">역할은 달라도, 같은 맥락을 보고 움직이는 팀</text>
+  <ellipse cx="588" cy="450" rx="330" ry="74" fill="#dff4ec"/>
+  <rect x="356" y="389" width="464" height="76" rx="22" fill="#f7c7b8"/>
+  <g font-family="Malgun Gothic, Segoe UI, sans-serif" font-size="18" text-anchor="middle" fill="#1f2937">
+    <g><circle cx="340" cy="318" r="34" fill="#f2a391"/><rect x="304" y="354" width="72" height="104" rx="28" fill="#8fc2aa"/><text x="340" y="489">PM</text></g>
+    <g><circle cx="462" cy="297" r="34" fill="#f4c7a1"/><rect x="426" y="333" width="72" height="116" rx="28" fill="#a5b4fc"/><text x="462" y="489">Design</text></g>
+    <g><circle cx="588" cy="306" r="34" fill="#e6b8a8"/><rect x="552" y="342" width="72" height="111" rx="28" fill="#93c5fd"/><text x="588" y="489">Data</text></g>
+    <g><circle cx="710" cy="300" r="34" fill="#f2a391"/><rect x="674" y="336" width="72" height="119" rx="28" fill="#c4b5fd"/><text x="710" y="489">Sales</text></g>
+    <g><circle cx="828" cy="328" r="34" fill="#f4c7a1"/><rect x="792" y="364" width="72" height="92" rx="28" fill="#86efac"/><text x="828" y="489">CS</text></g>
+  </g>
+  <rect x="486" y="413" width="96" height="42" rx="8" fill="#111827" opacity="0.88"/>
+  <rect x="610" y="413" width="96" height="42" rx="8" fill="#111827" opacity="0.88"/>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">첫 프로젝트 킥오프 표지 예시</title>
+  <desc id="desc">도시 배경 위로 종이비행기가 상승하는 첫 프로젝트 발표 표지</desc>
+  <defs><linearGradient id="sky" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#eff6ff"/><stop offset="1" stop-color="#fff7ed"/></linearGradient></defs>
+  <rect width="1200" height="675" fill="url(#sky)"/>
+  <path d="M0 520 C180 462 330 478 504 514 C712 556 917 486 1200 522 L1200 675 L0 675Z" fill="#dff4ec"/>
+  <g fill="#cbd5e1" opacity="0.75"><rect x="92" y="366" width="64" height="156"/><rect x="178" y="322" width="92" height="200"/><rect x="292" y="384" width="72" height="138"/><rect x="862" y="345" width="76" height="177"/><rect x="962" y="302" width="104" height="220"/></g>
+  <path d="M188 482 C342 402 510 369 668 303 C808 244 908 177 1018 91" fill="none" stroke="#93c5fd" stroke-width="9" stroke-linecap="round" stroke-dasharray="4 22"/>
+  <path d="M744 174 L1032 73 L903 300 L862 202 Z" fill="#ffffff" stroke="#2563eb" stroke-width="5"/>
+  <path d="M862 202 L1032 73 L903 300" fill="none" stroke="#2563eb" stroke-width="5"/>
+  <text x="132" y="156" font-family="Malgun Gothic, Segoe UI, sans-serif" font-size="56" font-weight="800" fill="#172033">프로젝트 시작 — [프로젝트명]</text>
+  <text x="137" y="214" font-family="Malgun Gothic, Segoe UI, sans-serif" font-size="29" fill="#475569">Lead. 민서</text>
+  <rect x="132" y="254" width="444" height="86" rx="18" fill="#ffffff" opacity="0.78"/>
+  <text x="158" y="307" font-family="Malgun Gothic, Segoe UI, sans-serif" font-size="25" fill="#334155">새로운 시작, 작지만 의미 있는 도전</text>
+</svg>

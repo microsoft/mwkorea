@@ -61,6 +61,7 @@ author: 고현
 
 <div class="mc-card-grid">
   <div class="mc-card mc-card--teal">
+    <img src="/mwkorea/assets/images/20260522-copilot-images-20/image1-welcome-poster.svg" alt="신입사원 웰컴 포스터 예시" />
     <div class="mc-card-title">Day 1 · 웰컴 포스터</div>
     <div><strong>용도:</strong> A5 사이즈 인쇄용 신입사원 웰컴 포스터</div>
     <div><strong>컨셉:</strong> 새 출발의 따뜻함, 환영의 분위기</div>
@@ -70,6 +71,7 @@ author: 고현
     <div class="mc-card-note">팁: 격식보다 따뜻함처럼 감정 키워드를 명시하면 결과 톤이 안정됩니다.</div>
   </div>
   <div class="mc-card mc-card--blue">
+    <img src="/mwkorea/assets/images/20260522-copilot-images-20/image2-team-culture.svg" alt="팀 컬처 일러스트 예시" />
     <div class="mc-card-title">Week 1 · 팀 컬처 일러스트</div>
     <div><strong>용도:</strong> 신입사원 핸드북 표지 및 팀 소개 페이지 헤더</div>
     <div><strong>컨셉:</strong> 다양한 역할의 팀원이 한 공간에서 협업하는 모습</div>
@@ -79,6 +81,7 @@ author: 고현
     <div class="mc-card-note">팁: 1번과 동일한 톤 유지를 넣으면 90일 전체가 하나의 시각 언어로 묶입니다.</div>
   </div>
   <div class="mc-card mc-card--purple">
+    <img src="/mwkorea/assets/images/20260522-copilot-images-20/image3-tool-guide.svg" alt="사내 도구 가이드 인포그래픽 예시" />
     <div class="mc-card-title">Week 2 · 사내 도구 가이드 인포그래픽</div>
     <div><strong>용도:</strong> 신입사원용 사내 도구 가이드</div>
     <div><strong>타입:</strong> 세로형 인포그래픽, A4 비율</div>
@@ -87,6 +90,7 @@ author: 고현
     <div class="mc-card-note">팁: 인포그래픽은 영역 개수와 라벨을 숫자로 명시해야 정확합니다.</div>
   </div>
   <div class="mc-card mc-card--amber">
+    <img src="/mwkorea/assets/images/20260522-copilot-images-20/image4-career-path.svg" alt="커리어 패스 다이어그램 예시" />
     <div class="mc-card-title">Month 1 · 커리어 패스 다이어그램</div>
     <div><strong>용도:</strong> 매니저와 신입사원의 1:1 미팅용 화이트보드</div>
     <div><strong>구성:</strong> 지금의 나에서 3년 후의 나까지, 중간 3개 마일스톤</div>
@@ -95,6 +99,7 @@ author: 고현
     <div class="mc-card-note">팁: 화이트보드 스케치 톤은 함께 그리는 대화라는 메시지를 줍니다.</div>
   </div>
   <div class="mc-card mc-card--green">
+    <img src="/mwkorea/assets/images/20260522-copilot-images-20/image5-project-kickoff.svg" alt="첫 프로젝트 킥오프 표지 예시" />
     <div class="mc-card-title">Month 2 · 첫 프로젝트 킥오프</div>
     <div><strong>용도:</strong> 프로젝트 킥오프 미팅 슬라이드 표지</div>
     <div><strong>컨셉:</strong> 새로운 시작, 작지만 의미 있는 도전</div>
@@ -103,6 +108,7 @@ author: 고현
     <div class="mc-card-note">팁: Day 1의 모티프를 재사용하면 온보딩 스토리텔링이 이어집니다.</div>
   </div>
   <div class="mc-card mc-card--red">
+    <img src="/mwkorea/assets/images/20260522-copilot-images-20/image6-90days.svg" alt="90일 회고 발표 표지 예시" />
     <div class="mc-card-title">Day 90 · 회고 발표 표지와 마무리</div>
     <div><strong>용도:</strong> 신입사원 90일 회고 발표 슬라이드 2장 세트</div>
     <div><strong>표지:</strong> 씨앗 → 새싹 → 줄기 → 잎으로 이어지는 4단계 성장</div>
