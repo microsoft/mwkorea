@@ -34,6 +34,14 @@ author: 김현지
   <div style="line-height: 1.85;">무대 위에 오른 것은 화려한 신기술이 아니라 매일 반복되던 5만여 건의 화학물질 분류 업무였습니다. 효성 AI 팀이 Teams, Copilot Studio, Excel Script, SAP 연동으로 만든 업무 변화와 ROI를 정리했습니다.</div>
 </div>
 
+<p>무대 위에 오른 것은 화려한 신기술이 아니었습니다. 매일 책상 위에 쌓이던 <strong>5만여 건의 화학물질 분류 업무</strong>였습니다. 효성 AI 팀은 AI Tour Seoul 2026 라이트닝 토크 무대에서, <strong>연 4억 원·6,300시간</strong>이라는 숫자로 그 무게를 뒤집어 보였습니다.</p>
+
+<p>객석을 놓친 독자들을 위해, 편집팀이 그날의 이야기를 다시 펼쳐 듭니다.</p>
+
+<div class="mc-callout">
+  <div style="line-height: 1.85; color: #374151;">글. <strong>월간 코파일럿 편집팀</strong> · 사례. <strong>효성 AI 팀 — 은성용, 박선희, 김한민</strong></div>
+</div>
+
 <img src="/mwkorea/assets/images/20260522-hyosung-ai-review/image1.jpeg" alt="효성 AI 팀 SmartChem 사례" />
 
 <div class="mc-card-grid mc-card-grid--3">
@@ -54,11 +62,9 @@ author: 김현지
   </div>
 </div>
 
-<div class="mc-card-grid">
-  <div class="mc-card mc-card--green"><div class="mc-card-title">연 53,739건 처리 규모</div><div>반복 분류 업무를 표준화했습니다.</div></div>
-  <div class="mc-card mc-card--blue"><div class="mc-card-title">판정 근거 자동 관리</div><div>규제 대응력을 높이는 설명 가능한 근거를 남깁니다.</div></div>
-  <div class="mc-card mc-card--amber"><div class="mc-card-title">SAP 의존도 해소</div><div>Teams 안에서 업무를 이어가는 Anywhere Work를 구현했습니다.</div></div>
-  <div class="mc-card mc-card--purple"><div class="mc-card-title">역할의 전환</div><div>담당자는 판별자에서 AI 판정 결과의 의사결정자로 이동했습니다.</div></div>
+<div class="mc-callout mc-card--blue">
+  <div class="mc-card-title">한눈에 보는 변화</div>
+  <div style="line-height: 1.85;">연 53,739건 규모의 반복 분류 업무가 표준화됐고, 판정 근거는 자동으로 관리됩니다. 담당자는 SAP 화면을 오가며 수동 판별하던 역할에서, Teams 안에서 AI 판정 결과를 검토하고 의사결정하는 역할로 이동했습니다.</div>
 </div>
 
 <hr/>
