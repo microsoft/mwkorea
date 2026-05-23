@@ -74,6 +74,124 @@ $type-size-6: 1em !default;
 	background: linear-gradient(90deg, transparent, rgba(148, 163, 184, 0.55), transparent);
 }
 
+.page__content .monthlycopilot-page .mc-section-title {
+	margin-top: 1.4rem;
+	padding: 0.55rem 0.85rem;
+	border-left: 6px solid var(--mc-accent);
+	background: #f8fafc;
+	color: #111827;
+}
+
+.page__content .monthlycopilot-page .mc-card-grid {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 14px;
+	margin: 1rem 0 1.4rem;
+}
+
+.page__content .monthlycopilot-page .mc-card-grid--3 {
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.page__content .monthlycopilot-page .mc-card-grid--4 {
+	grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.page__content .monthlycopilot-page .mc-card {
+	padding: 1rem 1.1rem;
+	border-radius: 14px;
+	background: #f8fafc;
+	border: 1px solid #dbe4f0;
+	color: #111827;
+}
+
+.page__content .monthlycopilot-page .mc-card--blue {
+	background: #eff6ff;
+	border-color: #bfdbfe;
+	color: #1d4ed8;
+}
+
+.page__content .monthlycopilot-page .mc-card--teal {
+	background: #ecfeff;
+	border-color: #99f6e4;
+	color: #115e59;
+}
+
+.page__content .monthlycopilot-page .mc-card--purple {
+	background: #f5f3ff;
+	border-color: #c4b5fd;
+	color: #5b21b6;
+}
+
+.page__content .monthlycopilot-page .mc-card--amber {
+	background: #fefce8;
+	border-color: #fde68a;
+	color: #854d0e;
+}
+
+.page__content .monthlycopilot-page .mc-card--green {
+	background: #ecfdf5;
+	border-color: #86efac;
+	color: #166534;
+}
+
+.page__content .monthlycopilot-page .mc-card--red {
+	background: #fef2f2;
+	border-color: #fecaca;
+	color: #991b1b;
+}
+
+.page__content .monthlycopilot-page .mc-card-title {
+	font-weight: 800;
+	margin-bottom: 0.35rem;
+}
+
+.page__content .monthlycopilot-page .mc-card-note {
+	margin-top: 0.35rem;
+	font-size: 0.92rem;
+	color: #6b7280;
+}
+
+.page__content .monthlycopilot-page .mc-callout {
+	margin: 1rem 0 1.4rem;
+	padding: 1rem 1.1rem;
+	border-radius: 16px;
+	background: #f8fafc;
+	border: 1px solid #dbe4f0;
+	color: #111827;
+}
+
+.page__content .monthlycopilot-page .mc-callout--dark {
+	background: linear-gradient(135deg, #111827 0%, #1f2937 100%);
+	border-color: #111827;
+	color: #f9fafb;
+}
+
+.page__content .monthlycopilot-page .mc-table-wrap {
+	overflow-x: auto;
+	margin: 1rem 0 1.4rem;
+}
+
+.page__content .monthlycopilot-page .mc-table-wrap table {
+	width: 100%;
+	min-width: 720px;
+	border-collapse: collapse;
+}
+
+.page__content .monthlycopilot-page .mc-table-wrap th,
+.page__content .monthlycopilot-page .mc-table-wrap td {
+	padding: 0.7rem;
+	border: 1px solid #d1d5db;
+	text-align: left;
+	vertical-align: top;
+}
+
+.page__content .monthlycopilot-page .mc-table-wrap th {
+	background: var(--mc-accent-soft);
+	color: var(--mc-accent-ink);
+	font-weight: 800;
+}
+
 .page__content .monthlycopilot-page table {
 	box-shadow: 0 14px 30px rgba(15, 23, 42, 0.06);
 }
@@ -144,11 +262,15 @@ $type-size-6: 1em !default;
 
 	.page__content .monthlycopilot-page [style*="grid-template-columns: repeat(3"],
 	.page__content .monthlycopilot-page [style*="grid-template-columns: repeat(2"],
-	.page__content .monthlycopilot-page [style*="grid-template-columns: 150px 1fr"] {
+	.page__content .monthlycopilot-page [style*="grid-template-columns: 150px 1fr"],
+	.page__content .monthlycopilot-page .mc-card-grid,
+	.page__content .monthlycopilot-page .mc-card-grid--3,
+	.page__content .monthlycopilot-page .mc-card-grid--4 {
 		grid-template-columns: 1fr !important;
 	}
 
-	.page__content .monthlycopilot-page [style*="min-width: 720px"] {
+	.page__content .monthlycopilot-page [style*="min-width: 720px"],
+	.page__content .monthlycopilot-page .mc-table-wrap table {
 		min-width: 0 !important;
 	}
 }
