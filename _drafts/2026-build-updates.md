@@ -14,7 +14,7 @@ header:
 toc: false
 toc_sticky: true
 classes: wide
-author: 최정우
+author: 김현지 
 ---
 
 <div class="monthlycopilot-page monthlycopilot-page--tour">
