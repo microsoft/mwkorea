@@ -39,7 +39,7 @@ author: 최정우
 
 <hr/>
 
-<h2 style="margin-top: 1.4rem; padding: 0.55rem 0.85rem; border-left: 6px solid #2563eb; background: #f8fafc;">AI 에이전트 플랫폼의 진화</h2>
+<h2 style="margin-top: 1.4rem; padding: 0.35rem 0.85rem; border-left: 4px solid #0067b8;">AI 에이전트 플랫폼의 진화</h2>
 
 <div class="mc-cover-kicker" style="margin-bottom: 0.8rem;">Frontier Development</div>
 
@@ -93,7 +93,7 @@ author: 최정우
 
 <hr/>
 
-<h2 style="margin-top: 1.4rem; padding: 0.55rem 0.85rem; border-left: 6px solid #0f766e; background: #f8fafc;">AI 지능의 확장</h2>
+<h2 style="margin-top: 1.4rem; padding: 0.35rem 0.85rem; border-left: 4px solid #0067b8;">AI 지능의 확장</h2>
 
 <div class="mc-cover-kicker" style="margin-bottom: 0.8rem;">Frontier Opportunities</div>
 
@@ -109,7 +109,7 @@ author: 최정우
 
 <hr/>
 
-<h2 style="margin-top: 1.4rem; padding: 0.55rem 0.85rem; border-left: 6px solid #9333ea; background: #f8fafc;">차세대 혁신</h2>
+<h2 style="margin-top: 1.4rem; padding: 0.35rem 0.85rem; border-left: 4px solid #0067b8;">차세대 혁신</h2>
 
 <div class="mc-cover-kicker" style="margin-bottom: 0.8rem;">New Frontiers</div>
 
@@ -123,7 +123,7 @@ author: 최정우
 
 <div style="background: #f6f8fa; padding: 1.2rem; border-radius: 8px; margin-top: 1.4rem;">
 
-<h2 style="margin-top: 0; padding: 0.55rem 0.85rem; border-left: 6px solid #2563eb; background: #fff;">더 알아보기</h2>
+<h2 style="margin-top: 0; padding: 0.35rem 0.85rem; border-left: 4px solid #0067b8;">더 알아보기</h2>
 
 - **발표 내용 한눈에 보기** — [Microsoft Build 라이브 블로그](https://aka.ms/microsoft-build-2026-live-blog)와 [공식 Microsoft 블로그](https://aka.ms/AA10pe80)에서 이번에 발표된 모든 소식을 확인하세요.
 - **원하는 방식으로 세션 보기** — 주요 세션을 [라이브와 다시보기](https://build.microsoft.com/)로 시청하고, [세션 카탈로그](https://aka.ms/MSBuildSessions)에서 필요한 주제를 골라 보세요.
