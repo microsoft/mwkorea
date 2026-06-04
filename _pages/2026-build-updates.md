@@ -1,12 +1,8 @@
 ---
 title: "2026년 Microsoft Build 주요 업데이트"
-date: 2026-06-05T00:00:00 KST
-categories:
-  - Copilot
-tags:
-  - Microsoft Build
-  - AI
-  - Agent
+layout: single
+permalink: /hidden/2026-build-updates/
+sitemap: false
 excerpt: "2026년 6월 2~3일 열린 Microsoft Build에서 발표된 주요 소식을 정리해 전해드립니다."
 header:
   overlay_image: assets/images/header/Microsoft365-Copilot-KeyArt-Productivity-6K-01.png
@@ -14,7 +10,7 @@ header:
 toc: false
 toc_sticky: true
 classes: wide
-author: 김현지 
+author: 김현지
 ---
 
 <div class="monthlycopilot-page monthlycopilot-page--tour">
