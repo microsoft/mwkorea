@@ -18,13 +18,16 @@ author: 최정우
 ---
 
 <div class="monthlycopilot-page monthlycopilot-page--tour">
-<div class="mc-issue-strip">MICROSOFT BUILD · 2026년 6월 2~3일</div>
+<div style="background: #eef1f4; padding: 1.5rem; border-radius: 8px;">
 
-<div class="mc-cover">
-  <div class="mc-cover-kicker">Microsoft Build</div>
-  <div class="mc-cover-title">2026년 Build 주요 업데이트</div>
-  <div class="mc-cover-subtitle">2026년 6월 2~3일</div>
+<div style="background: #000; padding: 1.5rem; text-align: center;">
+  <img src="/assets/images/20260605-build/build-title.png" alt="제목: BUILD" width="180" />
 </div>
+<div style="background: #0078d4; color: #fff; padding: 0.7rem 1rem; font-weight: 700;">
+  2026년 Build 주요 업데이트
+</div>
+
+<div style="padding: 0 0.5rem;">
 
 안녕하세요.
 
@@ -45,6 +48,10 @@ author: 최정우
 이번 Build에서 Microsoft는 AI 중심 컴퓨팅을 위한 인프라와 에코시스템, 디바이스, 에이전트 플랫폼 및 도구, 모델은 물론, 모델을 넘어 도메인 특화된 추론(Reasoning) 역량을 강화하는 다양한 방안까지 폭넓게 선보였습니다.
 
 **Microsoft Agent Platform Stack**은 AI를 만들고(build), 연결하고(connect), 실행하고(run), 관리하는(govern) 전 과정을 아우르는 시스템으로, 여러 에이전트가 한 팀처럼 협력해 실제 업무를 처리하도록 도와줍니다. 여기에 풍부한 업무 컨텍스트에 대한 데이터와 기업용 보안, 끊임없는 개선이 함께 제공됩니다.
+
+<p style="text-align: center; margin: 1.2rem 0;">
+  <img src="/assets/images/20260605-build/agent-platform-stack.png" alt="Microsoft Agent Platform Stack" style="max-width: 561px; width: 100%; height: auto;" />
+</p>
 
 - **GitHub Copilot app** — GitHub Copilot을 데스크톱 앱으로 새롭게 선보였습니다(현재 프리뷰). 아이디어나 기존 이슈, PR에서 작업을 시작해 여러 에이전트를 동시에 돌릴 수 있고, 코드 리뷰부터 CI, 병합(merge)까지 하나의 흐름으로 이어집니다. 각 작업은 git worktree 단위로 분리돼 서로 섞이지 않으며, 실제 실행은 Copilot이 맡되 모든 과정은 개발자가 직접 통제합니다.
 
@@ -114,13 +121,19 @@ author: 최정우
 
 <hr/>
 
-<h2 style="margin-top: 1.4rem; padding: 0.55rem 0.85rem; border-left: 6px solid #2563eb; background: #f8fafc;">더 알아보기</h2>
+<div style="background: #f6f8fa; padding: 1.2rem; border-radius: 8px; margin-top: 1.4rem;">
+
+<h2 style="margin-top: 0; padding: 0.55rem 0.85rem; border-left: 6px solid #2563eb; background: #fff;">더 알아보기</h2>
 
 - **발표 내용 한눈에 보기** — [Microsoft Build 라이브 블로그](https://aka.ms/microsoft-build-2026-live-blog)와 [공식 Microsoft 블로그](https://aka.ms/AA10pe80)에서 이번에 발표된 모든 소식을 확인하세요.
 - **원하는 방식으로 세션 보기** — 주요 세션을 [라이브와 다시보기](https://build.microsoft.com/)로 시청하고, [세션 카탈로그](https://aka.ms/MSBuildSessions)에서 필요한 주제를 골라 보세요.
 - **한 걸음 더 배우기** — 행사 자료와 새로 추가된 자격증을 살펴보고, [Microsoft AI Skills Fest](https://aka.ms/aiskillsfest)에서 역량을 한층 더 키워 보세요.
 - **터미널에서 직접 써 보기** — GitHub Copilot CLI와 [Microsoft Build CLI](https://aka.ms/MS_Build_FY26_Github)로 터미널에서 바로 Build를 경험해 보세요.
 
+</div>
+
 감사합니다.
 
+</div>
+</div>
 </div>
