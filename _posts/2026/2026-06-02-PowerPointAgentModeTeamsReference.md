@@ -91,4 +91,4 @@ Agent Mode는 PowerPoint에서 Copilot이 보다 자율적으로 프레젠테이
 
 ---
 
-> ※ 본 글은 Microsoft 365 로드맵 공지(**RM555883 · RM555884**)를 바탕으로 정리했습니다. 원문은 [RM555883](https://mc.merill.net/message/RM555883) · [RM555884](https://mc.merill.net/message/RM555884)와 [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap)에서 확인할 수 있으며, 실제 출시 일정과 기능은 변경될 수 있습니다.
+> ※ 본 글은 Microsoft 365 로드맵 공지(**RM555883 · RM555884 · RM555885**)를 바탕으로 정리했습니다. 원문은 [RM555883](https://mc.merill.net/message/RM555883) · [RM555884](https://mc.merill.net/message/RM555884) · [RM555885](https://mc.merill.net/message/RM555885)와 [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap)에서 확인할 수 있으며, 실제 출시 일정과 기능은 변경될 수 있습니다. (데스크톱·웹·Mac 플랫폼별로 순차 제공)
