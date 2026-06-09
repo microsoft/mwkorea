@@ -1,6 +1,6 @@
 ---
 title: "[긴급 편성] Copilot Studio 대규모 업데이트 총정리 — 재구축, 새 에이전트 경험, 그리고 5월 신기능까지"
-date: 2026-06-10T10:00:00 KST
+date: 2026-06-09T10:00:00 KST
 categories:
   - Copilot
 tags:
