@@ -56,11 +56,15 @@ Learning Agent는 **Work IQ**로 구동되며, 이달 말 프리뷰 예정인 **
 - **Copilot Academy 진입점** — Microsoft 365 Copilot 안에서 기초·심화 학습 경로 제공
 - **테넌트 기반 마이크로러닝** — 관리자가 우선순위를 둔 권위 있는 SharePoint·M365 콘텐츠에서 맥락형 추천
 
+![AI 업스킬링을 일상 업무에 녹이는 Learning Agent](/mwkorea/assets/images/2026-06-03-LearningAgentGA/image2.png)
+
 ### 2. 필요한 순간에 학습을 전달한다
 
 - **실제 업무에 그라운딩** — 일반 커리큘럼이 아니라 사용자의 역할 기반 추천
 - **Microsoft 365 Copilot에 내장**(데스크톱 앱·웹) — 도구 전환 없이, 카탈로그를 뒤지지 않고
 - **M365 전반에서 접근** — Word·Excel·PowerPoint·Teams로 확장된 에이전트 경험
+
+![업무 흐름 속에서 적시에 전달되는 학습](/mwkorea/assets/images/2026-06-03-LearningAgentGA/image3.png)
 
 ### 3. 복잡성 없이 개인화한다
 
@@ -69,12 +73,16 @@ Learning Agent는 **Work IQ**로 구동되며, 이달 말 프리뷰 예정인 **
 - Copilot Academy·AI Skills Navigator·자사 교육 콘텐츠를 아우르는 **역할 기반 AI 학습 경로**
 - AI Skills Navigator·LinkedIn Learning·Viva Learning(코스·아카데미·학습 경로)·LMS·서드파티를 묶은 **하나의 연결된 학습 생태계**
 
+![하나로 연결된 개인화 학습 생태계](/mwkorea/assets/images/2026-06-03-LearningAgentGA/image4.png)
+
 ### 4. 직접 해보며 배운다(Learn by Doing)
 
 - **스킬 평가 + 개인화된 다음 단계** — 기업 콘텐츠에 기반한 평가로 격차를 찾고 맞춤 학습 계획 수립
 - **채팅 속 마이크로러닝** — 업무 흐름을 벗어나지 않는 짧은 대화형 학습
 - **인터랙티브 코칭** — LinkedIn Learning AI Role Play, Skillsoft CAISY로 실제 시나리오를 안전하게 연습(추가 라이선스 필요)
 - **게임화 요소** — 학습 스트릭(streak) 등으로 지속적인 동기 부여
+
+![직접 해보며 배우는 인터랙티브 학습 경험](/mwkorea/assets/images/2026-06-03-LearningAgentGA/image5.png)
 
 ---
 
