@@ -1,6 +1,6 @@
 ---
-title: "웹툰으로 보는 Copilot Studio — 유사 AI 챗봇을 넘어, 진짜 AI 에이전트로"
-date: 2026-06-10T09:00:00 KST
+title: "웹툰으로 보는 Copilot Studio — 유사 AI 챗봇을 넘어, 진짜 AI 에이전트로" 
+date: 2026-06-09T09:00:00 KST
 categories:
   - Copilot
 tags:
