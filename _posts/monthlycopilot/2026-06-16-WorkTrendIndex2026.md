@@ -116,8 +116,6 @@ author: 김현지
 <h2 class="mc-section-title">TRUTH 03 · KOREA'S COORDINATE</h2>
 <p style="color:#6d28d9; font-weight:700; letter-spacing:0.04em; margin-bottom:0.8rem;">한국에서는 격차가 더 깊습니다 — 위기감은 가장 거센데, 시스템은 가장 더디게 따라옵니다</p>
 
-<img src="/mwkorea/assets/images/20260616-worktrend/img03.png" alt="한국과 글로벌 업무동향지표 비교 인포그래픽" />
-
 <p>최근 공개된 한국 시장 수치를 글로벌과 나란히 놓으면, 한국이 마주한 좌표가 한층 또렷해집니다. AI 사용자의 <strong>78%</strong>가 AI에 뒤처질 것을 두려워했는데, 이는 글로벌 평균(65%)을 크게 웃돌며 조사 시장 가운데 가장 높은 위기감입니다. 하지만 리더십이 명확한 방향을 제시한다고 답한 비율은 <strong>16%</strong>로 글로벌 26%를 큰 폭으로 밑돌았습니다. AI 혁신 보상 비율은 단 <strong>7%</strong>로 글로벌 13%의 절반에 그쳤습니다. 변화의 압박은 가장 거센데, 이를 받쳐줄 조직 시스템은 가장 약한 시장 중 하나입니다.</p>
 
 <div class="mc-table-wrap">
