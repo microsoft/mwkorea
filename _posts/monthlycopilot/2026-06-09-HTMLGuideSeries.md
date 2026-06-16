@@ -44,14 +44,14 @@ author: 김현수
     <div class="mc-card-title"><strong>1부 · 만들기</strong></div>
     <div style="color:#1f2937;">'쉽게 이해되는 HTML 결과물' 만들기 by M365 Copilot — Researcher로 자료 수집 → Cowork로 HTML 생성 → 결과 확인 → Word·PowerPoint 전환의 4단계 워크플로.</div>
     <div style="margin-top:0.85rem;">
-      <a href="https://microsoft.github.io/mwkorea/Copilot/CoworkHTML/" style="display:inline-flex; align-items:center; gap:0.4rem; background:#1e293b; color:#ffffff; font-weight:700; padding:0.6rem 1.1rem; border-radius:10px; text-decoration:none;">1부 가이드 보기 →</a>
+      <a href="https://microsoft.github.io/mwkorea/copilot/CoworkHTML/" style="display:inline-flex; align-items:center; gap:0.4rem; background:#1e293b; color:#ffffff; font-weight:700; padding:0.6rem 1.1rem; border-radius:10px; text-decoration:none;">1부 가이드 보기 →</a>
     </div>
   </div>
   <div class="mc-card mc-card--teal">
     <div class="mc-card-title"><strong>2부 · 공유하기</strong></div>
     <div style="color:#1f2937;">'내가 만든 HTML 결과물' 공유하기 by GitHub Pages — 저장소 만들기 → HTML 배포 → 결과 공유의 3단계로, 서버·비용·터미널 없이 공개 URL을 만드는 방법.</div>
     <div style="margin-top:0.85rem;">
-      <a href="https://microsoft.github.io/mwkorea/Copilot/HTMLShare/" style="display:inline-flex; align-items:center; gap:0.4rem; background:#0f766e; color:#ffffff; font-weight:700; padding:0.6rem 1.1rem; border-radius:10px; text-decoration:none;">2부 가이드 보기 →</a>
+      <a href="https://microsoft.github.io/mwkorea/copilot/HTMLShare/" style="display:inline-flex; align-items:center; gap:0.4rem; background:#0f766e; color:#ffffff; font-weight:700; padding:0.6rem 1.1rem; border-radius:10px; text-decoration:none;">2부 가이드 보기 →</a>
     </div>
   </div>
 </div>
