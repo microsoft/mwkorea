@@ -131,3 +131,8 @@
   name        : "이수민"
   bio         : "Customer Success Account Manager" 
   avatar      : "/assets/images/avatars/bio-photo.jpg"  
+
+복소현:
+  name        : "복소현"
+  bio         : "Copilot GBB" 
+  avatar      : "/assets/images/avatars/bio-photo.jpg"  
