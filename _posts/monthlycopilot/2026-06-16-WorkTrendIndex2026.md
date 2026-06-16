@@ -28,8 +28,6 @@ author: 김현지
   <div class="mc-cover-subtitle">실행은 AI에게, 주도권은 우리에게.</div>
 </div>
 
-<img src="/mwkorea/assets/images/20260616-worktrend/img01.png" alt="2026 업무동향지표 특집 커버 일러스트" />
-
 <div class="mc-callout mc-card--purple">
   <div class="mc-card-title">Article Summary</div>
   <div>기업 78%가 AI에 뒤처질까 걱정하지만, 실제로 일하는 방식을 바꾼 곳은 16%에 불과합니다. <strong>한국 직장인 10명 중 8명</strong>이 AI에 뒤처질 것을 두려워한다고 답했고(78%), 우리 조직의 리더가 명확한 방향을 제시한다고 느끼는 사람은 <strong>10명 중 채 2명이 되지 않습니다</strong>(16%). 결과와 무관하게 AI 기반 시도가 보상받는다고 답한 비율은 <strong>단 7%</strong>로, 글로벌 평균(13%)의 절반 수준입니다. 이번 호는 최근 공개된 한국 시장 수치를 Microsoft 「2026년 업무동향지표」의 글로벌 데이터와 나란히 놓고 다시 읽습니다.</div>
@@ -105,8 +103,6 @@ author: 김현지
 <div class="mc-callout mc-card--purple">
   전환의 역설은 본질적으로 <strong>시스템의 문제</strong>입니다. 시스템은 스스로 고쳐지지 않습니다 — 반드시 재설계되어야 합니다.
 </div>
-
-<img src="/mwkorea/assets/images/20260616-worktrend/img02.png" alt="매니저의 AI 활용이 팀에 미치는 영향 인포그래픽 (+17, +22, +30 포인트)" />
 
 <h3>매니저 한 명이 만드는 차이 — +17, +22, +30 포인트</h3>
 <p>변화의 가장 강력한 출발점은 의외로 가까이 있습니다 — 바로 매니저입니다. 전 세계 1,800명을 대상으로 한 별도 연구에 따르면, 매니저가 AI를 직접 활용하며 시연할 때 같은 팀 직원이 체감하는 AI 가치는 <strong>+17포인트</strong>, 비판적 사고는 <strong>+22포인트</strong>, 에이전트 AI에 대한 신뢰는 <strong>+30포인트</strong> 상승했습니다. 매니저가 심리적 안전감을 조성할 때는 직원의 AI 준비도가 최대 +20포인트, 고빈도 AI 사용자가 될 가능성이 1.4배 더 높아졌습니다.</p>
