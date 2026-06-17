@@ -26,8 +26,6 @@ author: 최정우
 
 이 글에서는 **Copilot Credits 비용 체계**(2계층 모델·크레딧 소비 방식·구매 옵션)와, **7월 1일 청구 시작 전에 반드시 끝내야 하는 관리자 설정**을 실제 화면과 함께 단계별로 정리합니다.
 
-![Copilot Cowork 비용 관리 가이드 — 한국 엔터프라이즈 고객을 위한 Copilot Credits 비용 체계 및 관리자 설정 가이드](/mwkorea/assets/images/2026-06-17-CopilotCreditsCostGuide/slide01.png)
-
 > 본 글의 가격 정보는 **USD 기준이며 변경될 수 있습니다.** 관리자 설정 절차는 Microsoft Learn [사용량 기반 청구 관리 문서](https://learn.microsoft.com/en-us/microsoft-365/copilot/usage-based-billing-manage-copilot-credits)를 기준으로 교차 검증했으며, 최신 가격·정책은 항상 공식 문서를 함께 확인하세요.
 
 ---
