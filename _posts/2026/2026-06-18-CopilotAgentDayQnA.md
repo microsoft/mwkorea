@@ -1,6 +1,6 @@
 ---
 title: "Copilot & Agent Day 현장 Q&A — 자주 나온 질문 12가지 총정리"
-date: 2026-06-19T00:00:00 KST
+date: 2026-06-18T00:00:00 KST
 categories:
   - Copilot
 tags:
@@ -27,7 +27,7 @@ author: 최정우
 
 가격이나 라이선스처럼 헷갈리기 쉬운 부분은 공식 문서와 발표 내용을 토대로 최대한 정확하게 답하려 했습니다. 현장에서 받은 질문을 그대로 살려, 같은 고민을 하셨던 분들께 도움이 되도록 구성했습니다.
 
-> 📄 **배포용 PDF 다운로드:** [Copilot & Agent Day Q&A 12선 — PDF로 받기](/mwkorea/assets/files/2026-06-19-CopilotAgentDayQnA.pdf)
+> 📄 **배포용 PDF 다운로드:** [Copilot & Agent Day Q&A 12선 — PDF로 받기](/mwkorea/assets/files/2026-06-18-CopilotAgentDayQnA.pdf)
 
 > **표기 안내** · ✅ 공개된 제품 사실 · ⚠️ 조직·계약별로 다른 항목(담당 계정팀·파트너·사내 IT 확인) · 💲 가격은 글로벌 발표 기준(국내 가격·조건은 영업/파트너 확인)
 
@@ -139,6 +139,6 @@ author: 최정우
 
 현장에서 주신 **"에이전트 실습 시간을 늘리고 세션을 더 자주 열어달라"** 는 의견도 잘 받았습니다. 다음 회차 기획에 반영하겠습니다. 🙌
 
-위 12개 질문은 [배포용 PDF](/mwkorea/assets/files/2026-06-19-CopilotAgentDayQnA.pdf)로도 정리해 두었으니, 팀에 공유하거나 인쇄해 활용하세요.
+위 12개 질문은 [배포용 PDF](/mwkorea/assets/files/2026-06-18-CopilotAgentDayQnA.pdf)로도 정리해 두었으니, 팀에 공유하거나 인쇄해 활용하세요.
 
 > 본문은 Microsoft 공식 블로그와 [Microsoft Learn](https://learn.microsoft.com) 문서를 토대로 정리했습니다. 프리뷰 단계 제품의 가격·일정·기능은 변경될 수 있으니, 도입 의사결정 시 공식 페이지와 담당 영업/파트너를 통해 최종 확인하시기 바랍니다.
