@@ -38,21 +38,22 @@ author: 최정우
 ### Q1. 코파일럿/코워크는 지금 무료인가요? ✅
 
 - **Copilot Chat은 포함, 무료.** 자격이 되는 Microsoft 365 구독(E3/E5, Business 등)이 있으면 **Microsoft 365 Copilot Chat**(웹·일부 업무 그라운딩)이 추가 비용 없이 포함됩니다.
-- **풀 기능 Microsoft 365 Copilot은 유료 구독**입니다(글로벌 기준 사용자당 월 $30 💲).
-- **Cowork(코워크)는 별도 무료 제품이 아닙니다.** Microsoft 365 Copilot 안의 기능이며, 현재 **Frontier 프로그램(프리뷰)** 으로 제공됩니다.
+- **풀 기능 Microsoft 365 Copilot은 유료 Add-on 라이선스**입니다(글로벌 출시가 사용자당 월 $30 💲).
+- **Cowork(코워크)는 2026년 6월 정식 출시(GA)** 됐습니다. 별도 무료 제품이 아니라 **Microsoft 365 Copilot 라이선스가 있는 모든 테넌트**(tier-1 언어)에서 쓸 수 있는 기능이며, **사용량 기반(usage-based) 과금**이 적용됩니다.
 
-> 한 줄 요약: **Copilot Chat = 자격 구독에 무료 포함 / 풀 Copilot = 유료 / Cowork = Copilot에 포함된 프리뷰 기능.**
+> 한 줄 요약: **Copilot Chat = 자격 구독에 무료 포함 / 풀 Copilot = 유료 Add-on / Cowork = GA(정식 출시), M365 Copilot 라이선스 + 사용량 기반 과금.**
 
-### Q2. 코워크가 유료로 전환되면(또는 GA 이후) 가격·과금 체계는? 교육·변화관리 프로그램은? ⚠️💲
+### Q2. 코워크 과금 체계는 어떻게 되나요? 교육·변화관리 프로그램은? ⚠️💲
 
-- Cowork는 현재 M365 Copilot의 일부로 **Frontier 프리뷰** 단계이며, **별도 GA 일정이나 독립 가격은 공개되지 않았습니다.** 공개된 방향은 *별도 과금이 아니라 M365 Copilot 구독에 포함*입니다.
-- 에이전트·소비형 작업의 과금은 **Copilot Credits(소비 기반)** 모델을 따릅니다. M365 Copilot 라이선스 사용자는 표준 에이전트 사용이 대부분 무료(No charge)이고, 특정 작업에 크레딧이 소모됩니다.
+- **Cowork는 이미 정식 출시(GA, 2026년 6월)** 됐습니다. "유료 전환"을 기다릴 필요 없이, 지금 **모든 Microsoft 365 Copilot 테넌트**(tier-1 언어)에서 사용할 수 있습니다.
+- **과금은 사용량 기반(usage-based) 빌링**입니다. 관리자는 **Microsoft 365 관리 센터**에서 사용량을 확인하고 **사용자별·그룹별 한도**를 설정할 수 있으며, 소비량은 pay-as-you-go(Copilot Credits) 방식으로 측정됩니다.
+- 사용 전제 조건(공식):
 
-| 에이전트 작업 | 크레딧 | M365 Copilot 라이선스 사용자 |
+| # | 조건 | 내용 |
 |---|---|---|
-| 생성형(Generative) 응답 | 2 크레딧 | 무료 |
-| 에이전트 액션(Agent action) | 5 크레딧 | 무료 |
-| 테넌트 그래프 그라운딩 | 10 크레딧 | 무료 |
+| 1 | Microsoft 365 Copilot 라이선스 | 사용자 계정에 라이선스 할당 |
+| 2 | 사용량 기반 빌링 활성화 | 테넌트에 usage-based billing 설정 |
+| 3 | Anthropic 모델 사용 허용 | Cowork는 Claude(Opus·Sonnet) 등 Anthropic 모델을 하위처리자(subprocessor)로 사용. 모델 선택기에 GPT 5.5도 포함 |
 
 - 교육·변화관리는 도입 시 **담당 계정팀·파트너 또는 사내 IT와 함께 채택(Adoption) 계획을 설계**하는 것을 권장합니다. ⚠️
 
@@ -61,7 +62,7 @@ author: 최정우
 ### Q3. Cowork은 M365 Copilot 없이 별도로 쓸 수 있나요? 라이선스 구독 시 사용 가능한가요? ✅
 
 - Cowork는 **Microsoft 365 Copilot의 기능**이므로 **M365 Copilot 라이선스가 필요**하고, **단독(standalone) 사용은 불가**합니다.
-- 현재는 **Frontier 프로그램 등록**을 통해 활성화됩니다. 즉 *"Copilot 라이선스를 구독하고 Frontier에 참여하면 사용할 수 있는 기능"* 이 맞습니다.
+- **2026년 6월 GA**로, 이제 Frontier 등록 없이도 **모든 M365 Copilot 테넌트**에서 사용할 수 있습니다(테넌트에 사용량 기반 빌링과 Anthropic 모델 사용이 활성화되어 있어야 함). 즉 *"Copilot 라이선스가 있으면 쓸 수 있는, 사용량 기반 과금 기능"* 이 맞습니다.
 
 ## 제품 비교
 
@@ -113,7 +114,7 @@ author: 최정우
 ### Q10. M365를 넘어 Agent 365 생태계를 한눈에 볼 공식 채널이 있나요? ✅
 
 - 네. **공식 제품 페이지:** `microsoft.com/microsoft-agent-365`, **문서 허브:** `learn.microsoft.com/microsoft-agent-365/overview`.
-- Agent 365는 조직 내 모든 에이전트를 **관측·거버넌스·보안**(Entra Agent ID + Defender + Purview + Intune)하는 **'에이전트용 컨트롤 플레인'** 입니다. (Ignite 2025 발표, 2026-05-01 GA)
+- Agent 365는 조직 내 모든 에이전트를 **관측·거버넌스·보안**(Entra Agent ID + Defender + Purview + Intune)하는 **'에이전트용 컨트롤 플레인'** 입니다. (Ignite 2025에서 발표, 이후 일반 공급(GA))
 - 업데이트는 **Microsoft 365 로드맵**(`microsoft.com/microsoft-365/roadmap`)과 Tech Community 블로그에서 추적할 수 있습니다.
 
 ## 사용법 · 기술
