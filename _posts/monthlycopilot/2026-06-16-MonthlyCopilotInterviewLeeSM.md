@@ -17,7 +17,7 @@ header:
 toc: false
 toc_sticky: true
 classes: wide
-author: 이승식
+author: 정혜수
 ---
 
 <div class="monthlycopilot-page monthlycopilot-page--education">
