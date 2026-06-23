@@ -189,6 +189,6 @@ Copilot Studio가 처음부터 **재구축(rebuilt)** 되어 전 세계 **정식
 
 기능별 상태표, Classic vs New 상세 비교, 그리고 5월 신기능까지 한 편에 묶은 총정리는 아래 글에서 확인하세요.
 
-> [\[긴급 편성\] Copilot Studio 대규모 업데이트 총정리 — 재구축, 새 에이전트 경험, 그리고 5월 신기능까지]({% post_url 2026/2026-06-09-CopilotStudioBigUpdate %})
+> [\[긴급 편성\] Copilot Studio 대규모 업데이트 총정리 — 재구축, 새 에이전트 경험, 그리고 5월 신기능까지](https://microsoft.github.io/mwkorea/copilot/CopilotStudioBigUpdate/)
 
 이제 정해진 레일 위를 달리던 봇은 잊으세요. **목표만 주면 스스로 추론하는 진짜 AI 에이전트**, 오늘 새 경험에서 직접 만들어 보시길 권합니다. 
