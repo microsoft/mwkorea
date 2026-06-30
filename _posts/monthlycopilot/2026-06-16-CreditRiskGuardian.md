@@ -1,5 +1,5 @@
 ---
-title: '데이터로 예방하고, AI로 선제 대응하다 — AI XYZ 팀의 Credit Risk Guardian'
+title: '데이터로 예방하고, AI로 선제 대응하다 — HD현대오일뱅크 AI XYZ 팀의 Credit Risk Guardian'
 date: 2026-06-16T00:00:00 KST
 categories:
   - monthlycopilot
@@ -10,7 +10,7 @@ tags:
   - AIBuilder
   - 고객사례
   - 월간코파일럿
-excerpt: 'AI Tour Agenthon in Seoul 2026 로우코드 부문 2위 AI XYZ 팀은, 별도 개발 인력 없이 M365와 Copilot만으로 신용 리스크를 조기에 포착하는 「Credit Risk Guardian」을 만들어 업무 시간 83% 절감과 ROI 10배를 달성했습니다.'
+excerpt: 'AI Tour Agenthon in Seoul 2026 로우코드 부문 2위 HD현대오일뱅크 AI XYZ 팀은, 별도 개발 인력 없이 M365와 Copilot만으로 신용 리스크를 조기에 포착하는 「Credit Risk Guardian」을 만들어 업무 시간 83% 절감과 ROI 10배를 달성했습니다.'
 header:
   overlay_image: assets/images/header/Microsoft365-Copilot-KeyArt-Productivity-6K-01.png
   overlay_filter: 0.5
@@ -29,17 +29,17 @@ author: 김현지
   <div class="mc-cover-subtitle">AI Tour Agenthon in Seoul 2026 — 코파일럿이 보여준 가능성</div>
 </div>
 
-<img src="/mwkorea/assets/images/20260616-aixyz/hero.png" alt="AI XYZ 팀의 Credit Risk Guardian 소개 이미지" />
+<img src="/mwkorea/assets/images/20260616-aixyz/hero.png" alt="HD현대오일뱅크 AI XYZ 팀의 Credit Risk Guardian 소개 이미지" />
 
 <p>정유·에너지 업계에서 신용 리스크 관리는 단순한 재무 업무를 넘어, 회사의 손익을 좌우하는 핵심 과제입니다. 거래처 한 곳의 부실이 곧바로 큰 손실로 이어질 수 있고, 업종마다 위험이 드러나는 방식도 제각각이라 담당자의 경험과 직관에 의존하기엔 한계가 분명하죠. 매일 수십 곳의 거래처 정보를 일일이 들여다보는 일도 결코 만만치 않습니다.</p>
 
-<p>이번 7월호에서는 바로 이 오래된 숙제를, 익숙한 도구로 새롭게 풀어낸 팀의 이야기를 소개합니다. <strong>AI Tour Agenthon in Seoul 2026</strong> 로우코드 부문에서 2위를 차지한 <strong>AI XYZ 팀</strong>은, 여신 담당자의 일상에 가장 가까이 다가가는 방식으로 답을 찾았습니다. 이들이 만든 <strong>「Credit Risk Guardian」</strong>은 업종별 특화 신용 리스크를 조기에 포착해 담당자에게 경보를 보내주는 에이전트로, 거래처 정보 수집부터 위험 분석, 등급 판정, 알림, 조치 기록까지 <strong>여신 업무 전 과정을 6단계로 자동화</strong>했습니다.</p>
+<p>이번 7월호에서는 바로 이 오래된 숙제를, 익숙한 도구로 새롭게 풀어낸 팀의 이야기를 소개합니다. <strong>AI Tour Agenthon in Seoul 2026</strong> 로우코드 부문에서 2위를 차지한 <strong>HD현대오일뱅크 AI XYZ 팀</strong>은, 여신 담당자의 일상에 가장 가까이 다가가는 방식으로 답을 찾았습니다. 이들이 만든 <strong>「Credit Risk Guardian」</strong>은 업종별 특화 신용 리스크를 조기에 포착해 담당자에게 경보를 보내주는 에이전트로, 거래처 정보 수집부터 위험 분석, 등급 판정, 알림, 조치 기록까지 <strong>여신 업무 전 과정을 6단계로 자동화</strong>했습니다.</p>
 
 <p>특히 주목할 점은 <strong>별도의 개발 인력이나 외부 솔루션 없이, 모두에게 익숙한 M365와 Copilot만으로 구축</strong>했다는 사실입니다. SharePoint, Power Automate, AI Builder, Teams처럼 이미 사내에 자리 잡은 도구들을 활용하여 Agent를 개발했고, 도입 후 <strong>업무 시간 83% 절감</strong>과 <strong>ROI 10배</strong>라는 성과를 만들어냈죠. AI가 분석하고 사람이 결정하는 <strong>Human-in-the-Loop</strong> 구조로 신뢰성까지 챙긴 점도 인상적입니다.</p>
 
 <div class="mc-callout mc-card--blue">
   <div class="mc-card-title">Article Summary</div>
-  <div>이번 호에서는 AI XYZ 팀이 어떤 문제의식에서 출발했는지, 6단계 자동화 흐름은 어떻게 설계됐는지 그 전 과정과 인사이트를 자세히 풀어봅니다.</div>
+  <div>이번 호에서는 HD현대오일뱅크 AI XYZ 팀이 어떤 문제의식에서 출발했는지, 6단계 자동화 흐름은 어떻게 설계됐는지 그 전 과정과 인사이트를 자세히 풀어봅니다.</div>
 </div>
 
 <hr/>
@@ -68,7 +68,7 @@ author: 김현지
 </div>
 
 <div class="mc-callout mc-card--blue">
-  <div class="mc-card-title">AI XYZ 팀의 답</div>
+  <div class="mc-card-title">HD현대오일뱅크 AI XYZ 팀의 답</div>
   <div>"AI is eXpanding Your Zone." — 담당자의 업무 영역을 넓히고, 매일 반복되는 수작업을 AI가 대신한다. 사람은 그 시간을 아껴 진짜 중요한 판단과 결정에 집중한다. 단순한 자동화 도구가 아닌, <strong>담당자의 동료</strong>를 만들겠다는 발상이 출발점이었습니다.</div>
 </div>
 
@@ -157,7 +157,7 @@ author: 김현지
 </div>
 
 <div class="mc-callout mc-callout--dark">
-  익숙한 M365와 Copilot, 그리고 Human-in-the-Loop 설계만으로도 현장의 오랜 숙제는 풀립니다. AI XYZ 팀의 Credit Risk Guardian은 "거창한 새 솔루션"이 아니라 "이미 가진 도구를 제대로 엮는 일"에서 출발했습니다. 우리 팀의 반복 업무 한 가지도, 같은 방식으로 다시 설계해 볼 수 있지 않을까요?
+  익숙한 M365와 Copilot, 그리고 Human-in-the-Loop 설계만으로도 현장의 오랜 숙제는 풀립니다. HD현대오일뱅크 AI XYZ 팀의 Credit Risk Guardian은 "거창한 새 솔루션"이 아니라 "이미 가진 도구를 제대로 엮는 일"에서 출발했습니다. 우리 팀의 반복 업무 한 가지도, 같은 방식으로 다시 설계해 볼 수 있지 않을까요?
 </div>
 
 </div>
