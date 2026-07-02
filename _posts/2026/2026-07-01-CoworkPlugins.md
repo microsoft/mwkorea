@@ -50,17 +50,25 @@ author: 최정우
 
 시장·펀드·신용 인텔리전스, 그리고 거래의 배경이 되는 법적 근거까지 Cowork가 신뢰할 수 있는 출처에 기반해 다루도록 돕는 파트너들입니다.
 
-**S&P Global Energy**는 글로벌 에너지·원자재 시장에 대한 포괄적 시각을 Cowork에 제공해, 신뢰할 수 있는 데이터·인사이트·리서치 기반의 의사결정을 지원합니다.
+### S&P Global Energy
 
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.34%; overflow: hidden;"><iframe src="https://medius.microsoft.com/Embed/video-nc/2edfbe7e-114d-428f-8130-00a61a8d8469?r=16426995442" title="S&P Global Energy for Copilot Cowork" allowfullscreen allow="fullscreen; picture-in-picture" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" sandbox="allow-scripts allow-same-origin allow-forms"></iframe></div>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.34%; overflow: hidden; margin: 0.5em 0 1.4em;"><iframe src="https://medius.microsoft.com/Embed/video-nc/2edfbe7e-114d-428f-8130-00a61a8d8469?r=16426995442" title="S&P Global Energy for Copilot Cowork" allowfullscreen allow="fullscreen; picture-in-picture" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" sandbox="allow-scripts allow-same-origin allow-forms"></iframe></div>
 
-**LSEG(London Stock Exchange Group)**는 세계 유수의 데이터·분석·금융 인프라 제공자로, 글로벌 자산군 전반의 신뢰할 수 있는 데이터·분석·리서치를 Cowork로 가져옵니다.
+글로벌 에너지·원자재 시장에 대한 포괄적 시각을 Cowork에 제공해, 신뢰할 수 있는 데이터·인사이트·리서치 기반의 의사결정을 지원합니다.
 
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.34%; overflow: hidden;"><iframe src="https://medius.microsoft.com/Embed/video-nc/1c2eca2e-5eb7-4e5a-95f6-a566d5310e4c?r=98078618693" title="LSEG for Copilot Cowork" allowfullscreen allow="fullscreen; picture-in-picture" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" sandbox="allow-scripts allow-same-origin allow-forms"></iframe></div>
+### LSEG(London Stock Exchange Group)
 
-**Morningstar**는 독립적 투자 리서치, 검증된 데이터, 독자 분석을 글로벌 자산군 전반에 걸쳐 Cowork에 제공해, 포트폴리오 의사결정과 시장 분석을 전 세계 투자자가 신뢰하는 인텔리전스에 근거하도록 돕습니다.
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.34%; overflow: hidden; margin: 0.5em 0 1.4em;"><iframe src="https://medius.microsoft.com/Embed/video-nc/1c2eca2e-5eb7-4e5a-95f6-a566d5310e4c?r=98078618693" title="LSEG for Copilot Cowork" allowfullscreen allow="fullscreen; picture-in-picture" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" sandbox="allow-scripts allow-same-origin allow-forms"></iframe></div>
 
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.34%; overflow: hidden;"><iframe src="https://medius.microsoft.com/Embed/video-nc/3dac1341-6e62-4ff1-83d4-3843cd067991?r=448456820689" title="Morningstar for Copilot Cowork" allowfullscreen allow="fullscreen; picture-in-picture" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" sandbox="allow-scripts allow-same-origin allow-forms"></iframe></div>
+세계 유수의 데이터·분석·금융 인프라 제공자로, 글로벌 자산군 전반의 신뢰할 수 있는 데이터·분석·리서치를 Cowork로 가져옵니다.
+
+### Morningstar
+
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.34%; overflow: hidden; margin: 0.5em 0 1.4em;"><iframe src="https://medius.microsoft.com/Embed/video-nc/3dac1341-6e62-4ff1-83d4-3843cd067991?r=448456820689" title="Morningstar for Copilot Cowork" allowfullscreen allow="fullscreen; picture-in-picture" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" sandbox="allow-scripts allow-same-origin allow-forms"></iframe></div>
+
+독립적 투자 리서치, 검증된 데이터, 독자 분석을 글로벌 자산군 전반에 걸쳐 Cowork에 제공해, 포트폴리오 의사결정과 시장 분석을 전 세계 투자자가 신뢰하는 인텔리전스에 근거하도록 돕습니다.
+
+그 밖에도 다음 파트너들이 이 영역에 합류합니다(데모 영상 미제공).
 
 - **Moody's**: 독자적 신용등급·리서치·리스크 인텔리전스에 근거해 동종 비교, 등급 피치, 섹터 전망, 종합 기업 분석 등 우선순위 높은 금융 워크플로를 지원
 - **Money Forward**: 일본 시장의 재무·회계를 Cowork에 연결해 AP/AR·경비 데이터를 가져오고, 거래를 대사(reconcile)하며, 결산 마감용 리포팅을 생성
@@ -69,13 +77,17 @@ author: 최정우
 
 ## 전문 서비스 업무에서 일관된 고품질 결과를 확장하다
 
-**Box**는 Microsoft Copilot Cowork에서 회의 준비 워크플로를 구동합니다. Box 플러그인을 켜면 Cowork가 Outlook 캘린더 초대를 검색하고, Box MCP 서버 도구로 관련 문서를 가져와, 준비 요약을 Box에 저장하고 Microsoft 365 안에서 바로 열 수 있게 합니다.
+### Box
 
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.34%; overflow: hidden;"><iframe src="https://medius.microsoft.com/Embed/video-nc/666beee6-ab36-4951-9ea2-3625b079cf9b?r=858169540777" title="Box for Copilot Cowork" allowfullscreen allow="fullscreen; picture-in-picture" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" sandbox="allow-scripts allow-same-origin allow-forms"></iframe></div>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.34%; overflow: hidden; margin: 0.5em 0 1.4em;"><iframe src="https://medius.microsoft.com/Embed/video-nc/666beee6-ab36-4951-9ea2-3625b079cf9b?r=858169540777" title="Box for Copilot Cowork" allowfullscreen allow="fullscreen; picture-in-picture" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" sandbox="allow-scripts allow-same-origin allow-forms"></iframe></div>
 
-**Harvey**는 목적에 맞게 설계된 법률 인텔리전스 - 계약 검토, 조항 비교, 관할권을 고려한 초안 작성 - 를 Copilot Cowork에 가져와, 법무팀이 Microsoft 365를 떠나지 않고 복잡한 다단계 워크플로를 수행하게 합니다.
+Microsoft Copilot Cowork에서 회의 준비 워크플로를 구동합니다. Box 플러그인을 켜면 Cowork가 Outlook 캘린더 초대를 검색하고, Box MCP 서버 도구로 관련 문서를 가져와, 준비 요약을 Box에 저장하고 Microsoft 365 안에서 바로 열 수 있게 합니다.
 
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.34%; overflow: hidden;"><iframe src="https://medius.microsoft.com/Embed/video-nc/bda69bae-24a9-4d1b-b28c-ae1987b83f1d?r=248261030099" title="Harvey for Copilot Cowork" allowfullscreen allow="fullscreen; picture-in-picture" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" sandbox="allow-scripts allow-same-origin allow-forms"></iframe></div>
+### Harvey
+
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.34%; overflow: hidden; margin: 0.5em 0 1.4em;"><iframe src="https://medius.microsoft.com/Embed/video-nc/bda69bae-24a9-4d1b-b28c-ae1987b83f1d?r=248261030099" title="Harvey for Copilot Cowork" allowfullscreen allow="fullscreen; picture-in-picture" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" sandbox="allow-scripts allow-same-origin allow-forms"></iframe></div>
+
+목적에 맞게 설계된 법률 인텔리전스 - 계약 검토, 조항 비교, 관할권을 고려한 초안 작성 - 를 Copilot Cowork에 가져와, 법무팀이 Microsoft 365를 떠나지 않고 복잡한 다단계 워크플로를 수행하게 합니다.
 
 ---
 
@@ -83,11 +95,13 @@ author: 최정우
 
 우리 조직 바깥에서 무슨 일이 일어나는지 - 시장 규모, 심리, 경쟁 신호 - 를 애널리스트의 시각으로 Cowork에 제공하는 플러그인들입니다.
 
-- **CB Insights** (출시 예정): 비상장 기업·시장에 대한 예측 인텔리전스를 더해, 전략·M&A·사업 개발 업무를 지원
+- **CB Insights** (출시 예정, 데모 영상 미제공): 비상장 기업·시장에 대한 예측 인텔리전스를 더해, 전략·M&A·사업 개발 업무를 지원
 
-**Statista** (출시 예정)는 190개국 이상, 1,000개 이상 시장, 200만 건 이상 소비자 인터뷰에 걸친 검증된 시장 전망과 소비자 조사 데이터를 Cowork에 제공해, 시장 규모 산정과 소비자 리서치, 자동 브리핑에 근거를 더합니다.
+### Statista (출시 예정)
 
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.34%; overflow: hidden;"><iframe src="https://medius.microsoft.com/Embed/video-nc/34d8b5d0-e0e3-4626-89e9-0923e9ddf03c?r=469957447520" title="Statista for Copilot Cowork" allowfullscreen allow="fullscreen; picture-in-picture" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" sandbox="allow-scripts allow-same-origin allow-forms"></iframe></div>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.34%; overflow: hidden; margin: 0.5em 0 1.4em;"><iframe src="https://medius.microsoft.com/Embed/video-nc/34d8b5d0-e0e3-4626-89e9-0923e9ddf03c?r=469957447520" title="Statista for Copilot Cowork" allowfullscreen allow="fullscreen; picture-in-picture" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" sandbox="allow-scripts allow-same-origin allow-forms"></iframe></div>
+
+190개국 이상, 1,000개 이상 시장, 200만 건 이상 소비자 인터뷰에 걸친 검증된 시장 전망과 소비자 조사 데이터를 Cowork에 제공해, 시장 규모 산정과 소비자 리서치, 자동 브리핑에 근거를 더합니다.
 
 ---
 
@@ -95,13 +109,17 @@ author: 최정우
 
 Cowork는 파일을 내보내거나 다시 입력할 필요 없이, 살아있는 레코드 안에서 주문을 읽고 파일을 갱신하며 프로젝트를 진전시킵니다.
 
-**monday.com**은 보드와 항목을 Cowork에 연결해 프로젝트를 열고, 상태·담당자를 업데이트하며, 지연되는 작업을 표시하고, 보드 활동을 공유용 상태 업데이트로 정리합니다.
+### monday.com
 
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.34%; overflow: hidden;"><iframe src="https://medius.microsoft.com/Embed/video-nc/a40d322e-e204-4676-ae73-bd282937977b?r=701611535394" title="monday.com for Copilot Cowork" allowfullscreen allow="fullscreen; picture-in-picture" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" sandbox="allow-scripts allow-same-origin allow-forms"></iframe></div>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.34%; overflow: hidden; margin: 0.5em 0 1.4em;"><iframe src="https://medius.microsoft.com/Embed/video-nc/a40d322e-e204-4676-ae73-bd282937977b?r=701611535394" title="monday.com for Copilot Cowork" allowfullscreen allow="fullscreen; picture-in-picture" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" sandbox="allow-scripts allow-same-origin allow-forms"></iframe></div>
 
-**enosix Arnold(TM) for Cowork**는 SAP 주문 관리를 더 매끄럽게 만들어, 팀이 진행 상황을 추적하고 업데이트하며, 견적을 만들고 문서를 손쉽게 조회하도록 돕습니다.
+보드와 항목을 Cowork에 연결해 프로젝트를 열고, 상태·담당자를 업데이트하며, 지연되는 작업을 표시하고, 보드 활동을 공유용 상태 업데이트로 정리합니다.
 
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.34%; overflow: hidden;"><iframe src="https://medius.microsoft.com/Embed/video-nc/0a7ba344-ffdc-4400-b87f-7668d381593b?r=933623983638" title="enosix Arnold for Copilot Cowork" allowfullscreen allow="fullscreen; picture-in-picture" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" sandbox="allow-scripts allow-same-origin allow-forms"></iframe></div>
+### enosix Arnold(TM) for Cowork
+
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.34%; overflow: hidden; margin: 0.5em 0 1.4em;"><iframe src="https://medius.microsoft.com/Embed/video-nc/0a7ba344-ffdc-4400-b87f-7668d381593b?r=933623983638" title="enosix Arnold for Copilot Cowork" allowfullscreen allow="fullscreen; picture-in-picture" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" sandbox="allow-scripts allow-same-origin allow-forms"></iframe></div>
+
+SAP 주문 관리를 더 매끄럽게 만들어, 팀이 진행 상황을 추적하고 업데이트하며, 견적을 만들고 문서를 손쉽게 조회하도록 돕습니다.
 
 ---
 
@@ -109,19 +127,29 @@ Cowork는 파일을 내보내거나 다시 입력할 필요 없이, 살아있는
 
 사고가 끝나면, 이 파트너들은 Cowork의 산출물을 완성도 높고 브랜드에 맞는 결과물 - 덱, 문서, 비주얼 - 로 바꿔 줍니다.
 
-- **Adobe** (출시 예정): Customer Experience Orchestration 에이전트 역량을 더해 워크플로 간소화, 고객 여정 최적화, 캠페인 의사결정 가속
+### Adobe (출시 예정)
 
-**Canva**는 시각 디자인 전문성을 Cowork에 가져옵니다. 목표(브랜드 덱, 런치 키트, 개인화 캠페인)만 정하면, Cowork가 Canva의 디자인 스킬을 사용해 브랜드에 맞는 완성물을 끝까지 만들어 Canva에 저장합니다.
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.34%; overflow: hidden; margin: 0.5em 0 1.4em;"><iframe src="https://medius.microsoft.com/Embed/video-nc/2d5c915a-8c2e-4415-aca2-84726fff14cb?r=261129374249" title="Adobe for Copilot Cowork" allowfullscreen allow="fullscreen; picture-in-picture" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" sandbox="allow-scripts allow-same-origin allow-forms"></iframe></div>
 
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.34%; overflow: hidden;"><iframe src="https://medius.microsoft.com/Embed/video-nc/2d5c915a-8c2e-4415-aca2-84726fff14cb?r=261129374249" title="Canva for Copilot Cowork" allowfullscreen allow="fullscreen; picture-in-picture" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" sandbox="allow-scripts allow-same-origin allow-forms"></iframe></div>
+Customer Experience Orchestration 에이전트 역량을 더해 워크플로 간소화, 고객 여정 최적화, 캠페인 의사결정 가속을 지원합니다.
 
-**Miro**는 Cowork의 분석을 시각 보드 - 다이어그램, 프레임워크, 워크숍용 레이아웃 - 로 바꿔, 팀 전체가 하나의 공유 캔버스 위에서 함께 발전시키게 합니다.
+### Canva
 
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.34%; overflow: hidden;"><iframe src="https://medius.microsoft.com/Embed/video-nc/0c08c572-287c-4df8-8bc5-de41eb43f283?r=236935281964" title="Miro for Copilot Cowork" allowfullscreen allow="fullscreen; picture-in-picture" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" sandbox="allow-scripts allow-same-origin allow-forms"></iframe></div>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.34%; overflow: hidden; margin: 0.5em 0 1.4em;"><iframe src="https://medius.microsoft.com/Embed/video-nc/0c08c572-287c-4df8-8bc5-de41eb43f283?r=236935281964" title="Canva for Copilot Cowork" allowfullscreen allow="fullscreen; picture-in-picture" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" sandbox="allow-scripts allow-same-origin allow-forms"></iframe></div>
 
-**Templafy** (출시 예정)는 Cowork의 산출물을 회사 고유의 템플릿·모범 슬라이드·브랜드 자산으로 만든 일관된 브랜드 프레젠테이션으로 변환합니다.
+시각 디자인 전문성을 Cowork에 가져옵니다. 목표(브랜드 덱, 런치 키트, 개인화 캠페인)만 정하면, Cowork가 Canva의 디자인 스킬을 사용해 브랜드에 맞는 완성물을 끝까지 만들어 Canva에 저장합니다.
 
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.34%; overflow: hidden;"><iframe src="https://medius.microsoft.com/Embed/video-nc/2d8df3d9-51ae-44dc-9fdb-f5040117f5a9?r=3274534828" title="Templafy for Copilot Cowork" allowfullscreen allow="fullscreen; picture-in-picture" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" sandbox="allow-scripts allow-same-origin allow-forms"></iframe></div>
+### Miro
+
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.34%; overflow: hidden; margin: 0.5em 0 1.4em;"><iframe src="https://medius.microsoft.com/Embed/video-nc/8e6d445e-25df-4c88-82e1-f674774d7402?r=1044731253787" title="Miro for Copilot Cowork" allowfullscreen allow="fullscreen; picture-in-picture" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" sandbox="allow-scripts allow-same-origin allow-forms"></iframe></div>
+
+Cowork의 분석을 시각 보드 - 다이어그램, 프레임워크, 워크숍용 레이아웃 - 로 바꿔, 팀 전체가 하나의 공유 캔버스 위에서 함께 발전시키게 합니다.
+
+### Templafy (출시 예정)
+
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.34%; overflow: hidden; margin: 0.5em 0 1.4em;"><iframe src="https://medius.microsoft.com/Embed/video-nc/2d8df3d9-51ae-44dc-9fdb-f5040117f5a9?r=3274534828" title="Templafy for Copilot Cowork" allowfullscreen allow="fullscreen; picture-in-picture" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" sandbox="allow-scripts allow-same-origin allow-forms"></iframe></div>
+
+Cowork의 산출물을 회사 고유의 템플릿·모범 슬라이드·브랜드 자산으로 만든 일관된 브랜드 프레젠테이션으로 변환합니다.
 
 ---
 
