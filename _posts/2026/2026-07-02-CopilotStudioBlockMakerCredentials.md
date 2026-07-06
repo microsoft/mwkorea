@@ -26,6 +26,8 @@ author: 최정우
 
 Microsoft 365 Roadmap 항목 RM566997에 따르면, **Microsoft Copilot Studio**가 **AI 에이전트의 인증에 메이커가 제공한 자격 증명(maker-provided credentials) 사용을 차단**하는 기능을 제공합니다. 관리자가 이 기능으로 조직 내 에이전트의 보안과 컴플라이언스를 강화할 수 있습니다.
 
+<img src="/mwkorea/assets/images/2026-07-02-CopilotStudioBlockMakerCredentials/episode3.png" alt="에피소드 3 웹툰: 메이커 개인 자격 증명으로 만든 에이전트가 조직 전체로 퍼지면서 벌어지는 무단 접근 위험 상황을 보여주고, Copilot Studio가 메이커 자격 증명 사용을 차단해 승인된 아이덴티티만 데이터에 접근하도록 막아주는 모습을 그린 웹툰" />
+
 ---
 
 ## 무엇이 새로운가
