@@ -27,6 +27,8 @@ author: 최정우
 
 Microsoft 365 Roadmap 항목 RM559613에 따르면, **Copilot Chat**이 이제 **스캔한 PDF**와 **Word·Excel·PowerPoint에 삽입된 이미지 속 텍스트**까지 검색 결과에 더 잘 매칭하도록 개선됩니다. Word의 스캔 계약서, Excel의 표 스크린샷, PowerPoint의 화이트보드 사진처럼 지금까지 찾기 어려웠던 콘텐츠가 검색 대상이 됩니다.
 
+<img src="/mwkorea/assets/images/2026-06-30-CopilotChatScannedPdfImageSearch/episode2.png" alt="에피소드 2 웹툰: 분명 스캔해서 저장했는데 검색이 안 된다고 당황하던 주인공에게, 그림 속 글자까지 Copilot이 읽어내니 걱정 말라고 안내하고, 실제로 스캔 PDF 계약서·Excel 표 이미지·PowerPoint 화이트보드 사진이 Copilot Chat 검색 결과에 뜨는 모습을 보여준 뒤, 2026년 7월 정식 출시(GA) 예정임을 알리는 4컷 웹툰" />
+
 ---
 
 ## 무엇이 새로워지나
