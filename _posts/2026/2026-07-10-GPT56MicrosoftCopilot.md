@@ -26,6 +26,8 @@ author: 최정우
 
 오늘부터 **OpenAI의 GPT-5.6 모델군**이 Word, Excel, PowerPoint, Chat, 그리고 Cowork를 아우르는 Microsoft 365 Copilot 전반에서 이용 가능해집니다. OpenAI와 Microsoft는 함께 협력해 GPT-5.6을 Microsoft 365 앱 전반의 지식 노동에 맞게 최적화했고, 그 결과 이 모델은 **Microsoft 365 Copilot의 선호 모델(preferred model)**로 자리 잡게 되었습니다. 모델을 네이티브로 제공하는 것에 더해, Microsoft는 API를 통해 OpenAI 모델에 직접 접근하는 방식으로도 GPT-5.6을 Microsoft 365 고객에게 제공합니다.
 
+<img src="/mwkorea/assets/images/2026-07-10-GPT56MicrosoftCopilot/ep04_gpt56_learning.png" alt="GPT-5.6, Copilot에 출근하다 웹툰: GPT-5.6이 Word·Excel·PowerPoint의 결과물 품질을 높이고, Copilot Chat에서 복잡한 질문을 추론하며, Copilot Cowork에서 Work IQ 맥락을 활용한 다단계 작업을 수행하는 과정을 보여준다. 관리자는 모델 제공과 테넌트·보안·승인 정책을 확인하고, 최종 검토와 승인 책임은 사람에게 있음을 안내한다." />
+
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%; overflow: hidden;"><iframe src="https://medius.microsoft.com/Embed/video-nc/c4406a99-0f83-45ff-9ec7-f0d5de44145d?r=791824160331" title="Cowork Model Selector" allowfullscreen allow="fullscreen; picture-in-picture" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" sandbox="allow-scripts allow-same-origin allow-forms"></iframe></div>
 
 지식 노동은 복잡합니다 — 여러 단계에 걸쳐 있고, 모호하며, 여러 도구와 파일에 흩어져 있습니다. 에이전틱(agentic)하고 다단계인 작업에 대한 더 강력한 추론 능력을 갖춘 GPT-5.6은 Copilot이 이런 복잡성을 더 효율적으로 처리하도록 도와, 초기 아이디어에서 더 완성된 결과물로 더 빠르게 나아가게 합니다. Microsoft 365 Copilot은 업무를 위해 만들어진 AI이며, GPT-5.6 같은 프론티어 모델은 Work IQ, Microsoft 365 앱, 그리고 고객이 Microsoft에 기대하는 엔터프라이즈급 보안·컴플라이언스·개인정보 보호를 아우르는 더 큰 시스템의 중요한 한 부분입니다.
