@@ -10,6 +10,7 @@ tags:
   - GitHubCopilotCLI
   - AICodingAgents
   - Skills
+  - Webtoon
 excerpt: "Microsoft Copilot Studio CAT가 클래식 에이전트를 모던 오케스트레이션으로 마이그레이션하는 전체 과정을 영상으로 공개했습니다. GitHub Copilot CLI와 실험적 Copilot Studio 플러그인을 사용해 기존 기능을 분석하고, 현대적인 구성 요소로 재설계한 결과를 검토합니다."
 header:
   overlay_image: assets/images/header/Microsoft365-Copilot-KeyArt-Productivity-6K-01.png
@@ -25,6 +26,8 @@ author: 최정우
 클래식 에이전트를 새로운 형식으로 그대로 복사하는 것은 제대로 된 마이그레이션이 아닙니다. 모던 오케스트레이션은 구성 요소 모델 자체가 다르기 때문에, 기존 기능과 업무 결과를 유지하면서도 각각을 가장 적합한 현대적 구조에 배치해야 합니다.
 
 Microsoft Copilot Studio Customer Advisory Team(CAT)은 앞서 소개한 Copilot Studio 플러그인의 마이그레이션 기능을 **GitHub Copilot CLI에서 처음부터 끝까지 실행하는 영상**을 공개했습니다.
+
+<img src="/mwkorea/assets/images/2026-07-14-CopilotStudioMigrationPluginVideo/ep08_copilot_studio_migration.png" alt="클래식 Copilot Studio 에이전트를 모던 오케스트레이션으로 옮기는 과정을 그린 웹툰: GitHub Copilot CLI 마이그레이션 플러그인이 기존 구조를 그대로 복사하지 않고 기능과 역할을 분석해 Skill과 Tool로 재구성하며, 결과는 실험적 연구 프로젝트의 첫 초안이므로 행동 비교·구성 요소 검토·예외 입력 테스트·승인 및 안전장치 확인 등 사람의 검수가 필요하다고 설명한다." />
 
 ![Copilot Studio 마이그레이션 플러그인 영상](/mwkorea/assets/images/2026-07-14-CopilotStudioMigrationPluginVideo/image1.png)
 
