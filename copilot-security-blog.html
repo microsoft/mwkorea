@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>우리 데이터, 안전한가요? — Copilot 도입 전 꼭 짚어야 할 보안 이야기</title>
+<script>
+  (() => {
+    const param = new URLSearchParams(window.location.search).get("scoutTheme");
+    const theme =
+      param || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+    document.documentElement.setAttribute("data-theme", theme);
+  })();
+</script>
+<style>
+:root {
+  color-scheme: light;
+  --cp-bg: #f7f4ef;
+  --cp-bg-elevated: #fcfbf8;
+  --cp-surface: #ffffff;
+  --cp-surface-soft: #f5f5f5;
+  --cp-border: #dedede;
+  --cp-border-strong: #919191;
+  --cp-text: #242424;
+  --cp-text-muted: #5c5c5c;
+  --cp-text-soft: #6f6f6f;
+  --cp-accent: #b11f4b;
+  --cp-accent-hover: #9a1a41;
+  --cp-accent-soft: rgba(177, 31, 75, 0.08);
+  --cp-accent-fg: #ffffff;
+  --cp-success: #16a34a;
+  --cp-danger: #dc2626;
+  --cp-warning: #f59e0b;
+  --cp-link: #0078d4;
+  --cp-shadow: 0 18px 48px rgba(0, 0, 0, 0.12);
+  --cp-overlay: rgba(255, 255, 255, 0.8);
+  --cp-panel: rgba(255, 255, 255, 0.86);
+  --cp-panel-strong: rgba(255, 255, 255, 0.96);
+  --cp-sheen: rgba(255, 255, 255, 0.55);
+  --cp-highlight: rgba(177, 31, 75, 0.12);
+}
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --cp-bg: #3d3b3a;
+  --cp-bg-elevated: #343231;
+  --cp-surface: #292929;
+  --cp-surface-soft: #2e2e2e;
+  --cp-border: #474747;
+  --cp-border-strong: #5f5f5f;
+  --cp-text: #dedede;
+  --cp-text-muted: #919191;
+  --cp-text-soft: #b0b0b0;
+  --cp-accent: #fd8ea1;
+  --cp-accent-hover: #fb7b91;
+  --cp-accent-soft: rgba(253, 142, 161, 0.14);
+  --cp-accent-fg: #1a1a1a;
+  --cp-success: #4ade80;
+  --cp-danger: #f87171;
+  --cp-warning: #fbbf24;
+  --cp-link: #4da6ff;
+  --cp-shadow: 0 18px 48px rgba(0, 0, 0, 0.32);
+  --cp-overlay: rgba(41, 41, 41, 0.88);
+  --cp-panel: rgba(41, 41, 41, 0.72);
+  --cp-panel-strong: rgba(41, 41, 41, 0.96);
+  --cp-sheen: rgba(255, 255, 255, 0.04);
+  --cp-highlight: rgba(253, 142, 161, 0.12);
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--cp-bg);
+  color: var(--cp-text);
+  font-family: "Segoe UI", Aptos, Calibri, -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.75;
+  font-size: 17px;
+  -webkit-font-smoothing: antialiased;
+}
+.wrap { max-width: 820px; margin: 0 auto; padding: 0 22px 80px; }
+
+/* ---------- HERO ---------- */
+.hero {
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(120% 120% at 12% 8%, var(--cp-highlight), transparent 55%),
+    var(--cp-bg-elevated);
+  border-bottom: 1px solid var(--cp-border);
+}
+.hero-inner {
+  max-width: 820px; margin: 0 auto; padding: 56px 22px 36px;
+  display: grid; grid-template-columns: 1fr 230px; gap: 28px; align-items: center;
+}
+.eyebrow {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-size: 12px; font-weight: 700; letter-spacing: .16em;
+  text-transform: uppercase; color: var(--cp-accent);
+  background: var(--cp-accent-soft); border: 1px solid var(--cp-border);
+  padding: 6px 12px; border-radius: 999px;
+}
+.eyebrow .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--cp-accent); }
+h1 {
+  font-size: clamp(30px, 5vw, 44px); line-height: 1.2; margin: 18px 0 10px;
+  letter-spacing: -0.01em;
+}
+h1 .hl { color: var(--cp-accent); }
+.subtitle { font-size: 18px; color: var(--cp-text-muted); margin: 0 0 18px; font-weight: 600; }
+.byline { font-size: 13px; color: var(--cp-text-soft); display: flex; gap: 14px; flex-wrap: wrap; }
+.byline b { color: var(--cp-text-muted); }
+.hero-art { width: 100%; height: auto; }
+@media (max-width: 680px) {
+  .hero-inner { grid-template-columns: 1fr; }
+  .hero-art { max-width: 200px; justify-self: center; }
+}
+
+/* ---------- LEAD ---------- */
+.lead {
+  font-size: 19px; color: var(--cp-text); margin: 40px 0 0;
+  padding-left: 18px; border-left: 4px solid var(--cp-accent);
+}
+
+/* ---------- SECTION HEADERS ---------- */
+.part-label {
+  display: inline-block; font-size: 12px; font-weight: 800; letter-spacing: .18em;
+  color: var(--cp-accent); text-transform: uppercase; margin: 56px 0 4px;
+}
+h2 { font-size: 27px; margin: 6px 0 22px; letter-spacing: -0.01em; }
+h3 { font-size: 20px; margin: 30px 0 12px; }
+p { margin: 14px 0; }
+
+/* ---------- FAQ CARDS ---------- */
+.faq {
+  background: var(--cp-surface); border: 1px solid var(--cp-border);
+  border-radius: 16px; padding: 22px 24px; margin: 16px 0;
+  box-shadow: 0 0 2px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.14);
+  display: grid; grid-template-columns: 52px 1fr; gap: 16px; align-items: start;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.faq:hover { transform: translateY(-2px); box-shadow: var(--cp-shadow); }
+.faq .q-badge {
+  width: 46px; height: 46px; border-radius: 12px; display: grid; place-items: center;
+  background: var(--cp-accent); color: var(--cp-accent-fg);
+  font-weight: 800; font-size: 17px;
+}
+.faq .q-title { font-weight: 700; font-size: 18px; margin: 4px 0 8px; }
+.faq .a { color: var(--cp-text-muted); margin: 0; }
+.faq .a .ans-tag {
+  display: inline-block; font-weight: 800; color: var(--cp-success);
+  margin-right: 6px;
+}
+
+/* ---------- STEP CARDS ---------- */
+.step {
+  display: grid; grid-template-columns: 96px 1fr; gap: 22px; align-items: center;
+  background: var(--cp-surface); border: 1px solid var(--cp-border); border-radius: 16px;
+  padding: 22px 24px; margin: 18px 0;
+  box-shadow: 0 0 2px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.14);
+}
+.step .num { font-size: 13px; font-weight: 800; letter-spacing: .14em; color: var(--cp-accent); }
+.step h3 { margin: 2px 0 8px; }
+.step p { margin: 6px 0; color: var(--cp-text-muted); }
+.step-art { width: 88px; height: 88px; }
+@media (max-width: 560px) {
+  .step { grid-template-columns: 1fr; }
+  .step-art { justify-self: center; }
+}
+
+/* ---------- TABLE ---------- */
+.tbl-wrap { overflow-x: auto; margin: 18px 0; border-radius: 12px; border: 1px solid var(--cp-border); }
+table { width: 100%; border-collapse: collapse; font-size: 15px; background: var(--cp-surface); }
+th, td { text-align: left; padding: 12px 16px; border-bottom: 1px solid var(--cp-border); vertical-align: top; }
+th { background: var(--cp-accent-soft); color: var(--cp-text); font-weight: 700; }
+td:first-child { font-weight: 600; white-space: nowrap; color: var(--cp-accent); }
+tr:last-child td { border-bottom: none; }
+
+/* ---------- CALLOUTS ---------- */
+.callout {
+  border-radius: 12px; padding: 16px 20px; margin: 18px 0; font-size: 15px;
+  display: grid; grid-template-columns: 28px 1fr; gap: 12px; align-items: start;
+}
+.callout .ico { font-size: 20px; line-height: 1.3; }
+.callout.warn { background: rgba(245,158,11,.12); border: 1px solid var(--cp-warning); }
+.callout.info { background: var(--cp-accent-soft); border: 1px solid var(--cp-border); }
+.callout b { color: var(--cp-text); }
+
+ul.clean { list-style: none; padding: 0; margin: 14px 0; }
+ul.clean li {
+  padding: 10px 0 10px 30px; position: relative; color: var(--cp-text-muted);
+  border-bottom: 1px dashed var(--cp-border);
+}
+ul.clean li:last-child { border-bottom: none; }
+ul.clean li::before {
+  content: ""; position: absolute; left: 4px; top: 18px; width: 9px; height: 9px;
+  border-radius: 50%; background: var(--cp-accent);
+}
+ul.clean li b { color: var(--cp-text); }
+
+a { color: var(--cp-link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* ---------- ONE-LINE QUOTE ---------- */
+.bigquote {
+  text-align: center; margin: 40px 0; padding: 36px 24px;
+  background:
+    radial-gradient(100% 120% at 50% 0%, var(--cp-highlight), transparent 60%),
+    var(--cp-surface);
+  border: 1px solid var(--cp-border); border-radius: 20px;
+  box-shadow: var(--cp-shadow);
+}
+.bigquote .mark { font-size: 30px; color: var(--cp-accent); font-weight: 800; }
+.bigquote p { font-size: 24px; font-weight: 800; margin: 8px 0 0; letter-spacing: -.01em; }
+
+/* ---------- SUMMARY ---------- */
+.summary-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin: 20px 0; }
+.sum-card {
+  background: var(--cp-surface); border: 1px solid var(--cp-border); border-radius: 14px;
+  padding: 18px; text-align: center;
+  box-shadow: 0 0 2px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.14);
+}
+.sum-card .n {
+  width: 38px; height: 38px; margin: 0 auto 10px; border-radius: 50%;
+  background: var(--cp-accent); color: var(--cp-accent-fg); display: grid; place-items: center;
+  font-weight: 800;
+}
+.sum-card .t { font-weight: 700; font-size: 15px; margin-bottom: 6px; }
+.sum-card .d { font-size: 13px; color: var(--cp-text-muted); }
+@media (max-width: 560px) { .summary-grid { grid-template-columns: 1fr; } }
+
+footer {
+  margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--cp-border);
+  font-size: 13px; color: var(--cp-text-soft); text-align: center;
+}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div>
+      <span class="eyebrow"><span class="dot"></span> Monthly Copilot · Security</span>
+      <h1>“우리 데이터,<br><span class="hl">안전한가요?</span>”</h1>
+      <p class="subtitle">Copilot 도입 전 꼭 짚어야 할 보안 이야기</p>
+      <div class="byline">
+        <span><b>주제</b> Microsoft 365 Copilot</span>
+        <span><b>읽는 시간</b> 약 6분</span>
+        <span><b>카테고리</b> 보안 · 거버넌스</span>
+      </div>
+    </div>
+    <!-- HERO ART: 친근한 방패 캐릭터가 데이터를 품다 -->
+    <svg class="hero-art" viewBox="0 0 230 230" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="데이터를 감싸는 신뢰의 방패">
+      <circle cx="115" cy="115" r="108" fill="var(--cp-accent-soft)"/>
+      <!-- shield body -->
+      <path d="M115 35 L180 60 V120 C180 160 150 185 115 198 C80 185 50 160 50 120 V60 Z" fill="var(--cp-accent)"/>
+      <path d="M115 49 L168 69 V120 C168 152 144 173 115 184 C86 173 62 152 62 120 V69 Z" fill="var(--cp-surface)"/>
+      <!-- data stack inside -->
+      <rect x="86" y="92" width="58" height="13" rx="4" fill="var(--cp-accent)"/>
+      <rect x="86" y="111" width="58" height="13" rx="4" fill="var(--cp-warning)"/>
+      <rect x="86" y="130" width="58" height="13" rx="4" fill="var(--cp-link)"/>
+      <!-- friendly eyes + smile (캐릭터 느낌) -->
+      <circle cx="100" cy="73" r="4.5" fill="var(--cp-text)"/>
+      <circle cx="130" cy="73" r="4.5" fill="var(--cp-text)"/>
+      <path d="M101 82 Q115 92 129 82" stroke="var(--cp-text)" stroke-width="3" stroke-linecap="round" fill="none"/>
+      <!-- check seal -->
+      <circle cx="160" cy="150" r="22" fill="var(--cp-success)"/>
+      <path d="M150 150 l7 7 l13 -15" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    </svg>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <p class="lead">
+    Microsoft 365 Copilot을 검토하는 거의 모든 조직이 가장 먼저 던지는 질문은 똑같습니다.
+    <b>“그래서, 우리 회사 데이터는 안전한가요?”</b>
+    이번 호에서는 고객이 가장 많이 묻는 보안 질문에 답하고, 안전하면서도 효율적으로 Copilot을 도입하기 위한 준비 항목을 정리합니다.
+  </p>
+
+  <h3>준비된 데이터를 감싸는 ‘신뢰의 보호막’</h3>
+  <p>
+    Copilot 도입을 망설이게 하는 건 대부분 ‘기능’이 아니라 ‘보안’입니다. 좋은 소식은, 이 질문들 대부분은 <b>이미 명확한 답</b>이 있다는 것입니다.
+    Copilot은 새로운 보안 모델을 들고 오는 것이 아니라, 여러분이 <b>이미 운영 중인 Microsoft 365의 보안·규정 약속 위에서</b> 동작하기 때문입니다.
+  </p>
+  <p>이 글은 세 부분으로 구성됩니다.</p>
+  <ul class="clean">
+    <li><b>① 고객이 가장 많이 묻는 보안 FAQ</b></li>
+    <li><b>② 도입 전에 짚어야 할 3단계 준비</b></li>
+    <li><b>③ 한 줄 결론</b></li>
+  </ul>
+
+  <!-- ============ PART 1 ============ -->
+  <span class="part-label">Part 1 · Frequently Asked</span>
+  <h2>가장 많이 받는 보안 질문 5가지</h2>
+
+  <div class="faq">
+    <div class="q-badge">Q1</div>
+    <div>
+      <div class="q-title">우리 회사 데이터로 AI 모델을 학습시키나요?</div>
+      <p class="a"><span class="ans-tag">아니요.</span>사용자의 프롬프트, Copilot의 응답, 그리고 Microsoft Graph 데이터는 기반 LLM(대규모 언어 모델)을 학습시키는 데 사용되지 않습니다. Copilot 관련 고객 데이터는 Microsoft 365의 데이터 거주 약속과 테넌트 격리 원칙에 따라 보호됩니다. 일부 처리는 Microsoft 365 및 Azure 인프라의 적절한 서비스 위치에서 수행될 수 있으나, 고객 데이터가 다른 고객이나 외부 서비스와 공유되거나 기반 모델 학습에 사용되지는 않습니다.</p>
+    </div>
+  </div>
+
+  <div class="faq">
+    <div class="q-badge">Q2</div>
+    <div>
+      <div class="q-title">Copilot은 어떤 데이터에 접근하나요?</div>
+      <p class="a">이메일·문서·채팅·일정 등 Microsoft Graph 안의 Microsoft 365 데이터에 접근할 수 있습니다. 다만 가장 중요한 원칙이 하나 있습니다 — <b>사용자가 이미 접근 권한을 가진 데이터만 참조합니다.</b> 권한이 없는 데이터는 Copilot도 볼 수 없습니다. 이 원칙이 뒤에 나올 ‘과잉 공유’ 이야기의 핵심입니다.</p>
+    </div>
+  </div>
+
+  <div class="faq">
+    <div class="q-badge">Q3</div>
+    <div>
+      <div class="q-title">데이터는 어디서 처리되고, 어디에 저장되나요?</div>
+      <p class="a">Copilot 요청의 처리는 Microsoft 365 서비스와 Azure 인프라에서 이뤄지고, 고객 데이터는 Microsoft 365 데이터 거주 약속에 따라 해당 테넌트의 데이터 지역(geography) 내에 저장됩니다. 기능별 지원 범위와 일부 모델·서비스 예외는 최신 Microsoft Learn 문서를 기준으로 확인하는 것이 좋습니다. Copilot은 별도의 새 저장소를 만들지 않고, 기존 Microsoft 365 데이터 구조와 권한 모델을 활용합니다.</p>
+    </div>
+  </div>
+
+  <div class="faq">
+    <div class="q-badge">Q4</div>
+    <div>
+      <div class="q-title">데이터 거주 · 암호화 · 테넌트 격리는요?</div>
+      <p class="a">
+        <b>데이터 거주:</b> Microsoft 365의 데이터 거주 정책을 그대로 따릅니다. Advanced Data Residency / Multi-Geo, EU Data Boundary도 지원합니다(일부 모델 예외).<br>
+        <b>암호화:</b> 저장 시·전송 시 모두 암호화됩니다(Microsoft 365 표준 암호화).<br>
+        <b>테넌트 격리:</b> 각 고객 테넌트는 논리적으로 분리되어 다른 조직 데이터와 섞이지 않습니다. 접근은 Microsoft Entra ID 인증과 권한 기반으로 통제됩니다.
+      </p>
+    </div>
+  </div>
+
+  <div class="faq">
+    <div class="q-badge">Q5</div>
+    <div>
+      <div class="q-title">규정 준수와 데이터 관리는 어떻게 하나요?</div>
+      <p class="a">Copilot은 Microsoft 365의 규정 준수 체계를 그대로 따릅니다. Audit(감사 로그), eDiscovery, Data Lifecycle(보존·삭제)을 비롯한 Microsoft Purview 기능을 모두 활용할 수 있고, GDPR·ISO 27001 등 글로벌 규정 기준을 충족합니다.</p>
+    </div>
+  </div>
+
+  <div class="callout info">
+    <div class="ico">💡</div>
+    <div><b>한 줄 요약 —</b> Copilot은 추가적인 보안 약속을 새로 요구하지 않습니다. 기존 Microsoft 365의 보안·규정 약속 위에서 그대로 동작합니다.</div>
+  </div>
+
+  <!-- ============ PART 2 ============ -->
+  <span class="part-label">Part 2 · Get Ready</span>
+  <h2>그렇다면 무엇을 준비해야 할까요 — 3단계</h2>
+  <p>
+    보안 질문에 답이 명확하다고 해서 “아무 준비 없이 켜도 된다”는 뜻은 아닙니다.
+    Copilot을 안전하고 효율적으로 도입하려면 데이터를 미리 정돈해 두는 것이 좋습니다. 핵심은 다음 <b>3단계</b>입니다.
+  </p>
+
+  <!-- STEP 1 -->
+  <div class="step">
+    <svg class="step-art" viewBox="0 0 88 88" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="과잉 공유 교정">
+      <rect x="10" y="30" width="50" height="38" rx="6" fill="var(--cp-warning)"/>
+      <path d="M10 36 v-5 a6 6 0 0 1 6 -6 h14 l6 7 h-26 z" fill="var(--cp-warning)"/>
+      <!-- leaking papers -->
+      <rect x="48" y="14" width="20" height="26" rx="3" fill="var(--cp-surface)" stroke="var(--cp-border-strong)" stroke-width="2" transform="rotate(12 58 27)"/>
+      <rect x="58" y="22" width="20" height="26" rx="3" fill="var(--cp-surface)" stroke="var(--cp-border-strong)" stroke-width="2" transform="rotate(-8 68 35)"/>
+      <!-- magnifier -->
+      <circle cx="34" cy="50" r="13" fill="none" stroke="var(--cp-accent)" stroke-width="4"/>
+      <line x1="43" y1="59" x2="56" y2="72" stroke="var(--cp-accent)" stroke-width="5" stroke-linecap="round"/>
+    </svg>
+    <div>
+      <div class="num">STEP 1</div>
+      <h3>과잉 공유(Oversharing) 교정</h3>
+      <p>가장 중요한 원칙은 단순합니다. <b>Copilot은 새로운 권한을 만들지 않습니다.</b> 대신 조직에 이미 존재하던 ‘과잉 공유’를 검색과 AI를 통해 더 쉽게 드러냅니다. 예전에는 깊숙이 묻혀 찾기 어려웠던 파일도, 사용자가 접근 권한을 갖고 있다면 Copilot 답변의 근거로 표면화될 수 있습니다.</p>
+      <p>원인은 익숙합니다 — 조직 전체에 열린 공유, 방치된 상속 권한, 분류되지 않은 파일. 이를 통제하는 도구는 네 가지입니다.</p>
+    </div>
+  </div>
+
+  <div class="tbl-wrap">
+    <table>
+      <thead><tr><th>도구</th><th>역할</th></tr></thead>
+      <tbody>
+        <tr>
+          <td>SAM<br>(SharePoint Advanced Management)</td>
+          <td>검색 결과 노출과 사이트 접근 범위 제한 (<b>RCD·RAC 권장</b>)<br>
+            · 방법 #1 — <a href="https://learn.microsoft.com/en-us/microsoftsearch/semantic-index-for-copilot#excluding-sharepoint-online-sites">SharePoint 검색 인덱싱 제외</a><br>
+            · 방법 #2 — <a href="https://learn.microsoft.com/ko-kr/sharepoint/restricted-sharepoint-search">제한된 SharePoint 검색 (RSS)</a><br>
+            · 방법 #3 — <a href="https://learn.microsoft.com/ko-kr/sharepoint/restricted-content-discovery">제한된 콘텐츠 검색 (RCD/SAM)</a><br>
+            · 방법 #4 — <a href="https://learn.microsoft.com/ko-kr/sharepoint/restricted-access-control">제한된 액세스 제어 (RAC/SAM)</a></td>
+        </tr>
+        <tr><td>컨테이너 레이블<br>(MIP 민감도 레이블)</td><td>사이트·그룹 비공개 강제, 콘텐츠와 함께 이동</td></tr>
+        <tr><td>DLP for Copilot</td><td>민감 프롬프트·레이블 콘텐츠를 응답에서 제외</td></tr>
+        <tr><td>DSPM</td><td>과잉 공유 자동 식별·교정·모니터링</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="callout warn">
+    <div class="ico">⚠️</div>
+    <div>제한된 SharePoint 검색 기능(RSS)은 <b>향후 지원 종료 예정</b>이므로 SAM의 RCD·RAC을 활용하세요.</div>
+  </div>
+
+  <div class="callout warn">
+    <div class="ico">🔎</div>
+    <div>SharePoint Online의 <b>‘외부 사용자를 제외한 모든 사용자(EEEU)’ 공유 범위</b>도 반드시 점검해야 합니다. EEEU로 공유된 문서는 조직 내 다수가 접근할 수 있어 Copilot이 의도치 않게 민감 정보를 활용할 수 있습니다. <a href="https://learn.microsoft.com/ko-kr/powershell/module/microsoft.online.sharepoint.powershell/set-spotenant?view=sharepoint-ps#-showeveryoneexceptexternalusersclaim">신규 공유에서 EEEU를 숨기는 설정</a>은 신규 공유에만 적용되므로, 기존 EEEU 공유 사이트·문서는 별도로 검토·정리해야 합니다.</div>
+  </div>
+
+  <div class="callout info">
+    <div class="ico">🎁</div>
+    <div><b>참고 —</b> 2025년 1월부터 SharePoint Advanced Management(SAM)는 Microsoft 365 Copilot 라이선스에 <b>무료로 포함</b>됩니다. 제한된 검색·콘텐츠 검색·액세스 제어 등을 추가 비용 없이 활용할 수 있습니다.</div>
+  </div>
+
+  <!-- STEP 2 -->
+  <div class="step">
+    <svg class="step-art" viewBox="0 0 88 88" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="가드레일 구성">
+      <rect x="14" y="40" width="60" height="10" rx="5" fill="var(--cp-accent)"/>
+      <rect x="18" y="48" width="8" height="26" rx="3" fill="var(--cp-accent)"/>
+      <rect x="62" y="48" width="8" height="26" rx="3" fill="var(--cp-accent)"/>
+      <rect x="36" y="48" width="8" height="26" rx="3" fill="var(--cp-accent)"/>
+      <!-- lock on top -->
+      <rect x="34" y="14" width="20" height="16" rx="4" fill="var(--cp-success)"/>
+      <path d="M37 14 v-4 a7 7 0 0 1 14 0 v4" fill="none" stroke="var(--cp-success)" stroke-width="4"/>
+      <circle cx="44" cy="21" r="2.6" fill="#fff"/>
+    </svg>
+    <div>
+      <div class="num">STEP 2</div>
+      <h3>가드레일 구성 (런타임 보호)</h3>
+      <p>데이터를 정돈했다면, 이제 <b>실시간으로 작동하는 가드레일</b>을 세웁니다.</p>
+      <ul class="clean">
+        <li><b>DLP for Copilot (프롬프트):</b> 신용카드 번호 같은 민감정보(SIT)가 프롬프트에 감지되면, Copilot이 요청을 처리하기 전에 차단합니다. Work·Web 환경 모두에서 동일하게 동작합니다.</li>
+        <li><b>DLP for Copilot (민감도 레이블):</b> Copilot과 에이전트는 사용자의 기존 권한과 문서 보호 설정을 따릅니다. DLP 정책으로 민감정보나 특정 레이블 콘텐츠가 응답·외부 공유·메일 반출에 부적절하게 사용되지 않도록 제어할 수 있습니다.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- STEP 3 -->
+  <div class="step">
+    <svg class="step-art" viewBox="0 0 88 88" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="모니터링과 규정 준수">
+      <circle cx="44" cy="44" r="30" fill="none" stroke="var(--cp-border-strong)" stroke-width="3"/>
+      <circle cx="44" cy="44" r="18" fill="none" stroke="var(--cp-border-strong)" stroke-width="2" stroke-dasharray="3 4"/>
+      <path d="M44 44 L44 16 A28 28 0 0 1 68 30 Z" fill="var(--cp-accent-soft)"/>
+      <line x1="44" y1="44" x2="66" y2="28" stroke="var(--cp-accent)" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="44" cy="44" r="5" fill="var(--cp-accent)"/>
+      <circle cx="64" cy="60" r="4" fill="var(--cp-success)"/>
+      <circle cx="26" cy="58" r="4" fill="var(--cp-warning)"/>
+    </svg>
+    <div>
+      <div class="num">STEP 3</div>
+      <h3>모니터링 · 규정 준수</h3>
+      <p>마지막은 <b>‘보이게 만들기’</b>입니다.</p>
+      <ul class="clean">
+        <li><b>DSPM:</b> 조직 전체의 AI 앱·에이전트 수, 고위험 에이전트 현황(High/Medium/Low), Oversharing·Exfiltration 같은 민감 상호작용을 한 대시보드에서 봅니다.</li>
+        <li><b>Activity Explorer:</b> 누가, 언제, 어떤 AI 앱으로 무엇을 했는지 — 권한이 있으면 프롬프트·응답 텍스트까지 — 세부 추적합니다.</li>
+        <li><b>Audit · eDiscovery · Communication Compliance:</b> 상세 동작 로그와 프롬프트 내용을 검사하고, EU AI Act 등 규정 준수 평가(Compliance Manager)와 위험 행동 기반 동적 차단(Insider Risk·조건부 액세스)까지 연결합니다.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ============ PART 3 ============ -->
+  <span class="part-label">Part 3 · Takeaway</span>
+  <h2>한 줄로 정리하면</h2>
+
+  <h3>한 눈에 보는 요약 — 보안 FAQ와 도입 3단계</h3>
+  <p>세 단계를 한 문장씩으로 줄이면 이렇습니다.</p>
+  <div class="summary-grid">
+    <div class="sum-card">
+      <div class="n">1</div>
+      <div class="t">보안 원칙 확인</div>
+      <div class="d">고객 데이터는 기반 모델 학습에 사용되지 않으며, 기존 권한·암호화·테넌트 격리 원칙을 따릅니다.</div>
+    </div>
+    <div class="sum-card">
+      <div class="n">2</div>
+      <div class="t">공유·접근 정리</div>
+      <div class="d">SAM, 민감도 레이블, DLP로 과잉 공유를 줄이고 민감 콘텐츠의 부적절한 사용을 통제합니다.</div>
+    </div>
+    <div class="sum-card">
+      <div class="n">3</div>
+      <div class="t">모니터링·단계 도입</div>
+      <div class="d">DSPM, Audit, eDiscovery로 가시성과 규정 준수 기반을 확보한 뒤 단계적으로 확장합니다.</div>
+    </div>
+  </div>
+
+  <div class="bigquote">
+    <div class="mark">&ldquo;</div>
+    <p>준비된 데이터 위에서<br>Copilot은 안전합니다.</p>
+  </div>
+
+  <p>
+    보안은 Copilot 도입의 걸림돌이 아니라, 오히려 <b>데이터 거버넌스를 한 단계 끌어올리는 좋은 계기</b>가 될 수 있습니다.
+    질문에 답이 있고, 준비할 항목이 분명하다면 — 남은 건 시작하는 것뿐입니다.
+  </p>
+
+  <footer>
+    이 기사는 Microsoft Learn의 ‘Data, Privacy, and Security for Microsoft 365 Copilot’ 및 Microsoft 365 Copilot 보안·도입 가이드를 바탕으로 정리했습니다.<br>
+    © Monthly Copilot · Security
+  </footer>
+
+</main>
+</body>
+</html>
