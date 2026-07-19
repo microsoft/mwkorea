@@ -202,6 +202,8 @@ author: 고현
   <p>이제 Copilot에게 일을 맡길 때, 처음부터 다 설명하지 마세요. 여러분의 Copilot은 이미 여러분을 알고 있으니까요.</p>
 </div>
 
-<p><a href="https://www.youtube.com/watch?v=Df4lFqSOvAY">https://www.youtube.com/watch?v=Df4lFqSOvAY</a></p>
+<div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; margin: 2rem 0;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/Df4lFqSOvAY?si=work-iq-monthlycopilot" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 </div>
