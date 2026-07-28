@@ -1,24 +1,30 @@
 ---
-layout: single
 title: "🧐 월간 코파일럿 人(인)터뷰 — AI는 혼자 배우지 않습니다"
-permalink: /hidden/ai-playground/
-author_profile: true
-sitemap: false
-search: false
+date: 2026-07-28T00:00:00 KST
+categories:
+  - monthlycopilot
+tags:
+  - Copilot
+  - 인터뷰
+  - AI놀이터
+  - 커뮤니티
+  - Agent
+  - 월간코파일럿
 excerpt: 'AI는 혼자 배우지 않습니다. 함께 성장하는 커뮤니티 "AI 놀이터" — Microsoft ASM(Azure Success Manager) 김성미 님이 전하는 AI 학습과 Agent 활용 이야기.'
 header:
   overlay_image: assets/images/header/Microsoft365-Copilot-KeyArt-Productivity-6K-01.png
   overlay_filter: 0.5
 toc: false
+toc_sticky: true
 classes: wide
 author: 정혜수
 ---
 
 <div class="monthlycopilot-page monthlycopilot-page--education">
-<div class="mc-issue-strip">Monthly Copilot · July 2026 · 월간 코파일럿 7월호 · 人(인)터뷰</div>
+<div class="mc-issue-strip">Monthly Copilot · August 2026 · 월간 코파일럿 8월호 · 人(인)터뷰</div>
 
 <div class="mc-cover">
-  <div class="mc-cover-kicker">월간 코파일럿 ｜ 2026년 7월호 ｜ 人(인)터뷰</div>
+  <div class="mc-cover-kicker">월간 코파일럿 ｜ 2026년 8월호 ｜ 人(인)터뷰</div>
   <div class="mc-cover-title">🧐 월간 코파일럿<br/>人(인)터뷰</div>
   <div class="mc-cover-subtitle">"AI는 혼자 배우지 않습니다.<br/>함께 성장하는 커뮤니티, AI 놀이터"</div>
 </div>

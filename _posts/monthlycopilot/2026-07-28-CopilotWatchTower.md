@@ -1,10 +1,15 @@
 ---
-layout: single
 title: "우리 조직의 Copilot, 제대로 쓰이고 있을까? — 오픈소스 CopilotWatchTower"
-permalink: /hidden/copilot-watchtower/
-author_profile: true
-sitemap: false
-search: false
+date: 2026-07-28T00:00:00 KST
+categories:
+  - monthlycopilot
+tags:
+  - Copilot
+  - 오픈소스
+  - Microsoft Graph
+  - 컴플라이언스
+  - 사용량분석
+  - 월간코파일럿
 excerpt: "관리자 PC 한 대에서 Microsoft Graph로 Copilot 사용량과 대화를 수집해 로컬에 저장하고, 컴플라이언스와 분석에 활용하는 오픈소스(MIT) 데스크톱 도구 CopilotWatchTower를 소개합니다."
 header:
   overlay_image: assets/images/header/Microsoft365-Copilot-KeyArt-Productivity-6K-01.png
@@ -16,7 +21,7 @@ author: 최정우
 ---
 
 <div class="monthlycopilot-page monthlycopilot-page--agent">
-<div class="mc-issue-strip">Monthly Copilot · Open Source · CopilotWatchTower</div>
+<div class="mc-issue-strip">Monthly Copilot · August 2026 · 월간 코파일럿 8월호 · Open Source · CopilotWatchTower</div>
 
 <div class="mc-cover">
   <div class="mc-cover-kicker">Open Source Spotlight</div>

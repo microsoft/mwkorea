@@ -1,10 +1,14 @@
 ---
-layout: single
 title: "Microsoft Scout로 업무 효율성을 높여요"
-permalink: /hidden/microsoft-scout/
-author_profile: true
-sitemap: false
-search: false
+date: 2026-07-28T00:00:00 KST
+categories:
+  - monthlycopilot
+tags:
+  - Copilot
+  - Microsoft Scout
+  - Agent
+  - Autopilot
+  - 월간코파일럿
 excerpt: "사용자의 업무 흐름을 바탕으로 작업을 지속적으로 모니터링하고 필요한 조치를 제안·수행하는 자율형 AI 에이전트, Microsoft Scout를 소개합니다."
 header:
   overlay_image: assets/images/header/Microsoft365-Copilot-KeyArt-Productivity-6K-01.png
@@ -16,7 +20,7 @@ author: 정재현
 ---
 
 <div class="monthlycopilot-page monthlycopilot-page--agent">
-<div class="mc-issue-strip">Monthly Copilot · Autopilot · Microsoft Scout</div>
+<div class="mc-issue-strip">Monthly Copilot · August 2026 · 월간 코파일럿 8월호 · Autopilot · Microsoft Scout</div>
 
 <div class="mc-cover">
   <div class="mc-cover-kicker">Autopilot Spotlight</div>

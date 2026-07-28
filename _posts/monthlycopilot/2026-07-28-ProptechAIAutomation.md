@@ -1,10 +1,15 @@
 ---
-layout: single
 title: "데이터가 흐르는 속도로, 현업이 움직인다"
-permalink: /hidden/proptech-ai-automation/
-author_profile: true
-sitemap: false
-search: false
+date: 2026-07-28T00:00:00 KST
+categories:
+  - monthlycopilot
+tags:
+  - Copilot
+  - Agent
+  - 에이전톤
+  - 프롭테크
+  - 고객사례
+  - 월간코파일럿
 excerpt: "코드 한 줄 없이 에이전톤 무대에 오른 비개발자 팀의 현업 주도 부동산 데이터 자동 수집·검증·분석 에이전트 이야기입니다."
 header:
   overlay_image: assets/images/header/Microsoft365-Copilot-KeyArt-Productivity-6K-01.png
@@ -214,6 +219,24 @@ author: 김현지
 <div class="mc-callout mc-callout--dark">
   <p><strong>“마이크로소프트 로우코드 솔루션으로 완성하고, 현업의 손으로 움직입니다.”</strong></p>
   <p><strong>프롭티어는 빠르고 정확한 부동산 데이터 경험을 위해, 지속 가능한 AI 자동화를 현업 중심으로 실현해 나갑니다.</strong></p>
+</div>
+
+<hr/>
+
+<h2 class="mc-section-title">08. WATCH THE STORY</h2>
+
+<h3>영상으로 만나는 현업 주도 자동화</h3>
+
+<p>팀이 직접 들려주는 자동화 여정을 영상으로 확인해 보세요. 전체 이야기는 <strong>본편</strong>에서, 핵심만 빠르게 보고 싶다면 <strong>쇼츠</strong>를 추천드립니다.</p>
+
+<div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; margin: 2rem 0;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/pa6J-hk0KLs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<div style="max-width: 360px; margin: 2rem auto;">
+  <div style="position: relative; width: 100%; padding-bottom: 177.78%; height: 0;">
+    <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/bFOn7_vn_tw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
 </div>
 
 <hr/>

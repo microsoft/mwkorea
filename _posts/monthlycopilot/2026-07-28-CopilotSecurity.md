@@ -1,10 +1,14 @@
 ---
-layout: single
 title: "우리 데이터, 안전한가요? — Copilot 도입 전 꼭 짚어야 할 보안 이야기"
-permalink: /hidden/copilot-security/
-author_profile: true
-sitemap: false
-search: false
+date: 2026-07-28T00:00:00 KST
+categories:
+  - monthlycopilot
+tags:
+  - Copilot
+  - 보안
+  - Purview
+  - 데이터거버넌스
+  - 월간코파일럿
 excerpt: "Microsoft 365 Copilot 도입 전에 고객이 가장 많이 묻는 보안 질문과 안전하고 효율적인 도입을 위한 준비 항목을 정리합니다."
 header:
   overlay_image: assets/images/header/Microsoft365-Copilot-KeyArt-Productivity-6K-01.png
@@ -105,7 +109,7 @@ author: 안영택
 </style>
 
 <div class="monthlycopilot-page monthlycopilot-page--security">
-<div class="mc-issue-strip">Monthly Copilot · Security</div>
+<div class="mc-issue-strip">Monthly Copilot · August 2026 · 월간 코파일럿 8월호 · Security</div>
 
 <div class="mc-cover">
   <div class="mc-cover-title">“우리 데이터,<br/><span style="color:var(--mc-accent);">안전한가요?</span>”</div>
