@@ -10,7 +10,7 @@ tags:
   - 커뮤니티
   - Agent
   - 월간코파일럿
-excerpt: 'AI는 혼자 배우지 않습니다. 함께 성장하는 커뮤니티 "AI 놀이터" — SME&C, Microsoft AI Community 'AI 놀이터' Lead 김성미님이 전하는 AI 학습과 Agent 활용 이야기.'
+excerpt: 'AI는 혼자 배우지 않습니다. 함께 성장하는 커뮤니티 "AI 놀이터" — SME&C, Microsoft AI Community "AI 놀이터" Lead 김성미님이 전하는 AI 학습과 Agent 활용 이야기.'
 header:
   overlay_image: assets/images/header/Microsoft365-Copilot-KeyArt-Productivity-6K-01.png
   overlay_filter: 0.5
