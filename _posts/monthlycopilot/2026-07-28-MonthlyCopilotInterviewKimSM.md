@@ -10,7 +10,7 @@ tags:
   - 커뮤니티
   - Agent
   - 월간코파일럿
-excerpt: 'AI는 혼자 배우지 않습니다. 함께 성장하는 커뮤니티 "AI 놀이터" — Microsoft ASM(Azure Success Manager) 김성미 님이 전하는 AI 학습과 Agent 활용 이야기.'
+excerpt: 'AI는 혼자 배우지 않습니다. 함께 성장하는 커뮤니티 "AI 놀이터" — SME&C, Microsoft AI Community 'AI 놀이터' Lead 김성미님이 전하는 AI 학습과 Agent 활용 이야기.'
 header:
   overlay_image: assets/images/header/Microsoft365-Copilot-KeyArt-Productivity-6K-01.png
   overlay_filter: 0.5
@@ -31,7 +31,7 @@ author: 정혜수
 
 <div class="mc-card mc-card--teal">
   <div class="mc-card-title"><strong>🎙️ 이달의 人</strong></div>
-  <div>Microsoft ASM (Azure Success Manager) <strong>김성미</strong></div>
+  <div>SME&C, Microsoft AI Community 'AI 놀이터' Lead <strong>김성미</strong></div>
 </div>
 
 <p>생성형 AI에 대한 관심은 그 어느 때보다 높아졌지만, 많은 사람들은 여전히 비슷한 고민을 하고 있다.</p>
@@ -104,10 +104,6 @@ author: 정혜수
   <p>💬 <strong>김성미</strong> &nbsp;"듣는 것보다 직접 해보는 것이 중요합니다. 실제 업무에 적용해보고, 서로의 경험을 공유하는 과정에서 훨씬 많은 것을 배우게 됩니다."</p>
 </div>
 
-<figure style="margin: 1.6rem 0;">
-  <img src="/mwkorea/assets/images/20260726-ai-playground/scene-02.jpg" alt="김성미 님이 오피스 라운지 소파에서 노트북으로 작업하는 모습" style="width:100%; border-radius:14px;" />
-</figure>
-
 <hr/>
 
 <h2 class="mc-section-title">✍️ AI를 잘 활용하는 사람들의 공통점</h2>
@@ -175,10 +171,6 @@ author: 정혜수
 <div class="mc-callout">
   <p>💬 <strong>김성미</strong> &nbsp;"사람에게도 애매하게 지시하면 원하는 결과가 나오지 않듯이 Agent도 마찬가지입니다."</p>
 </div>
-
-<figure style="margin: 1.6rem 0;">
-  <img src="/mwkorea/assets/images/20260726-ai-playground/scene-03.jpg" alt="김성미 님이 라운지 공간의 의자에 앉아 노트북과 함께 미소짓는 모습" style="width:100%; border-radius:14px;" />
-</figure>
 
 <hr/>
 
