@@ -181,6 +181,17 @@ $type-size-6: 1em !default;
 	color: #f9fafb;
 }
 
+// 기본 code 스타일은 밝은 배경 + 상속된 흰 글자라 어두운 콜아웃 위에서 글자가 사라진다
+.page__content .monthlycopilot-page .mc-callout--dark code {
+	background: rgba(148, 163, 184, 0.28);
+	border: 1px solid rgba(148, 163, 184, 0.4);
+	color: #f9fafb;
+}
+
+.page__content .monthlycopilot-page .mc-callout--dark a {
+	color: #93c5fd;
+}
+
 .page__content .monthlycopilot-page .mc-table-wrap {
 	overflow-x: auto;
 	margin: 1rem 0 1.4rem;
