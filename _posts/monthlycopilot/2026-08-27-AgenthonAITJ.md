@@ -1,0 +1,203 @@
+---
+title: '이 차, 진짜 거기 있어? — AI가 2,500대를 매일 감시하는 법, AITJ 팀의 재고금융 실사 자동화 에이전트'
+date: 2026-08-27T00:00:00 KST
+categories:
+  - monthlycopilot
+tags:
+  - Copilot
+  - Agent
+  - PowerPlatform
+  - CopilotStudio
+  - 에이전톤
+  - 월간코파일럿
+excerpt: '476억 원, 2,500대, 월 208시간. 비개발자 4인으로 구성된 AITJ 팀이 Power Platform과 AI 3중 검증으로 중고차 재고금융 실사를 End-to-End 자동화한 이야기 — 에이전톤 TOP 10 사례.'
+header:
+  overlay_image: assets/images/header/Microsoft365-Copilot-KeyArt-Productivity-6K-01.png
+  overlay_filter: 0.5
+toc: false
+toc_sticky: true
+classes: wide
+author: 김현지
+---
+
+<div class="monthlycopilot-page monthlycopilot-page--agent">
+<div class="mc-issue-strip">Monthly Copilot · September 2026 · 월간 코파일럿 9월호 · Agentathon HIGHLIGHT</div>
+
+<div class="mc-cover">
+  <div class="mc-cover-kicker">Agentathon ｜ HIGHLIGHT ｜ 이달의 팀 · AITJ</div>
+  <div class="mc-cover-title">이 차,<br/>진짜 거기 있어?</div>
+  <div class="mc-cover-subtitle">AI가 2,500대를 매일 감시하는 법 — AITJ 팀의 재고금융 실사 자동화 에이전트</div>
+</div>
+
+<div class="mc-card mc-card--blue">
+  <div class="mc-card-title"><strong>이달의 팀 ｜ AITJ 팀</strong></div>
+  <div>전국 2,500대의 중고차가 '지금 이 순간' 제자리에 있는지, 매달 누군가 일일이 확인해야 합니다. <strong>476억 원</strong>이 걸린 일입니다. 담당자는 현장으로 나가 사진을 찍고, 관리자는 그 사진을 들여다봅니다. 이 단순해 보이는 과정 뒤에 <strong>수십억 원짜리 사기</strong>가 숨어 있었습니다. 비개발자로만 구성된 AITJ 팀이 그 허점에 AI를 꽂았습니다.</div>
+</div>
+
+<img src="/mwkorea/assets/images/20260827-agenthon-aitj/img00.jpeg" alt="에이전톤 TOP 10 AITJ 팀 단체 사진" />
+<p class="mc-card-note">▲ 에이전톤 TOP 10 AITJ팀 — 비개발자 4인이 만들어낸 AI 실사 에이전트의 주인공</p>
+
+<div class="mc-card-grid mc-card-grid--3">
+  <div class="mc-card mc-card--blue">
+    <div class="mc-card-title"><strong>476억</strong></div>
+    <div>재고금융 규모</div>
+  </div>
+  <div class="mc-card mc-card--blue">
+    <div class="mc-card-title"><strong>2,500대+</strong></div>
+    <div>관리 차량 수</div>
+  </div>
+  <div class="mc-card mc-card--blue">
+    <div class="mc-card-title"><strong>208시간/월</strong></div>
+    <div>수기 검토 소요시간</div>
+  </div>
+</div>
+
+<hr/>
+
+<h2 class="mc-section-title">476억 원의 자산이 사진 한 장에 의존하고 있었습니다</h2>
+
+<p><strong>재고금융</strong>이란 중고차 매매상사가 차량을 구매할 때 금융사가 자금을 선지급하고, 차량이 판매되면 원금을 회수하는 금융 방식입니다. 전국 60개 이상의 매매단지, 6,200개 이상의 매매상사가 이 금융을 활용하고 있으며, AITJ팀 금융사의 재고금융 규모는 <strong>476억 원</strong>, 관리 차량만 <strong>2,500대 이상</strong>에 달합니다.</p>
+
+<p>이 차량들이 실제로 지정 위치에 존재하는지 확인하는 <strong>'재고금융 실사'</strong>는 한 달에 1~2회 실시됩니다. 실사의 목적은 단 세 가지입니다.</p>
+
+<div class="mc-card-grid mc-card-grid--3">
+  <div class="mc-card mc-card--teal">
+    <div class="mc-card-title"><strong>① 존재</strong></div>
+    <div>차량이 실제로 존재하는가</div>
+  </div>
+  <div class="mc-card mc-card--teal">
+    <div class="mc-card-title"><strong>② 동일성</strong></div>
+    <div>촬영 차량이 재고금융 대상 차량이 맞는가</div>
+  </div>
+  <div class="mc-card mc-card--teal">
+    <div class="mc-card-title"><strong>③ 위치</strong></div>
+    <div>차량이 지정 주차장에 위치하는가</div>
+  </div>
+</div>
+
+<hr/>
+
+<h2 class="mc-section-title">담당자는 찍었고, 관리자는 봤습니다. 그게 전부였습니다</h2>
+
+<p>기존 방식은 단순했습니다. 담당자가 현장에서 사진을 촬영·업로드하면, 관리자가 육안으로 검토하고 승인하는 구조였습니다. <strong>건당 5분, 월 2,500건, 매달 208시간</strong>이 소요됩니다. 그리고 이 단순한 과정에 세 가지 치명적인 허점이 숨어 있었습니다.</p>
+
+<div class="mc-card-grid mc-card-grid--3">
+  <div class="mc-card mc-card--red">
+    <div class="mc-card-title"><strong>허위 위치 촬영</strong></div>
+    <div>어디서 찍었는지 확인할 방법이 없어, 무단 반출 시 자산 유실로 직결됩니다.</div>
+  </div>
+  <div class="mc-card mc-card--red">
+    <div class="mc-card-title"><strong>과거 사진 재사용</strong></div>
+    <div>한 번에 여러 장을 촬영해 수개월간 돌려 쓰는 사례가 발생합니다.</div>
+  </div>
+  <div class="mc-card mc-card--red">
+    <div class="mc-card-title"><strong>번호판 교체 사기</strong></div>
+    <div>재고금융 차량의 번호판을 고가 차량에 부착해 촬영하는 수법으로, 금융사에 대규모 손실을 유발하는 금융 사기의 한 형태입니다.</div>
+  </div>
+</div>
+
+<p>물리적으로 전수 확인이 불가능한 수기 검토 방식은 이미 한계에 다다라 있었습니다.</p>
+
+<hr/>
+
+<h2 class="mc-section-title">질문 하나가 모든 걸 바꿨습니다</h2>
+
+<p>AITJ팀은 문제를 다르게 바라봤습니다.</p>
+
+<div class="mc-callout mc-callout--dark">
+  <p><strong>"사람이 사진을 검토하는 대신, AI가 이 자산의 존재를 증명할 수 있을까?"</strong></p>
+</div>
+
+<p>그리고 그 답은 분명했습니다. <strong>"증명할 수 있습니다."</strong></p>
+
+<img src="/mwkorea/assets/images/20260827-agenthon-aitj/img01.png" alt="AITJ팀 Power Platform 기반 End-to-End 자동화 아키텍처" />
+<p class="mc-card-note">▲ AITJ팀 발표자료 — Power Platform 기반 End-to-End 자동화 아키텍처</p>
+
+<hr/>
+
+<h2 class="mc-section-title">매일 아침 7시, AI가 2,500대를 향해 출동합니다</h2>
+
+<p>AITJ팀이 구축한 아키텍처는 <strong>Power Platform</strong>을 중심으로 한 완전 자동화 시스템입니다.</p>
+
+<div class="mc-card-grid mc-card-grid--3">
+  <div class="mc-card mc-card--blue">
+    <div class="mc-card-title"><strong>① 실사 대상 자동 주입</strong></div>
+    <div>매일 오전 7시, Power Automate가 코어 시스템의 실사 대상 데이터를 Dataverse에 자동 주입합니다.</div>
+  </div>
+  <div class="mc-card mc-card--blue">
+    <div class="mc-card-title"><strong>② 현장 실사</strong></div>
+    <div>담당자는 Power Apps 앱으로 차량 전면·후면을 촬영합니다. 사진 정보와 GPS가 동시에 수집됩니다.</div>
+  </div>
+  <div class="mc-card mc-card--blue">
+    <div class="mc-card-title"><strong>③ AI 3중 검증</strong></div>
+    <div>에이전트가 즉시 위치 검증, 번호판 검증, 차량 모델 검증을 수행합니다. 이상 시 재촬영을 자동 요구합니다.</div>
+  </div>
+  <div class="mc-card mc-card--teal">
+    <div class="mc-card-title"><strong>④ 자동 보고서 생성</strong></div>
+    <div>Copilot Studio가 자연어 명령만으로 Word 템플릿 기반 실사 보고서를 작성하고, Outlook·Teams로 자동 전송합니다.</div>
+  </div>
+  <div class="mc-card mc-card--teal">
+    <div class="mc-card-title"><strong>⑤ 코어 시스템 업데이트</strong></div>
+    <div>실사 결과가 자동으로 핵심 시스템에 반영됩니다.</div>
+  </div>
+</div>
+
+<p>사진 촬영에서 보고서 발송까지, <strong>사람의 손을 거치지 않는 완전한 End-to-End 자동화</strong>가 완성되었습니다.</p>
+
+<hr/>
+
+<h2 class="mc-section-title">AI의 세 가지 눈 — 위치·번호판·차종을 동시에 검증합니다</h2>
+
+<div class="mc-card-grid mc-card-grid--3">
+  <div class="mc-card mc-card--purple">
+    <div class="mc-card-title"><strong>📍 위치 무결성</strong></div>
+    <div><strong>Google 지오펜싱</strong><br/>촬영 위치와 등록 차고지 거리를 계산합니다. 500m 초과 시 '이탈' 처리, 무단 반출을 즉시 감지합니다.</div>
+  </div>
+  <div class="mc-card mc-card--purple">
+    <div class="mc-card-title"><strong>🔍 번호판 인식</strong></div>
+    <div><strong>AI OCR · GPT-4.1 mini</strong><br/>실증 인식률 95%, 신뢰도 85% 미만이면 재촬영을 자동 요구합니다. Azure AI 기반으로 가성비·정확도 모두 우수합니다.</div>
+  </div>
+  <div class="mc-card mc-card--purple">
+    <div class="mc-card-title"><strong>🚗 차량 모델 검증</strong></div>
+    <div><strong>AI 비전</strong><br/>차량 형태와 모델 적합성을 분석합니다. 번호판·모델이 시스템 데이터와 불일치하면 즉시 승인을 거부합니다.</div>
+  </div>
+</div>
+
+<img src="/mwkorea/assets/images/20260827-agenthon-aitj/img02.png" alt="AITJ팀 Power Apps 현장 앱 및 AI 분석 결과 화면" />
+<p class="mc-card-note">▲ AITJ팀 발표자료 — Power Apps 현장 앱 및 AI 분석 결과 화면</p>
+
+<hr/>
+
+<h2 class="mc-section-title">208시간을 돌려드립니다 — 세 가지 기대효과</h2>
+
+<div class="mc-card-grid mc-card-grid--3">
+  <div class="mc-card mc-card--green">
+    <div class="mc-card-title"><strong>80%+ 업무 시간 절감</strong></div>
+    <div>건당 5분 × 월 2,500건 = 월 208시간을 AI 전수조사로 대체합니다.</div>
+  </div>
+  <div class="mc-card mc-card--green">
+    <div class="mc-card-title"><strong>🛡️ 자산 리스크 차단</strong></div>
+    <div>OCR·비전·지오펜싱 3중 교차 검증으로 자산의 존재를 객관적으로 증명합니다.</div>
+  </div>
+  <div class="mc-card mc-card--green">
+    <div class="mc-card-title"><strong>100% 사후 감사 대응</strong></div>
+    <div>Dataverse 감사 로그에 모든 행위가 기록됩니다. 완전한 추적이 가능합니다.</div>
+  </div>
+</div>
+
+<hr/>
+
+<h2 class="mc-section-title">재고금융을 넘어, 더 큰 미래를 향합니다</h2>
+
+<p>AITJ팀은 이 에이전트가 재고금융에 그치지 않는다고 강조합니다. <strong>산업 장비, 내구재 등 다양한 자산 관리로 확장 적용</strong>이 가능하며, 축적된 데이터를 기반으로 <strong>대안 신용평가 모델링</strong>과 <strong>이상 징후 예측 AI</strong> 개발을 최종 목표로 삼고 있습니다.</p>
+
+<p>모두 비개발자로 구성된 팀이, 단 하나의 질문에서 출발해 만들어낸 이 에이전트는 <strong>"사진으로 자산의 존재를 증명한다"</strong>는 새로운 패러다임을 제시합니다. 에이전톤의 무대에서 가장 뜨거운 박수를 받은 데는 이유가 있었습니다.</p>
+
+<div class="mc-callout mc-callout--dark">
+  <p><strong>10월호도 기대해 주세요!</strong></p>
+  <p>이번 에이전톤 Top 10 AITJ의 이야기를 전해드렸습니다. 다음 호에서도 코파일럿으로 현장을 바꾼 팀의 생생한 사례가 이어집니다. 많은 기대 부탁드립니다.</p>
+  <p>에이전톤 전체 사례집이 궁금하시다면 아래 브로셔에서 모든 팀의 솔루션을 한눈에 확인해 보세요.<br/>
+  👉 <a href="https://aka.ms/agentathon-brochure">📖 에이전톤 사례집 브로셔 바로 보기</a></p>
+</div>
+
+</div>
