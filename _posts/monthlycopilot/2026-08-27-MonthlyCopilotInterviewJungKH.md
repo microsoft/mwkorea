@@ -44,6 +44,11 @@ author: 정혜수
 
 <p>이번 인터뷰에서는 Jamie와 함께 Copilot Cowork를 실제 업무에 적용하게 된 계기부터, 맞춤형 보고서 자동화, 데이터 검증, 스킬 활용 방법까지 깊이 있게 이야기 나눴다.</p>
 
+<figure style="margin: 1.6rem 0;">
+  <img src="/mwkorea/assets/images/20260827-monthlycopilot-interview-jungkh/scene-01-window.jpg" alt="서울 도심과 산이 보이는 창가에서 노트북으로 업무 중인 정경화 님" style="width:100%; border-radius:14px;" />
+  <figcaption class="mc-card-note">도심 전경이 보이는 업무 공간에서 만난 Microsoft Enterprise Commercial Finance 정경화(Jamie) 님</figcaption>
+</figure>
+
 <hr/>
 
 <h2 class="mc-section-title">💼 Copilot Cowork는 실제 업무에서 어떻게 활용될까?</h2>
@@ -74,6 +79,11 @@ author: 정혜수
 <div class="mc-callout">
   <p>💬 <strong>Jamie</strong> &nbsp;"사람이 했다면 이렇게 커스터마이즈된 보고서를 만드는 건 사실상 불가능했을 것 같아요."</p>
 </div>
+
+<figure style="margin: 1.6rem 0;">
+  <img src="/mwkorea/assets/images/20260827-monthlycopilot-interview-jungkh/scene-02-cowork.jpg" alt="회의실 화면에 Copilot Cowork 보고서를 띄우고 설명하는 정경화 님" style="width:100%; border-radius:14px;" />
+  <figcaption class="mc-card-note">Copilot Cowork로 주간 파이프라인 변화를 분석하고 맞춤형 보고서를 확인하는 Jamie 님</figcaption>
+</figure>
 
 <hr/>
 
@@ -167,6 +177,11 @@ author: 정혜수
 </div>
 
 <p>기존에는 개인이 알고 있던 노하우였다면, 이제는 <strong>Cowork가 기억하는 조직의 자산</strong>이 된다.</p>
+
+<figure style="margin: 1.6rem 0;">
+  <img src="/mwkorea/assets/images/20260827-monthlycopilot-interview-jungkh/scene-03-skill.jpg" alt="식물이 있는 라운지에서 노트북으로 업무 중인 정경화 님" style="width:100%; border-radius:14px;" />
+  <figcaption class="mc-card-note">업무 중 발견한 규칙과 노하우를 스킬로 축적해 나가는 Jamie 님</figcaption>
+</figure>
 
 <hr/>
 
