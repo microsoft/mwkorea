@@ -1,5 +1,5 @@
 ---
-title: "🧐 월간 코파일럿 人(인)터뷰 — 정말 똑똑한 팀원이 한 명 생긴 것 같아요"
+title: "🧐 월간 코파일럿 人(인)터뷰 — 정말 각 분야의 똑똑한 팀원이 서너 명 생긴 것 같아요"
 date: 2026-08-27T00:00:00 KST
 categories:
   - monthlycopilot
@@ -26,7 +26,7 @@ author: 정혜수
 <div class="mc-cover">
   <div class="mc-cover-kicker">월간 코파일럿 ｜ 2026년 9월호 ｜ 人(인)터뷰</div>
   <div class="mc-cover-title">🧐 월간 코파일럿<br/>人(인)터뷰</div>
-  <div class="mc-cover-subtitle">"정말 똑똑한 팀원이 한 명 생긴 것 같아요"<br/>Copilot Cowork가 재무 업무를 바꾸는 방법</div>
+  <div class="mc-cover-subtitle">"정말 각 분야의 똑똑한 팀원이 서너 명 생긴 것 같아요"<br/>Copilot Cowork가 재무 업무를 바꾸는 방법</div>
 </div>
 
 <div class="mc-card mc-card--teal">
@@ -39,12 +39,12 @@ author: 정혜수
 <p>하지만 이런 업무는 대부분 반복적이다. 매주 데이터를 수집하고, 지난주와 비교하고, 보고서를 작성하고, 이해관계자에게 전달하는 과정이 끊임없이 반복된다.</p>
 
 <div class="mc-callout">
-  <p>💬 <strong>Jamie</strong> &nbsp;"Copilot Cowork는 저에게 정말 똑똑한 팀원이 한 명 생긴 것 같은 경험이었습니다."</p>
+  <p>💬 <strong>Jamie</strong> &nbsp;"Copilot Cowork는 저에게 정말 각 분야의 똑똑한 팀원이 서너 명 생긴 것 같은 경험이었습니다. M365 매출 라인은 라이선스 전문가처럼 제품 구성을 짚어주는 팀원, Azure 클라우드는 Commitment 계약 대비 향후 소비량과 리스크를 분석해주는 팀원, ECIF는 고객별 투자 금액의 ROI가 적절한지 검토해주는 팀원. 워크로드마다 스킬이 다른 팀원이 한 명씩 생긴 느낌이에요."</p>
 </div>
 
 <p>이번 인터뷰에서는 Jamie와 함께 Copilot Cowork를 실제 업무에 적용하게 된 계기부터, 맞춤형 보고서 자동화, 데이터 검증, 스킬 활용 방법까지 깊이 있게 이야기 나눴다.</p>
 
-<figure style="margin: 1.6rem 0;">
+<figure style="max-width: 680px; margin: 1.6rem auto;">
   <img src="/mwkorea/assets/images/20260827-monthlycopilot-interview-jungkh/scene-01-window.jpg" alt="서울 도심과 산이 보이는 창가에서 노트북으로 업무 중인 정경화 님" style="width:100%; border-radius:14px;" />
   <figcaption class="mc-card-note">도심 전경이 보이는 업무 공간에서 만난 Microsoft Enterprise Commercial Finance 정경화(Jamie) 님</figcaption>
 </figure>
@@ -74,13 +74,19 @@ author: 정혜수
   </div>
 </div>
 
-<p>특히 인상적인 부분은 <strong>"개인화된 보고서 생성"</strong>이다. Jamie는 보고서를 받는 리더들을 직접 인터뷰해 각자가 중요하게 생각하는 지표를 정리했다. 어떤 리더는 성장률을 중요하게 보고, 어떤 리더는 특정 계열사 현황을 보고 싶어하며, 어떤 리더는 리스크 요소를 우선 확인하고 싶어했다. 기존에는 이런 요구사항을 모두 반영하기 어려웠지만, Copilot Cowork는 이를 자동으로 처리할 수 있었다.</p>
+<p>이런 활용이 가능한 배경에는 <strong>세만틱 모델에 직접 연결된다는 점</strong>이 있다. Cowork는 세만틱 모델 링크를 통해 필요한 데이터를 직접 끌어온다. 시스템마다 파일을 내려받아 붙여 맞추는 과정이 사라지고, 이미 정의된 지표와 관계를 그대로 활용하기 때문에 <strong>훨씬 구조적인 분석</strong>이 가능하다. 같은 데이터를 계약 기준·고객 기준·기간 기준처럼 <strong>여러 관점으로 교차해 보는 분석</strong>도 훨씬 쉬워졌다.</p>
+
+<div class="mc-callout">
+  <p>💬 <strong>Jamie</strong> &nbsp;"예전에는 시스템마다 따로 뽑은 파일을 서로 맞추는 데 시간을 많이 썼어요. 지금은 세만틱 모델에서 바로 데이터를 끌어오니 훨씬 구조적으로, 그리고 한 번에 여러 관점에서 데이터를 볼 수 있게 됐습니다."</p>
+</div>
+
+<p>Jamie는 이 네 가지를 하나의 도구가 아니라 <strong>서로 다른 전문성을 가진 팀원 각각</strong>이 맡아주는 일처럼 느낀다고 말한다. 특히 인상적인 부분은 <strong>"개인화된 보고서 생성"</strong>이다. Jamie는 보고서를 받는 리더들을 직접 인터뷰해 각자가 중요하게 생각하는 지표를 정리했다. 어떤 리더는 성장률을 중요하게 보고, 어떤 리더는 특정 계열사 현황을 보고 싶어하며, 어떤 리더는 리스크 요소를 우선 확인하고 싶어했다. 기존에는 이런 요구사항을 모두 반영하기 어려웠지만, Copilot Cowork는 이를 자동으로 처리할 수 있었다.</p>
 
 <div class="mc-callout">
   <p>💬 <strong>Jamie</strong> &nbsp;"사람이 했다면 이렇게 커스터마이즈된 보고서를 만드는 건 사실상 불가능했을 것 같아요."</p>
 </div>
 
-<figure style="margin: 1.6rem 0;">
+<figure style="max-width: 680px; margin: 1.6rem auto;">
   <img src="/mwkorea/assets/images/20260827-monthlycopilot-interview-jungkh/scene-02-cowork.jpg" alt="회의실 화면에 Copilot Cowork 보고서를 띄우고 설명하는 정경화 님" style="width:100%; border-radius:14px;" />
   <figcaption class="mc-card-note">Copilot Cowork로 주간 파이프라인 변화를 분석하고 맞춤형 보고서를 확인하는 Jamie 님</figcaption>
 </figure>
@@ -103,7 +109,7 @@ author: 정혜수
 </div>
 
 <div class="mc-callout">
-  <p>💬 <strong>Jamie</strong> &nbsp;"예전에는 데이터를 모으고 비교하는 데 시간을 썼다면, 이제는 결과를 해석하고 리스크를 판단하는 데 시간을 쓰고 있습니다."</p>
+  <p>💬 <strong>Jamie</strong> &nbsp;"예전에는 숫자를 취합하고 비즈니스 피드백을 받아 그대로 보고하는 데 시간을 썼다면, 지금은 그 숫자가 주는 인사이트가 무엇인지, 장기적으로 딜 성공률을 끌어올리려면 어떤 방안이 필요한지를 함께 고민합니다. 조금 더 비즈니스 파트너링을 하는 Finance로 역할을 바꿔가고 있다고 생각해요."</p>
 </div>
 
 <hr/>
@@ -136,7 +142,7 @@ author: 정혜수
 </div>
 
 <div class="mc-callout">
-  <p>💬 <strong>Jamie</strong> &nbsp;"Finance에서는 숫자의 정확성이 굉장히 중요합니다. 그래서 검증 프로세스를 Cowork 업무에 포함시켰습니다."</p>
+  <p>💬 <strong>Jamie</strong> &nbsp;"Finance에서는 숫자의 정확성이 굉장히 중요합니다. 그래서 검증만 전담하는 팀원을 한 명 더 둔다는 생각으로, 검증 프로세스를 Cowork 업무에 포함시켰습니다."</p>
 </div>
 
 <p>이를 통해 AI가 자동으로 보고서를 만들더라도 <strong>사람이 안심하고 검토할 수 있는 구조</strong>를 만들 수 있었다.</p>
@@ -147,7 +153,7 @@ author: 정혜수
 
 <p>Jamie는 Cowork 활용 시 가장 추천하는 기능으로 <strong>"스킬(Skill)"</strong>을 꼽는다. 많은 사용자가 스킬을 어렵게 생각하지만, Jamie는 조금 다른 방식으로 활용하고 있다.</p>
 
-<p>업무를 진행하면서 Cowork와 대화한다. 그리고 업무 규칙이나 예외 사항이 생길 때마다 <strong>"이 내용을 스킬에 반영해줘"</strong>라고 요청한다. 이 과정을 반복하면 Cowork는 업무 지식과 규칙을 기억하게 된다.</p>
+<p>업무를 진행하면서 Cowork와 대화한다. 그리고 업무 규칙이나 예외 사항이 생길 때마다 <strong>"이 내용을 스킬에 반영해줘"</strong>라고 요청한다. 이 과정을 반복하면 Cowork는 업무 지식과 규칙을 기억하게 된다. Jamie는 이를 <strong>업무별로 팀원을 한 명씩 늘려가는 과정</strong>에 가깝다고 표현한다.</p>
 
 <div class="mc-card-grid mc-card-grid--3">
   <div class="mc-card mc-card--purple">
@@ -173,12 +179,12 @@ author: 정혜수
 </div>
 
 <div class="mc-callout">
-  <p>💬 <strong>Jamie</strong> &nbsp;"업무를 하면서 터득한 지식이 자연스럽게 자산화되는 느낌이에요."</p>
+  <p>💬 <strong>Jamie</strong> &nbsp;"업무를 하면서 터득한 지식이 자연스럽게 자산화되는 느낌이에요. 스킬을 하나 더 만들 때마다 그 분야를 잘 아는 팀원이 한 명씩 늘어나는 것 같습니다."</p>
 </div>
 
 <p>기존에는 개인이 알고 있던 노하우였다면, 이제는 <strong>Cowork가 기억하는 조직의 자산</strong>이 된다.</p>
 
-<figure style="margin: 1.6rem 0;">
+<figure style="max-width: 680px; margin: 1.6rem auto;">
   <img src="/mwkorea/assets/images/20260827-monthlycopilot-interview-jungkh/scene-03-skill.jpg" alt="식물이 있는 라운지에서 노트북으로 업무 중인 정경화 님" style="width:100%; border-radius:14px;" />
   <figcaption class="mc-card-note">업무 중 발견한 규칙과 노하우를 스킬로 축적해 나가는 Jamie 님</figcaption>
 </figure>
@@ -236,20 +242,20 @@ author: 정혜수
 </div>
 
 <div class="mc-callout">
-  <p>💬 <strong>Jamie</strong> &nbsp;"Copilot Cowork는 업무를 대신해주는 것이 아니라, 함께 일하는 동료에 가깝습니다."</p>
+  <p>💬 <strong>Jamie</strong> &nbsp;"Copilot Cowork는 업무를 대신해주는 것이 아니라, 각자 잘하는 영역이 다른 동료들과 함께 일하는 것에 가깝습니다."</p>
 </div>
 
 <hr/>
 
-<h2 class="mc-section-title">🚀 마무리 — 나만의 AI 팀원을 만들어보세요</h2>
+<h2 class="mc-section-title">🚀 마무리 — 나만의 AI 팀을 만들어보세요</h2>
 
 <p>Copilot Cowork를 시작하기 위해 거창한 프로젝트가 필요한 것은 아니다. Jamie는 가장 먼저 <strong>반복 업무 하나</strong>를 선택해보라고 조언한다. 매주 만드는 보고서, 반복적으로 수행하는 데이터 검증, 주기적으로 작성하는 분석 자료. 이런 업무부터 Cowork에 맡겨보는 것이다.</p>
 
-<p>그리고 업무 기준을 추가하고, 검증 절차를 넣고, 스킬을 업데이트하다 보면 어느 순간 <strong>나만의 AI 팀원</strong>이 만들어진다.</p>
+<p>그리고 업무 기준을 추가하고, 검증 절차를 넣고, 스킬을 업데이트하다 보면 어느 순간 <strong>각 분야를 맡아주는 나만의 AI 팀</strong>이 만들어진다.</p>
 
 <div class="mc-callout mc-callout--dark">
   <p>✨ <strong>한 줄 정리</strong></p>
-  <p>"Copilot Cowork는 단순한 AI 도구가 아니라, <strong>내가 가르칠수록 더 똑똑해지는 새로운 팀원</strong>입니다."</p>
+  <p>"Copilot Cowork는 단순한 AI 도구가 아니라, <strong>내가 가르칠수록 각 분야가 더 똑똑해지는 나만의 새로운 팀</strong>입니다."</p>
 </div>
 
 </div>
