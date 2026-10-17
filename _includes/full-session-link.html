@@ -1,0 +1,11 @@
+{% assign full_session_url = page.full_session_url | default: '' | strip %}
+<div class="mc-callout">
+  <h2>전체 세션으로 더 깊이 살펴보세요</h2>
+  <p>하이라이트에서 만난 이야기를 전체 세션에서 이어 보세요.</p>
+  {% if full_session_url != '' %}
+  <p><a class="btn btn--primary" href="{{ full_session_url | escape }}" target="_blank" rel="noopener noreferrer">전체 세션 보기</a></p>
+  {% else %}
+  <p><button type="button" class="btn btn--primary" disabled aria-describedby="full-session-status" style="display: inline-block; background: #1d4ed8; color: #fff; cursor: not-allowed; opacity: 1;">전체 세션 보기</button></p>
+  <p id="full-session-status">링크 준비 중 · 전체 세션 주소는 추후 연결됩니다.</p>
+  {% endif %}
+</div>
