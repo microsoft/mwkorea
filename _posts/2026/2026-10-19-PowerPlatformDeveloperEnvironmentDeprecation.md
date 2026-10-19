@@ -79,9 +79,17 @@ Microsoft가 Power Platform의 **중요한 변경(deprecation) 안내**에 두 �
 
 이 때문에 관리 센터에서 개발자 환경을 점검하다가 **관리자가 만든 적 없는 개인 개발자 환경(관리형)** 이 보여도 이상 현상이 아닐 수 있습니다. 문서는 삭제하기 전에 소유자, 앱, 종속성을 먼저 확인하라고 안내합니다.
 
-#### Copilot 라이선스가 있다면: 환경 라우팅이 곧 해법입니다
+#### 환경은 "규칙"으로 받고, 라이선스는 "실행"에 필요합니다
 
-위 맥락에서 **Copilot 라이선스를 가진 사용자는 환경 라우팅을 통해 관리되는 개발자 환경을 받을 수 있으므로, 이번 변화는 Developer Plan이 사라지는 대신 Copilot 라이선스의 혜택으로 이어지는 흐름**으로 볼 수 있다는 것이 팀의 의견입니다.
+한 줄로 요약하면 이렇습니다. **개발자 환경은 관리자가 켠 환경 라우팅 규칙에 해당하면 라이선스와 상관없이 받고, 라이선스는 그 환경에서 앱·플로우를 실행할 때 필요합니다.**
+
+| 단계 | 라이선스 필요? |
+|---|---|
+| 관리형 개발자 환경 받기 (환경 라우팅 규칙에 해당) | 공식 문서에 라이선스 조건 없음 |
+| 앱·플로우 만들고 미리 보기 | 프리미엄 라이선스 불필요 |
+| 앱·플로우 실행 | 프리미엄 라이선스 필요 |
+
+팀 내 토론에서는 이를 **Developer Plan이 사라지는 대신, 모든 사용자가 관리형 개인 작업 공간을 받게 되는 흐름**으로 보고, Copilot 라이선스에 포함된 Managed Environments 권한(Copilot Studio 범위)은 그 공간을 활용하는 **혜택**이라는 의견이 나왔습니다.
 
 공식 문서에서 확인되는 근거는 다음과 같습니다.
 
@@ -89,9 +97,9 @@ Microsoft가 Power Platform의 **중요한 변경(deprecation) 안내**에 두 �
 - Managed Environments 권한은 **Microsoft 365 Copilot용 Copilot Studio 라이선스에도 포함**됩니다. 다만 **Copilot Studio 관련 기능에 한정**됩니다.
 - 관리형 개발자 환경에서 앱이나 플로우를 **만들고 미리 보는 데는** 프리미엄 라이선스가 필요 없습니다.
 
-다만 이 "혜택"을 과대하게 해석하지 않도록 한계도 함께 알려 주세요.
+다만 "혜택"을 과대하게 해석하지 않도록 한계도 함께 알려 주세요.
 
-- 문서가 이를 Copilot 라이선스의 혜택이라고 표현하는 것은 아닙니다. 위 사실을 종합한 **팀의 해석**입니다. 최종 라이선스 판단은 [Managed Environments 라이선스 문서](https://learn.microsoft.com/en-us/power-platform/admin/managed-environment-licensing)와 담당 라이선스 파트너를 통해 확인하세요.
+- 문서가 이를 Copilot 라이선스의 혜택이라고 표현하는 것은 아닙니다. 위 사실을 종합한 **팀의 해석**입니다. Copilot Studio 자체에 라이선스 없이 접속할 수 있는지는 이번 문서에서 확인되지 않았으므로, 최종 판단은 [Managed Environments 라이선스 문서](https://learn.microsoft.com/en-us/power-platform/admin/managed-environment-licensing)와 담당 라이선스 파트너를 통해 확인하세요.
 - Copilot 라이선스의 Managed Environments 권한은 Copilot Studio 범위입니다. 관리형 환경에서 **Power Apps 앱이나 Power Automate 클라우드 플로우를 실행하려면** Power Apps Premium, Power Automate Premium 등의 라이선스가 필요합니다. 매니지드 앱이 아닌 Power Apps·Power Automate·Copilot Studio 리소스를 개인 개발자 환경에 만들면 프리미엄 라이선스가 필요할 수 있습니다.
 - Power Apps, Power Automate, Copilot Studio용 환경 라우팅은 **Power Platform 관리자가 직접 켜야** 하며 기본값은 꺼져 있습니다. 매니지드 앱용 라우팅만 자동으로 켜집니다. 매니지드 앱 라우팅만 켜진 상태에서는 Power Apps 등의 메이커가 개인 개발자 환경으로 라우팅되지 않습니다.
 - **기존 라우팅 규칙에 보안 그룹이 지정된 테넌트**에서는 해당 그룹 구성원만 매니지드 앱을 만들 수 있습니다. 나머지는 관리자가 **Everyone** 규칙을 만들거나 그룹에 추가하기 전까지 차단됩니다.
