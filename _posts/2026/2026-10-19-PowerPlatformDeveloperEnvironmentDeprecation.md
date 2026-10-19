@@ -65,21 +65,36 @@ Microsoft가 Power Platform의 **중요한 변경(deprecation) 안내**에 두 �
 
 > **환경 라우팅이 만들어 주는 개인 개발자 환경은 기본적으로 관리형이므로 이번 변경의 예외입니다.** 신규 생성 종료, 중지, 삭제 어느 단계에도 해당되지 않습니다. 그래서 환경 라우팅은 메이커에게 개인 작업 공간을 계속 제공하는 **가장 간단한 대안**이기도 합니다.
 
+#### 왜 이 시점에? 매니지드 앱(Copilot Managed Runtime)과 이어지는 변화
+
+팀 내 토론에서 나온 핵심 관점입니다. **이번 변경은 이번에 미리 보기가 시작된 매니지드 앱(Microsoft Copilot Managed Runtime)과 같은 방향**으로 보입니다. Copilot Cowork, Copilot Studio, Copilot Code, SDK로 만든 매니지드 앱은 **각 사용자의 환경 라우팅 개인 개발자 환경(관리형)** 을 기반으로 만들어지도록 구성되어 있기 때문입니다. 개인 작업 공간을 관리형으로 통일하면, 무료 Developer Plan의 관리되지 않는 환경은 더 이상 설 자리가 없어집니다. 매니지드 앱 자체는 [대화로 업무 앱을 만드는 Copilot Cowork와 Copilot Studio 앱 빌더]({% post_url 2026/2026-09-09-BuildAppsInCopilotStudioAndCowork %})와 [Copilot Studio 앱 거버넌스]({% post_url 2026/2026-09-16-CopilotStudioAppGovernance %}) 글에서도 다뤘습니다.
+
+공식 문서에서 확인되는 내용은 다음과 같습니다.
+
+- 매니지드 앱을 위한 환경 라우팅은 **모든 테넌트에서 자동으로 켜져 있으며 끌 수 없습니다.** 다른 제품(Power Apps, Power Automate, Copilot Studio)용 라우팅은 관리자가 직접 켜야 합니다.
+- 테넌트에 라우팅 규칙이 없으면 **"모든 사용자(Everyone)를 각자의 개인 개발자 환경으로 보내는" 규칙과 기본 환경 그룹이 자동으로 만들어집니다.**
+- 매니지드 앱용으로 만들어진 개인 개발자 환경은 **기본적으로 관리형**입니다. 매니지드 앱만 만드는 경우 **프리미엄 라이선스가 필요 없고**, 처음에는 **Dataverse도 없습니다.** 필요하면 나중에 추가할 수 있습니다.
+- **개발자 환경 생성 테넌트 설정(Environment Creation: Developer)** 은 이 자동 생성을 막지 않습니다. 앱 생성 허용 범위는 Microsoft 365 관리 센터의 **Apps > Overview > Set up app creation spaces**에서 조정합니다.
+- 매니지드 앱은 **미리 보기(preview)** 기능이며 내용은 바뀔 수 있습니다.
+
+이 때문에 관리 센터에서 개발자 환경을 점검하다가 **관리자가 만든 적 없는 개인 개발자 환경(관리형)** 이 보여도 이상 현상이 아닐 수 있습니다. 문서는 삭제하기 전에 소유자, 앱, 종속성을 먼저 확인하라고 안내합니다.
+
 #### Copilot 라이선스가 있다면: 환경 라우팅이 곧 해법입니다
 
-팀 내 토론에서 나온 핵심 관점은 이렇습니다. **Copilot 라이선스를 가진 사용자는 환경 라우팅을 통해 관리되는 개발자 환경을 받을 수 있으므로, 이번 변화는 Developer Plan이 사라지는 대신 Copilot 라이선스의 혜택으로 이어지는 흐름**으로 볼 수 있습니다.
+위 맥락에서 **Copilot 라이선스를 가진 사용자는 환경 라우팅을 통해 관리되는 개발자 환경을 받을 수 있으므로, 이번 변화는 Developer Plan이 사라지는 대신 Copilot 라이선스의 혜택으로 이어지는 흐름**으로 볼 수 있다는 것이 팀의 의견입니다.
 
 공식 문서에서 확인되는 근거는 다음과 같습니다.
 
-- 관리자가 환경 라우팅을 켜면, 메이커가 Copilot Studio, Power Apps, Power Automate에 접속할 때 **본인 소유의 관리형 개발자 환경이 자동으로 만들어집니다.** 별도의 Developer Plan 가입이 필요 없고, 이 개발자 환경은 **테넌트 Dataverse 용량에 포함되지 않습니다.**
+- 환경 라우팅이 켜져 있으면, 메이커가 Copilot Studio, Power Apps, Power Automate에 접속할 때 **본인 소유의 관리형 개발자 환경이 자동으로 만들어집니다.** 별도의 Developer Plan 가입이 필요 없고, 이 개발자 환경은 **테넌트 Dataverse 용량에 포함되지 않습니다.**
 - Managed Environments 권한은 **Microsoft 365 Copilot용 Copilot Studio 라이선스에도 포함**됩니다. 다만 **Copilot Studio 관련 기능에 한정**됩니다.
 - 관리형 개발자 환경에서 앱이나 플로우를 **만들고 미리 보는 데는** 프리미엄 라이선스가 필요 없습니다.
 
 다만 이 "혜택"을 과대하게 해석하지 않도록 한계도 함께 알려 주세요.
 
 - 문서가 이를 Copilot 라이선스의 혜택이라고 표현하는 것은 아닙니다. 위 사실을 종합한 **팀의 해석**입니다. 최종 라이선스 판단은 [Managed Environments 라이선스 문서](https://learn.microsoft.com/en-us/power-platform/admin/managed-environment-licensing)와 담당 라이선스 파트너를 통해 확인하세요.
-- Copilot 라이선스의 Managed Environments 권한은 Copilot Studio 범위입니다. 관리형 환경에서 **Power Apps 앱이나 Power Automate 클라우드 플로우를 실행하려면** Power Apps Premium, Power Automate Premium 등의 라이선스가 필요합니다.
-- 환경 라우팅은 **Power Platform 관리자만** 켤 수 있고 기본값은 꺼져 있습니다.
+- Copilot 라이선스의 Managed Environments 권한은 Copilot Studio 범위입니다. 관리형 환경에서 **Power Apps 앱이나 Power Automate 클라우드 플로우를 실행하려면** Power Apps Premium, Power Automate Premium 등의 라이선스가 필요합니다. 매니지드 앱이 아닌 Power Apps·Power Automate·Copilot Studio 리소스를 개인 개발자 환경에 만들면 프리미엄 라이선스가 필요할 수 있습니다.
+- Power Apps, Power Automate, Copilot Studio용 환경 라우팅은 **Power Platform 관리자가 직접 켜야** 하며 기본값은 꺼져 있습니다. 매니지드 앱용 라우팅만 자동으로 켜집니다. 매니지드 앱 라우팅만 켜진 상태에서는 Power Apps 등의 메이커가 개인 개발자 환경으로 라우팅되지 않습니다.
+- **기존 라우팅 규칙에 보안 그룹이 지정된 테넌트**에서는 해당 그룹 구성원만 매니지드 앱을 만들 수 있습니다. 나머지는 관리자가 **Everyone** 규칙을 만들거나 그룹에 추가하기 전까지 차단됩니다.
 - **2027년 2월부터** 관리형 환경에서 적절한 라이선스가 없는 사용자는 앱을 열 수 없게 됩니다. 라우팅으로 환경을 나눠 주기 전에 사용자별 라이선스 현황을 점검하세요.
 
 #### 영향을 받지 않는 것
@@ -104,9 +119,10 @@ Microsoft가 Power Platform의 **중요한 변경(deprecation) 안내**에 두 �
 2. **필요한 환경은 12월 15일 전에 둘 중 하나를 선택합니다.**
    - **관리형으로 전환:** 사용자에게 적절한 라이선스가 있다면 [Managed Environments를 사용 설정](https://learn.microsoft.com/en-us/power-platform/admin/managed-environment-enable)합니다. 앱, 플로우, 에이전트, 데이터가 그대로 유지되고 개발자 환경으로 남습니다.
    - **솔루션 이동:** 샌드박스 등 지원되는 환경으로 솔루션을 옮깁니다.
-3. **환경 라우팅 켜기.** 메이커마다 관리형 개발자 환경이 자동으로 만들어져 개인 작업 공간 수요를 해결할 수 있습니다.
+3. **환경 라우팅 켜기·점검.** 메이커마다 관리형 개발자 환경이 자동으로 만들어져 개인 작업 공간 수요를 해결할 수 있습니다. 매니지드 앱용 라우팅은 이미 켜져 있으므로, 기존 규칙이 **Everyone** 규칙을 포함하는지 확인하세요. 보안 그룹만 지정되어 있으면 그 밖의 메이커는 매니지드 앱을 만들 수 없습니다.
 4. **개발자 환경 할당(Developer environment assignments) 테넌트 설정을 검토**합니다.
-5. 필요 없는 환경은 별도 조치 없이 두면 중지·삭제됩니다.
+5. **자동 생성된 환경은 삭제하기 전에 확인합니다.** 매니지드 앱 때문에 만들어진 관리형 개인 개발자 환경이 목록에 보일 수 있습니다.
+6. 필요 없는 관리되지 않는 환경은 별도 조치 없이 두면 중지·삭제됩니다.
 
 #### 메이커·개발자
 
@@ -212,4 +228,4 @@ Teams 안에서 앱이나 에이전트를 만들면 생기던 **Dataverse for Te
 
 ---
 
-> 출처: [Important changes (deprecations) coming in Power Platform](https://learn.microsoft.com/en-us/power-platform/important-changes-coming) (문서 업데이트 2026년 10월 16일). 일정과 세부 절차는 변경될 수 있으니 실행 전 원문과 관리 센터 안내를 다시 확인하세요.
+> 출처: [Important changes (deprecations) coming in Power Platform](https://learn.microsoft.com/en-us/power-platform/important-changes-coming) (문서 업데이트 2026년 10월 16일), [Environment routing](https://learn.microsoft.com/en-us/power-platform/admin/default-environment-routing), [Environment routing for Microsoft Copilot Managed Runtime](https://learn.microsoft.com/en-us/power-platform/admin/default-environment-routing-copilot-managed-runtime), [What is Microsoft Copilot Managed Runtime (preview)](https://learn.microsoft.com/en-us/microsoft-365/managed-apps/). 매니지드 앱은 미리 보기 기능입니다. 일정과 세부 절차는 변경될 수 있으니 실행 전 원문과 관리 센터 안내를 다시 확인하세요.
