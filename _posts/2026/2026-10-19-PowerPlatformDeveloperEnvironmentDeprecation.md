@@ -1,6 +1,6 @@
 ---
 title: "[긴급 공지] 12월 15일부터 관리되지 않는 개발자 환경이 중지됩니다: Power Apps Developer Plan 변경 총정리"
-date: 2026-10-19T10:00:00 KST
+date: 2026-10-19T00:00:00 KST
 categories:
   - PowerPlatform
 tags:
