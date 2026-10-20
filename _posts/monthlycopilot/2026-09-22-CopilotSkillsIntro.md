@@ -177,8 +177,8 @@ author: 고현
 </div>
 
 <div class="mc-callout mc-callout--dark">
-  <p><strong>다음 편 예고 · PowerPoint에서 스킬 활용하기</strong></p>
-  <p>이번 편은 Copilot 스킬 시리즈의 첫 번째 글입니다. 다음 편에서는 PowerPoint에서 스킬을 선택하고 등록하는 방법, 그리고 회사 템플릿 기준에 맞춰 발표 자료를 정리하는 방법을 소개하겠습니다.</p>
+  <p><strong>다음 편 · PowerPoint에서 스킬 활용하기</strong></p>
+  <p>이번 편은 Copilot 스킬 시리즈의 첫 번째 글입니다. 이어지는 <a href="{{ '/monthlycopilot/CopilotSkillsPowerPoint/' | relative_url }}">②편 — PowerPoint에서 회사 서식, 스킬로 한 번에 맞추기</a>에서는 스킬을 선택하고 등록하는 방법, 그리고 회사 서식 기준에 맞춰 발표 자료를 정리하는 방법을 소개합니다.</p>
 </div>
 
 <h2 class="mc-section-title">참고 자료와 이용 전 확인 사항</h2>
