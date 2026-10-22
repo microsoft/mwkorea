@@ -18,7 +18,7 @@ toc_sticky: true
 classes: wide
 author: 최정우
 # 전체 세션 주소를 입력하면 하단의 '전체 세션 보기' 버튼이 활성화됩니다.
-full_session_url: ""
+full_session_url: "https://www.youtube.com/playlist?list=PLcG9Iewj13Mc"
 ---
 
 <div class="monthlycopilot-page monthlycopilot-page--tour">
