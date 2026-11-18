@@ -22,7 +22,7 @@ Microsoft Ignite 2026에서는 Copilot의 기능 이름보다 **어떤 사용 �
 
 이 글은 아래 안내 이미지에서 **2026년 11월 17일 Ignite 시점의 상태**와 오른쪽 추가 발표만 정리합니다. 이전 시점인 9/25 상태는 비교하지 않습니다.
 
-![Ignite 2026 Copilot 제품별 발표 현황](/mwkorea/assets/images/2026-11-18-IgniteCopilotAnnouncements/overview.png)
+![Ignite 2026 Copilot 제품별 발표 현황](/mwkorea/assets/images/2026-11-18-IgniteCopilotAnnouncements/overview-v2.png)
 
 ---
 
