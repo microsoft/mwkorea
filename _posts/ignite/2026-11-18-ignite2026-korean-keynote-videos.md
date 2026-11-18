@@ -24,7 +24,9 @@ Microsoft Ignite 2026 오프닝 키노트에서 가장 많이 드러난 변화�
 
 ## 풀버전: 발표의 전체 흐름과 모든 사례를 보기
 
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/J7ooVERiEQc" title="Microsoft Ignite 2026 오프닝 키노트 풀버전 한국어 더빙" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div style="position: relative; width: 100%; aspect-ratio: 16 / 9; overflow: hidden;">
+  <iframe style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/J7ooVERiEQc" title="Microsoft Ignite 2026 오프닝 키노트 풀버전 한국어 더빙" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 [Microsoft Ignite 2026 오프닝 키노트 풀버전 보기](https://www.youtube.com/watch?v=J7ooVERiEQc)
 
@@ -46,7 +48,9 @@ Microsoft Ignite 2026 오프닝 키노트에서 가장 많이 드러난 변화�
 
 ## 하이라이트: 19분 만에 핵심 장면 16개 보기
 
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/m_6onda79yI" title="Microsoft Ignite 2026 오프닝 키노트 하이라이트 한국어 더빙" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div style="position: relative; width: 100%; aspect-ratio: 16 / 9; overflow: hidden;">
+  <iframe style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/m_6onda79yI" title="Microsoft Ignite 2026 오프닝 키노트 하이라이트 한국어 더빙" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 [Microsoft Ignite 2026 오프닝 키노트 하이라이트 보기](https://www.youtube.com/watch?v=m_6onda79yI)
 
