@@ -1,6 +1,6 @@
 ---
 title: "Ignite 2026 Copilot 발표 현황: GA부터 Frontier·Public Preview까지"
-date: 2026-11-18T17:40:00+09:00
+date: 2026-11-18T17:20:00+09:00
 categories:
   - ignite
 tags:
