@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#ffffff"/>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto">
+      <path d="M0,0 L12,4 L0,8 Z" fill="#2251FF"/>
+    </marker>
+    <marker id="loopArrow" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto">
+      <path d="M0,0 L12,4 L0,8 Z" fill="#2251FF"/>
+    </marker>
+    <style>
+      text { fill: #313131; font-family: "Segoe UI", "Malgun Gothic", sans-serif; }
+      .eyebrow { font-size: 17px; font-weight: 700; letter-spacing: 2.5px; fill: #2251FF; }
+      .headline { font-size: 39px; font-weight: 700; fill: #051C2C; }
+      .subtitle { font-size: 22px; fill: #6E7376; }
+      .meta { font-size: 17px; fill: #6E7376; }
+      .ribbon { font-size: 24px; font-weight: 700; fill: #ffffff; }
+      .stage-no { font-size: 24px; font-weight: 700; fill: #2251FF; }
+      .stage-title { font-size: 28px; font-weight: 700; fill: #051C2C; }
+      .stage-question { font-size: 18px; fill: #6E7376; }
+      .product { font-size: 23px; font-weight: 700; fill: #051C2C; }
+      .point { font-size: 19px; fill: #313131; }
+      .bottom-label { font-size: 20px; font-weight: 700; fill: #ffffff; }
+      .bottom-copy { font-size: 20px; fill: #ffffff; }
+      .source { font-size: 15px; fill: #6E7376; }
+    </style>
+  </defs>
+
+  <text x="62" y="54" class="eyebrow">MICROSOFT IGNITE 2026 · BOOK OF NEWS</text>
+  <text x="62" y="107" class="headline">핵심은 개별 기능이 아니라 ‘에이전트를 운영하는 시스템’</text>
+  <text x="62" y="151" class="subtitle">개발 · 기업 맥락 · 실행 환경 · 거버넌스가 하나의 프로덕션 AI 흐름으로 연결</text>
+  <text x="1538" y="54" text-anchor="end" class="meta">7개 영역  |  4개 실행 단계</text>
+  <text x="1538" y="84" text-anchor="end" class="meta">2026.11.17 발표 기준</text>
+
+  <rect x="62" y="185" width="1476" height="66" rx="10" fill="#051C2C"/>
+  <text x="800" y="227" text-anchor="middle" class="ribbon">FEATURE LIST  →  PRODUCTION AI OPERATING MODEL</text>
+
+  <rect x="62" y="285" width="340" height="380" rx="18" fill="#ffffff" stroke="#A7B3C2" stroke-width="2"/>
+  <rect x="62" y="285" width="340" height="10" rx="5" fill="#2251FF"/>
+  <circle cx="105" cy="335" r="27" fill="#E8EDF2"/>
+  <text x="105" y="344" text-anchor="middle" class="stage-no">1</text>
+  <text x="150" y="344" class="stage-title">만들기</text>
+  <text x="88" y="379" class="stage-question">모델과 앱을 어떻게 구축하는가</text>
+  <line x1="88" y1="402" x2="376" y2="402" stroke="#A7B3C2" stroke-width="1"/>
+  <rect x="88" y="428" width="120" height="36" rx="18" fill="#E8EDF2"/>
+  <text x="148" y="453" text-anchor="middle" class="product">Foundry</text>
+  <rect x="220" y="428" width="108" height="36" rx="18" fill="#E8EDF2"/>
+  <text x="274" y="453" text-anchor="middle" class="product">GitHub</text>
+  <text x="88" y="505" class="point">• Decision 1.1과 새 모델</text>
+  <text x="88" y="542" class="point">• 코딩 · 이미지 · 보안 특화</text>
+  <text x="88" y="579" class="point">• Copilot SDK 2.0</text>
+  <text x="88" y="616" class="point">• 개발과 현대화 워크플로 연결</text>
+
+  <path d="M402,475 C418,475 424,475 438,475" fill="none" stroke="#2251FF" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <rect x="432" y="285" width="340" height="380" rx="18" fill="#ffffff" stroke="#A7B3C2" stroke-width="2"/>
+  <rect x="432" y="285" width="340" height="10" rx="5" fill="#4F6FFF"/>
+  <circle cx="475" cy="335" r="27" fill="#E8EDF2"/>
+  <text x="475" y="344" text-anchor="middle" class="stage-no">2</text>
+  <text x="520" y="344" class="stage-title">연결하기</text>
+  <text x="458" y="379" class="stage-question">기업 맥락을 어떻게 전달하는가</text>
+  <line x1="458" y1="402" x2="746" y2="402" stroke="#A7B3C2" stroke-width="1"/>
+  <rect x="458" y="428" width="144" height="36" rx="18" fill="#E8EDF2"/>
+  <text x="530" y="453" text-anchor="middle" class="product">Microsoft IQ</text>
+  <rect x="614" y="428" width="112" height="36" rx="18" fill="#E8EDF2"/>
+  <text x="670" y="453" text-anchor="middle" class="product">Copilot</text>
+  <text x="458" y="505" class="point">• Foundry · Fabric · Web · Work IQ</text>
+  <text x="458" y="542" class="point">• 사람 · 데이터 · 업무 이벤트</text>
+  <text x="458" y="579" class="point">• Home · Today · Workspaces</text>
+  <text x="458" y="616" class="point">• Dynamics 365와 Salesforce</text>
+
+  <path d="M772,475 C788,475 794,475 808,475" fill="none" stroke="#2251FF" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <rect x="802" y="285" width="340" height="380" rx="18" fill="#ffffff" stroke="#A7B3C2" stroke-width="2"/>
+  <rect x="802" y="285" width="340" height="10" rx="5" fill="#4F6FFF"/>
+  <circle cx="845" cy="335" r="27" fill="#E8EDF2"/>
+  <text x="845" y="344" text-anchor="middle" class="stage-no">3</text>
+  <text x="890" y="344" class="stage-title">실행하기</text>
+  <text x="828" y="379" class="stage-question">실제 환경에서 어떻게 동작하는가</text>
+  <line x1="828" y1="402" x2="1116" y2="402" stroke="#A7B3C2" stroke-width="1"/>
+  <rect x="828" y="428" width="104" height="36" rx="18" fill="#E8EDF2"/>
+  <text x="880" y="453" text-anchor="middle" class="product">Azure</text>
+  <rect x="944" y="428" width="116" height="36" rx="18" fill="#E8EDF2"/>
+  <text x="1002" y="453" text-anchor="middle" class="product">Windows</text>
+  <text x="828" y="505" class="point">• Cobalt 200 · AKS · 데이터</text>
+  <text x="828" y="542" class="point">• Azure SRE Agent와 Catalyst</text>
+  <text x="828" y="579" class="point">• Windows Server 2028</text>
+  <text x="828" y="616" class="point">• Windows 365 for Agents</text>
+
+  <path d="M1142,475 C1158,475 1164,475 1178,475" fill="none" stroke="#2251FF" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <rect x="1172" y="285" width="366" height="380" rx="18" fill="#ffffff" stroke="#A7B3C2" stroke-width="2"/>
+  <rect x="1172" y="285" width="366" height="10" rx="5" fill="#2251FF"/>
+  <circle cx="1215" cy="335" r="27" fill="#E8EDF2"/>
+  <text x="1215" y="344" text-anchor="middle" class="stage-no">4</text>
+  <text x="1260" y="344" class="stage-title">통제하고 개선하기</text>
+  <text x="1198" y="379" class="stage-question">신원 · 위험 · 비용을 어떻게 관리하는가</text>
+  <line x1="1198" y1="402" x2="1512" y2="402" stroke="#A7B3C2" stroke-width="1"/>
+  <rect x="1198" y="428" width="110" height="36" rx="18" fill="#E8EDF2"/>
+  <text x="1253" y="453" text-anchor="middle" class="product">Security</text>
+  <rect x="1320" y="428" width="122" height="36" rx="18" fill="#E8EDF2"/>
+  <text x="1381" y="453" text-anchor="middle" class="product">Agent 365</text>
+  <text x="1198" y="505" class="point">• Entra · Defender · Purview</text>
+  <text x="1198" y="542" class="point">• Perception 에이전틱 보안</text>
+  <text x="1198" y="579" class="point">• 에이전트 신원 · 도구 · 위험</text>
+  <text x="1198" y="616" class="point">• FinOps와 Continuous Improvement</text>
+
+  <rect x="62" y="710" width="1476" height="118" rx="18" fill="#051C2C"/>
+  <text x="98" y="749" class="bottom-label">운영 루프</text>
+  <text x="238" y="749" class="bottom-copy">관측한 결과 → 에이전트와 모델 개선 → 권한과 정책 재조정 → 다시 프로덕션 배포</text>
+  <path d="M1460,777 C1300,842 510,842 170,777" fill="none" stroke="#2251FF" stroke-width="4" marker-end="url(#loopArrow)"/>
+  <text x="800" y="806" text-anchor="middle" class="bottom-copy">Continuous Improvement로 다음 세대의 업무 경험 강화</text>
+
+  <text x="62" y="870" class="source">출처: Microsoft Ignite 2026 Book of News · 제공 상태는 기능별 GA / Preview / Frontier 구분 확인 필요</text>
+</svg>
